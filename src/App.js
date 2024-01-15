@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import logo from './assets/logo.png';
 // import { HomePage, AboutPage, ContactPage, ProductsPage } from './scenes';
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     <BrowserRouter>
       <div>
         ELITE PRESS
+        <img src={logo} />
       </div>
       {/* <Routes >
           <Route path='/' element={<HomePage />} />
