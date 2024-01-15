@@ -4,12 +4,15 @@ import { HomePage, AboutPage, ContactPage, ProductsPage } from './scenes';
 const App = () => {
   return (
     <BrowserRouter>
-      <Routes >
+      <div>
+        ELITE PRESS
+      </div>
+      {/* <Routes >
           <Route path='/' element={<HomePage />} />
           <Route path='/about' element={<AboutPage />} />
           <Route path='/contact' element={<ContactPage />} />
           <Route path='/products' element={<ProductsPage />} />
-        </Routes>
+        </Routes> */}
     </BrowserRouter>
   )
 };
