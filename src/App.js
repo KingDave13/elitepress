@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { HomePage, AboutPage, ContactPage, ProductsPage } from './scenes';
+// import { HomePage, AboutPage, ContactPage, ProductsPage } from './scenes';
 
 const App = () => {
   return (
