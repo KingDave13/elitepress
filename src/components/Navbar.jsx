@@ -1,14 +1,17 @@
 import { useState, useEffect, useRef } from 'react';
 import { BsX } from 'react-icons/bs';
-import styles from '@styles/styles';
+import styles from '../styles';
 import { HiOutlineMenuAlt3 } from 'react-icons/hi';
-import { navLinks } from '@constants';
-import { logoalt, logo } from '@public/assets';
+import { navLinks } from '../constants';
+import { logo } from '../assets';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
-  const [active, setActive] = useState('');
+  const [active, setActive] = useState('Home');
   const [toggle, setToggle] = useState(false);
   const menuRef = useRef(null);
+  const navigate = useNavigate();
+
   const [isScrolled, setIsScrolled] = useState(false);
 
 
@@ -39,13 +42,6 @@ const Navbar = () => {
     };
 }, []);
 
-const handleNavItemClick = (link) => {
-  if (router.pathname !== '/') {
-    router.push(`/#${link.id}`)
-  } else {
-    setActive(link.title);
-  }
-};
 
   return (
     <nav className={`${styles.paddingX} w-full flex items-center fixed 
@@ -54,9 +50,18 @@ const handleNavItemClick = (link) => {
     >
       <div className="w-full flex justify-between items-center 
       max-w-[95rem] mx-auto">
-        <div className="flex items-center justify-center w-full hidden md:flex">
+        <Link to='/'
+                onClick={() => {
+                setActive('Home');
+                window.scrollTo(0, 0);
+                }}>
+                <img src={logo} alt='logo'
+                className='w-[130px] h-auto'/>
+        </Link>
+        <div className="flex items-center justify-between w-full hidden 
+        md:flex">
           <ul className="list-none flex flex-row gap-16">
-            {navLinks.slice(0, 2).map((link) => (
+            {navLinks.map((link) => (
               <li
                 key={link.id}
                 className={`${
@@ -66,45 +71,10 @@ const handleNavItemClick = (link) => {
                 } hover:text-secondary grow3 text-[19px] text-decoration-none 
                 cursor-pointer`}
                 onClick={() => {
-                  handleNavItemClick(link);
-                }}
-              >
-                <a href={`#${link.id}`}>{link.title}</a>
-              </li>
-            ))}
-          </ul>
-
-          <Link href="/" 
-            onClick={(e) => {
-              e.preventDefault();
-              setActive('');
-              window.scrollTo({ 
-                top: 0, left: 0, 
-                behavior: 'smooth' });
-            }}
-            className='ml-44 mr-44'
-          >
-            <Image
-              src={isScrolled ? logo : logoalt}
-              alt="logo"
-              width={160}
-              height={'auto'}
-              className="object-contain"
-            />
-          </Link>
-
-          <ul className="list-none flex flex-row gap-16 hidden md:flex">
-            {navLinks.slice(2, 4).map((link) => (
-              <li
-                key={link.id}
-                className={`${
-                  active === link.title
-                    ? 'text-secondary'
-                    : isScrolled ? 'text-primary' : 'text-white'
-                } hover:text-secondary grow3 text-[19px] text-decoration-none 
-                cursor-pointer`}
-                onClick={() => {
-                  handleNavItemClick(link);
+                    setActive(link.title);
+                    if (link.special) {
+                      navigate(link.route);
+                    }
                 }}
               >
                 <a href={`#${link.id}`}>{link.title}</a>
