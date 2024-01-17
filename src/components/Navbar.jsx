@@ -10,7 +10,7 @@ const Navbar = () => {
   const [active, setActive] = useState('Home');
   const [toggle, setToggle] = useState(false);
   const menuRef = useRef(null);
-  const navigate = useNavigate();
+//   const navigate = useNavigate();
 
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -72,9 +72,9 @@ const Navbar = () => {
                 cursor-pointer`}
                 onClick={() => {
                     setActive(link.title);
-                    if (link.special) {
-                      navigate(link.route);
-                    }
+                    // if (link.special) {
+                    //   navigate(link.route);
+                    // }
                 }}
               >
                 <a href={`#${link.id}`}>{link.title}</a>
@@ -83,7 +83,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        {/* FOR MOBILE */}
+        {/* FOR MOBILE
         
         <div className="md:hidden flex justify-between flex-1 items-center
         mt-3">
@@ -150,7 +150,7 @@ const Navbar = () => {
               ))}
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
     </nav>
   );
