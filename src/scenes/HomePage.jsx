@@ -8,10 +8,10 @@ const HomePage = () => {
             <div className='relative overflow-hidden'>
                 <Navbar />
 
-                <div>
-
+                <div className='hero'>
+                    <Hero />
                 </div>
-                <Hero />
+                
             </div>
         </div>
     )

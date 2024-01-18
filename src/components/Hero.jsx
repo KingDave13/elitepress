@@ -1,9 +1,13 @@
-import React from 'react'
+import { SectionWrapper } from '../hoc';
 
 const Hero = () => {
   return (
-    <div>Hero</div>
-  )
-}
+    <section className='relative w-full'>
+      <div className=''>
 
-export default Hero
+      </div>
+    </section>
+  );
+};
+
+export default SectionWrapper(Hero, 'home');

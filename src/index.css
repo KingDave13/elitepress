@@ -30,6 +30,22 @@ body, html {
   scroll-behavior: smooth;
 }
 
+.hero {
+  background-image: url('./assets/hero.jpg');
+  object-fit: cover;
+  width: auto;
+  height: 100vh;
+}
+
+@media (max-width: 1060px) {
+  .hero {
+    background-image: url('./assets/hero.jpg');
+    object-fit: cover;
+    width: auto;
+    max-height: 90vh;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .mobile {
     height: 600px;
