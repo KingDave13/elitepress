@@ -123,8 +123,8 @@ body, html {
   transition: all .2s ease-in-out;
 }
 .grow:hover {
-  transform: scale(1.02);
-  background-color: #ff8c00;
+  transform: scale(0.98);
+  background-color: #021b2c;
 }
 
 .grow2 {
@@ -139,4 +139,11 @@ body, html {
 }
 .grow3:hover {
   transform: scale(1.01);
+}
+
+.grow4 {
+  transition: all .2s ease-in-out;
+}
+.grow4:hover {
+  transform: scale(0.98);
 }

@@ -85,8 +85,8 @@ const Navbar = () => {
         </div>
 
         <button className='hidden md:flex bg-main grow justify-center
-          text-[16px] py-4 w-[22%] text-white rounded-full font-medium'
-          onClick={() => navigate('/contact')}
+          text-[16px] py-4 w-[22%] text-white font-medium rounded-full'
+          // onClick={() => navigate('/contact')}
           >
             Our newsletter
         </button>
