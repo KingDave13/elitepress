@@ -10,7 +10,7 @@ const Navbar = () => {
   const [active, setActive] = useState('Home');
   const [toggle, setToggle] = useState(false);
   const menuRef = useRef(null);
-//   const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -45,20 +45,21 @@ const Navbar = () => {
 
   return (
     <nav className={`${styles.paddingX} w-full flex items-center fixed 
-      md:py-6 ss:py-6 py-5 md:px-16 ss:px-16 px-6 top-0 z-20 navsmooth 
-      font-manierRegular ${ isScrolled ? 'bg-white shadow-lg' : '' }`}
+      md:py-5 ss:py-6 py-5 top-0 z-20 navsmooth 
+      ${ isScrolled ? 'bg-white shadow-lg' : '' }`}
     >
       <div className="w-full flex justify-between items-center 
-      max-w-[95rem] mx-auto">
+      max-w-[82rem] mx-auto">
         <Link to='/'
                 onClick={() => {
                 setActive('Home');
                 window.scrollTo(0, 0);
                 }}>
                 <img src={logo} alt='logo'
-                className='w-[130px] h-auto'/>
+                className='w-[120px] h-auto'/>
         </Link>
-        <div className="flex items-center justify-between w-full hidden 
+
+        <div className="flex items-center justify-center w-full hidden 
         md:flex">
           <ul className="list-none flex flex-row gap-16">
             {navLinks.map((link) => (
@@ -67,14 +68,14 @@ const Navbar = () => {
                 className={`${
                   active === link.title
                     ? 'text-secondary'
-                    : isScrolled ? 'text-primary' : 'text-white'
-                } hover:text-secondary grow3 text-[19px] text-decoration-none 
-                cursor-pointer`}
+                    : isScrolled ? 'text-primary' : 'text-primary'
+                } hover:text-textalt grow3 text-[18px] text-decoration-none 
+                cursor-pointer font-medium`}
                 onClick={() => {
                     setActive(link.title);
-                    // if (link.special) {
-                    //   navigate(link.route);
-                    // }
+                    if (link.special) {
+                      navigate(link.route);
+                    }
                 }}
               >
                 <a href={`#${link.id}`}>{link.title}</a>
@@ -82,6 +83,14 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
+
+        <button className='hidden md:flex bg-secondary grow items-center
+          text-[16px] py-4 w-[28%] text-white rounded-[5px] font-medium
+          justify-center'
+          onClick={() => navigate('/contact')}
+          >
+            Subscribe to our newsletter
+        </button>
 
         {/* FOR MOBILE
         

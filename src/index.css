@@ -108,7 +108,7 @@ body, html {
 }
 .grow:hover {
   transform: scale(1.02);
-  background-color: darkorange;
+  background-color: #ff8c00;
 }
 
 .grow2 {
