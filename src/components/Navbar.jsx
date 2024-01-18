@@ -45,18 +45,18 @@ const Navbar = () => {
 
   return (
     <nav className={`${styles.paddingX} w-full flex items-center fixed 
-      md:py-3 ss:py-6 py-5 top-0 z-20 navsmooth 
+      md:py-3 ss:py-3 py-2 top-0 z-20 navsmooth 
       ${ isScrolled ? 'bg-primaryalt shadow-lg' : '' }`}
     >
       <div className="w-full flex justify-between items-center 
       max-w-[82rem] mx-auto">
         <Link to='/'
-                onClick={() => {
-                setActive('Home');
-                window.scrollTo(0, 0);
-                }}>
-                <img src={logo} alt='logo'
-                className='w-[120px] h-auto'/>
+          onClick={() => {
+          setActive('Home');
+          window.scrollTo(0, 0);
+          }}>
+          <img src={logo} alt='logo'
+          className='md:w-[120px] ss:w-[100px] w-[80px] h-auto'/>
         </Link>
 
         <div className="flex items-center justify-center w-full hidden 
@@ -72,10 +72,10 @@ const Navbar = () => {
                 } hover:text-textalt grow3 text-[18px] text-decoration-none 
                 cursor-pointer font-medium`}
                 onClick={() => {
-                    setActive(link.title);
-                    if (link.special) {
-                      navigate(link.route);
-                    }
+                  setActive(link.title);
+                  if (link.special) {
+                    navigate(link.route);
+                  }
                 }}
               >
                 <a href={`#${link.id}`}>{link.title}</a>
@@ -91,39 +91,23 @@ const Navbar = () => {
             Our newsletter
         </button>
 
-        {/* FOR MOBILE
+        {/* FOR MOBILE */}
         
-        <div className="md:hidden flex justify-between flex-1 items-center
+        <div className="md:hidden flex justify-end flex-1 items-center
         mt-3">
-          <Link href="/" 
-            onClick={() => { setActive(''); 
-            window.scrollTo({ 
-              top: 0, left: 0, 
-              behavior: 'smooth' }); 
-          }}
-          >
-            <Image
-              src={isScrolled ? logo : logoalt}
-              alt="logo"
-              width={130}
-              height="auto"
-              className="object-contain"
-            />
-          </Link>
-
           <div className="flex items-center z-20">
             {toggle ? (
               <BsX
                 size={40}
                 className="object-contain cursor-pointer"
-                style={{ color: isScrolled ? '#000' : '#fff' }}
+                style={{ color: isScrolled ? '#000' : '#021e31' }}
                 onClick={() => setToggle(!toggle)}
               />
             ) : (
               <HiOutlineMenuAlt3
                 size={40}
                 className="object-contain cursor-pointer"
-                style={{ color: isScrolled ? '#000' : '#fff' }}
+                style={{ color: isScrolled ? '#000' : '#021e31' }}
                 onClick={() => setToggle(!toggle)}
               />
             )}
@@ -131,7 +115,7 @@ const Navbar = () => {
           
           <div
             ref={menuRef}
-            className={`p-6 ss:mt-28 mt-24 bg-white absolute top-0 right-0 
+            className={`p-6 ss:mt-28 mt-24 bg-primaryalt absolute top-0 right-0 
             z-10 flex-col w-full shadow-xl
             ${toggle ? 'menu-slide-enter menu-slide-enter-active' 
             : 'menu-slide-exit menu-slide-exit-active'}`}
@@ -145,20 +129,33 @@ const Navbar = () => {
                     active === link.title
                       ? 'text-secondary'
                       : 'text-primary'
-                  } font-medium cursor-pointer ss:text-[20px] text-[16px] 
+                  } font-medium cursor-pointer ss:text-[20px] text-[17px] 
                   w-full
                   ${index !== navLinks.length - 1 ? 'border-b-[1px] pb-1.5 pt-1.5' : 'pt-1.5'}`}
                   onClick={() => {
                     setToggle(!toggle);
-                    handleNavItemClick(link);
+                    setActive(link.title);
+                    if (link.special) {
+                      navigate(link.route);
+                    }
                   }}
                 >
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
             </ul>
+
+            <button className='bg-main text-[16px] py-2 px-4
+              text-white rounded-[5px] mt-5 ss:text-[20px] text-[15px]'
+              onClick={() => {
+                setToggle(!toggle);
+                // navigate('/contact');
+              }}
+              >
+                Our newsletter
+              </button>
           </div>
-        </div> */}
+        </div>
       </div>
     </nav>
   );

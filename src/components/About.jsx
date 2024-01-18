@@ -10,7 +10,7 @@ const About = () => {
 
     return (
         <section className="relative w-full md:min-h-[600px] 
-        ss:min-h-[700px] min-h-[700px] mx-auto flex items-center"
+        ss:min-h-[550px] min-h-[900px] mx-auto flex items-center"
         >
             <div className='items-center w-full flex-col md:gap-5 
             ss:gap-5 gap-10'
@@ -19,7 +19,8 @@ const About = () => {
                 className="flex flex-row items-center w-full md:mb-8 ss:mb-8 
                 mb-8">
                     <h1 className="text-main font-bold md:text-[52px]
-                    ss:text-[45px] text-[33px] md:mr-14 ss:mr-6 mr-5">
+                    ss:text-[45px] text-[33px] md:mr-14 ss:mr-6 mr-5
+                    md:leading-[2px] ss:leading-[2px] leading-[40px]">
                        About Elite Press Journals
                     </h1>
                     <motion.div variants={fadeIn('down', 'spring', 0.3)}
@@ -34,7 +35,7 @@ const About = () => {
                 ss:gap-10 gap-12 w-full aboutimage">
                     <motion.div variants={textVariant()}
                     className={`${layout.sectionInfo}`}>
-                        <p className='text-main md:text-[17px] ss:text-[14px] 
+                        <p className='text-main md:text-[17px] ss:text-[15px] 
                         text-[13px] md:max-w-[700px] ss:max-w-[400px]  
                         md:leading-[23px]'>
                         Welcome to Elite Press, a distinguished platform dedicated 
@@ -46,7 +47,7 @@ const About = () => {
                         the medical field.
                         </p>
 
-                        <p className='text-main md:text-[17px] ss:text-[14px] 
+                        <p className='text-main md:text-[17px] ss:text-[15px] 
                         text-[13px] md:max-w-[700px] ss:max-w-[400px] 
                         md:mt-5 ss:mt-5 mt-5 md:leading-[23px]'>
                         We stand at the forefront of promoting academic excellence, 
