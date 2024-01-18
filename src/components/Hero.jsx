@@ -1,11 +1,65 @@
 import { SectionWrapper } from '../hoc';
+import { heroImg, heroImg2 } from '../assets';
+import { useNavigate } from 'react-router-dom';
+import { layout } from '../styles';
+import { motion } from 'framer-motion';
+import { fadeIn, textVariant } from '../utils/motion';
 
 const Hero = () => {
+  const navigate = useNavigate();
+
   return (
     <section className='relative w-full'>
-      <div className=''>
+      <div className='relative items-center justify-between w-full
+        flex flex-row items-start gap-5 md:mt-40 md:pt-8' 
+        >
+            <motion.div variants={textVariant()}
+            className={`${layout.sectionInfo}`}
+            >
+                <h1 className='text-secondary font-bold md:text-[65px]
+                ss:text-[50px] text-[40px] md:leading-[78px] 
+                ss:leading-[55px] leading-[45px]
+                tracking-tight md:max-w-[750px]'>
+                    No. 1 <span className='text-white'>
+                    foam accessories and general </span> 
+                    industrial materials supplier.
+                </h1>
 
-      </div>
+                <p className='md:mt-8 ss:mt-8 mt-5 text-white md:text-[19px]
+                ss:text-[20px] text-[14px] md:max-w-[600px] ss:max-w-[620px]
+                max-w-[320px]'>
+                 We are the number one suppliers of top quality industrial
+                 materials for various applications including mattress 
+                 making, PVCs and lots more.
+                </p>
+
+                <div className='flex flex-row mt-5 md:gap-5 ss:gap-5 gap-2'>
+                    <button className='bg-secondary grow2 md:text-[17px] 
+                    ss:text-[17px] text-[14px] md:py-3 ss:py-3 py-2 
+                    md:px-14 ss:px-14 px-6 text-primary rounded-[3px]
+                    font-medium border-none hover:text-white'
+                    onClick={() => navigate('/about')}
+                    >
+                        Learn More
+                    </button>
+
+                    <button className='border-[1px] grow2 border-secondary 
+                    md:text-[17px] ss:text-[17px] text-[14px] md:py-3 
+                    ss:py-3 py-2 md:px-14 ss:px-14 px-6 text-secondary 
+                    rounded-[3px] font-medium hover:text-white'
+                    onClick={() => navigate('/contact')}>
+                        Get in Touch
+                    </button>
+                </div>           
+            </motion.div>
+
+            <motion.div variants={fadeIn('right', 'spring', 0.3)}
+            className='md:flex hidden'>
+                <img src={heroImg} alt='heroImage'
+                  className='h-[600px] w-auto'
+                />
+            </motion.div>          
+        </div>
     </section>
   );
 };
