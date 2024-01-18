@@ -45,7 +45,7 @@ const Navbar = () => {
 
   return (
     <nav className={`${styles.paddingX} w-full flex items-center fixed 
-      md:py-5 ss:py-6 py-5 top-0 z-20 navsmooth 
+      md:py-3 ss:py-6 py-5 top-0 z-20 navsmooth 
       ${ isScrolled ? 'bg-white shadow-lg' : '' }`}
     >
       <div className="w-full flex justify-between items-center 
@@ -84,12 +84,11 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <button className='hidden md:flex bg-secondary grow items-center
-          text-[16px] py-4 w-[28%] text-white rounded-[5px] font-medium
-          justify-center'
+        <button className='hidden md:flex bg-main grow justify-center
+          text-[16px] py-4 w-[22%] text-white rounded-full font-medium'
           onClick={() => navigate('/contact')}
           >
-            Subscribe to our newsletter
+            Our newsletter
         </button>
 
         {/* FOR MOBILE
