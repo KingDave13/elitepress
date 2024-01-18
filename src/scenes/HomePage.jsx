@@ -1,12 +1,17 @@
 import {
-    Navbar,
+    Navbar, Hero
 } from '../components';
 
 const HomePage = () => {
     return (
-        <div>
-            <div>
+        <div className='font-instrument-sans'>
+            <div className='relative overflow-hidden'>
                 <Navbar />
+
+                <div>
+
+                </div>
+                <Hero />
             </div>
         </div>
     )
