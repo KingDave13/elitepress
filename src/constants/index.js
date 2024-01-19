@@ -25,6 +25,24 @@ export const navLinks = [
 },
 ];
 
+export const journals = [
+    {
+        title: 'Elite Journal of Haematology (EJH)',
+        desc: 'lorem ipsum bla bla',
+        icon: '',
+    },
+    {
+        title: 'Elite Journal of Medicine (EJM)',
+        desc: 'lorem ipsum bla bla',
+        icon: '',
+    },
+    {
+        title: 'Elite Journal of Health Sciences (EJHS)',
+        desc: 'lorem ipsum bla bla',
+        icon: '',
+    },
+];
+
 export const socialMedia = [
 {
     id: "social-media-1",

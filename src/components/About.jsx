@@ -9,7 +9,7 @@ const About = () => {
     const navigate = useNavigate();
 
     return (
-        <section className="relative w-full md:min-h-[600px] 
+        <section className="relative w-full md:min-h-[550px] 
         ss:min-h-[550px] min-h-[900px] mx-auto flex items-center"
         >
             <div className='items-center w-full flex-col md:gap-5 
@@ -59,7 +59,7 @@ const About = () => {
 
                         <div className="md:mt-8 ss:mt-8 mt-6">
                             <button className='bg-main grow md:text-[16px] 
-                            ss:text-[16px] text-[14px] md:py-4 ss:py-3 py-2 
+                            ss:text-[16px] text-[14px] md:py-3 ss:py-3 py-2 
                             md:px-14 ss:px-14 px-6 text-white rounded-full
                             font-medium border-none'
                             onClick={() => navigate('/about')}
