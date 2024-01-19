@@ -1,5 +1,5 @@
 import {
-    Navbar, Hero, About
+    Navbar, Hero, About, Journals
 } from '../components';
 
 const HomePage = () => {
@@ -14,6 +14,10 @@ const HomePage = () => {
 
                 <div className='bg-primaryalt'>
                     <About />
+                </div>
+
+                <div className='journals'>
+                    <Journals />
                 </div>
             </div>
         </div>
