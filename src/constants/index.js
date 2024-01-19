@@ -1,5 +1,6 @@
 import { BsWhatsapp } from 'react-icons/bs';
 import { GrMail } from 'react-icons/gr';
+import { EJH, EJHS, EJM } from '../assets';
 
 export const navLinks = [
 {
@@ -29,17 +30,17 @@ export const journals = [
     {
         title: 'Elite Journal of Haematology (EJH)',
         desc: 'lorem ipsum bla bla',
-        icon: '',
+        icon: EJH,
     },
     {
         title: 'Elite Journal of Medicine (EJM)',
         desc: 'lorem ipsum bla bla',
-        icon: '',
+        icon: EJM,
     },
     {
         title: 'Elite Journal of Health Sciences (EJHS)',
         desc: 'lorem ipsum bla bla',
-        icon: '',
+        icon: EJHS,
     },
 ];
 
