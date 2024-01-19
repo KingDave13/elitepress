@@ -99,6 +99,13 @@ body, html {
   transform: scale(0.98);
 }
 
+.grow3 {
+  transition: all .2s ease-in-out;
+}
+.grow3:hover {
+  transform: scale(1.05);
+}
+
 @media (max-width: 480px) {
   .aboutimage {
     align-items: center;
