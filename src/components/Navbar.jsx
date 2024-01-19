@@ -45,7 +45,7 @@ const Navbar = () => {
 
   return (
     <nav className={`${styles.paddingX} w-full flex items-center fixed 
-      md:py-3 ss:py-3 py-2 top-0 z-20 navsmooth backdrop-blur-md bg-opacity-90
+      md:py-4 ss:py-4 py-3 top-0 z-20 navsmooth backdrop-blur-md bg-opacity-90
       ${ isScrolled ? 'bg-primaryalt shadow-lg' : '' }`}
     >
       <div className="w-full flex justify-between items-center 
@@ -56,7 +56,7 @@ const Navbar = () => {
           window.scrollTo(0, 0);
           }}>
           <img src={logo} alt='logo'
-          className='md:w-[120px] ss:w-[100px] w-[80px] h-auto'/>
+          className='md:w-[80px] ss:w-[60px] w-[45px] h-auto'/>
         </Link>
 
         <div className="flex items-center justify-center w-full hidden 

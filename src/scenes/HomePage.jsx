@@ -1,5 +1,5 @@
 import {
-    Navbar, Hero, About, Journals
+    Navbar, Hero, About, Journals, Newsletter, Footer
 } from '../components';
 
 const HomePage = () => {
@@ -18,6 +18,14 @@ const HomePage = () => {
 
                 <div className='journal'>
                     <Journals />
+                </div>
+
+                <div className='bg-primaryalt'>
+                    <Newsletter />
+                </div>
+
+                <div className='footer'>
+                    <Footer />
                 </div>
             </div>
         </div>

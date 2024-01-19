@@ -1,7 +1,6 @@
-import { useState } from 'react';
 import { SectionWrapper } from "../hoc";
 import { motion } from 'framer-motion';
-import { fadeIn, textVariant } from '../utils/motion';
+import { fadeIn } from '../utils/motion';
 import { HiChevronLeft, HiChevronRight } from 'react-icons/hi';
 import { journals } from '../constants';
 import { BsArrowRightShort } from 'react-icons/bs';
@@ -17,7 +16,8 @@ const JournalCard = ({ index, title, icon, desc }) => {
         >
           <div options={{ max: 45, scale: 1, speed: 450 }}
             className='bg-primaryalt p-1 md:pb-10 ss:pb-10 pb-8 md:gap-5 
-            ss:gap-5 gap-5 flex justify-evenly items-center flex-col'
+            ss:gap-5 gap-5 flex justify-evenly items-center flex-col
+            rounded-t-[20px]'
           >
             <img src={icon} alt={title}
             className='w-30 h-30 object-contain rounded-t-[20px]'
@@ -25,7 +25,7 @@ const JournalCard = ({ index, title, icon, desc }) => {
             <h3
               className='text-main md:text-[19px] ss:text-[18px] text-[18px] 
               font-bold md:leading-[25px] ss:leading-[20px] leading-[16px] 
-              text-center'
+              text-center md:max-w-[270px]'
             >
               {title}
             </h3>

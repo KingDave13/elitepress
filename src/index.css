@@ -43,6 +43,12 @@ body, html {
   width: auto;
 }
 
+.footer {
+  background-image: url('./assets/footerImg.jpg');
+  object-fit: cover;
+  width: auto;
+}
+
 
 @media (max-width: 1060px) {
   .hero {

@@ -7,6 +7,7 @@ import journalImg from './journalImg.jpg';
 import EJH from './EJH.jpg';
 import EJHS from './EJHS.jpg';
 import EJM from './EJM.jpg';
+import footerImg from './footerImg.jpg';
 
 export {
     logo,
@@ -18,4 +19,5 @@ export {
     EJH,
     EJHS,
     EJM,
+    footerImg,
 }
