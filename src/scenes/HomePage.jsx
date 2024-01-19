@@ -16,7 +16,7 @@ const HomePage = () => {
                     <About />
                 </div>
 
-                <div className='journals'>
+                <div className='journal'>
                     <Journals />
                 </div>
             </div>

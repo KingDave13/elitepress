@@ -37,6 +37,13 @@ body, html {
   height: 100vh;
 }
 
+.journal {
+  background-image: url('./assets/journalImg.jpg');
+  object-fit: cover;
+  width: auto;
+}
+
+
 @media (max-width: 1060px) {
   .hero {
     background-image: url('./assets/hero.jpg');
