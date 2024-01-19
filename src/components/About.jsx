@@ -16,7 +16,7 @@ const About = () => {
             ss:gap-5 gap-10'
             >
                 <motion.div variants={fadeIn('up', 'spring', 0.3)}
-                className="flex flex-row items-center w-full md:mb-8 ss:mb-8 
+                className="flex flex-row items-center w-full md:mb-8 ss:mb-14 
                 mb-8">
                     <h1 className="text-main font-bold md:text-[52px]
                     ss:text-[45px] text-[33px] md:mr-14 ss:mr-6 mr-5

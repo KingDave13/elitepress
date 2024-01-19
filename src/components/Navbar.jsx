@@ -5,6 +5,7 @@ import { HiOutlineMenuAlt3 } from 'react-icons/hi';
 import { navLinks } from '../constants';
 import { logo } from '../assets';
 import { Link, useNavigate } from 'react-router-dom';
+import scrollToSection from '../constants/scrollToSection';
 
 const Navbar = () => {
   const [active, setActive] = useState('Home');
@@ -86,7 +87,7 @@ const Navbar = () => {
 
         <button className='hidden md:flex bg-main grow justify-center
           text-[16px] py-4 w-[22%] text-white font-medium rounded-full'
-          // onClick={() => navigate('/contact')}
+          onClick={() => scrollToSection('newsletter')}
           >
             Our newsletter
         </button>
