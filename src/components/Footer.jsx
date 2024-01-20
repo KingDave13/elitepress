@@ -23,11 +23,11 @@ const Footer = () => {
             text-[14px] md:max-w-[550px] ss:max-w-[280px] max-w-[320px] 
             md:mt-0 ss:mt-3 mt-6 md:leading-[25px] ss:leading-[22px] 
             leading-[20px]'>
-                At Elite Press Journals, we are committed to disseminating 
-                cutting-edge 
-                research through our comprehensive range of medical journals. 
-                Each publication is carefully curated to contribute to the 
-                progress of various disciplines within the medical field.
+              At Elite Press Journals, we are committed to disseminating 
+              cutting-edge 
+              research through our comprehensive range of medical journals. 
+              Each publication is carefully curated to contribute to the 
+              progress of various disciplines within the medical field.
             </p>
           </div>
           
