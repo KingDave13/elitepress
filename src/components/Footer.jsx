@@ -71,6 +71,7 @@ const Footer = () => {
                 ${index !== socialMedia.length - 1 ? 'mr-3' : 'mr-0' }`,
               })}
             </a>
+            
           ))}
 
           <p className='text-main md:ml-2 ss:ml-2 ml-2 md:text-[17px]
