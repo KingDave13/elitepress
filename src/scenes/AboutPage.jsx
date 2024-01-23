@@ -10,8 +10,13 @@ const AboutPage = () => {
     <div className="font-instrument-sans">
       <div>
         <NavbarAlt />
-        <div>
-          
+
+        <div className='bg-primaryalt'>
+          <Newsletter />
+        </div>
+        
+        <div className='footer'>
+          <Footer />
         </div>
       </div>
     </div>
