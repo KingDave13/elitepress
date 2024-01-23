@@ -86,7 +86,7 @@ const Navbar = () => {
         </div>
 
         <button className='hidden md:flex bg-main grow justify-center
-          text-[16px] py-4 w-[22%] text-white font-medium rounded-full'
+          text-[16px] py-3 w-[20%] text-white font-medium rounded-full'
           onClick={() => scrollToSection('newsletter')}
           >
             Our newsletter
