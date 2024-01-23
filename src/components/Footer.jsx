@@ -97,7 +97,7 @@ const Footer = () => {
         <p className='md:text-[15px] ss:text-[14px] text-[12px] text-center'>
           Designed and developed by
             <span className='text-[#00563B] font-medium cursor-pointer grow3'>
-              <a href='https://wa.me/2349014452743' target='blank'> 09014452743
+              <a href='https://wa.me/2349014452743' target='blank'> +234 901 445 2743
               </a>
             </span>
         </p>

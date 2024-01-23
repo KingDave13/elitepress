@@ -1,4 +1,5 @@
 import Navbar from './Navbar';
+import NavbarAlt from './NavbarAlt';
 import Hero from './Hero';
 import About from './About';
 import Journals from './Journals';
@@ -7,6 +8,7 @@ import Footer from './Footer';
 
 export { 
     Navbar,
+    NavbarAlt,
     Hero,
     About,
     Journals,
