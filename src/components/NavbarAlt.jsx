@@ -4,17 +4,15 @@ import styles from '../styles';
 import { HiOutlineMenuAlt3 } from 'react-icons/hi';
 import { navLinks } from '../constants';
 import { logo } from '../assets';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import scrollToSection from '../constants/scrollToSection';
 
 const NavbarAlt = () => {
-  const [active, setActive] = useState('Home');
-  const [toggle, setToggle] = useState(false);
-  const menuRef = useRef(null);
-  const navigate = useNavigate();
+    const location = useLocation();
+    const [toggle, setToggle] = useState(false);
+    const menuRef = useRef(null);
 
-  const [isScrolled, setIsScrolled] = useState(false);
-
+    const [isScrolled, setIsScrolled] = useState(false);
 
   // Add an event listener to detect scrolling
   useEffect(() => {
@@ -51,9 +49,8 @@ const NavbarAlt = () => {
     >
       <div className="w-full flex justify-between items-center 
       max-w-[82rem] mx-auto">
-        <Link to='/'
+        <Link to='/about'
           onClick={() => {
-          setActive('Home');
           window.scrollTo(0, 0);
           }}>
           <img src={logo} alt='logo'
@@ -67,19 +64,13 @@ const NavbarAlt = () => {
               <li
                 key={link.id}
                 className={`${
-                  active === link.title
+                    location.pathname === link.route
                     ? 'text-secondary'
-                    : isScrolled ? 'text-primary' : 'text-primary'
+                    : 'text-primary'
                 } hover:text-textalt grow3 text-[18px] text-decoration-none 
                 cursor-pointer font-medium`}
-                onClick={() => {
-                  setActive(link.title);
-                  if (link.special) {
-                    navigate(link.route);
-                  }
-                }}
               >
-                <a href={`#${link.id}`}>{link.title}</a>
+                <a href={link.route}>{link.title}</a>
               </li>
             ))}
           </ul>
@@ -127,7 +118,7 @@ const NavbarAlt = () => {
                 <li
                   key={link.id}
                   className={`${
-                    active === link.title
+                    location.pathname === link.route
                       ? 'text-secondary'
                       : 'text-primary'
                   } font-medium cursor-pointer ss:text-[20px] text-[17px] 
@@ -135,13 +126,9 @@ const NavbarAlt = () => {
                   ${index !== navLinks.length - 1 ? 'border-b-[1px] pb-1.5 pt-1.5' : 'pt-1.5'}`}
                   onClick={() => {
                     setToggle(!toggle);
-                    setActive(link.title);
-                    if (link.special) {
-                      navigate(link.route);
-                    }
                   }}
                 >
-                  <a href={`#${link.id}`}>{link.title}</a>
+                  <a href={link.route}>{link.title}</a>
                 </li>
               ))}
             </ul>
@@ -150,10 +137,10 @@ const NavbarAlt = () => {
               text-white rounded-[5px] mt-5 ss:text-[20px] text-[15px]'
               onClick={() => {
                 setToggle(!toggle);
-                // navigate('/contact');
+                scrollToSection('newsletter');
               }}
               >
-                Our newsletter
+                Our Newsletter
               </button>
           </div>
         </div>

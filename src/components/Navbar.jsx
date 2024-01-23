@@ -69,7 +69,7 @@ const Navbar = () => {
                 className={`${
                   active === link.title
                     ? 'text-secondary'
-                    : isScrolled ? 'text-primary' : 'text-primary'
+                    : 'text-primary'
                 } hover:text-textalt grow3 text-[18px] text-decoration-none 
                 cursor-pointer font-medium`}
                 onClick={() => {
@@ -153,7 +153,7 @@ const Navbar = () => {
                 // navigate('/contact');
               }}
               >
-                Our newsletter
+                Our Newsletter
               </button>
           </div>
         </div>
