@@ -89,7 +89,7 @@ const Navbar = () => {
           text-[16px] py-3 w-[20%] text-white font-medium rounded-full'
           onClick={() => scrollToSection('newsletter')}
           >
-            Our newsletter
+            Our Newsletter
         </button>
 
         {/* FOR MOBILE */}

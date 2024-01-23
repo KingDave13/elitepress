@@ -1,9 +1,21 @@
-import React from 'react'
+import { 
+  NavbarAlt,
+  AboutMain,
+  Hero2,
+  Newsletter,
+  Footer } from "../components";
 
 const AboutPage = () => {
   return (
-    <div>AboutPage</div>
-  )
-}
+    <div className="font-instrument-sans">
+      <div>
+        <NavbarAlt />
+        <div>
+          
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default AboutPage
+export default AboutPage;
