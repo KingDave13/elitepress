@@ -10,7 +10,7 @@ const AboutMain = () => {
         <div className='justify-between w-full items-center flex 
         md:flex-row ss:flex-wrap flex-col items-start gap-5'
         >
-            <motion.div variants={textVariant()}
+            <motion.div variants={textVariant(0.3)}
             className={`${layout.sectionInfo}`}
             >
                 <h1 className='text-main font-bold md:text-[52px]
@@ -25,7 +25,7 @@ const AboutMain = () => {
 
                 <p className='md:mt-8 ss:mt-8 mt-5 text-main md:text-[20px] 
                 ss:text-[18px] text-[14px] md:max-w-[620px] ss:max-w-[700px]
-                md:leading-[28px] ss:leading-[25px] leading-[20px]'>
+                md:leading-[27px] ss:leading-[25px] leading-[20px]'>
                 Welcome to Elite Press, a distinguished platform dedicated 
                 to advancing medical knowledge and fostering excellence in 
                 healthcare. At Elite Press, we are committed to 
@@ -140,6 +140,10 @@ const AboutMain = () => {
                         </li>
                     </ol>
                 </div>
+            </motion.div>
+
+            <motion.div variants={textVariant(0.8)}>
+
             </motion.div>
 
             <motion.div 
