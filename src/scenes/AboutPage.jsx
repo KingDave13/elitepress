@@ -1,7 +1,8 @@
 import { 
   NavbarAlt,
-  AboutMain,
   Hero2,
+  AboutMain,
+  Commitment,
   Newsletter,
   Footer } from "../components";
 
@@ -11,10 +12,12 @@ const AboutPage = () => {
       <div>
         <NavbarAlt />
 
+        <Commitment />
+        
         <div className='bg-primaryalt'>
           <Newsletter />
         </div>
-        
+
         <div className='footer'>
           <Footer />
         </div>

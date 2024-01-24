@@ -21,7 +21,7 @@ const About = () => {
                     <h1 className="text-main font-bold md:text-[52px]
                     ss:text-[45px] text-[33px] md:mr-14 ss:mr-6 mr-5
                     md:leading-[2px] ss:leading-[2px] leading-[40px]">
-                       About Elite Press Journals
+                       About Elite Press
                     </h1>
                     <motion.div variants={fadeIn('down', 'spring', 0.3)}
                     className="flex-1 relative items-center justify-center">
