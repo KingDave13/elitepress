@@ -1,4 +1,4 @@
-// import { frame } from '../assets';
+import { heroImg2 } from '../assets';
 import { layout } from '../styles';
 import { motion } from 'framer-motion';
 import { slideIn, textVariant } from '../utils/motion';
@@ -7,9 +7,9 @@ import { SectionWrapper } from '../hoc';
 const AboutMain = () => {
   return (
     <section className='w-full min-h-[700px] items-center flex flex-col'>
-        <div className='justify-between w-full items-center flex 
-        md:flex-row ss:flex-wrap flex-col items-start gap-5'
-        >
+        <div className='w-full'>
+            <div className='justify-between w-full flex md:flex-row 
+            ss:flex-wrap flex-col items-start gap-5'>
             <motion.div variants={textVariant(0.3)}
             className={`${layout.sectionInfo}`}
             >
@@ -36,8 +36,29 @@ const AboutMain = () => {
                 </p>
 
                 <p className='md:mt-8 ss:mt-8 mt-5 text-main md:text-[20px] 
-                ss:text-[18px] text-[14px] font-bold'>
-                OUR JOURNALS
+                ss:text-[18px] text-[14px] md:max-w-[620px] ss:max-w-[700px]
+                md:leading-[27px] ss:leading-[25px] leading-[20px]'>
+                Our mission is to empower medical professionals, 
+                researchers and academicians by providing a dynamic 
+                platform for the dissemination of groundbreaking medical 
+                research.
+                </p>
+            </motion.div>
+
+            <motion.div 
+            variants={slideIn('right', 'tween', 0.2, 0.5)}
+            className='md:mt-10 ss:mt-6 mt-0'>
+                <img src={heroImg2} alt='cloth'
+                className='md:h-[500px] ss:h-[400px] h-[300px] w-auto'
+                />
+            </motion.div>
+            </div>
+
+            <motion.div variants={textVariant(0.8)}
+            className='md:mt-3 ss:mt-3 mt-5'>
+                <p className='text-main md:text-[20px] 
+                    ss:text-[18px] text-[14px] font-bold'>
+                    OUR JOURNALS
                 </p>
 
                 <div className='md:mt-3 ss:mt-3 mt-2'>
@@ -140,18 +161,6 @@ const AboutMain = () => {
                         </li>
                     </ol>
                 </div>
-            </motion.div>
-
-            <motion.div variants={textVariant(0.8)}>
-
-            </motion.div>
-
-            <motion.div 
-            variants={slideIn('right', 'tween', 0.2, 0.5)}
-            className='md:mt-10 ss:mt-6 mt-0'>
-                <img alt='cloth'
-                className=' md:h-[500px] ss:h-[500px] h-[280px] w-auto'
-                />
             </motion.div>
         </div>
     </section> 
