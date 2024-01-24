@@ -19,12 +19,12 @@ const Hero2 = () => {
                   About Us
                 </h1>
 
-                <div className='flex flex-row items-center md:gap-5 
-                ss:gap-5 gap-2 text-white md:text-[20px] ss:text-[20px] 
+                <div className='flex flex-row items-center md:gap-3 
+                ss:gap-5 gap-2 text-main md:text-[20px] ss:text-[20px] 
                 text-[14px] justify-center'>
                     <p>Home</p>
                     <BsArrowRightShort className='md:text-[30px] 
-                    ss:text-[30px] text-[25px] text-white'/>
+                    ss:text-[30px] text-[25px] text-main'/>
                     <p>About Us</p>
                 </div>
               </motion.div>          

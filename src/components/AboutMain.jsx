@@ -6,8 +6,8 @@ import { SectionWrapper } from '../hoc';
 
 const AboutMain = () => {
   return (
-    <section className='w-full min-h-[700px] items-center flex flex-col'>
-        <div className='w-full'>
+    <section className='w-full min-h-[1380px] items-center flex flex-col'>
+        <div className='w-full md:mt-28 ss:mt-20 mt-10'>
             <div className='justify-between w-full flex md:flex-row 
             ss:flex-wrap flex-col items-start gap-5'>
             <motion.div variants={textVariant(0.3)}

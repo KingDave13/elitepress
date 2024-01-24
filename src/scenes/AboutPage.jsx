@@ -13,7 +13,7 @@ const AboutPage = () => {
     <div className="font-instrument-sans">
       <NavbarAlt />
       <div className='relative flex items-center justify-center w-full 
-      md:max-h-[400px] ss:max-h-[300px] max-h-[200px] top-20'>
+      md:max-h-[450px] ss:max-h-[300px] max-h-[200px] top-20'>
         <img src={hero2} alt='hero2'
         className='object-cover w-[120rem] md:h-[450px] ss:h-[300px]
         h-[200px]' />
