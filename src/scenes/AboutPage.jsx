@@ -12,7 +12,7 @@ const AboutPage = () => {
       <div>
         <NavbarAlt />
 
-        <div className='bg-primaryalt'>
+        <div className='journal'>
           <AboutMain />
         </div>
 

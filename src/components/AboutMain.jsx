@@ -23,8 +23,8 @@ const AboutMain = () => {
                 w-[80px] h-[3px]' />
                 </div>
 
-                <p className='md:mt-8 ss:mt-8 mt-5 text-main md:text-[20px] 
-                ss:text-[18px] text-[14px] md:max-w-[620px] ss:max-w-[700px]
+                <p className='md:mt-8 ss:mt-8 mt-5 text-main md:text-[19px] 
+                ss:text-[18px] text-[14px] md:max-w-[650px] ss:max-w-[700px]
                 md:leading-[27px] ss:leading-[25px] leading-[20px]'>
                 Welcome to Elite Press, a distinguished platform dedicated 
                 to advancing medical knowledge and fostering excellence in 
@@ -35,13 +35,17 @@ const AboutMain = () => {
                 various disciplines within the medical field.
                 </p>
 
-                <p className='md:mt-8 ss:mt-8 mt-5 text-main md:text-[20px] 
-                ss:text-[18px] text-[14px] md:max-w-[620px] ss:max-w-[700px]
+                <p className='md:mt-8 ss:mt-8 mt-5 text-main md:text-[19px] 
+                ss:text-[18px] text-[14px] md:max-w-[650px] ss:max-w-[700px]
                 md:leading-[27px] ss:leading-[25px] leading-[20px]'>
                 Our mission is to empower medical professionals, 
                 researchers and academicians by providing a dynamic 
                 platform for the dissemination of groundbreaking medical 
-                research.
+                research. Elite Press welcomes collaboration with 
+                researchers, institutions and industry partners. Whether 
+                you are looking to publish groundbreaking research or 
+                explore partnership opportunities, we invite you to join 
+                us in shaping the future of medical knowledge.
                 </p>
             </motion.div>
 
