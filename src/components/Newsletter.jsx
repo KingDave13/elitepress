@@ -4,12 +4,12 @@ import { textVariant, fadeIn } from '../utils/motion';
 
 const Newsletter = () => {
   return (
-    <section className='relative w-full md:min-h-[320px] ss:min-h-[280px] 
-    min-h-[230px] mx-auto flex items-center justify-center flex-col'>
-      <div className='flex max-w-[95rem] mx-auto items-center w-full 
-      relative items-center justify-center flex-col'>
+    <section className='w-full md:min-h-[320px] ss:min-h-[280px] 
+    min-h-[230px] flex items-center justify-center flex-col'>
+      <div className='flex items-center w-full items-center justify-center 
+      flex-col'>
         <motion.div variants={textVariant()} className='flex flex-col 
-        relative w-full items-center'>
+        w-full items-center'>
             <h1 className='text-main font-bold md:text-[45px]
                 ss:text-[35px] text-[24px]'>
                 Subscribe to Our Newsletter

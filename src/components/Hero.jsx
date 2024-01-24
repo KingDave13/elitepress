@@ -10,8 +10,8 @@ const Hero = () => {
 
   return (
     <section className='relative w-full mobile'>
-      <div className='relative items-center justify-between w-full
-        flex flex-row items-start gap-5 md:mt-36 ss:mt-56 mt-44' 
+      <div className='items-center justify-between w-full flex flex-row 
+      items-start gap-5 md:mt-36 ss:mt-56 mt-44' 
         >
           <div className={`${layout.sectionInfo}`}>
             <motion.div variants={textVariant()}>

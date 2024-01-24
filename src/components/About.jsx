@@ -9,8 +9,8 @@ const About = () => {
     const navigate = useNavigate();
 
     return (
-        <section className="relative w-full md:min-h-[550px] 
-        ss:min-h-[550px] min-h-[900px] mx-auto flex items-center"
+        <section className="w-full md:min-h-[550px] ss:min-h-[550px] 
+        min-h-[900px] flex items-center"
         >
             <div className='items-center w-full flex-col md:gap-5 
             ss:gap-5 gap-10'

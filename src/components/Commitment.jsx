@@ -5,7 +5,7 @@ import { SectionWrapper } from '../hoc';
 
 const Commitment = () => {
   return (
-    <section className='w-full min-h-[500px] flex'>
+    <section className='w-full min-h-[350px] flex'>
         <div className='w-full flex justify-center'>
             <motion.div variants={textVariant()}
             className={`${styles.paddingX} flex flex-col justify-center 
@@ -26,12 +26,11 @@ const Commitment = () => {
                     text-[14px] max-w-[700px] text-center md:leading-[27px] 
                     ss:leading-[28px] leading-[25px]'>
                         At Elite Press, we stand at the forefront 
-                        of promoting academic excellence, scientific rigor 
+                        of promoting academic excellence, scientific rigour 
                         and collaboration within the medical community. 
                         Our commitment to providing a platform for 
                         knowledge exchange and fostering a community of 
                         experts drives the success of our journals.
-                    
                     </p>
 
                     <p className='text-main md:text-[20px] ss:text-[18px] 

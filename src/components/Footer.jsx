@@ -9,9 +9,8 @@ import React from 'react';
 const Footer = () => {
   return (
     <section className='relative w-full md:min-h-[330px] ss:min-h-[420px] 
-    min-h-[500px] mx-auto flex items-center flex-col md:mb-0 ss:mb-0 mb-6'>
-      <div className='flex max-w-[95rem] mx-auto items-center w-full 
-      relative'>
+    min-h-[500px] flex items-center flex-col md:mb-0 ss:mb-0 mb-6'>
+      <div className='flex items-center w-full relative'>
         <motion.div variants={textVariant()} className='flex md:flex-row 
         ss:flex-row flex-col relative w-full'>
           <div className='flex md:flex-row flex-col flex-start 

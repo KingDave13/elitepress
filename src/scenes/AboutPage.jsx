@@ -12,8 +12,12 @@ const AboutPage = () => {
       <div>
         <NavbarAlt />
 
+        <div className='bg-primaryalt'>
+          <AboutMain />
+        </div>
+
         <Commitment />
-        
+
         <div className='bg-primaryalt'>
           <Newsletter />
         </div>
