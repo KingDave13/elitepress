@@ -47,79 +47,96 @@ const AboutMain = () => {
                         <li>
                             <span className='font-bold'>
                             Elite Journal of Haematology (EJH):
-                            </span><br></br>
+                            </span>
+                            <p className='mt-1'>
                             Delving into the intricacies of blood-related 
                             disorders and advancements in haematological 
                             research.
+                            </p>
                         </li>
                         <li>
                             <span className='font-bold'>
                             Elite Journal of Medicine (EJM):
-                            </span><br></br>
+                            </span>
+                            <p className='mt-1'>
                             Showcasing breakthroughs and innovations in 
                             general medicine, providing a holistic view 
                             of the medical landscape.
+                            </p>
                         </li>
                         <li>
                             <span className='font-bold'>
                             Elite Journal of Health Sciences (EJHS):
-                            </span><br></br>
+                            </span>
+                            <p className='mt-1'>
                             Exploring diverse aspects of health sciences, 
                             from epidemiology to healthcare management.
+                            </p>
                         </li>
                         <li>
                             <span className='font-bold'>
                             Elite Journal of Medical Sciences (EJMS):
-                            </span><br></br>
+                            </span>
+                            <p className='mt-1'>
                             Unveiling the latest findings and trends in 
                             various medical specialties and subspecialties.
+                            </p>
                         </li>
                         <li>
                             <span className='font-bold'>
                             Elite Journal of Public Health (EJPH):
-                            </span><br></br>
+                            </span>
+                            <p className='mt-1'>
                             Addressing public health challenges and promoting 
                             strategies for community well-being.
+                            </p>
                         </li>
                         <li>
                             <span className='font-bold'>
-                            Elite Journal of Haematology (EJH):
-                            </span><br></br>
-                            Delving into the intricacies of blood-related 
-                            disorders and advancements in haematological 
-                            research.
+                            Elite Journal of Immunology (EJI):
+                            </span>
+                            <p className='mt-1'>
+                            Investigating the complexities of the immune system 
+                            and advancements in immunological research.
+                            </p>
                         </li>
                         <li>
                             <span className='font-bold'>
-                            Elite Journal of Haematology (EJH):
-                            </span><br></br>
-                            Delving into the intricacies of blood-related 
-                            disorders and advancements in haematological 
-                            research.
+                            Elite Journal of Laboratory Medicine (EJLM):
+                            </span>
+                            <p className='mt-1'>
+                            Highlighting innovations and best practices in 
+                            laboratory medicine and diagnostic technologies.
+                            </p>
                         </li>
                         <li>
                             <span className='font-bold'>
-                            Elite Journal of Haematology (EJH):
-                            </span><br></br>
-                            Delving into the intricacies of blood-related 
-                            disorders and advancements in haematological 
-                            research.
+                            Elite Journal of Nursing Science and Health Sciences (EJNSHS):
+                            </span>
+                            <p className='mt-1'>
+                            Showcasing research that shapes the nursing profession 
+                            and advancements in health sciences.
+                            </p>
                         </li>
                         <li>
                             <span className='font-bold'>
-                            Elite Journal of Haematology (EJH):
-                            </span><br></br>
-                            Delving into the intricacies of blood-related 
-                            disorders and advancements in haematological 
-                            research.
+                            Elite Journal of Scientific Research and Review (EJSRR):
+                            </span>
+                            <p className='mt-1'>
+                            Serving as a platform for comprehensive scientific 
+                            reviews and critical analysis across various 
+                            disciplines.
+                            </p>
                         </li>
                         <li>
                             <span className='font-bold'>
-                            Elite Journal of Haematology (EJH):
-                            </span><br></br>
-                            Delving into the intricacies of blood-related 
-                            disorders and advancements in haematological 
-                            research.
+                            Elite Journal of HIV (EJHIV):
+                            </span>
+                            <p className='mt-1'>
+                            Focusing on research, prevention and treatment 
+                            strategies related to Human Immunodeficiency 
+                            Virus (HIV).
+                            </p>
                         </li>
                     </ol>
                 </div>
