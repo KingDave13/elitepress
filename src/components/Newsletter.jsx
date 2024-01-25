@@ -12,7 +12,7 @@ const Newsletter = () => {
         w-full items-center'>
             <h1 className='text-main font-bold md:text-[45px]
                 ss:text-[35px] text-[24px]'>
-                Subscribe to Our Newsletter
+                Subscribe to our Newsletter
             </h1>
 
             <div className='flex relative'>
