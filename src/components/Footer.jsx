@@ -16,7 +16,7 @@ const Footer = () => {
           <div className='flex md:flex-row flex-col flex-start 
           relative w-full md:gap-6 ss:gap-5 md:items-center'>
             <img src={logo} alt='logo' className='md:h-[120px] md:w-[120px]
-            ss:h-[100px] ss:w-[100px] h-[100px] w-[100px]' />
+            ss:h-[100px] ss:w-[100px] h-[80px] w-[80px]' />
 
             <p className='text-main md:text-[18px] ss:text-[16px] 
             text-[14px] md:max-w-[550px] ss:max-w-[280px] max-w-[320px] 

@@ -147,7 +147,7 @@ const Navbar = () => {
             </ul>
 
             <button className='bg-main text-[16px] py-2 px-4
-              text-white rounded-[5px] mt-5 ss:text-[20px] text-[15px]'
+              text-white rounded-[5px] mt-5 ss:text-[20px] text-[14px]'
               onClick={() => {
                 setToggle(!toggle);
                 // navigate('/contact');

@@ -109,18 +109,18 @@ const Contact = () => {
                     <p className='text-main font-medium md:text-[20px] ss:text-[20px] 
                     text-[15px] leading-[18px]'>
                         <span className='font-bold'>EMAIL: </span> 
-                        <a href='mailto:contact@anayookpalaglobalconcept.com' 
+                        <a href='mailto:elitepressjournals@gmail.com' 
                         className='hover:text-secondary'>
-                            contact@anayookpalaglobalconcept.com
+                            elitepressjournals@gmail.com
                         </a>
                     </p>
 
                     <p className='text-main font-medium md:text-[20px] ss:text-[20px] 
                     text-[14px] leading-[17px]'>
                         <span className='font-bold'>PHONE: </span> 
-                        <a href='http://wa.me/2348037002296' 
+                        <a href='http://wa.me/23480xxxxxxx' 
                         className='hover:text-secondary'>
-                            08037002296
+                            080xxxxxxxxxx
                         </a>
                     </p>
                 </div>
@@ -145,13 +145,13 @@ const Contact = () => {
                         onBlur={formik.handleBlur}
                         placeholder="Enter your first name"
                         className="md:py-3 ss:py-3 py-2 px-4 border-none 
-                        outline-none text-white md:rounded-[5px]
+                        outline-none text-maintext md:rounded-[5px]
                         ss:rounded-[5px] rounded-[5px]
-                        md:placeholder:text-[14px] 
+                        md:placeholder:text-[15px] font-medium
                         ss:placeholder:text-[13px] 
                         placeholder:text-[12px] bg-primaryalt"
                         />
-                        <p className="text-mainRed md:text-[12px] 
+                        <p className="text-mainRed md:text-[13px] 
                         ss:text-[12px] text-[11px] md:mt-2 ss:mt-2 mt-1"
                         >
                             {formik.touched.firstname && formik.errors.firstname}
@@ -171,13 +171,13 @@ const Contact = () => {
                         onBlur={formik.handleBlur}
                         placeholder="Enter your last name"
                         className="md:py-3 ss:py-3 py-2 px-4 border-none 
-                        outline-none text-white md:rounded-[5px]
+                        outline-none text-maintext md:rounded-[5px]
                         ss:rounded-[5px] rounded-[5px]
-                        md:placeholder:text-[14px] 
+                        md:placeholder:text-[15px] font-medium
                         ss:placeholder:text-[13px] 
                         placeholder:text-[12px] bg-primaryalt"
                         />
-                        <p className="text-mainRed md:text-[12px] 
+                        <p className="text-mainRed md:text-[13px] 
                         ss:text-[12px] text-[11px] md:mt-2 ss:mt-2 mt-1"
                         >
                             {formik.touched.lastname && formik.errors.lastname}
@@ -197,13 +197,13 @@ const Contact = () => {
                         onBlur={formik.handleBlur}
                         placeholder="Enter your email address"
                         className="md:py-3 ss:py-3 py-2 px-4 border-none 
-                        outline-none text-white md:rounded-[5px]
+                        outline-none text-maintext md:rounded-[5px]
                         ss:rounded-[5px] rounded-[5px]
-                        md:placeholder:text-[14px] 
+                        md:placeholder:text-[15px] font-medium
                         ss:placeholder:text-[13px] 
                         placeholder:text-[12px] bg-primaryalt"
                         />
-                        <p className="text-mainRed md:text-[12px] 
+                        <p className="text-mainRed md:text-[13px] 
                         ss:text-[12px] text-[11px] md:mt-2 ss:mt-2 mt-1"
                         >
                             {formik.touched.email && formik.errors.email}
@@ -223,13 +223,13 @@ const Contact = () => {
                         onBlur={formik.handleBlur}
                         placeholder="Enter a subject"
                         className="md:py-3 ss:py-3 py-2 px-4 border-none 
-                        outline-none text-white md:rounded-[5px]
+                        outline-none text-maintext md:rounded-[5px]
                         ss:rounded-[5px] rounded-[5px]
-                        md:placeholder:text-[14px] 
+                        md:placeholder:text-[15px] font-medium
                         ss:placeholder:text-[13px] 
                         placeholder:text-[12px] bg-primaryalt"
                         />
-                        <p className="text-mainRed md:text-[12px] 
+                        <p className="text-mainRed md:text-[13px] 
                         ss:text-[12px] text-[11px] md:mt-2 ss:mt-2 mt-1"
                         >
                             {formik.touched.subject && formik.errors.subject}
@@ -249,13 +249,13 @@ const Contact = () => {
                         onBlur={formik.handleBlur}
                         placeholder="How may we assist you?"
                         className="md:py-3 ss:py-3 py-2 px-4 border-none 
-                        outline-none text-white md:rounded-[5px]
+                        outline-none text-maintext md:rounded-[5px]
                         ss:rounded-[5px] rounded-[5px]
-                        md:placeholder:text-[14px] 
+                        md:placeholder:text-[15px] font-medium
                         ss:placeholder:text-[13px] 
                         placeholder:text-[12px] bg-primaryalt"
                         />
-                        <p className="text-mainRed md:text-[12px] 
+                        <p className="text-mainRed md:text-[13px] 
                         ss:text-[12px] text-[11px] md:mt-2 ss:mt-2 mt-1"
                         >
                             {formik.touched.message ? formik.errors.message : ''}

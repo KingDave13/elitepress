@@ -4,7 +4,7 @@ import { textVariant, fadeIn } from '../utils/motion';
 
 const Newsletter = () => {
   return (
-    <section className='w-full md:min-h-[320px] ss:min-h-[280px] 
+    <section className='w-full md:min-h-[320px] ss:min-h-[250px] 
     min-h-[230px] flex items-center justify-center flex-col'>
       <div className='flex items-center w-full items-center justify-center 
       flex-col'>

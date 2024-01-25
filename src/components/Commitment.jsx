@@ -5,13 +5,14 @@ import { SectionWrapper } from '../hoc';
 
 const Commitment = () => {
   return (
-    <section className='w-full min-h-[350px] flex'>
+    <section className='w-full md:min-h-[350px] ss:min-h-[350px] 
+    min-h-[350px] flex'>
         <div className='w-full flex justify-center'>
             <motion.div variants={textVariant()}
             className={`${styles.paddingX} flex flex-col justify-center 
             items-center`}>
                 <h1 className='text-main font-bold md:text-[45px]
-                ss:text-[35px] text-[24px]'>
+                ss:text-[35px] text-[28px]'>
                     Our Commitment
                 </h1>
                 
@@ -24,7 +25,7 @@ const Commitment = () => {
                 items-center justify-center'>
                     <p className='text-main md:text-[20px] ss:text-[18px] 
                     text-[14px] max-w-[700px] text-center md:leading-[27px] 
-                    ss:leading-[28px] leading-[25px]'>
+                    ss:leading-[28px] leading-[20px]'>
                         At Elite Press, we stand at the forefront 
                         of promoting academic excellence, scientific rigour 
                         and collaboration within the medical community. 
@@ -35,7 +36,7 @@ const Commitment = () => {
 
                     <p className='text-main md:text-[20px] ss:text-[18px] 
                     text-[14px] max-w-[700px] text-center md:leading-[28px] 
-                    ss:leading-[28px] leading-[25px] md:mt-5'>
+                    ss:leading-[28px] leading-[20px] mt-5'>
                         Join us on this journey of exploration, discovery 
                         and innovation. Together, let's shape the future of 
                         healthcare through the power of knowledge.

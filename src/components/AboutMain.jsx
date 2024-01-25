@@ -7,9 +7,9 @@ import { SectionWrapper } from '../hoc';
 const AboutMain = () => {
   return (
     <section className='w-full min-h-[600px] items-center flex flex-col'>
-        <div className='w-full md:mt-28 ss:mt-20 mt-10'>
+        <div className='w-full md:mt-28 ss:mt-20 mt-24'>
             <div className='justify-between w-full flex md:flex-row 
-            ss:flex-wrap flex-col items-start gap-5'>
+            ss:flex-wrap flex-col items-start gap-5 items-center'>
                 <motion.div variants={textVariant(0.3)}
                 className={`${layout.sectionInfo}`}
                 >
@@ -51,7 +51,7 @@ const AboutMain = () => {
 
                 <motion.div 
                 variants={slideIn('right', 'tween', 0.2, 0.5)}
-                className='md:mt-10 ss:mt-6 mt-0'>
+                className='md:mt-10 ss:mt-6 mt-2'>
                     <img src={heroImg2} alt='cloth'
                     className='md:h-[500px] ss:h-[400px] h-[300px] w-auto'
                     />
