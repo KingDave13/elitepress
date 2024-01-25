@@ -5,28 +5,26 @@ import {
 const HomePage = () => {
     return (
         <div className='font-instrument-sans'>
-            <div className=''>
-                <Navbar />
+            <Navbar />
 
-                <div className='hero'>
-                    <Hero />
-                </div>
+            <div className='hero'>
+                <Hero />
+            </div>
 
-                <div className='bg-primaryalt'>
-                    <About />
-                </div>
+            <div className='bg-primaryalt'>
+                <About />
+            </div>
 
-                <div className='journal'>
-                    <Journals />
-                </div>
+            <div className='journal'>
+                <Journals />
+            </div>
 
-                <div className='bg-primaryalt'>
-                    <Newsletter />
-                </div>
+            <div className='bg-primaryalt'>
+                <Newsletter />
+            </div>
 
-                <div className='footer'>
-                    <Footer />
-                </div>
+            <div className='footer'>
+                <Footer />
             </div>
         </div>
     )

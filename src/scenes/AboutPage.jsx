@@ -13,11 +13,11 @@ const AboutPage = () => {
     <div className="font-instrument-sans">
       <NavbarAlt />
       <div className='relative flex items-center justify-center w-full 
-      md:max-h-[450px] ss:max-h-[300px] max-h-[200px] top-20'>
+      md:max-h-[450px] ss:max-h-[300px] max-h-[200px] top-[6rem]'>
         <img src={hero2} alt='hero2'
-        className='object-cover w-[120rem] md:h-[450px] ss:h-[300px]
+        className='w-[120rem] md:h-[300px] ss:h-[300px]
         h-[200px]' />
-        <div className='absolute w-full'>
+        <div className='absolute w-full md:pb-8'>
           <Hero2 />
         </div>
       </div>

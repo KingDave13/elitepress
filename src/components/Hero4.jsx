@@ -4,7 +4,7 @@ import { textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 import { BsArrowRightShort } from 'react-icons/bs';
 
-const Hero2 = () => {  
+const Hero4 = () => {  
     return (
       <section className='w-full'>
           <div className=' w-full flex 
@@ -16,7 +16,7 @@ const Hero2 = () => {
               >
                 <h1 className='text-secondary font-bold md:text-[65px]
                 ss:text-[65px] text-[40px] tracking-tight'>
-                  About Us
+                  Contact
                 </h1>
 
                 <div className='flex flex-row items-center md:gap-3 
@@ -25,7 +25,7 @@ const Hero2 = () => {
                   <p>Home</p>
                   <BsArrowRightShort className='md:text-[30px] 
                   ss:text-[30px] text-[25px] text-main'/>
-                  <p>About Us</p>
+                  <p>Contact Us</p>
                 </div>
               </motion.div>          
           </div>
@@ -33,4 +33,4 @@ const Hero2 = () => {
     )
   };
   
-  export default SectionWrapper(Hero2, '');
+  export default SectionWrapper(Hero4, '');
