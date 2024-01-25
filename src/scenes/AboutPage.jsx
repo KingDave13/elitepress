@@ -1,10 +1,10 @@
 import { 
-NavbarAlt,
-Hero2,
-AboutMain,
-Commitment,
-Newsletter,
-Footer } from "../components";
+  NavbarAlt,
+  Hero2,
+  AboutMain,
+  Commitment,
+  Newsletter,
+  Footer } from "../components";
 
 import { hero2 } from "../assets";
 
