@@ -53,6 +53,12 @@ ol {
   width: auto;
 }
 
+.aboutMain {
+  background-image: url('./assets/aboutMain.jpg');
+  object-fit: cover;
+  width: auto;
+}
+
 
 @media (max-width: 1060px) {
   .hero {

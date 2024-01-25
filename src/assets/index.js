@@ -4,6 +4,7 @@ import hero2 from './hero2.jpg'
 import heroImg from './heroImg.png';
 import heroImg2 from './heroImg2.png';
 import aboutImg from './aboutImg.png';
+import aboutMain from './aboutMain.jpg';
 import journalImg from './journalImg.jpg';
 import EJH from './EJH.jpg';
 import EJHS from './EJHS.jpg';
@@ -22,4 +23,5 @@ export {
     EJHS,
     EJM,
     footerImg,
+    aboutMain,
 }

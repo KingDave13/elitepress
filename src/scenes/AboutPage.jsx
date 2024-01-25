@@ -22,7 +22,7 @@ const AboutPage = () => {
         </div>
       </div>
 
-      <div className='journal'>
+      <div className='aboutMain'>
         <AboutMain />
       </div>
 
