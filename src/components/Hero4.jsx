@@ -16,7 +16,7 @@ const Hero4 = () => {
               >
                 <h1 className='text-secondary font-bold md:text-[65px]
                 ss:text-[65px] text-[40px] tracking-tight'>
-                  Contact
+                  Get in Touch
                 </h1>
 
                 <div className='flex flex-row items-center md:gap-3 

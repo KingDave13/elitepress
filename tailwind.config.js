@@ -9,6 +9,7 @@ module.exports = {
         secondary: "#fea335",
         main: "#021e31",
         mainRed: "#E30613",
+        main2: "#dfdfdf",
         primaryalt: "#f7f6f6",
         textalt: "#898989",
         maintext: "#575656"
