@@ -31,7 +31,9 @@ const JournalCard = ({ index, title, icon, desc }) => {
             </h3>
             <h3
               className='text-textalt md:text-[14px] ss:text-[14px] 
-              text-[14px] text-center'
+              text-[14px] text-center md:leading-[18px] ss:leading-[18px]
+              leading-[17px] md:max-w-[290px] ss:max-w-[400px]
+              max-w-[300px]'
             >
               {desc}
             </h3>
@@ -45,7 +47,7 @@ const Journals = () => {
     const navigate = useNavigate();
 
   return (
-    <section className="md:min-h-[750px] ss:min-h-[700px] min-h-[1650px] 
+    <section className="md:min-h-[800px] ss:min-h-[800px] min-h-[1800px] 
     flex items-center">
         <div className='items-center w-full flex flex-col'>
             <motion.div variants={fadeIn('up', 'spring', 0.3)}

@@ -28,17 +28,17 @@ export const navLinks = [
 export const journals = [
     {
         title: 'Elite Journal of Haematology (EJH)',
-        desc: 'lorem ipsum bla bla',
+        desc: 'Delving into the intricacies of blood-related disorders and advancements in haematological research.',
         icon: EJH,
     },
     {
         title: 'Elite Journal of Medicine (EJM)',
-        desc: 'lorem ipsum bla bla',
+        desc: 'Showcasing breakthroughs and innovations in general medicine, providing a holistic view of the medical landscape.',
         icon: EJM,
     },
     {
         title: 'Elite Journal of Health Sciences (EJHS)',
-        desc: 'lorem ipsum bla bla',
+        desc: 'Exploring diverse aspects of health sciences, from epidemiology to healthcare management.',
         icon: EJHS,
     },
 ];
