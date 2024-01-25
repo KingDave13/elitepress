@@ -49,7 +49,7 @@ const NavbarAlt2 = () => {
     >
       <div className="w-full flex justify-between items-center 
       max-w-[82rem] mx-auto">
-        <Link to='/contact'
+        <Link to='/journals'
           onClick={() => {
           window.scrollTo(0, 0);
           }}>

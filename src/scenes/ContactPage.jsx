@@ -1,5 +1,5 @@
 import { 
-  NavbarAlt2,
+  NavbarAlt3,
   Hero4,
   Contact,
   Newsletter,
@@ -11,7 +11,7 @@ import { hero2 } from "../assets";
     return (
       <div className="font-instrument-sans">
         <div>
-          <NavbarAlt2 />
+          <NavbarAlt3 />
           <div className='relative flex items-center justify-center w-full 
           md:max-h-[450px] ss:max-h-[300px] max-h-[200px] top-[6rem]'>
             <img src={hero2} alt='hero4'

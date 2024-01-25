@@ -1,5 +1,5 @@
 import { 
-    NavbarAlt,
+    NavbarAlt2,
     Hero3,
     JournalsMain,
     Newsletter,
@@ -9,7 +9,7 @@ import {
     return (
       <div className="font-instrument-sans">
         <div>
-          <NavbarAlt />
+          <NavbarAlt2 />
   
           <div className='bg-primaryalt'>
             <Newsletter />
