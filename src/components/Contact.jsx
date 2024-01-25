@@ -95,19 +95,19 @@ const Contact = () => {
     });
 
   return (
-    <section className="md:min-h-[1050px] ss:min-h-[950px] min-h-[910px] 
+    <section className="md:min-h-[1050px] ss:min-h-[920px] min-h-[900px] 
     flex items-center">
         <div className='items-center w-full flex flex-col'>
             {modalOpen && (
                 <Modal />
             )}
 
-            <motion.div variants={textVariant()} className='md:mt-10 ss:mt-14 
-            mt-20 w-full'>
+            <motion.div variants={textVariant()} className='md:mt-10 ss:mt-8 
+            mt-8 w-full'>
                 <div className="w-full flex md:flex-row ss:flex-row flex-col
-                justify-center items-center md:gap-10 ss:gap-8 gap-6">
+                justify-center items-center md:gap-10 ss:gap-8 gap-1">
                     <p className='text-main font-medium md:text-[20px] ss:text-[20px] 
-                    text-[15px] leading-[18px]'>
+                    text-[15px]'>
                         <span className='font-bold'>EMAIL: </span> 
                         <a href='mailto:elitepressjournals@gmail.com' 
                         className='hover:text-secondary'>
@@ -116,7 +116,7 @@ const Contact = () => {
                     </p>
 
                     <p className='text-main font-medium md:text-[20px] ss:text-[20px] 
-                    text-[14px] leading-[17px]'>
+                    text-[14px]'>
                         <span className='font-bold'>PHONE: </span> 
                         <a href='http://wa.me/23480xxxxxxx' 
                         className='hover:text-secondary'>
@@ -127,14 +127,13 @@ const Contact = () => {
             </motion.div>
 
             <motion.div variants={fadeIn('down', 'spring', 0.3)}
-            className='w-full md:mt-14'>
-                <div className='md:bg-main2 ss:bg-primary md:p-12
-                ss:p-6 md:rounded-xl ss:rounded-xl rounded-xl'>
+            className='w-full md:mt-14 ss:mt-10 mt-6'>
+                <div className='bg-main2 md:p-12 ss:p-8 p-5 rounded-xl'>
                 <form ref={formRef} onSubmit={formik.handleSubmit}
                 className="grid grid-cols-2 md:gap-6 ss:gap-6 gap-4">
                     <div className="flex flex-col">
                         <label className="text-main md:mb-3 ss:mb-2 mb-2 
-                        md:text-[18px] ss:text-[15px] text-[14px] font-bold">
+                        md:text-[18px] ss:text-[16px] text-[14px] font-bold">
                             First Name
                         </label>
                         <input
@@ -160,7 +159,7 @@ const Contact = () => {
 
                     <div className="flex flex-col">
                         <label className="text-main md:mb-3 ss:mb-2 mb-2 
-                        md:text-[18px] ss:text-[15px] text-[14px] font-bold">
+                        md:text-[18px] ss:text-[16px] text-[14px] font-bold">
                             Last Name
                         </label>
                         <input
@@ -186,7 +185,7 @@ const Contact = () => {
 
                     <div className="col-span-2 flex flex-col">
                         <label className="text-main md:mb-3 ss:mb-2 mb-2 
-                        md:text-[18px] ss:text-[15px] text-[14px] font-bold">
+                        md:text-[18px] ss:text-[16px] text-[14px] font-bold">
                             Email Address
                         </label>
                         <input
@@ -212,7 +211,7 @@ const Contact = () => {
 
                     <div className="col-span-2 flex flex-col">
                         <label className="text-main md:mb-3 ss:mb-2 mb-2 
-                        md:text-[18px] ss:text-[15px] text-[14px] font-bold">
+                        md:text-[18px] ss:text-[16px] text-[14px] font-bold">
                             Subject
                         </label>
                         <input
@@ -238,7 +237,7 @@ const Contact = () => {
 
                     <div className="col-span-2 flex flex-col">
                         <label className="text-main md:mb-3 ss:mb-2 mb-2 
-                        md:text-[18px] ss:text-[15px] text-[14px] font-bold">
+                        md:text-[18px] ss:text-[16px] text-[14px] font-bold">
                             Message
                         </label>
                         <textarea
@@ -267,7 +266,7 @@ const Contact = () => {
                         type="submit"
                         className="bg-main grow md:text-[16px] 
                         ss:text-[16px] text-[14px] md:py-3 ss:py-3 py-2 
-                        md:px-20 ss:px-14 px-6 text-white rounded-lg
+                        md:px-20 ss:px-14 px-10 text-white rounded-lg
                         font-medium border-none"
                         >
                             {Loading ? 'Submitting...' : 'Submit'}
