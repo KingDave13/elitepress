@@ -1,5 +1,5 @@
 import { GrMail } from 'react-icons/gr';
-import { EJH, EJHS, EJM } from '../assets';
+import { EJH, EJHS, EJM, EJMS } from '../assets';
 
 export const navLinks = [
 {
@@ -44,7 +44,7 @@ export const journals = [
     {
         title: 'Elite Journal of Medical Sciences (EJMS)',
         desc: 'Discover the pulse of medical knowledge with EJMS. Unveiling the latest findings and trends across various medical specialties and subspecialties, this elite journal is a comprehensive resource for healthcare professionals and researchers.',
-        icon: EJHS,
+        icon: EJMS,
     },
     {
         title: 'Elite Journal of Public Health (EJPH)',

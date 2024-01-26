@@ -52,7 +52,7 @@ const Journals = () => {
     const navigate = useNavigate();
 
   return (
-    <section className="md:min-h-[1700px] ss:min-h-[800px] min-h-[1800px] 
+    <section className="md:min-h-[1800px] ss:min-h-[800px] min-h-[1800px] 
     flex items-center">
         <div className='items-center w-full flex flex-col md:mt-28 
         ss:mt-20 mt-24'>
