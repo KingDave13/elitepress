@@ -17,7 +17,7 @@ import { hero2 } from "../assets";
             <img src={hero2} alt='hero4'
             className='w-[120rem] md:h-[300px] ss:h-[250px]
             h-[150px]' />
-            <div className='absolute w-full md:pb-8'>
+            <div className='absolute w-full md:pb-8 ss:pb-8 pb-5'>
               <Hero4 />
             </div>
           </div>

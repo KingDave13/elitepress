@@ -7,8 +7,7 @@ import { BsArrowRightShort } from 'react-icons/bs';
 const Hero2 = () => {  
     return (
       <section className='w-full'>
-          <div className=' w-full flex 
-          flex-col gap-5'
+          <div className=' w-full flex flex-col'
           >
               <motion.div variants={textVariant()}
               className={`${layout.sectionInfo} justify-center 
@@ -20,11 +19,11 @@ const Hero2 = () => {
                 </h1>
 
                 <div className='flex flex-row items-center md:gap-3 
-                ss:gap-5 gap-2 text-main md:text-[20px] ss:text-[20px] 
+                ss:gap-5 gap-2 text-white md:text-[20px] ss:text-[20px] 
                 text-[14px] justify-center'>
                   <p>Home</p>
                   <BsArrowRightShort className='md:text-[30px] 
-                  ss:text-[30px] text-[25px] text-main'/>
+                  ss:text-[30px] text-[25px] text-white'/>
                   <p>About Us</p>
                 </div>
               </motion.div>          
