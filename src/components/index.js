@@ -11,6 +11,7 @@ import Commitment from './Commitment';
 import About from './About';
 import AboutMain from './AboutMain';
 import Journals from './Journals';
+import JournalsMain from './JournalsMain';
 import Newsletter from './Newsletter';
 import Footer from './Footer';
 
@@ -28,6 +29,7 @@ export {
     About,
     AboutMain,
     Journals,
+    JournalsMain,
     Newsletter,
     Footer
 }

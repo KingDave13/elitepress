@@ -21,6 +21,10 @@ import { hero2 } from "../assets";
               <Hero3 />
             </div>
           </div>
+
+          <div className='journals'>
+            <JournalsMain />
+          </div>
   
           <div className='bg-primaryalt'>
             <Newsletter />
