@@ -22,7 +22,7 @@ import { hero2 } from "../assets";
             </div>
           </div>
 
-          <div className='journals'>
+          <div className='aboutMain'>
             <JournalsMain />
           </div>
   
