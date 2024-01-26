@@ -33,7 +33,7 @@ export const journals = [
     },
     {
         title: 'Elite Journal of Medicine (EJM)',
-        desc: 'At the crossroads of innovation and holistic healthcare, EJM stands as a beacon of breakthroughs in general medicine. Navigate through an impressive landscape of medical advancements, from various cutting-edge technologies to transformative treatment modalities.',
+        desc: 'At the crossroads of innovation and holistic healthcare, EJM stands as a beacon of breakthroughs in general medicine. Navigate through an impressive landscape of medical advancements, cutting-edge technologies to various treatment modalities.',
         icon: EJM,
     },
     {

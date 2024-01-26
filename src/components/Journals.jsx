@@ -47,12 +47,12 @@ const Journals = () => {
     const navigate = useNavigate();
 
   return (
-    <section className="md:min-h-[800px] ss:min-h-[800px] min-h-[1800px] 
+    <section className="md:min-h-[820px] ss:min-h-[800px] min-h-[1800px] 
     flex items-center">
         <div className='items-center w-full flex flex-col'>
             <motion.div variants={fadeIn('up', 'spring', 0.3)}
             className="flex justify-between items-center w-full md:gap-12
-            ss:gap-8 gap-5 md:mb-20 ss:mb-12 mb-10">
+            ss:gap-8 gap-5 md:mb-16 ss:mb-12 mb-10">
                 <div className="flex-grow">
                     <div className='bg-secondary w-full h-[3px] rounded-full' />
                 </div>
