@@ -37,7 +37,7 @@ const JournalCard = ({ index, title, icon, desc }) => {
                     <h3
                     className='text-textalt md:text-[15px] ss:text-[14px] 
                     text-[14px] md:leading-[18px] ss:leading-[18px]
-                    leading-[17px]'
+                    leading-[17px] text-justify'
                     >
                         {desc}
                     </h3>

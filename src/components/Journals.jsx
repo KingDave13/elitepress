@@ -70,7 +70,7 @@ const Journals = () => {
             <motion.div className='flex items-center flex-col relative 
             justify-center w-full'>
                 <div className='flex flex-wrap gap-12'>
-                    {journals.map((journal, index) => (
+                    {journals.slice(0, 3).map((journal, index) => (
                         <JournalCard 
                             key={journal.title}
                             index={index}
