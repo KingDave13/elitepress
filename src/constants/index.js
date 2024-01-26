@@ -41,6 +41,41 @@ export const journals = [
         desc: 'Exploring diverse aspects of health sciences, from epidemiology to healthcare management.',
         icon: EJHS,
     },
+    {
+        title: 'Elite Journal of Health Sciences (EJHS)',
+        desc: 'Exploring diverse aspects of health sciences, from epidemiology to healthcare management.',
+        icon: EJHS,
+    },
+    {
+        title: 'Elite Journal of Health Sciences (EJHS)',
+        desc: 'Exploring diverse aspects of health sciences, from epidemiology to healthcare management.',
+        icon: EJHS,
+    },
+    {
+        title: 'Elite Journal of Health Sciences (EJHS)',
+        desc: 'Exploring diverse aspects of health sciences, from epidemiology to healthcare management.',
+        icon: EJHS,
+    },
+    {
+        title: 'Elite Journal of Health Sciences (EJHS)',
+        desc: 'Exploring diverse aspects of health sciences, from epidemiology to healthcare management.',
+        icon: EJHS,
+    },
+    {
+        title: 'Elite Journal of Health Sciences (EJHS)',
+        desc: 'Exploring diverse aspects of health sciences, from epidemiology to healthcare management.',
+        icon: EJHS,
+    },
+    {
+        title: 'Elite Journal of Health Sciences (EJHS)',
+        desc: 'Exploring diverse aspects of health sciences, from epidemiology to healthcare management.',
+        icon: EJHS,
+    },
+    {
+        title: 'Elite Journal of Health Sciences (EJHS)',
+        desc: 'Exploring diverse aspects of health sciences, from epidemiology to healthcare management.',
+        icon: EJHS,
+    },
 ];
 
 export const socialMedia = [

@@ -8,7 +8,7 @@ const JournalCard = ({ index, title, icon, desc }) => {
     return (
       <div className='w-full grow3'>
         <motion.div
-          variants={fadeIn('right', 'spring', 0.5 * index, 0.75)}
+          variants={fadeIn('right', 'spring', 0.4 * index, 0.75)}
           className='w-full cursor-pointer shadow-lg hover:shadow-xl 
           rounded-lg bg-primaryalt'
         >
@@ -52,7 +52,7 @@ const Journals = () => {
     const navigate = useNavigate();
 
   return (
-    <section className="md:min-h-[800px] ss:min-h-[800px] min-h-[1800px] 
+    <section className="md:min-h-[1700px] ss:min-h-[800px] min-h-[1800px] 
     flex items-center">
         <div className='items-center w-full flex flex-col md:mt-28 
         ss:mt-20 mt-24'>
