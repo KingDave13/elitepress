@@ -2,11 +2,8 @@ import { SectionWrapper } from "../hoc";
 import { motion } from 'framer-motion';
 import { fadeIn } from '../utils/motion';
 import { journals } from '../constants';
-import { useNavigate } from 'react-router-dom';
 
-const JournalCard = ({ index, title, icon, desc }) => {
-    const navigate = useNavigate();
-
+const JournalCard = ({ index, title, icon, desc, route }) => {
     return (
       <div className='w-full grow3 show'>
         <motion.div
@@ -46,16 +43,17 @@ const JournalCard = ({ index, title, icon, desc }) => {
                     </h3>
 
                     <div className="md:block hidden">
-                        <button className='grow md:text-[12px] 
-                        ss:text-[14px] md:py-1.5 ss:py-1.5 
-                        md:px-6 ss:px-6 text-main rounded-full
-                        font-medium border-textalt border-[1px] 
-                        hover:text-white opacity-0 transition-opacity 
-                        duration-500'
-                        onClick={() => navigate('/about')}
-                        >
-                            Read More
-                        </button>
+                        <a href={route}>
+                            <button className='grow md:text-[12px] 
+                            ss:text-[14px] md:py-1.5 ss:py-1.5 
+                            md:px-6 ss:px-6 text-main rounded-full
+                            font-medium border-textalt border-[1px] 
+                            hover:text-white opacity-0 transition-opacity 
+                            duration-500'
+                            >
+                                Read More
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>

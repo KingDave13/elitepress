@@ -6,6 +6,8 @@ import Hero from './Hero';
 import Hero2 from './Hero2';
 import Hero3 from './Hero3';
 import Hero4 from './Hero4';
+import HeroEJH from './HeroEJH';
+import HeroEJM from './HeroEJM';
 import Contact from './Contact';
 import Commitment from './Commitment';
 import About from './About';
@@ -24,6 +26,8 @@ export {
     Hero2,
     Hero3,
     Hero4,
+    HeroEJH,
+    HeroEJM,
     Contact,
     Commitment,
     About,
