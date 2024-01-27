@@ -1,5 +1,6 @@
 import { GrMail } from 'react-icons/gr';
-import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNSHS } from '../assets';
+import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNSHS, EJSRR, EJHIV } 
+from '../assets';
 
 export const navLinks = [
 {
@@ -69,12 +70,12 @@ export const journals = [
     {
         title: 'Elite Journal of Scientific Research and Review (EJSRR)',
         desc: 'Engage with in-depth explorations of  research methodologies, various theoretical frameworks and emerging trends. EJSRR fosters a scholarly environment where rigorous analysis and insightful reviews converge to shape the discourse in scientific research.',
-        icon: EJHS,
+        icon: EJSRR,
     },
     {
         title: 'Elite Journal of HIV (EJHIV)',
         desc: 'This journal focuses on research, prevention and treatment strategies. Navigate through studies that contribute to the global effort to combat the virus(HIV), exploring innovative approaches, breakthroughs and critical insights into the multifaceted dimensions of this public health challenge.',
-        icon: EJHS,
+        icon: EJHIV,
     },
 ];
 
