@@ -1,5 +1,5 @@
 import { GrMail } from 'react-icons/gr';
-import { EJH, EJHS, EJM, EJMS, EJI, EJPH } from '../assets';
+import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNSHS } from '../assets';
 
 export const navLinks = [
 {
@@ -59,12 +59,12 @@ export const journals = [
     {
         title: 'Elite Journal of Laboratory Medicine (EJLM)',
         desc: 'From groundbreaking methodologies to best practices, this journal is a compendium of advancements in laboratory sciences. Stay informed about the latest techniques and technologies that drive precision in diagnostics and contribute to the evolution of laboratory medicine.',
-        icon: EJHS,
+        icon: EJLM,
     },
     {
         title: 'Elite Journal of Nursing Science and Health Sciences (EJNSHS)',
         desc: 'Explore the forefront of nursing science and advancements in health sciences. From evidence-based practices to transformative healthcare delivery models, EJNSHS contributes to the ongoing evolution of nursing and its vital role in modern healthcare.',
-        icon: EJHS,
+        icon: EJNSHS,
     },
     {
         title: 'Elite Journal of Scientific Research and Review (EJSRR)',
