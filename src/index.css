@@ -59,6 +59,9 @@ ol {
   width: auto;
 }
 
+.show:hover button {
+  opacity: 1;
+}
 
 @media (max-width: 1060px) {
   .hero {

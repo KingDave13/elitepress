@@ -5,26 +5,29 @@ import { journals } from '../constants';
 import { useNavigate } from 'react-router-dom';
 
 const JournalCard = ({ index, title, icon, desc }) => {
+    const navigate = useNavigate();
+
     return (
-      <div className='w-full grow3'>
+      <div className='w-full grow3 show'>
         <motion.div
           variants={fadeIn('right', 'spring', 0.4 * index, 0.75)}
           className='w-full cursor-pointer shadow-lg hover:shadow-xl 
           rounded-lg bg-primaryalt'
         >
             <div options={{ max: 45, scale: 1, speed: 450 }}
-                className='p-5 md:gap-8 ss:gap-5 gap-3 flex justify-evenly 
-                md:flex-row ss:flex-row flex-col'
+                className='p-5 md:gap-8 ss:gap-6 gap-5 flex justify-evenly 
+                md:flex-row flex-col'
             >
                 <img src={icon} alt={title}
-                    className='w-[250px] h-auto object-contain rounded-lg'
+                    className='md:w-[250px] ss:w-[300px] h-auto 
+                    object-contain rounded-lg'
                 />
 
-                <div className="flex flex-col md:gap-3 ss:gap-3 gap-2">
+                <div className="flex flex-col gap-3 justify-between">
                     <h3
-                    className='text-main md:text-[25px] ss:text-[18px] 
+                    className='text-main md:text-[25px] ss:text-[23px] 
                     text-[18px] font-bold md:leading-[28px] 
-                    ss:leading-[20px] leading-[16px]'
+                    ss:leading-[25px] leading-[22px]'
                     >
                         {title}
                     </h3>
@@ -41,6 +44,19 @@ const JournalCard = ({ index, title, icon, desc }) => {
                     >
                         {desc}
                     </h3>
+
+                    <div className="md:block hidden">
+                        <button className='grow md:text-[12px] 
+                        ss:text-[14px] md:py-1.5 ss:py-1.5 
+                        md:px-6 ss:px-6 text-main rounded-full
+                        font-medium border-textalt border-[1px] 
+                        hover:text-white opacity-0 transition-opacity 
+                        duration-500'
+                        onClick={() => navigate('/about')}
+                        >
+                            Read More
+                        </button>
+                    </div>
                 </div>
             </div>
         </motion.div>
@@ -49,10 +65,9 @@ const JournalCard = ({ index, title, icon, desc }) => {
   };
 
 const Journals = () => {
-    const navigate = useNavigate();
 
   return (
-    <section className="md:min-h-[1800px] ss:min-h-[800px] min-h-[1800px] 
+    <section className="md:min-h-[1800px] ss:min-h-[3000px] min-h-[5850px] 
     flex items-center">
         <div className='items-center w-full flex flex-col md:mt-28 
         ss:mt-20 mt-24'>

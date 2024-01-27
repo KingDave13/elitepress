@@ -69,7 +69,7 @@ export const journals = [
     },
     {
         title: 'Elite Journal of Scientific Research and Review (EJSRR)',
-        desc: 'Engage with in-depth explorations of  research methodologies, various theoretical frameworks and emerging trends. EJSRR fosters a scholarly environment where rigorous analysis and insightful reviews converge to shape the discourse in scientific research.',
+        desc: 'Engage with in-depth explorations of  research methodologies and theories. EJSRR fosters a scholarly environment where rigorous analysis and insightful reviews converge to shape the discourse in scientific research.',
         icon: EJSRR,
     },
     {
@@ -83,7 +83,7 @@ export const socialMedia = [
 {
     id: "social-media-2",
     Icon: GrMail,
-    link: "mailto:Anasconigltd@yahoo.com"
+    link: "mailto:elitepressjournals@gmail.com"
 }
 ];
 
