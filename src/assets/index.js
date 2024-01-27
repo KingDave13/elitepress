@@ -10,6 +10,8 @@ import EJH from './EJH.jpg';
 import EJHS from './EJHS.jpg';
 import EJM from './EJM.jpg';
 import EJMS from './EJMS.jpg';
+import EJI from './EJI.jpg';
+import EJPH from './EJPH.jpg';
 import footerImg from './footerImg.jpg';
 
 export {
@@ -24,6 +26,8 @@ export {
     EJHS,
     EJM,
     EJMS,
+    EJI,
+    EJPH,
     footerImg,
     aboutMain,
 }

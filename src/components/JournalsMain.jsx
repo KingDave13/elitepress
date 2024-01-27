@@ -17,7 +17,7 @@ const JournalCard = ({ index, title, icon, desc }) => {
                 md:flex-row ss:flex-row flex-col'
             >
                 <img src={icon} alt={title}
-                    className='w-[250px] h-auto object-contain'
+                    className='w-[250px] h-auto object-contain rounded-lg'
                 />
 
                 <div className="flex flex-col md:gap-3 ss:gap-3 gap-2">

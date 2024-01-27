@@ -1,5 +1,5 @@
 import { GrMail } from 'react-icons/gr';
-import { EJH, EJHS, EJM, EJMS } from '../assets';
+import { EJH, EJHS, EJM, EJMS, EJI, EJPH } from '../assets';
 
 export const navLinks = [
 {
@@ -49,12 +49,12 @@ export const journals = [
     {
         title: 'Elite Journal of Public Health (EJPH)',
         desc: 'EJPH takes on the mantle of addressing public health challenges head-on. Navigate through research dedicated to promoting strategies for community well-being. From preventive measures to community engagement, this journal is a reservoir of knowledge aimed at fostering a healthier society.',
-        icon: EJHS,
+        icon: EJPH,
     },
     {
         title: 'Elite Journal of Immunology (EJI)',
         desc: 'Journey into the intricate world of the immune system with this journal. EJI brings together studies that delve into the interesting molecular mechanisms, therapeutic interventions and emerging trends in immunology, shaping the future of immune-related healthcare.',
-        icon: EJHS,
+        icon: EJI,
     },
     {
         title: 'Elite Journal of Laboratory Medicine (EJLM)',
