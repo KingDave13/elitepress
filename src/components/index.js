@@ -8,6 +8,14 @@ import Hero3 from './Hero3';
 import Hero4 from './Hero4';
 import HeroEJH from './HeroEJH';
 import HeroEJM from './HeroEJM';
+import HeroEJHS from './HeroEJHS';
+import HeroEJMS from './HeroEJMS';
+import HeroEJPH from './HeroEJPH';
+import HeroEJI from './HeroEJI';
+import HeroEJLM from './HeroEJLM';
+import HeroEJNSHS from './HeroEJNSHS';
+import HeroEJSRR from './HeroEJSRR';
+import HeroEJHIV from './HeroEJHIV';
 import Contact from './Contact';
 import Commitment from './Commitment';
 import About from './About';
@@ -28,6 +36,14 @@ export {
     Hero4,
     HeroEJH,
     HeroEJM,
+    HeroEJHIV,
+    HeroEJHS,
+    HeroEJI,
+    HeroEJLM,
+    HeroEJMS,
+    HeroEJNSHS,
+    HeroEJPH,
+    HeroEJSRR,
     Contact,
     Commitment,
     About,
