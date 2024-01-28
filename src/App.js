@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { AboutPage, ContactPage, HomePage, JournalsPage } from './scenes';
-import { EJH, EJM } from './pages';
+import { EJH, EJM, EJHIV, EJHS, EJI, EJLM, EJMS, EJNSHS, EJPH, EJSRR } from './pages';
 
 const App = () => {
   return (
@@ -13,6 +13,14 @@ const App = () => {
 
         <Route path='/journals/EJH' element={<EJH />} />
         <Route path='/journals/EJM' element={<EJM />} />
+        <Route path='/journals/EJHS' element={<EJHS />} />
+        <Route path='/journals/EJMS' element={<EJMS />} />
+        <Route path='/journals/EJPH' element={<EJPH />} />
+        <Route path='/journals/EJI' element={<EJI />} />
+        <Route path='/journals/EJLM' element={<EJLM />} />
+        <Route path='/journals/EJNSHS' element={<EJNSHS />} />
+        <Route path='/journals/EJSRR' element={<EJSRR />} />
+        <Route path='/journals/EJHIV' element={<EJHIV />} />
       </Routes>
     </BrowserRouter>
   )

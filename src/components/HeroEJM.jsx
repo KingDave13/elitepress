@@ -4,7 +4,7 @@ import { textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 import { BsArrowRightShort } from 'react-icons/bs';
 
-const HeroEJH = () => {  
+const HeroEJM = () => {  
     return (
       <section className='w-full'>
           <div className=' w-full flex flex-col'
@@ -36,4 +36,4 @@ const HeroEJH = () => {
     )
   };
   
-export default SectionWrapper(HeroEJH, '');
+export default SectionWrapper(HeroEJM, '');

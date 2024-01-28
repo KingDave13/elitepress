@@ -4,7 +4,7 @@ import { textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 import { BsArrowRightShort } from 'react-icons/bs';
 
-const HeroEJH = () => {  
+const HeroEJSRR = () => {  
     return (
       <section className='w-full'>
           <div className=' w-full flex flex-col'
@@ -16,7 +16,7 @@ const HeroEJH = () => {
                 <h1 className='text-secondary font-bold md:text-[65px]
                 ss:text-[65px] text-[35px] tracking-tight text-center
                 md:leading-[90px] ss:leading-[70px] leading-[40px]'>
-                  Elite Journal of Medicine
+                  Elite Journal of Scientific Research and Review
                 </h1>
 
                 <div className='flex flex-row items-center md:gap-3 
@@ -28,7 +28,7 @@ const HeroEJH = () => {
                   <p>Journals</p>
                   <BsArrowRightShort className='md:text-[30px] 
                   ss:text-[30px] text-[22px] text-white'/>
-                  <p>Elite Journal of Medicine</p>
+                  <p>Elite Journal of Scientific Research and Review</p>
                 </div>
               </motion.div>          
           </div>
@@ -36,4 +36,4 @@ const HeroEJH = () => {
     )
   };
   
-export default SectionWrapper(HeroEJH, '');
+export default SectionWrapper(HeroEJSRR, '');
