@@ -6,7 +6,7 @@ import { journals } from '../constants';
 import { BsArrowRightShort } from 'react-icons/bs';
 import { useNavigate } from 'react-router-dom';
 
-const JournalCard = ({ index, title, icon, desc }) => {
+const JournalCard = ({ index, title, icon, desc, route }) => {
     return (
       <div className='xs:w-[320px] w-full grow3'>
         <motion.div
@@ -14,6 +14,7 @@ const JournalCard = ({ index, title, icon, desc }) => {
           className='w-full p-[1px] cursor-pointer 
           shadow-lg hover:shadow-xl'
         >
+          <a href={route}>
           <div options={{ max: 45, scale: 1, speed: 450 }}
             className='bg-primaryalt p-1 md:pb-10 ss:pb-10 pb-8 md:gap-5 
             ss:gap-5 gap-5 flex justify-evenly items-center flex-col
@@ -38,6 +39,7 @@ const JournalCard = ({ index, title, icon, desc }) => {
               {desc}
             </h3>
           </div>
+          </a>
         </motion.div>
       </div>
     )
