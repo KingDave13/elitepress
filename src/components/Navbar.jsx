@@ -150,7 +150,7 @@ const Navbar = () => {
               text-white rounded-[5px] mt-5 ss:text-[20px] text-[14px]'
               onClick={() => {
                 setToggle(!toggle);
-                // navigate('/contact');
+                scrollToSection('newsletter');
               }}
               >
                 Our Newsletter
