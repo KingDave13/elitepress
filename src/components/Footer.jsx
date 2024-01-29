@@ -9,7 +9,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <section className='relative w-full md:min-h-[330px] ss:min-h-[420px] 
-    min-h-[500px] flex items-center flex-col md:mb-0 ss:mb-0 mb-6'>
+    min-h-[470px] flex items-center flex-col'>
       <div className='flex items-center w-full relative'>
         <motion.div variants={textVariant()} className='flex md:flex-row 
         ss:flex-row flex-col relative w-full'>
@@ -81,10 +81,10 @@ const Footer = () => {
         <div className='flex md:mt-2 ss:mt-1 mt-0 md:mb-12 ss:mb-3 mb-3
         items-center'>
           <BiCopyright className='sm:mr-2 mr-1 md:text-[20px] 
-          ss:text-[18px] text-[15px] md:mt-1 ss:mt-1 mt-[3px]' />
+          ss:text-[18px] text-[15px] md:mt-1 ss:mt-1 mt-0' />
 
           <p className='md:text-[16px] ss:text-[16px] text-[14px] 
-          text-main mt-1'>
+          text-main md:mt-1 ss:mt-1 mt-0.5'>
             2024. All Rights Reserved.
           </p>
         </div>
