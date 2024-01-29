@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { SectionWrapper } from "../hoc";
 import { motion } from 'framer-motion';
-import { fadeIn } from '../utils/motion';
+// import { fadeIn } from '../utils/motion';
 import { journals } from '../constants';
 
 const JournalCard = ({ index, title, icon, desc, route }) => {
@@ -19,9 +19,7 @@ const JournalCard = ({ index, title, icon, desc, route }) => {
 
     return (
       <div className='w-full grow3 show'>
-        <motion.div
-          variants={fadeIn('right', 'spring', 0.4 * index, 0.75)}
-          className='w-full cursor-pointer shadow-lg hover:shadow-xl 
+        <div className='w-full cursor-pointer shadow-lg hover:shadow-xl 
           rounded-lg bg-primaryalt'
         >
         {isMobile ? (
@@ -119,7 +117,7 @@ const JournalCard = ({ index, title, icon, desc, route }) => {
                 </div>
             </div>
         )}
-        </motion.div>
+        </div>
       </div>
     )
   };
