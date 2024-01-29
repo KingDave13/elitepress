@@ -49,7 +49,7 @@ const Journals = () => {
     const navigate = useNavigate();
 
   return (
-    <section className="md:min-h-[820px] ss:min-h-[800px] min-h-[1800px] 
+    <section className="md:min-h-[820px] ss:min-h-[800px] min-h-[1900px] 
     flex items-center">
         <div className='items-center w-full flex flex-col'>
             <motion.div variants={fadeIn('up', 'spring', 0.3)}

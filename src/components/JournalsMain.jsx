@@ -127,7 +127,7 @@ const JournalCard = ({ index, title, icon, desc, route }) => {
 const Journals = () => {
 
   return (
-    <section className="md:min-h-[1800px] ss:min-h-[3000px] min-h-[5850px] 
+    <section className="md:min-h-[1800px] ss:min-h-[3000px] min-h-[5750px] 
     flex items-center">
         <div className='items-center w-full flex flex-col md:mt-28 
         ss:mt-20 mt-24'>
