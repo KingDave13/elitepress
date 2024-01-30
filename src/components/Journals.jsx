@@ -1,4 +1,3 @@
-import { useState, useEffect, useRef } from "react";
 import { SectionWrapper } from "../hoc";
 import { motion } from 'framer-motion';
 import { fadeIn } from '../utils/motion';
@@ -47,36 +46,7 @@ const JournalCard = ({ index, title, icon, desc, route }) => {
   };
 
 const Journals = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const navigate = useNavigate();
-  const containerRef = useRef(null);
-  const cardsPerPage = 3;
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-        setCurrentIndex((prevIndex) =>
-            prevIndex === journals.length - 1 ? 0 : prevIndex + 1
-        );
-    }, 7000);
-
-    return () => {
-        clearInterval(interval);
-    };
-  }, []);
-
-  const navigateLeft = () => {
-      setCurrentIndex((prevIndex) =>
-          prevIndex === 0 ? journals.length - 1 : prevIndex - 1
-      );
-  };
-
-  const navigateRight = () => {
-      setCurrentIndex((prevIndex) =>
-          prevIndex === journals.length - 1 ? 0 : prevIndex + 1
-      );
-  };
-
-  const visibleJournals = journals.slice(currentIndex, currentIndex + cardsPerPage);
+    const navigate = useNavigate();
 
   return (
     <section className="md:min-h-[820px] ss:min-h-[800px] min-h-[1900px] 
@@ -102,13 +72,13 @@ const Journals = () => {
             <motion.div className='flex items-center flex-col relative 
             justify-center w-full'>
                 <div className='flex flex-wrap gap-12'>
-                  {visibleJournals.map((journal, index) => (
-                    <JournalCard
-                      key={journal.title}
-                      index={index}
-                      {...journal}
-                    />
-                  ))}
+                    {journals.slice(0, 3).map((journal, index) => (
+                        <JournalCard 
+                            key={journal.title}
+                            index={index}
+                            {...journal}
+                        />
+                    ))}
                 </div>
 
                 <div className='md:flex hidden absolute left-0'>
@@ -116,7 +86,7 @@ const Journals = () => {
                         className='cursor-pointer'
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.9 }}
-                        onClick={navigateLeft}
+                        // onClick={navigateLeft}
                         transition={{ ease: 'easeInOut' }}
                     >
                         <HiChevronLeft className='w-14 h-14 rounded-full 
@@ -131,7 +101,7 @@ const Journals = () => {
                         className='cursor-pointer'
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.9 }}
-                        onClick={navigateRight}
+                        // onClick={navigateRight}
                         transition={{ ease: 'easeInOut' }}
                     >
                         <HiChevronRight className='w-14 h-14 
