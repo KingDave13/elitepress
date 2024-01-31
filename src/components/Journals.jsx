@@ -40,6 +40,7 @@ const JournalCard = ({ index, title, icon, desc, route }) => {
             </h3>
           </div>
           </a>
+          
         </motion.div>
       </div>
     )
