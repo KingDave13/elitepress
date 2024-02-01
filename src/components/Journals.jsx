@@ -44,6 +44,7 @@ const JournalCard = ({ index, title, icon, desc, route }) => {
       </div>
     )
   };
+  
 
 const Journals = () => {
     const navigate = useNavigate();
