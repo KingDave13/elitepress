@@ -8,7 +8,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <section className='relative w-full md:min-h-[330px] ss:min-h-[420px] 
+    <section className='relative w-full md:min-h-[300px] ss:min-h-[420px] 
     min-h-[470px] flex items-center flex-col'>
       <div className='flex items-center w-full relative'>
         <motion.div variants={textVariant()} className='flex md:flex-row 
@@ -88,18 +88,6 @@ const Footer = () => {
             2024. All Rights Reserved.
           </p>
         </div>
-      </motion.div>
-
-      <motion.div variants={fadeIn('down', 'spring', 0.3)}
-      className='absolute bottom-0 w-full 
-      border-t-[1px] md:pt-3 ss:pt-2 pt-1 border-t-textalt'>
-        <p className='md:text-[15px] ss:text-[14px] text-[12px] text-center'>
-          Designed and developed by
-            <span className='text-[#00563B] font-medium cursor-pointer grow3'>
-              <a href='https://wa.me/2349014452743' target='blank'> +234 901 445 2743
-              </a>
-            </span>
-        </p>
       </motion.div>
     </section>
   )
