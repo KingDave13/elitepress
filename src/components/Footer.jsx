@@ -84,7 +84,7 @@ const Footer = () => {
 
           <p className='md:text-[16px] ss:text-[16px] text-[14px] 
           text-main md:mt-1 ss:mt-1 mt-0.5'>
-            2024. All Rights Reserved.
+            2024 |  Elite Press | All Rights Reserved.
           </p>
         </div>
       </motion.div>
