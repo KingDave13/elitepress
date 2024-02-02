@@ -13,7 +13,7 @@ import HeroEJMS from './HeroEJMS';
 import HeroEJPH from './HeroEJPH';
 import HeroEJI from './HeroEJI';
 import HeroEJLM from './HeroEJLM';
-import HeroEJNSHS from './HeroEJNSHS';
+import HeroEJNHS from './HeroEJNHS';
 import HeroEJSRR from './HeroEJSRR';
 import HeroEJHIV from './HeroEJHIV';
 import Contact from './Contact';
@@ -41,7 +41,7 @@ export {
     HeroEJI,
     HeroEJLM,
     HeroEJMS,
-    HeroEJNSHS,
+    HeroEJNHS,
     HeroEJPH,
     HeroEJSRR,
     Contact,

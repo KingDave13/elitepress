@@ -1,12 +1,12 @@
 import { 
     NavbarAlt,
-    HeroEJNSHS,
+    HeroEJNHS,
     Newsletter,
     Footer } from "../components";
   
   import { hero2 } from "../assets";
   
-  const EJNSHS = () => {
+  const EJNHS = () => {
     return (
       <div className="font-instrument-sans">
         <NavbarAlt />
@@ -16,7 +16,7 @@ import {
           className='w-[120rem] md:h-[300px] ss:h-[250px]
           h-[150px]' />
           <div className='absolute w-full md:pb-8 ss:pb-8 pb-6'>
-            <HeroEJNSHS />
+            <HeroEJNHS />
           </div>
         </div>
   
@@ -31,4 +31,4 @@ import {
     );
   };
   
-  export default EJNSHS;
+  export default EJNHS;

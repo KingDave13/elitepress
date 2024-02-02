@@ -5,7 +5,7 @@ import EJMS from './EJMS';
 import EJPH from './EJPH';
 import EJI from './EJI';
 import EJLM from './EJLM';
-import EJNSHS from './EJNSHS';
+import EJNHS from './EJNHS';
 import EJSRR from './EJSRR';
 import EJHIV from './EJHIV';
 
@@ -17,7 +17,7 @@ export {
     EJI,
     EJLM,
     EJMS,
-    EJNSHS,
+    EJNHS,
     EJPH,
     EJSRR,
 }
