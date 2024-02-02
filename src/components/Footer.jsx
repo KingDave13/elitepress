@@ -8,8 +8,8 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <section className='relative w-full md:min-h-[300px] ss:min-h-[420px] 
-    min-h-[470px] flex items-center flex-col'>
+    <section className='relative w-full md:min-h-[270px] ss:min-h-[390px] 
+    min-h-[450px] flex items-center flex-col'>
       <div className='flex items-center w-full relative'>
         <motion.div variants={textVariant()} className='flex md:flex-row 
         ss:flex-row flex-col relative w-full'>
@@ -60,7 +60,7 @@ const Footer = () => {
       </div>
 
       <motion.div variants={textVariant()} className='md:absolute ss:absolute 
-      flex flex-col w-full md:bottom-2 ss:bottom-10 md:max-w-[600px] left-0'>
+      flex flex-col w-full bottom-0 md:max-w-[600px] left-0'>
         <div className='flex md:mt-3 ss:mt-3 mt-2 items-center'>
           {socialMedia.map((social, index) => (
             <a target='_blank' href={social.link} rel="noreferrer" key={index}>
@@ -78,8 +78,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className='flex md:mt-2 ss:mt-1 mt-0 md:mb-12 ss:mb-3 mb-3
-        items-center'>
+        <div className='flex md:mt-2 ss:mt-1 mt-0 items-center'>
           <BiCopyright className='sm:mr-2 mr-1 md:text-[20px] 
           ss:text-[18px] text-[15px] md:mt-1 ss:mt-1 mt-0' />
 
