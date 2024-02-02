@@ -1,7 +1,7 @@
 import { SectionWrapper } from "../hoc";
 import { motion } from 'framer-motion';
 import { fadeIn } from '../utils/motion';
-import { HiChevronLeft, HiChevronRight } from 'react-icons/hi';
+// import { HiChevronLeft, HiChevronRight } from 'react-icons/hi';
 import { journals } from '../constants';
 import { BsArrowRightShort } from 'react-icons/bs';
 import { useNavigate } from 'react-router-dom';
@@ -79,36 +79,6 @@ const Journals = () => {
                             {...journal}
                         />
                     ))}
-                </div>
-
-                <div className='md:flex hidden absolute left-0'>
-                    <motion.div
-                        className='cursor-pointer'
-                        whileHover={{ scale: 1.1 }}
-                        whileTap={{ scale: 0.9 }}
-                        // onClick={navigateLeft}
-                        transition={{ ease: 'easeInOut' }}
-                    >
-                        <HiChevronLeft className='w-14 h-14 rounded-full 
-                        bg-opacity-30 p-3 text-primary hover:bg-opacity-70 
-                        hover:bg-white' 
-                        />
-                    </motion.div>
-                </div>
-
-                <div className='md:flex hidden absolute right-0'>
-                    <motion.div
-                        className='cursor-pointer'
-                        whileHover={{ scale: 1.1 }}
-                        whileTap={{ scale: 0.9 }}
-                        // onClick={navigateRight}
-                        transition={{ ease: 'easeInOut' }}
-                    >
-                        <HiChevronRight className='w-14 h-14 
-                        rounded-full bg-opacity-30 p-3 text-primary 
-                        hover:bg-opacity-70 hover:bg-white' 
-                        />
-                    </motion.div>
                 </div>
             </motion.div>
 

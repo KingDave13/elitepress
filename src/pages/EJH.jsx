@@ -2,7 +2,8 @@ import {
     NavbarAlt,
     HeroEJH,
     Newsletter,
-    Footer } from "../components";
+    Footer, 
+    HaematologyHero} from "../components";
   
   import { hero2 } from "../assets";
   
@@ -18,6 +19,10 @@ import {
           <div className='absolute w-full md:pb-8 ss:pb-8 pb-6'>
             <HeroEJH />
           </div>
+        </div>
+
+        <div className='journal'>
+          <HaematologyHero />
         </div>
   
         <div className='bg-primaryalt'>

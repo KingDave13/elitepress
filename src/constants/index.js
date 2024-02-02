@@ -26,6 +26,135 @@ export const navLinks = [
 },
 ];
 
+export const sideLinks = [
+    {
+        id: "current",
+        title: "Current Issues",
+        links: [
+            {
+                name: "bleh",
+                route: "",
+            },
+            {
+                name: "bleh",
+                route: "",
+            },
+            {
+                name: "bleh",
+                route: "",
+            }, 
+        ],
+    },
+    {
+        id: "archives",
+        title: "Archives",
+        links: [
+            {
+                name: "bleh",
+                route: "",
+            },
+            {
+                name: "bleh",
+                route: "",
+            },
+            {
+                name: "bleh",
+                route: "",
+            }, 
+        ],
+    },
+    {
+        id: "indexings",
+        title: "Indexings",
+        links: [
+            {
+                name: "bleh",
+                route: "",
+            },
+            {
+                name: "bleh",
+                route: "",
+            },
+            {
+                name: "bleh",
+                route: "",
+            }, 
+        ],
+    },
+    {
+        id: "editors",
+        title: "Editors",
+        links: [
+            {
+                name: "bleh",
+                route: "",
+            },
+            {
+                name: "bleh",
+                route: "",
+            },
+            {
+                name: "bleh",
+                route: "",
+            }, 
+        ],
+    },
+    {
+        id: "authors",
+        title: "Author's Instructions",
+        links: [
+            {
+                name: "bleh",
+                route: "",
+            },
+            {
+                name: "bleh",
+                route: "",
+            },
+            {
+                name: "bleh",
+                route: "",
+            }, 
+        ],
+    },
+    {
+        id: "article",
+        title: "Article Processing Charge",
+        links: [
+            {
+                name: "bleh",
+                route: "",
+            },
+            {
+                name: "bleh",
+                route: "",
+            },
+            {
+                name: "bleh",
+                route: "",
+            }, 
+        ],
+    },
+    {
+        id: "contact",
+        title: "Contact",
+        links: [
+            {
+                name: "bleh",
+                route: "",
+            },
+            {
+                name: "bleh",
+                route: "",
+            },
+            {
+                name: "bleh",
+                route: "",
+            }, 
+        ],
+    },
+    ];
+
 export const journals = [
     {
         title: 'Elite Journal of Haematology (EJH)',
@@ -70,10 +199,10 @@ export const journals = [
         route: "/journals/EJLM",
     },
     {
-        title: 'Elite Journal of Nursing Science and Health Sciences (EJNSHS)',
-        desc: 'Explore the forefront of nursing science and advancements in health sciences. From evidence-based practices to transformative healthcare delivery models, EJNSHS contributes to the ongoing evolution of nursing and its vital role in modern healthcare.',
+        title: 'Elite Journal of Nursing and Health Sciences (EJNHS)',
+        desc: 'Explore the forefront of nursing science and advancements in health sciences. From evidence-based practices to transformative healthcare delivery models, EJNHS contributes to the ongoing evolution of nursing and its vital role in modern healthcare.',
         icon: EJNSHS,
-        route: "/journals/EJNSHS",
+        route: "/journals/EJNHS",
     },
     {
         title: 'Elite Journal of Scientific Research and Review (EJSRR)',
