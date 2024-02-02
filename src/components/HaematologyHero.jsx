@@ -22,26 +22,17 @@ const Haemat = () => {
 
                 <motion.div variants={textVariant()}
                 className={`${layout.sectionInfo}`}>
-                    <p className='text-main md:text-[17px] ss:text-[15px] 
+                    <p className='text-main md:text-[20px] ss:text-[15px] 
                     text-[13px] md:max-w-[700px] ss:max-w-[400px]  
-                    md:leading-[23px]'>
-                    Welcome to Elite Press, a distinguished platform dedicated 
-                    to advancing medical knowledge and fostering excellence in 
-                    healthcare. At Elite Press, we are committed to disseminating
-                    cutting-edge research through our comprehensive range of
-                    medical journals. Each publication is carefully curated 
-                    to contribute to the progress of various disciplines within 
-                    the medical field.
-                    </p>
-
-                    <p className='text-main md:text-[17px] ss:text-[15px] 
-                    text-[13px] md:max-w-[700px] ss:max-w-[400px] 
-                    md:mt-5 ss:mt-5 mt-5 md:leading-[23px]'>
-                    We stand at the forefront of promoting academic excellence, 
-                    scientific rigor and collaboration within the medical 
-                    community. Our commitment to providing a platform for knowledge 
-                    exchange and fostering a community of experts drives the 
-                    success of our journals.
+                    md:leading-[28px]'>
+                    Get on a journey into the intricate world of 
+                    blood-related disorders. EJH is your guide to exploring 
+                    the forefront of haematological research, unraveling 
+                    the complexities of hematopoiesis, coagulation and 
+                    the latest therapeutic interventions. Explore
+                    groundbreaking studies that pave the way for 
+                    advancements in the understanding and treatment of 
+                    conditions affecting the blood and related systems.
                     </p>
                 </motion.div>
             </div>

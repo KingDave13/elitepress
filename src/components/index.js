@@ -25,6 +25,7 @@ import JournalsMain from './JournalsMain';
 import Newsletter from './Newsletter';
 import Footer from './Footer';
 import HaematologyHero from './HaematologyHero';
+import Sidebar from './Sidebar';
 
 export { 
     Navbar,
@@ -54,4 +55,5 @@ export {
     Newsletter,
     Footer,
     HaematologyHero,
+    Sidebar
 }
