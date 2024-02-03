@@ -34,7 +34,7 @@ const Sidebar = () => {
                     {link.title}
                     <span>
                       <img src={arrow} alt={link.title} 
-                        className='md:h-[6px] ss:h-[20px] w-auto'
+                        className='md:h-[5px] ss:h-[5px] w-auto'
                       />
                     </span>
                 </a>
@@ -51,7 +51,7 @@ const Sidebar = () => {
                 Submit Manuscript
 
                 <img src={arrowright} alt='submit'
-                  className='md:h-[12px] ss:h-[20px] w-auto'
+                  className='md:h-[11px] ss:h-[10px] w-auto'
                 />
               </a>
             </li>

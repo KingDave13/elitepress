@@ -15,7 +15,7 @@ const Haemat = () => {
                 <motion.div 
                     variants={fadeIn('left', 'spring', 0.3)}>
                     <img src={EJH} alt='Haemat'
-                    className='md:h-auto w-auto'
+                    className='md:h-auto w-[2000px]'
                     />
                 </motion.div>
 
