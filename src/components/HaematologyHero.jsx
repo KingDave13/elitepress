@@ -30,7 +30,7 @@ const Haemat = () => {
                     the latest therapeutic interventions. Explore
                     groundbreaking studies that pave the way for 
                     advancements in the understanding and treatment of 
-                    conditions affecting the blood and related system.
+                    conditions affecting the blood and related systems.
                     </p>
                 </motion.div>
             </div>
