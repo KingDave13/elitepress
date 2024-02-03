@@ -29,7 +29,7 @@ export const navLinks = [
 export const sideLinks = [
     {
         id: "current",
-        title: "Current Issues",
+        title: "Current Issue",
         links: [
             {
                 name: "bleh",

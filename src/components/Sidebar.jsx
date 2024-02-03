@@ -1,64 +1,58 @@
 import { useState } from 'react';
 import { sideLinks } from '../constants';
 import { useNavigate } from 'react-router-dom';
-import { EJH } from '../assets';
+import { arrow, arrowright } from '../assets';
 
 const Sidebar = () => {
-  const [active, setActive] = useState('requests');
-
   const navigate = useNavigate();
 
   const handleSideItemClick = (link) => {
-    setActive(link.title);
     navigate(link.route);
   };
 
   return (
-    <div className='flex items-center hidden md:flex z-20 w-full'
+    <div className='flex items-center hidden md:flex w-full'
     >
       <div className="w-full flex justify-between items-center py-10">
         <div className="flex flex-col items-center w-full">
-          <ul className="list-none flex flex-col gap-8 hidden md:flex
-          mt-24 font-medium">
+          <ul className="list-none flex flex-col gap-5 hidden md:flex
+          w-[350px]">
             {sideLinks.map((link) => (
               <li
                 key={link.id}
-                className={`${
-                  active === link.title
-                    ? 'bg-secondary p-2 rounded-md'
-                    : 'bg-none'
-                } hover:text-secondary grow3 text-[20px] text-decoration-none 
-                cursor-pointer text-textalt list-item`}
+                className='grow4 text-[18px] px-6 py-3 border-textalt 
+                border-[0.5px] text-decoration-none cursor-pointer 
+                text-textalt list-item bg-white'
                 onClick={() => {
                   handleSideItemClick(link);
                 }}
               >
                 <a 
                   href={link.route} 
-                  className='flex gap-6 items-center'
+                  className='flex gap-6 items-center justify-between'
                 >
-                  {link.Icon && (
-                    <span className="icon">
-                      <img src={link.Icon} alt={link.title} 
-                        className='md:h-[50px] ss:h-[50px] w-auto'
+                    {link.title}
+                    <span>
+                      <img src={arrow} alt={link.title} 
+                        className='md:h-[6px] ss:h-[20px] w-auto'
                       />
                     </span>
-                  )}
-                  {link.title}
                 </a>
               </li>
             ))}
 
-            <li className='hover:text-secondary grow3 text-[20px] list-item
-            text-decoration-none cursor-pointer text-textalt mt-20'>
+            <li className='grow4 text-[18px] px-6 py-3 border-textalt 
+                border-[0.5px] text-decoration-none cursor-pointer 
+                text-white list-item bg-main mt-16'>
               <a 
                 href='/'
-                className='flex gap-6 items-center icon'
+                className='flex gap-6 items-center justify-between'
               >
-                <img src={EJH} alt='submit'
-                  className='md:h-[50px] ss:h-[50px] w-auto'
-                />
                 Submit Manuscript
+
+                <img src={arrowright} alt='submit'
+                  className='md:h-[12px] ss:h-[20px] w-auto'
+                />
               </a>
             </li>
           </ul>

@@ -25,13 +25,13 @@ const EJH = () => {
       </div>
 
       <div className='journal'>
-        <div className={`${styles.padding} max-w-[82rem] mx-auto flex 
-        justify-center`}>
-          <div className="mr-20">
+        <div className={`${styles.padding} max-w-[82rem] mx-auto flex
+        md:pt-28`}>
+          <div className="mr-4 mt-[30px] flex-1">
             <Sidebar />
           </div>
 
-          <div className=''>
+          <div className='ml-20'>
             <HaematologyHero />
           </div>
         </div>

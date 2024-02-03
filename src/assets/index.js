@@ -17,6 +17,8 @@ import EJNSHS from './EJNSHS.jpg';
 import EJSRR from './EJSRR.jpg';
 import EJHIV from './EJHIV.jpg';
 import footerImg from './footerImg.jpg';
+import arrow from './arrow.png';
+import arrowright from './arrowright.png';
 
 export {
     logo,
@@ -38,4 +40,6 @@ export {
     EJHIV,
     footerImg,
     aboutMain,
+    arrow,
+    arrowright,
 }
