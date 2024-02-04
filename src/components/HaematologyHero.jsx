@@ -42,10 +42,10 @@ const Haemat = () => {
             </motion.div>
 
             <motion.div variants={textVariant()}
-                className='md:mt-10'>
+                className='md:mt-8 flex flex-row'>
                     <p className='text-main md:text-[20px] ss:text-[15px] 
-                    text-[13px] text-bold'>
-                        ISSN
+                    text-[13px] font-bold'>
+                        ISSN: <span className="font-medium">1234-56789</span>
                     </p>
                 </motion.div>
         </section>
