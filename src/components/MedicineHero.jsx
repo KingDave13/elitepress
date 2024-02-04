@@ -23,14 +23,7 @@ const Medicine = () => {
                 className=''>
                     <p className='text-main md:text-[20px] ss:text-[15px] 
                     text-[13px] md:leading-[28px] text-justify'>
-                    Get on a journey into the intricate world of 
-                    blood-related disorders. EJH is your guide to exploring 
-                    the forefront of haematological research, unraveling 
-                    the complexities of hematopoiesis, coagulation and 
-                    the latest therapeutic interventions. Explore
-                    groundbreaking studies that pave the way for 
-                    advancements in the understanding and treatment of 
-                    conditions affecting the blood and related systems.
+                        At the crossroads of innovation and holistic healthcare, EJM stands as a beacon of breakthroughs in general medicine. Navigate through a landscape of medical advancements, from cutting-edge technologies to transformative treatment modalities. EJM provides a comprehensive view of the medical spectrum, connecting you with the latest innovations that shape the practice and delivery of general medicine.
                     </p>
                 </motion.div>
             </div>

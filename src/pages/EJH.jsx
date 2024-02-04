@@ -4,7 +4,7 @@ import {
   Newsletter,
   Footer, 
   HaematologyHero,
-  Sidebar} from "../components";
+  Sidebar } from "../components";
 
 import styles from "../styles";
   
