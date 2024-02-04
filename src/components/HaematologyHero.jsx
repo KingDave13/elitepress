@@ -35,12 +35,19 @@ const Haemat = () => {
                 </motion.div>
             </div>
 
-            <motion.div 
-            variants={fadeIn('left', 'spring', 0.3)}>
-                <img src={EJH} alt='Haemat'
-                className='md:h-auto w-[3000px]'
-            />
+            <motion.div variants={fadeIn('down', 'spring', 0.3)}
+            className="md:mt-12">
+                <div className='bg-main w-full h-[1px]
+                rounded-full' />
             </motion.div>
+
+            <motion.div variants={textVariant()}
+                className='md:mt-10'>
+                    <p className='text-main md:text-[20px] ss:text-[15px] 
+                    text-[13px] text-bold'>
+                        ISSN
+                    </p>
+                </motion.div>
         </section>
     );
 };
