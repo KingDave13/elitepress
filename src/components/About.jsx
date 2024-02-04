@@ -71,8 +71,8 @@ const About = () => {
 
                     <motion.div 
                         variants={fadeIn('left', 'spring', 0.3)}>
-                        <img src={aboutImg} alt='about'
-                        className='md:h-[400px] ss:h-[300px] w-auto'
+                            <img src={aboutImg} alt='about'
+                            className='md:h-[400px] ss:h-[300px] w-auto'
                         />
                     </motion.div>
                 </motion.div>
