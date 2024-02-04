@@ -27,6 +27,7 @@ import Footer from './Footer';
 import HaematologyHero from './HaematologyHero';
 import MedicineHero from './MedicineHero';
 import HealthSciencesHero from './HealthSciencesHero';
+import MedicalSciencesHero from './MedicalSciencesHero';
 import Sidebar from './Sidebar';
 
 export { 
@@ -59,5 +60,6 @@ export {
     HaematologyHero,
     MedicineHero,
     HealthSciencesHero,
+    MedicalSciencesHero,
     Sidebar
 }
