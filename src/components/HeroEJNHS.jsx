@@ -11,17 +11,17 @@ const HeroEJNHS = () => {
           >
               <motion.div variants={textVariant()}
               className={`${layout.sectionInfo} justify-center 
-              items-center`}
+              items-center md:gap-0 ss:gap-2 gap-2`}
               >
                 <h1 className='text-secondary font-bold md:text-[65px]
-                ss:text-[65px] text-[35px] tracking-tight text-center
-                md:leading-[90px] ss:leading-[70px] leading-[40px]'>
+                ss:text-[60px] text-[30px] tracking-tight text-center
+                md:leading-[90px] ss:leading-[65px] leading-[30px]'>
                   Elite Journal of Nursing and Health Sciences
                 </h1>
 
-                <div className='flex flex-row items-center md:gap-3 
-                ss:gap-5 gap-1 text-white md:text-[20px] ss:text-[20px] 
-                text-[13px] justify-center'>
+                <div className='flex flex-row md:items-center 
+                ss:items-center md:gap-3 ss:gap-2 gap-1 text-white 
+                md:text-[20px] ss:text-[20px] text-[13px] justify-center'>
                   <p>Home</p>
                   <BsArrowRightShort className='md:text-[30px] 
                   ss:text-[30px] text-[22px] text-white'/>

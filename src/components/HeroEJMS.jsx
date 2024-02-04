@@ -11,11 +11,11 @@ const HeroEJMS = () => {
           >
               <motion.div variants={textVariant()}
               className={`${layout.sectionInfo} justify-center 
-              items-center`}
+              items-center md:gap-0 ss:gap-0 gap-2`}
               >
                 <h1 className='text-secondary font-bold md:text-[65px]
-                ss:text-[65px] text-[35px] tracking-tight text-center
-                md:leading-[90px] ss:leading-[70px] leading-[40px]'>
+                ss:text-[65px] text-[30px] tracking-tight text-center
+                md:leading-[90px] ss:leading-[70px] leading-[30px]'>
                   Elite Journal of Medical Sciences
                 </h1>
 

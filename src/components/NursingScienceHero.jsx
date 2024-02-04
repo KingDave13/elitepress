@@ -14,7 +14,7 @@ const Nurse = () => {
             >
                 <motion.div 
                     variants={fadeIn('left', 'spring', 0.3)}>
-                    <img src={EJNHS} alt='Immunology'
+                    <img src={EJNHS} alt='Nursing'
                     className='md:h-auto w-[3000px]'
                     />
                 </motion.div>
