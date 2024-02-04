@@ -2,6 +2,7 @@ import Navbar from './Navbar';
 import NavbarAlt from './NavbarAlt';
 import NavbarAlt2 from './NavbarAlt2';
 import NavbarAlt3 from './NavbarAlt3';
+import NavbarPages from './NavbarPages';
 import Hero from './Hero';
 import Hero2 from './Hero2';
 import Hero3 from './Hero3';
@@ -41,6 +42,7 @@ export {
     NavbarAlt,
     NavbarAlt2,
     NavbarAlt3,
+    NavbarPages,
     Hero,
     Hero2,
     Hero3,
