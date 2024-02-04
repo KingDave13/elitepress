@@ -15,7 +15,7 @@ const HeroEJSRR = () => {
               >
                 <h1 className='text-secondary font-bold md:text-[65px]
                 ss:text-[65px] text-[35px] tracking-tight text-center
-                md:leading-[90px] ss:leading-[70px] leading-[40px]'>
+                md:leading-[70px] ss:leading-[70px] leading-[40px]'>
                   Elite Journal of Scientific Research and Review
                 </h1>
 

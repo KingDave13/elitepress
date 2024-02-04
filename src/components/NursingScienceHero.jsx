@@ -23,12 +23,12 @@ const Nurse = () => {
                 className=''>
                     <p className='text-main md:text-[20px] ss:text-[15px] 
                     text-[13px] md:leading-[28px] text-justify'>
-                        EJNSHS is a platform dedicated to showcasing 
+                        EJNHS is a platform dedicated to showcasing 
                         research that shapes the nursing profession. 
                         Explore the forefront of nursing science and 
                         advancements in health sciences. From 
                         evidence-based practices to transformative 
-                        healthcare delivery models, EJNSHS contributes 
+                        healthcare delivery models, EJNHS contributes 
                         to the ongoing evolution of nursing and its vital 
                         role in modern healthcare.
                     </p>
