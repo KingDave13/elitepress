@@ -1,9 +1,9 @@
 import { SectionWrapper } from "../hoc";
 import { motion } from 'framer-motion';
 import { fadeIn, textVariant } from '../utils/motion';
-import { EJM } from '../assets';
+import { EJHS } from '../assets';
 
-const Medicine = () => {
+const Health = () => {
 
     return (
         <section className="w-full md:min-h-[550px] ss:min-h-[550px] 
@@ -14,7 +14,7 @@ const Medicine = () => {
             >
                 <motion.div 
                     variants={fadeIn('left', 'spring', 0.3)}>
-                    <img src={EJM} alt='Medicine'
+                    <img src={EJHS} alt='Health'
                     className='md:h-auto w-[3000px]'
                     />
                 </motion.div>
@@ -23,15 +23,15 @@ const Medicine = () => {
                 className=''>
                     <p className='text-main md:text-[20px] ss:text-[15px] 
                     text-[13px] md:leading-[28px] text-justify'>
-                        At the crossroads of innovation and holistic 
-                        healthcare, EJM stands as a beacon of 
-                        breakthroughs in general medicine. Navigate 
-                        through a landscape of medical advancements, 
-                        from cutting-edge technologies to transformative 
-                        treatment modalities. EJM provides a comprehensive 
-                        view of the medical spectrum, connecting you with 
-                        the latest innovations that shape the practice and 
-                        delivery of general medicine.
+                        EJHS is your gateway to an expansive exploration 
+                        of health sciences. From unraveling the threads 
+                        of epidemiology to deciphering the intricacies of 
+                        healthcare management, this journal offers a 
+                        multidimensional perspective. Immerse yourself 
+                        in diverse studies that contribute to the 
+                        enhancement of public health strategies, clinical 
+                        practices and the overall well-being of 
+                        communities.
                     </p>
                 </motion.div>
             </div>
@@ -57,7 +57,7 @@ const Medicine = () => {
                 <p className='text-main md:text-[18px] ss:text-[15px] 
                 text-[13px] font-bold'>
                     EJM: <span className="font-light">
-                        Elite Journal of Medicine
+                        Elite Journal of Health Sciences
                     </span>
                 </p>
 
@@ -75,4 +75,4 @@ const Medicine = () => {
     );
 };
 
-export default SectionWrapper(Medicine, '');
+export default SectionWrapper(Health, '');
