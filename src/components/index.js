@@ -32,6 +32,8 @@ import PublicHealthHero from './PublicHealthHero';
 import ImmunologyHero from './ImmunologyHero';
 import LabHero from './LabHero';
 import NursingScienceHero from './NursingScienceHero';
+import ResearchHero from './ResearchHero';
+import HIVHero from './HIVHero';
 import Sidebar from './Sidebar';
 
 export { 
@@ -69,5 +71,7 @@ export {
     ImmunologyHero,
     LabHero,
     NursingScienceHero,
+    ResearchHero,
+    HIVHero,
     Sidebar
 }
