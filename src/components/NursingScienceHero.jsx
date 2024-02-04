@@ -1,9 +1,9 @@
 import { SectionWrapper } from "../hoc";
 import { motion } from 'framer-motion';
 import { fadeIn, textVariant } from '../utils/motion';
-import { EJHS } from '../assets';
+import { EJNHS } from '../assets';
 
-const Health = () => {
+const Nurse = () => {
 
     return (
         <section className="w-full md:min-h-[550px] ss:min-h-[550px] 
@@ -14,7 +14,7 @@ const Health = () => {
             >
                 <motion.div 
                     variants={fadeIn('left', 'spring', 0.3)}>
-                    <img src={EJHS} alt='Health'
+                    <img src={EJNHS} alt='Immunology'
                     className='md:h-auto w-[3000px]'
                     />
                 </motion.div>
@@ -23,15 +23,14 @@ const Health = () => {
                 className=''>
                     <p className='text-main md:text-[20px] ss:text-[15px] 
                     text-[13px] md:leading-[28px] text-justify'>
-                        EJHS is your gateway to an expansive exploration 
-                        of health sciences. From unraveling the threads 
-                        of epidemiology to deciphering the intricacies of 
-                        healthcare management, this journal offers a 
-                        multidimensional perspective. Immerse yourself 
-                        in diverse studies that contribute to the 
-                        enhancement of public health strategies, clinical 
-                        practices and the overall well-being of 
-                        communities.
+                        EJNSHS is a platform dedicated to showcasing 
+                        research that shapes the nursing profession. 
+                        Explore the forefront of nursing science and 
+                        advancements in health sciences. From 
+                        evidence-based practices to transformative 
+                        healthcare delivery models, EJNSHS contributes 
+                        to the ongoing evolution of nursing and its vital 
+                        role in modern healthcare.
                     </p>
                 </motion.div>
             </div>
@@ -56,8 +55,8 @@ const Health = () => {
 
                 <p className='text-main md:text-[18px] ss:text-[15px] 
                 text-[13px] font-bold'>
-                    EJHS: <span className="font-light">
-                        Elite Journal of Health Sciences
+                    EJNHS: <span className="font-light">
+                        Elite Journal of Nursing and Health Sciences
                     </span>
                 </p>
 
@@ -75,4 +74,4 @@ const Health = () => {
     );
 };
 
-export default SectionWrapper(Health, '');
+export default SectionWrapper(Nurse, '');

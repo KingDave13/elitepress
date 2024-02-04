@@ -28,6 +28,10 @@ import HaematologyHero from './HaematologyHero';
 import MedicineHero from './MedicineHero';
 import HealthSciencesHero from './HealthSciencesHero';
 import MedicalSciencesHero from './MedicalSciencesHero';
+import PublicHealthHero from './PublicHealthHero';
+import ImmunologyHero from './ImmunologyHero';
+import LabHero from './LabHero';
+import NursingScienceHero from './NursingScienceHero';
 import Sidebar from './Sidebar';
 
 export { 
@@ -61,5 +65,9 @@ export {
     MedicineHero,
     HealthSciencesHero,
     MedicalSciencesHero,
+    PublicHealthHero,
+    ImmunologyHero,
+    LabHero,
+    NursingScienceHero,
     Sidebar
 }

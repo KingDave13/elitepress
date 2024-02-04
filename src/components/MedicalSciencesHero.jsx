@@ -54,7 +54,7 @@ const MedSciences = () => {
 
                 <p className='text-main md:text-[18px] ss:text-[15px] 
                 text-[13px] font-bold'>
-                    EJM: <span className="font-light">
+                    EJMS: <span className="font-light">
                         Elite Journal of Medical Sciences
                     </span>
                 </p>

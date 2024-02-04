@@ -13,7 +13,7 @@ import EJMS from './EJMS.jpg';
 import EJI from './EJI.jpg';
 import EJPH from './EJPH.jpg';
 import EJLM from './EJLM.jpg';
-import EJNSHS from './EJNSHS.jpg';
+import EJNHS from './EJNHS.jpg';
 import EJSRR from './EJSRR.jpg';
 import EJHIV from './EJHIV.jpg';
 import footerImg from './footerImg.jpg';
@@ -35,7 +35,7 @@ export {
     EJI,
     EJPH,
     EJLM,
-    EJNSHS,
+    EJNHS,
     EJSRR,
     EJHIV,
     footerImg,

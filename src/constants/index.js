@@ -1,5 +1,5 @@
 import { GrMail } from 'react-icons/gr';
-import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNSHS, EJSRR, EJHIV } 
+import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV } 
 from '../assets';
 
 export const navLinks = [
@@ -201,7 +201,7 @@ export const journals = [
     {
         title: 'Elite Journal of Nursing and Health Sciences (EJNHS)',
         desc: 'Explore the forefront of nursing science and advancements in health sciences. From evidence-based practices to transformative healthcare delivery models, EJNHS contributes to the ongoing evolution of nursing and its vital role in modern healthcare.',
-        icon: EJNSHS,
+        icon: EJNHS,
         route: "/journals/EJNHS",
     },
     {

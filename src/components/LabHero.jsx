@@ -1,9 +1,9 @@
 import { SectionWrapper } from "../hoc";
 import { motion } from 'framer-motion';
 import { fadeIn, textVariant } from '../utils/motion';
-import { EJHS } from '../assets';
+import { EJLM } from '../assets';
 
-const Health = () => {
+const Lab = () => {
 
     return (
         <section className="w-full md:min-h-[550px] ss:min-h-[550px] 
@@ -14,7 +14,7 @@ const Health = () => {
             >
                 <motion.div 
                     variants={fadeIn('left', 'spring', 0.3)}>
-                    <img src={EJHS} alt='Health'
+                    <img src={EJLM} alt='Immunology'
                     className='md:h-auto w-[3000px]'
                     />
                 </motion.div>
@@ -23,15 +23,14 @@ const Health = () => {
                 className=''>
                     <p className='text-main md:text-[20px] ss:text-[15px] 
                     text-[13px] md:leading-[28px] text-justify'>
-                        EJHS is your gateway to an expansive exploration 
-                        of health sciences. From unraveling the threads 
-                        of epidemiology to deciphering the intricacies of 
-                        healthcare management, this journal offers a 
-                        multidimensional perspective. Immerse yourself 
-                        in diverse studies that contribute to the 
-                        enhancement of public health strategies, clinical 
-                        practices and the overall well-being of 
-                        communities.
+                        EJLM illuminates the path of innovation in 
+                        laboratory medicine and diagnostic technologies. 
+                        From groundbreaking methodologies to best 
+                        practices, this journal is a compendium of 
+                        advancements in laboratory sciences. Stay informed 
+                        about the latest techniques and technologies that 
+                        drive precision in diagnostics and contribute to 
+                        the evolution of laboratory medicine.
                     </p>
                 </motion.div>
             </div>
@@ -56,8 +55,8 @@ const Health = () => {
 
                 <p className='text-main md:text-[18px] ss:text-[15px] 
                 text-[13px] font-bold'>
-                    EJHS: <span className="font-light">
-                        Elite Journal of Health Sciences
+                    EJLM: <span className="font-light">
+                        Elite Journal of Laboratory Medicine
                     </span>
                 </p>
 
@@ -75,4 +74,4 @@ const Health = () => {
     );
 };
 
-export default SectionWrapper(Health, '');
+export default SectionWrapper(Lab, '');
