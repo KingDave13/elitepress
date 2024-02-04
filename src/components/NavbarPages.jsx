@@ -54,7 +54,8 @@ const NavbarPages = () => {
           window.scrollTo(0, 0);
           }}>
           <img src={logo} alt='logo'
-          className='md:w-[80px] ss:w-[60px] w-[45px] h-auto'/>
+          className='md:w-[80px] ss:w-[60px] w-[45px] h-auto
+          cursor-pointer'/>
         </div>
 
         <div className="flex items-center justify-center w-full hidden 
