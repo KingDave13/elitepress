@@ -42,10 +42,32 @@ const Haemat = () => {
             </motion.div>
 
             <motion.div variants={textVariant()}
-                className='md:mt-8 flex flex-row'>
-                    <p className='text-main md:text-[20px] ss:text-[15px] 
+                className='md:mt-8 flex flex-row md:gap-4 items-center'>
+                    <p className='text-main md:text-[18px] ss:text-[15px] 
                     text-[13px] font-bold'>
-                        ISSN: <span className="font-medium">1234-56789</span>
+                        ISSN: <span className="font-light">1234-56789</span>
+                    </p>
+
+                    <p className='text-main md:text-[20px] ss:text-[15px] 
+                    text-[13px]'>
+                        |
+                    </p>
+
+                    <p className='text-main md:text-[18px] ss:text-[15px] 
+                    text-[13px] font-bold'>
+                        EJH: <span className="font-light">
+                            Elite Journal of Haematology
+                        </span>
+                    </p>
+
+                    <p className='text-main md:text-[20px] ss:text-[15px] 
+                    text-[13px]'>
+                        |
+                    </p>
+
+                    <p className='text-main md:text-[18px] ss:text-[15px] 
+                    text-[13px] font-light'>
+                        Elite Press Journals
                     </p>
                 </motion.div>
         </section>
