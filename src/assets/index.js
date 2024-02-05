@@ -1,6 +1,7 @@
 import logo from './logo.png';
 import hero from './hero.jpg';
-import hero2 from './hero2.jpg'
+import hero2 from './hero2.jpg';
+import hero3 from './hero3.jpg';
 import heroImg from './heroImg.png';
 import heroImg2 from './heroImg2.png';
 import aboutImg from './aboutImg.png';
@@ -24,6 +25,7 @@ export {
     logo,
     hero,
     hero2,
+    hero3,
     heroImg,
     heroImg2,
     aboutImg,
