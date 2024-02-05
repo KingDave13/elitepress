@@ -10,7 +10,7 @@ const Haemat = () => {
         min-h-[900px] flex flex-col"
         >
             <div className='flex md:flex-row ss:flex-row flex-col md:gap-10 
-                ss:gap-10 gap-12 w-full aboutimage'
+                ss:gap-10 gap-8 w-full aboutimage'
             >
                 <motion.div 
                     variants={fadeIn('left', 'spring', 0.3)}>
@@ -22,7 +22,8 @@ const Haemat = () => {
                 <motion.div variants={textVariant()}
                 className=''>
                     <p className='text-main md:text-[20px] ss:text-[15px] 
-                    text-[13px] md:leading-[28px] text-justify'>
+                    text-[14px] md:leading-[28px] ss:leading-[24px] 
+                    leading-[20px] md:text-justify'>
                     Get on a journey into the intricate world of 
                     blood-related disorders. EJH is your guide to exploring 
                     the forefront of haematological research, unraveling 
