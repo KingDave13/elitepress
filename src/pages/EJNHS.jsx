@@ -3,6 +3,7 @@ import {
   Newsletter,
   Footer,
   Sidebar,
+  Sidebar2,
   NursingScienceHero, 
   NavbarPages } from "../components";
 
@@ -25,14 +26,24 @@ const EJNHS = () => {
       </div>
 
       <div className='journal'>
-        <div className={`${styles.padding} max-w-[82rem] mx-auto flex
-        md:pt-28`}>
+        <div className={`${styles.padding} max-w-[82rem] mx-auto flex 
+        md:pt-28 ss:pt-28 pt-28 hidden md:flex`}>
           <div className="mr-4 mt-[30px] flex-1">
             <Sidebar />
           </div>
 
-          <div className='ml-20'>
+          <div className='md:ml-20'>
             <NursingScienceHero />
+          </div>
+        </div>
+
+        <div className='flex ss:pt-28 pt-28 md:hidden flex flex-col'>
+          <div className=''>
+            <NursingScienceHero />
+          </div>
+
+          <div className="">
+            <Sidebar2 />
           </div>
         </div>
       </div>
