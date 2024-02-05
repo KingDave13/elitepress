@@ -11,7 +11,7 @@ const HeroEJLM = () => {
           >
               <motion.div variants={textVariant()}
               className={`${layout.sectionInfo} justify-center 
-              items-center md:gap-0 ss:gap-2 gap-2`}
+              items-center md:gap-3 ss:gap-2 gap-2`}
               >
                 <h1 className='text-secondary font-bold md:text-[65px]
                 ss:text-[60px] text-[30px] tracking-tight text-center
