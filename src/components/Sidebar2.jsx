@@ -2,6 +2,7 @@
 import { sideLinks } from '../constants';
 import { useNavigate } from 'react-router-dom';
 import { arrow, arrowright } from '../assets';
+import { SectionWrapper } from '../hoc';
 
 const Sidebar2 = () => {
   const navigate = useNavigate();
@@ -13,13 +14,13 @@ const Sidebar2 = () => {
   return (
     <div className='flex items-center w-full'
     >
-      <div className="w-full flex justify-between items-center py-10">
-        <div className="flex flex-col items-center w-full">
-          <ul className="list-none flex flex-col gap-5 w-[350px]">
+      <div className="w-full flex justify-between items-center">
+        <div className="flex flex-col items-center w-full pb-10">
+          <ul className="list-none flex flex-col gap-4 w-full">
             {sideLinks.map((link) => (
               <li
                 key={link.id}
-                className='grow4 text-[18px] px-6 py-3 border-textalt 
+                className='grow4 text-[16px] px-5 py-2 border-textalt 
                 border-[0.5px] text-decoration-none cursor-pointer 
                 text-textalt list-item bg-white'
                 onClick={() => {
@@ -33,16 +34,16 @@ const Sidebar2 = () => {
                     {link.title}
                     <span>
                       <img src={arrow} alt={link.title} 
-                        className='md:h-[5px] ss:h-[5px] w-auto'
+                        className='ss:h-[5px] h-[5px] w-auto'
                       />
                     </span>
                 </a>
               </li>
             ))}
 
-            <li className='grow4 text-[18px] px-6 py-3 border-textalt 
+            <li className='grow4 text-[16px] px-5 py-2 border-textalt 
                 border-[0.5px] text-decoration-none cursor-pointer 
-                text-white list-item bg-main mt-16'>
+                text-white list-item bg-main ss:mt-16 mt-8'>
               <a 
                 href='/'
                 className='flex gap-6 items-center justify-between'
@@ -50,7 +51,7 @@ const Sidebar2 = () => {
                 Submit Manuscript
 
                 <img src={arrowright} alt='submit'
-                  className='md:h-[11px] ss:h-[10px] w-auto'
+                  className='ss:h-[10px] h-[10px] w-auto'
                 />
               </a>
             </li>
@@ -61,4 +62,4 @@ const Sidebar2 = () => {
   );
 };
 
-export default Sidebar2;
+export default SectionWrapper(Sidebar2, '');

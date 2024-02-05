@@ -27,7 +27,7 @@ const EJH = () => {
 
       <div className='journal'>
         <div className={`${styles.padding} max-w-[82rem] mx-auto flex 
-        md:pt-28 ss:pt-28 pt-28`}>
+        md:pt-28 ss:pt-28 pt-28 hidden md:flex`}>
           <div className="md:mr-4 mt-[30px] flex-1">
             <Sidebar />
           </div>
@@ -35,8 +35,14 @@ const EJH = () => {
           <div className='md:ml-20'>
             <HaematologyHero />
           </div>
+        </div>
 
-          <div className="md:hidden flex">
+        <div className='flex ss:pt-28 pt-28 md:hidden flex flex-col'>
+          <div className=''>
+            <HaematologyHero />
+          </div>
+
+          <div className="">
             <Sidebar2 />
           </div>
         </div>

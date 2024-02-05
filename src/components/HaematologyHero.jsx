@@ -7,7 +7,7 @@ const Haemat = () => {
 
     return (
         <section className="w-full md:min-h-[550px] ss:min-h-[550px] 
-        min-h-[900px] flex flex-col"
+        min-h-[500px] flex flex-col"
         >
             <div className='flex md:flex-row ss:flex-row flex-col md:gap-10 
                 ss:gap-10 gap-8 w-full aboutimage'
