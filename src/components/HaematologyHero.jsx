@@ -23,7 +23,7 @@ const Haemat = () => {
                 className=''>
                     <p className='text-main md:text-[20px] ss:text-[15px] 
                     text-[14px] md:leading-[28px] ss:leading-[24px] 
-                    leading-[20px] md:text-justify'>
+                    leading-[19px] md:text-justify text-center'>
                     Get on a journey into the intricate world of 
                     blood-related disorders. EJH is your guide to exploring 
                     the forefront of haematological research, unraveling 
@@ -37,37 +37,39 @@ const Haemat = () => {
             </div>
 
             <motion.div variants={fadeIn('down', 'spring', 0.3)}
-            className="md:mt-12">
+            className="md:mt-12 ss:mt-12 mt-6">
                 <div className='bg-main w-full h-[1px]
                 rounded-full' />
             </motion.div>
 
             <motion.div variants={textVariant()}
-                className='md:mt-8 flex flex-row md:gap-4 items-center'>
+                className='md:mt-8 ss:mt-8 mt-6 flex md:flex-row ss:flex-row
+                flex-col md:gap-4 ss:gap-4 gap-1 md:items-center 
+                ss:items-center'>
                     <p className='text-main md:text-[18px] ss:text-[15px] 
-                    text-[13px] font-bold'>
+                    text-[15px] font-bold'>
                         ISSN: <span className="font-light">1234-56789</span>
                     </p>
 
                     <p className='text-main md:text-[20px] ss:text-[15px] 
-                    text-[13px]'>
+                    text-[13px] md:flex ss:flex hidden'>
                         |
                     </p>
 
                     <p className='text-main md:text-[18px] ss:text-[15px] 
-                    text-[13px] font-bold'>
+                    text-[15px] font-bold'>
                         EJH: <span className="font-light">
                             Elite Journal of Haematology
                         </span>
                     </p>
 
                     <p className='text-main md:text-[20px] ss:text-[15px] 
-                    text-[13px]'>
+                    text-[13px] md:flex ss:flex hidden'>
                         |
                     </p>
 
                     <p className='text-main md:text-[18px] ss:text-[15px] 
-                    text-[13px] font-light'>
+                    text-[13px] font-light md:flex ss:flex hidden'>
                         Elite Press Journals
                     </p>
                 </motion.div>

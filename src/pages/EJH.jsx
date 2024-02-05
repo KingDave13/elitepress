@@ -4,6 +4,7 @@ import {
   Footer, 
   HaematologyHero,
   Sidebar, 
+  Sidebar2,
   NavbarPages } from "../components";
 
 import styles from "../styles";
@@ -25,14 +26,18 @@ const EJH = () => {
       </div>
 
       <div className='journal'>
-        <div className={`${styles.padding} max-w-[82rem] mx-auto flex
+        <div className={`${styles.padding} max-w-[82rem] mx-auto flex 
         md:pt-28 ss:pt-28 pt-28`}>
-          <div className="mr-4 mt-[30px] flex-1">
+          <div className="md:mr-4 mt-[30px] flex-1">
             <Sidebar />
           </div>
 
           <div className='md:ml-20'>
             <HaematologyHero />
+          </div>
+
+          <div className="md:hidden flex">
+            <Sidebar2 />
           </div>
         </div>
       </div>

@@ -36,6 +36,7 @@ import NursingScienceHero from './NursingScienceHero';
 import ResearchHero from './ResearchHero';
 import HIVHero from './HIVHero';
 import Sidebar from './Sidebar';
+import Sidebar2 from './Sidebar2';
 
 export { 
     Navbar,
@@ -75,5 +76,6 @@ export {
     NursingScienceHero,
     ResearchHero,
     HIVHero,
-    Sidebar
+    Sidebar,
+    Sidebar2
 }
