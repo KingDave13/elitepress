@@ -20,7 +20,7 @@ const Sidebar2 = () => {
             {sideLinks.map((link) => (
               <li
                 key={link.id}
-                className='grow4 text-[16px] px-5 py-2 border-textalt 
+                className='grow4 text-[15px] px-5 py-2 border-textalt 
                 border-[0.5px] text-decoration-none cursor-pointer 
                 text-textalt list-item bg-white'
                 onClick={() => {
@@ -41,7 +41,7 @@ const Sidebar2 = () => {
               </li>
             ))}
 
-            <li className='grow4 text-[16px] px-5 py-2 border-textalt 
+            <li className='grow4 text-[15px] px-5 py-2 border-textalt 
                 border-[0.5px] text-decoration-none cursor-pointer 
                 text-white list-item bg-main ss:mt-16 mt-8'>
               <a 

@@ -38,7 +38,7 @@ const Hero = () => {
             </motion.div>
 
             <motion.div variants={textVariant(0.8)}>
-              <div className='flex flex-row md:mt-8 ss:mt-10 mt-5 md:gap-3 
+              <div className='flex flex-row md:mt-8 ss:mt-10 mt-5 md:gap-5 
               ss:gap-5 gap-2'>
                 <button className='bg-main grow md:text-[16px] 
                 ss:text-[16px] text-[14px] md:py-3 ss:py-3 py-2 

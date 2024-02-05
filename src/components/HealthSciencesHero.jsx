@@ -6,7 +6,7 @@ import { EJHS } from '../assets';
 const Health = () => {
 
     return (
-        <section className="w-full md:min-h-[550px] ss:min-h-[550px] 
+        <section className="w-full md:min-h-[550px] ss:min-h-[300px] 
         min-h-[500px] flex flex-col"
         >
             <div className='flex md:flex-row ss:flex-row flex-col md:gap-10 
@@ -21,9 +21,9 @@ const Health = () => {
 
                 <motion.div variants={textVariant()}
                 className=''>
-                    <p className='text-main md:text-[20px] ss:text-[15px] 
+                    <p className='text-main md:text-[20px] ss:text-[17px] 
                     text-[14px] md:leading-[28px] ss:leading-[24px] 
-                    leading-[19px] md:text-justify text-center'>
+                    leading-[19px] md:text-justify ss:text-justify text-center'>
                         EJHS is your gateway to an expansive exploration 
                         of health sciences. From unraveling the threads 
                         of epidemiology to deciphering the intricacies of 
@@ -47,17 +47,17 @@ const Health = () => {
             className='md:mt-8 ss:mt-8 mt-6 flex md:flex-row ss:flex-row
             flex-col md:gap-4 ss:gap-4 gap-1 md:items-center 
             ss:items-center'>
-                <p className='text-main md:text-[18px] ss:text-[15px] 
+                <p className='text-main md:text-[18px] ss:text-[17px] 
                 text-[15px] font-bold'>
                     ISSN: <span className="font-light">1234-56789</span>
                 </p>
 
-                <p className='text-main md:text-[20px] ss:text-[15px] 
+                <p className='text-main md:text-[20px] ss:text-[17px] 
                 text-[13px] md:flex ss:flex hidden'>
                     |
                 </p>
 
-                <p className='text-main md:text-[18px] ss:text-[15px] 
+                <p className='text-main md:text-[18px] ss:text-[17px] 
                 text-[15px] font-bold'>
                     EJHS: <span className="font-light">
                         Elite Journal of Health Sciences
@@ -65,12 +65,12 @@ const Health = () => {
                 </p>
 
                 <p className='text-main md:text-[20px] ss:text-[15px] 
-                text-[13px] md:flex ss:flex hidden'>
+                text-[13px] md:flex hidden'>
                     |
                 </p>
 
                 <p className='text-main md:text-[18px] ss:text-[15px] 
-                text-[13px] font-light md:flex ss:flex hidden'>
+                text-[13px] font-light md:flex hidden'>
                     Elite Press Journals
                 </p>
             </motion.div>
