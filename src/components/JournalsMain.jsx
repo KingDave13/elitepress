@@ -128,10 +128,10 @@ const Journals = () => {
     <section className="md:min-h-[1800px] ss:min-h-[3000px] min-h-[5750px] 
     flex items-center">
         <div className='items-center w-full flex flex-col md:mt-28 
-        ss:mt-20 mt-24'>
+        ss:mt-20 mt-20'>
             <motion.div className='flex items-center flex-col relative 
             justify-center w-full'>
-                <div className='grid grid-cols-2 md:gap-12 ss:gap-4 gap-5'>
+                <div className='grid grid-cols-2 md:gap-12 ss:gap-6 gap-10'>
                     {journals.map((journal, index) => (
                         <JournalCard 
                             key={journal.title}

@@ -16,7 +16,8 @@ const EJSRR = () => {
     <div className="font-instrument-sans">
       <NavbarPages />
       <div className='relative flex items-center justify-center w-full 
-      md:max-h-[450px] ss:max-h-[300px] max-h-[200px] top-[6rem]'>
+      md:max-h-[450px] ss:max-h-[300px] max-h-[200px] md:top-[6rem] 
+      ss:top-[6rem] top-[4.8rem]'>
         <img src={hero3} alt='hero3'
         className='w-[120rem] md:h-[300px] ss:h-[250px]
         h-[150px]' />
