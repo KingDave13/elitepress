@@ -139,6 +139,16 @@ ol {
   }  
 }
 
+.submenu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+li.expanded .submenu {
+  max-height: 500px;
+}
+
 .menu-slide-enter {
   transform: translateX(100%);
 }

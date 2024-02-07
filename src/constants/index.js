@@ -142,14 +142,6 @@ export const sideLinks = [
             {
                 name: "bleh",
                 route: "",
-            },
-            {
-                name: "bleh",
-                route: "",
-            },
-            {
-                name: "bleh",
-                route: "",
             }, 
         ],
     },
