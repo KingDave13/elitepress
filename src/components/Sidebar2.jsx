@@ -6,9 +6,23 @@ import { SectionWrapper } from '../hoc';
 
 const Sidebar2 = () => {
   const navigate = useNavigate();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [selectedItem, setSelectedItem] = useState(null);
 
   const handleSideItemClick = (link) => {
-    navigate(link.route);
+    if (window.innerWidth < 768) {
+      // For mobile devices, toggle the menu open/close
+      if (selectedItem === link.id) {
+        setSelectedItem(null);
+        setIsMenuOpen(false);
+      } else {
+        setSelectedItem(link.id);
+        setIsMenuOpen(true);
+      }
+    } else {
+      // For desktop, directly navigate to the link
+      navigate(link.route);
+    }
   };
 
   return (
