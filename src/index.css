@@ -140,13 +140,13 @@ ol {
 }
 
 .submenu {
-  max-height: 0;
+  height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease-out;
+  transition: height 0.3s ease;
 }
 
 li.expanded .submenu {
-  max-height: 500px;
+  height: auto;
 }
 
 .menu-slide-enter {
@@ -164,5 +164,23 @@ li.expanded .submenu {
 
 .menu-slide-exit-active {
   transform: translateX(100%);
+  transition: transform 0.4s ease-in-out;
+}
+
+.menu-slide-enter2 {
+  transform: translateY(100%);
+}
+
+.menu-slide-enter-active2 {
+  transform: translateY(0);
+  transition: transform 0.4s ease-in-out;
+}
+
+.menu-slide-exit2 {
+  transform: translateY(0);
+}
+
+.menu-slide-exit-active2 {
+  transform: translateY(100%);
   transition: transform 0.4s ease-in-out;
 }

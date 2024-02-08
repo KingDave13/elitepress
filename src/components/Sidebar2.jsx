@@ -61,7 +61,10 @@ const Sidebar2 = () => {
                 border-[0.5px] text-decoration-none cursor-pointer 
                 text-white list-item bg-main ss:mt-16 mt-8'>
               <button
-                onClick={(e) => {e.preventDefault(); navigate('/');}}
+                onClick={(e) => {
+                  e.preventDefault(); 
+                  navigate('/');
+                }}
                 className='flex gap-6 items-center w-full justify-between'
               >
                 Submit Manuscript
