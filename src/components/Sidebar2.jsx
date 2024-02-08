@@ -22,9 +22,9 @@ const Sidebar2 = () => {
             {sideLinks.map((link) => (
               <li
                 key={link.id}
-                className={`text-[15px] px-5 py-2 border-textalt
+                className='text-[15px] px-5 py-2 border-textalt
                   border-[0.5px] text-decoration-none cursor-pointer 
-                  text-textalt list-item bg-white relative ${expandedItem === link.id ? 'expanded' : ''}`}
+                  text-textalt list-item bg-white relative'
                 onClick={(e) => handleSideItemClick(link, e)}
               >
                 <div className="flex gap-6 items-center justify-between">
@@ -39,7 +39,7 @@ const Sidebar2 = () => {
                 </div>
 
                 {expandedItem === link.id && (
-                  <div className="submenu mt-1">
+                  <div style={{ maxHeight: '500px', transition: 'max-height 0.3s ease' }}>
                     {link.links && link.links.length > 0 && (
                       <ul>
                         {link.links.map((submenuItem, index) => (

@@ -140,13 +140,13 @@ ol {
 }
 
 .submenu {
-  height: 0;
+  transition: max-height 0.2s ease-out;
+  max-height: 0;
   overflow: hidden;
-  transition: height 0.3s ease;
 }
 
-li.expanded .submenu {
-  height: auto;
+.submenu.expanded {
+  max-height: 500px; /* Adjust this value based on your needs */
 }
 
 .menu-slide-enter {
