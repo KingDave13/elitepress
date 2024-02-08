@@ -139,14 +139,15 @@ ol {
   }  
 }
 
-.submenu {
-  transition: max-height 0.2s ease-out;
-  max-height: 0;
+.collapsed {
+  max-height: 50px;
   overflow: hidden;
+  transition: max-height 0.3s ease-out;
 }
 
-.submenu.expanded {
-  max-height: 500px; /* Adjust this value based on your needs */
+.expanded {
+  max-height: 1000px; 
+  transition: max-height 0.3s ease-in;
 }
 
 .menu-slide-enter {

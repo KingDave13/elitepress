@@ -22,12 +22,12 @@ const Sidebar2 = () => {
             {sideLinks.map((link) => (
               <li
                 key={link.id}
-                className='text-[15px] px-5 py-2 border-textalt
+                className={`text-[15px] px-5 py-2 border-textalt
                   border-[0.5px] text-decoration-none cursor-pointer 
-                  text-textalt list-item bg-white relative'
+                  text-textalt list-item bg-white ${expandedItem === link.id ? 'expanded' : 'collapsed'}`}
                 onClick={(e) => handleSideItemClick(link, e)}
               >
-                <div className="flex gap-6 items-center justify-between">
+                <div className="flex items-center justify-between">
                   {link.title}
                   <span>
                     <img
@@ -39,19 +39,19 @@ const Sidebar2 = () => {
                 </div>
 
                 {expandedItem === link.id && (
-                  <div style={{ maxHeight: '500px', transition: 'max-height 0.3s ease' }}>
-                    {link.links && link.links.length > 0 && (
-                      <ul>
-                        {link.links.map((submenuItem, index) => (
-                          <li key={index}>
-                            <a href={submenuItem.route} className="block py-1">
-                              {submenuItem.name}
-                            </a>
-                          </li>
-                        ))}
-                      </ul>
-                    )}
-                  </div>
+                  <div className='mt-1'>
+                  {link.links && link.links.length > 0 && (
+                    <ul>
+                      {link.links.map((submenuItem, index) => (
+                        <li key={index}>
+                          <a href={submenuItem.route} className="block py-1">
+                            {submenuItem.name}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
                 )}
               </li>
             ))}
@@ -62,7 +62,7 @@ const Sidebar2 = () => {
               <button
                 onClick={(e) => {
                   e.preventDefault(); 
-                  navigate('/');
+                  navigate('');
                 }}
                 className='flex gap-6 items-center w-full justify-between'
               >

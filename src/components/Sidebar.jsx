@@ -22,8 +22,8 @@ const Sidebar = () => {
               <li
                 key={link.id}
                 className={`grow4 text-[18px] px-6 py-3 border-textalt 
-                border-[0.5px] text-decoration-none cursor-pointer ease-in-out
-                text-textalt list-item bg-white  ${expandedItem === link.id ? 'expanded' : ''}`}
+                border-[0.5px] text-decoration-none cursor-pointer
+                text-textalt list-item bg-white  ${expandedItem === link.id ? 'expanded' : 'collapsed'}`}
                 onClick={(e) => handleSideItemClick(link, e)}
               >
                 <div className="flex gap-6 items-center justify-between">
@@ -38,7 +38,7 @@ const Sidebar = () => {
                 </div>
 
                 {expandedItem === link.id && (
-                  <div className="submenu mt-1">
+                  <div className='mt-1'>
                     {link.links && link.links.length > 0 && (
                       <ul>
                         {link.links.map((submenuItem, index) => (
@@ -60,7 +60,7 @@ const Sidebar = () => {
                 text-white list-item bg-main mt-16'>
               <button 
                 onClick={(e) => {
-                  e.preventDefault(); 
+                  e.preventDefault();
                   navigate('');
                 }}
                 className='flex gap-6 items-center w-full justify-between'
