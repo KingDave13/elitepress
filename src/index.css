@@ -168,7 +168,7 @@ li.expanded .submenu {
 }
 
 .menu-slide-enter2 {
-  transform: translateY(100%);
+  transform: translateY(-100%);
 }
 
 .menu-slide-enter-active2 {

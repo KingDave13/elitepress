@@ -61,7 +61,7 @@ const Sidebar = () => {
               <button 
                 onClick={(e) => {
                   e.preventDefault(); 
-                  navigate('/');
+                  navigate('');
                 }}
                 className='flex gap-6 items-center w-full justify-between'
               >

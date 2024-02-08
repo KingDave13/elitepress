@@ -17,14 +17,17 @@ const Sidebar2 = () => {
   return (
     <div className='flex items-center w-full'>
       <div className="w-full flex justify-between items-center">
-        <div className="flex flex-col items-center w-full pb-10">
+        <div className={`flex flex-col items-center w-full pb-10
+        `}>
           <ul className="list-none flex flex-col gap-4 w-full">
             {sideLinks.map((link) => (
               <li
                 key={link.id}
                 className={`text-[15px] px-5 py-2 border-textalt
                   border-[0.5px] text-decoration-none cursor-pointer 
-                  text-textalt list-item bg-white relative ${expandedItem === link.id ? 'expanded' : ''}`}
+                  text-textalt list-item bg-white relative ${expandedItem === link.id ? 'expanded' : ''}
+                  ${expandedItem ? 'menu-slide-enter2 menu-slide-enter-active2' : 
+                  'menu-slide-exit2 menu-slide-exit-active2'}`}
                 onClick={(e) => handleSideItemClick(link, e)}
               >
                 <div className="flex gap-6 items-center justify-between">
@@ -38,7 +41,6 @@ const Sidebar2 = () => {
                   </span>
                 </div>
 
-                {/* Render submenu only if the item is expanded */}
                 {expandedItem === link.id && (
                   <div className="submenu mt-1">
                     {link.links && link.links.length > 0 && (
