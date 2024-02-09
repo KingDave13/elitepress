@@ -21,7 +21,7 @@ const Sidebar = () => {
       submenuRef.current.style.maxHeight = '0';
     }
   };
-  
+
   return (
     <div className='flex items-center hidden md:flex w-full'
     >
@@ -35,6 +35,7 @@ const Sidebar = () => {
                 border-[0.5px] text-decoration-none cursor-pointer
                 text-textalt list-item bg-white  ${expandedItem === link.id ? 'expanded' : 'collapsed'}`}
                 onClick={(e) => handleSideItemClick(link, e)}
+                onTransitionEnd={handleTransitionEnd}
               >
                 <div className="flex gap-6 items-center justify-between">
                   {link.title}
