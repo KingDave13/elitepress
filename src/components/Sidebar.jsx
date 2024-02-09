@@ -6,6 +6,7 @@ import { arrow, arrowright } from '../assets';
 const Sidebar = () => {
   const navigate = useNavigate();
   const [expandedItem, setExpandedItem] = useState(null);
+  const submenuRef = useRef(null);
 
   const handleSideItemClick = (link, e) => {
     e.preventDefault();
