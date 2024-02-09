@@ -49,7 +49,7 @@ const Sidebar = () => {
                 </div>
 
                 {expandedItem === link.id && (
-                  <div className='mt-1'>
+                  <div ref={submenuRef} className='mt-1'>
                     {link.links && link.links.length > 0 && (
                       <ul>
                         {link.links.map((submenuItem, index) => (
