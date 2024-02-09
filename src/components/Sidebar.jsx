@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { sideLinks } from '../constants';
 import { useNavigate } from 'react-router-dom';
 import { arrow, arrowright } from '../assets';
@@ -10,9 +10,18 @@ const Sidebar = () => {
 
   const handleSideItemClick = (link, e) => {
     e.preventDefault();
-
+    
     setExpandedItem(expandedItem === link.id ? null : link.id);
   };
+
+  const handleTransitionEnd = () => {
+    if (expandedItem) {
+      submenuRef.current.style.maxHeight = '1000px';
+    } else {
+      submenuRef.current.style.maxHeight = '0';
+    }
+  };
+  
   return (
     <div className='flex items-center hidden md:flex w-full'
     >
