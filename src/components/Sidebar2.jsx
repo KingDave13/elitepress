@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { sideLinks } from '../constants';
 import { useNavigate } from 'react-router-dom';
 import { arrow, arrowright } from '../assets';
@@ -24,7 +24,7 @@ const Sidebar2 = () => {
                 key={link.id}
                 className={`text-[15px] px-5 py-2 border-textalt
                   border-[0.5px] text-decoration-none cursor-pointer 
-                  text-textalt list-item bg-white ${expandedItem === link.id ? 'expanded' : 'collapsed'}`}
+                  text-textalt list-item bg-white`}
                 onClick={(e) => handleSideItemClick(link, e)}
               >
                 <div className="flex items-center justify-between">
