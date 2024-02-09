@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import { sideLinks } from '../constants';
 import { useNavigate } from 'react-router-dom';
 import { arrow, arrowright } from '../assets';
@@ -6,20 +6,11 @@ import { arrow, arrowright } from '../assets';
 const Sidebar = () => {
   const navigate = useNavigate();
   const [expandedItem, setExpandedItem] = useState(null);
-  const submenuRef = useRef(null);
 
   const handleSideItemClick = (link, e) => {
     e.preventDefault();
-    
-    setExpandedItem(expandedItem === link.id ? null : link.id);
-  };
 
-  const handleTransitionEnd = () => {
-    if (expandedItem) {
-      submenuRef.current.style.maxHeight = '1000px';
-    } else {
-      submenuRef.current.style.maxHeight = '0';
-    }
+    setExpandedItem(expandedItem === link.id ? null : link.id);
   };
 
   return (
@@ -33,9 +24,8 @@ const Sidebar = () => {
                 key={link.id}
                 className={`grow4 text-[18px] px-6 py-3 border-textalt 
                 border-[0.5px] text-decoration-none cursor-pointer
-                text-textalt list-item bg-white  ${expandedItem === link.id ? 'expanded' : 'collapsed'}`}
+                text-textalt list-item bg-white`}
                 onClick={(e) => handleSideItemClick(link, e)}
-                onTransitionEnd={handleTransitionEnd}
               >
                 <div className="flex gap-6 items-center justify-between">
                   {link.title}
@@ -49,7 +39,7 @@ const Sidebar = () => {
                 </div>
 
                 {expandedItem === link.id && (
-                  <div ref={submenuRef} className='mt-1'>
+                  <div className='mt-1'>
                     {link.links && link.links.length > 0 && (
                       <ul>
                         {link.links.map((submenuItem, index) => (
