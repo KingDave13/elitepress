@@ -16,7 +16,7 @@ const Sidebar2 = () => {
 
   return (
     <div className='flex items-center w-full'>
-      <div className="w-full flex justify-between items-center ">
+      <div className="w-full flex justify-between items-center">
         <div className="flex flex-col items-center w-full pb-10">
           <ul className="list-none flex flex-col gap-4 w-full">
             {sideLinks.map((link) => (
