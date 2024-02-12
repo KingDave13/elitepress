@@ -68,17 +68,25 @@ export const sideLinks = [
         title: "Indexings",
         links: [
             {
-                name: "bleh",
+                name: "Google Scholar",
                 route: "",
             },
             {
-                name: "bleh",
+                name: "Research Gate",
                 route: "",
             },
             {
-                name: "bleh",
+                name: "Academia Edu",
                 route: "",
-            }, 
+            },
+            {
+                name: "ISI Indexing",
+                route: "",
+            },
+            {
+                name: "Cosmo Impact Factor",
+                route: "",
+            },
         ],
     },
     {
@@ -125,14 +133,6 @@ export const sideLinks = [
                 name: "bleh",
                 route: "",
             },
-            {
-                name: "bleh",
-                route: "",
-            },
-            {
-                name: "bleh",
-                route: "",
-            }, 
         ],
     },
     {
