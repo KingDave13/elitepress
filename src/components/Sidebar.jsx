@@ -39,12 +39,13 @@ const Sidebar = () => {
                 </div>
 
                 {expandedItem === link.id && (
-                  <div className='mt-1'>
+                  <div className='mt-2'>
                     {link.links && link.links.length > 0 && (
                       <ul>
                         {link.links.map((submenuItem, index) => (
                           <li key={index}>
-                            <a href={submenuItem.route} className="block py-1">
+                            <a href={submenuItem.route} className="block 
+                            text-main py-[3px] hover:text-secondary">
                               {submenuItem.name}
                             </a>
                           </li>
