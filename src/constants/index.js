@@ -140,7 +140,7 @@ export const sideLinks = [
         title: "Contact",
         links: [
             {
-                name: "bleh",
+                name: "contact@elitepressjournals.com",
                 route: "",
             }, 
         ],
