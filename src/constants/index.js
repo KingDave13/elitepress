@@ -32,17 +32,9 @@ export const sideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "bleh",
+                name: "lorem ipsum",
                 route: "",
             },
-            {
-                name: "bleh",
-                route: "",
-            },
-            {
-                name: "bleh",
-                route: "",
-            }, 
         ],
     },
     {
@@ -50,15 +42,7 @@ export const sideLinks = [
         title: "Archives",
         links: [
             {
-                name: "bleh",
-                route: "",
-            },
-            {
-                name: "bleh",
-                route: "",
-            },
-            {
-                name: "bleh",
+                name: "lorem ipsum",
                 route: "",
             }, 
         ],
@@ -94,17 +78,9 @@ export const sideLinks = [
         title: "Editors",
         links: [
             {
-                name: "bleh",
+                name: "lorem ipsum",
                 route: "",
             },
-            {
-                name: "bleh",
-                route: "",
-            },
-            {
-                name: "bleh",
-                route: "",
-            }, 
         ],
     },
     {
@@ -112,17 +88,9 @@ export const sideLinks = [
         title: "Author's Instructions",
         links: [
             {
-                name: "bleh",
+                name: "lorem ipsum",
                 route: "",
             },
-            {
-                name: "bleh",
-                route: "",
-            },
-            {
-                name: "bleh",
-                route: "",
-            }, 
         ],
     },
     {
@@ -130,7 +98,7 @@ export const sideLinks = [
         title: "Article Processing Charge",
         links: [
             {
-                name: "bleh",
+                name: "lorem ipsum",
                 route: "",
             },
         ],
