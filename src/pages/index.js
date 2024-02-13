@@ -8,7 +8,7 @@ import EJLM from './EJLM';
 import EJNHS from './EJNHS';
 import EJSRR from './EJSRR';
 import EJHIV from './EJHIV';
-import VOL2ISS1 from './VOL2ISS1';
+import Vol2Iss1 from './Vol2Iss1';
 
 export { 
     EJH,
@@ -21,5 +21,5 @@ export {
     EJNHS,
     EJPH,
     EJSRR,
-    VOL2ISS1,
+    Vol2Iss1,
 }

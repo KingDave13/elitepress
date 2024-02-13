@@ -115,6 +115,14 @@ export const sideLinks = [
     },
 ];
 
+export const vol2iss1 = [
+    {
+        title: "Malaria's Silent Partner: Anemia in Children",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        route: "/journals/EJPH/VOL2ISS1/1",
+    }
+]
+
 export const journals = [
     {
         title: 'Elite Journal of Haematology (EJH)',

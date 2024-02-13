@@ -9,10 +9,9 @@ import {
     } from "../components";
   
   import styles from "../styles";
-  
   import { hero3 } from "../assets";
   
-  const EJPH = () => {
+  const Vol2Iss1 = () => {
     return (
       <div className="font-instrument-sans">
         <NavbarPages />
@@ -61,4 +60,4 @@ import {
     );
   };
   
-  export default EJPH;
+  export default Vol2Iss1;
