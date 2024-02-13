@@ -7,10 +7,12 @@ const Sidebar = () => {
   const navigate = useNavigate();
   const [expandedItem, setExpandedItem] = useState(null);
 
-  const handleSideItemClick = (link, e) => {
-    e.preventDefault();
-
+  const handleSideItemClick = (link) => {
     setExpandedItem(expandedItem === link.id ? null : link.id);
+  };
+
+  const handleSubItemClick = (route) => {
+    navigate(route);
   };
 
   return (
@@ -45,7 +47,12 @@ const Sidebar = () => {
                         {link.links.map((submenuItem, index) => (
                           <li key={index}>
                             <a href={submenuItem.route} className="block 
-                            text-main py-[3px] font-medium">
+                            text-main py-[3px] font-medium"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              handleSubItemClick(submenuItem.route);
+                            }}
+                            >
                               {submenuItem.name}
                             </a>
                           </li>
