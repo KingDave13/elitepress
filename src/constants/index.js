@@ -27,14 +27,14 @@ export const navLinks = [
 },
 ];
 
-export const sideLinks = [
+export const ejhSideLinks = [
     {
         id: "current",
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 1, 2024",
-                route: "/journals/EJPH/VOL2ISS1",
+                // name: "Volume 2, Issue 1, 2024",
+                // route: "/journals/EJPH/VOL2ISS1",
             },
         ],
     },
@@ -43,8 +43,8 @@ export const sideLinks = [
         title: "Archives",
         links: [
             {
-                name: "lorem ipsum",
-                route: "",
+                // name: "lorem ipsum",
+                // route: "",
             }, 
         ],
     },
@@ -79,8 +79,8 @@ export const sideLinks = [
         title: "Editors",
         links: [
             {
-                name: "lorem ipsum",
-                route: "",
+                // name: "lorem ipsum",
+                // route: "",
             },
         ],
     },
@@ -89,8 +89,8 @@ export const sideLinks = [
         title: "Author's Instructions",
         links: [
             {
-                name: "lorem ipsum",
-                route: "",
+                // name: "lorem ipsum",
+                // route: "",
             },
         ],
     },
@@ -99,8 +99,809 @@ export const sideLinks = [
         title: "Article Processing Charge",
         links: [
             {
-                name: "lorem ipsum",
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "contact",
+        title: "Contact",
+        links: [
+            {
+                name: "contact@elitepressjournals.com",
                 route: "",
+            }, 
+        ],
+    },
+];
+
+export const ejmSideLinks = [
+    {
+        id: "current",
+        title: "Current Issue",
+        links: [
+            {
+                // name: "Volume 2, Issue 1, 2024",
+                // route: "/journals/EJPH/VOL2ISS1",
+            },
+        ],
+    },
+    {
+        id: "archives",
+        title: "Archives",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            }, 
+        ],
+    },
+    {
+        id: "indexings",
+        title: "Indexings",
+        links: [
+            {
+                name: "Google Scholar",
+                route: "",
+            },
+            {
+                name: "Research Gate",
+                route: "",
+            },
+            {
+                name: "Academia Edu",
+                route: "",
+            },
+            {
+                name: "ISI Indexing",
+                route: "",
+            },
+            {
+                name: "Cosmo Impact Factor",
+                route: "",
+            },
+        ],
+    },
+    {
+        id: "editors",
+        title: "Editors",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "authors",
+        title: "Author's Instructions",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "article",
+        title: "Article Processing Charge",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "contact",
+        title: "Contact",
+        links: [
+            {
+                name: "contact@elitepressjournals.com",
+                route: "",
+            }, 
+        ],
+    },
+];
+
+export const ejhsSideLinks = [
+    {
+        id: "current",
+        title: "Current Issue",
+        links: [
+            {
+                // name: "Volume 2, Issue 1, 2024",
+                // route: "/journals/EJPH/VOL2ISS1",
+            },
+        ],
+    },
+    {
+        id: "archives",
+        title: "Archives",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            }, 
+        ],
+    },
+    {
+        id: "indexings",
+        title: "Indexings",
+        links: [
+            {
+                name: "Google Scholar",
+                route: "",
+            },
+            {
+                name: "Research Gate",
+                route: "",
+            },
+            {
+                name: "Academia Edu",
+                route: "",
+            },
+            {
+                name: "ISI Indexing",
+                route: "",
+            },
+            {
+                name: "Cosmo Impact Factor",
+                route: "",
+            },
+        ],
+    },
+    {
+        id: "editors",
+        title: "Editors",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "authors",
+        title: "Author's Instructions",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "article",
+        title: "Article Processing Charge",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "contact",
+        title: "Contact",
+        links: [
+            {
+                name: "contact@elitepressjournals.com",
+                route: "",
+            }, 
+        ],
+    },
+];
+
+export const ejmsSideLinks = [
+    {
+        id: "current",
+        title: "Current Issue",
+        links: [
+            {
+                // name: "Volume 2, Issue 1, 2024",
+                // route: "/journals/EJPH/VOL2ISS1",
+            },
+        ],
+    },
+    {
+        id: "archives",
+        title: "Archives",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            }, 
+        ],
+    },
+    {
+        id: "indexings",
+        title: "Indexings",
+        links: [
+            {
+                name: "Google Scholar",
+                route: "",
+            },
+            {
+                name: "Research Gate",
+                route: "",
+            },
+            {
+                name: "Academia Edu",
+                route: "",
+            },
+            {
+                name: "ISI Indexing",
+                route: "",
+            },
+            {
+                name: "Cosmo Impact Factor",
+                route: "",
+            },
+        ],
+    },
+    {
+        id: "editors",
+        title: "Editors",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "authors",
+        title: "Author's Instructions",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "article",
+        title: "Article Processing Charge",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "contact",
+        title: "Contact",
+        links: [
+            {
+                name: "contact@elitepressjournals.com",
+                route: "",
+            }, 
+        ],
+    },
+];
+
+export const ejphSideLinks = [
+    {
+        id: "current",
+        title: "Current Issue",
+        links: [
+            {
+                name: "Volume 2, Issue 1, 2024",
+                route: "/journals/EJPH/VOL2ISS1",
+            },
+        ],
+    },
+    {
+        id: "archives",
+        title: "Archives",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            }, 
+        ],
+    },
+    {
+        id: "indexings",
+        title: "Indexings",
+        links: [
+            {
+                name: "Google Scholar",
+                route: "",
+            },
+            {
+                name: "Research Gate",
+                route: "",
+            },
+            {
+                name: "Academia Edu",
+                route: "",
+            },
+            {
+                name: "ISI Indexing",
+                route: "",
+            },
+            {
+                name: "Cosmo Impact Factor",
+                route: "",
+            },
+        ],
+    },
+    {
+        id: "editors",
+        title: "Editors",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "authors",
+        title: "Author's Instructions",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "article",
+        title: "Article Processing Charge",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "contact",
+        title: "Contact",
+        links: [
+            {
+                name: "contact@elitepressjournals.com",
+                route: "",
+            }, 
+        ],
+    },
+];
+
+export const ejiSideLinks = [
+    {
+        id: "current",
+        title: "Current Issue",
+        links: [
+            {
+                // name: "Volume 2, Issue 1, 2024",
+                // route: "/journals/EJPH/VOL2ISS1",
+            },
+        ],
+    },
+    {
+        id: "archives",
+        title: "Archives",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            }, 
+        ],
+    },
+    {
+        id: "indexings",
+        title: "Indexings",
+        links: [
+            {
+                name: "Google Scholar",
+                route: "",
+            },
+            {
+                name: "Research Gate",
+                route: "",
+            },
+            {
+                name: "Academia Edu",
+                route: "",
+            },
+            {
+                name: "ISI Indexing",
+                route: "",
+            },
+            {
+                name: "Cosmo Impact Factor",
+                route: "",
+            },
+        ],
+    },
+    {
+        id: "editors",
+        title: "Editors",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "authors",
+        title: "Author's Instructions",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "article",
+        title: "Article Processing Charge",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "contact",
+        title: "Contact",
+        links: [
+            {
+                name: "contact@elitepressjournals.com",
+                route: "",
+            }, 
+        ],
+    },
+];
+
+export const ejlmSideLinks = [
+    {
+        id: "current",
+        title: "Current Issue",
+        links: [
+            {
+                // name: "Volume 2, Issue 1, 2024",
+                // route: "/journals/EJPH/VOL2ISS1",
+            },
+        ],
+    },
+    {
+        id: "archives",
+        title: "Archives",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            }, 
+        ],
+    },
+    {
+        id: "indexings",
+        title: "Indexings",
+        links: [
+            {
+                name: "Google Scholar",
+                route: "",
+            },
+            {
+                name: "Research Gate",
+                route: "",
+            },
+            {
+                name: "Academia Edu",
+                route: "",
+            },
+            {
+                name: "ISI Indexing",
+                route: "",
+            },
+            {
+                name: "Cosmo Impact Factor",
+                route: "",
+            },
+        ],
+    },
+    {
+        id: "editors",
+        title: "Editors",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "authors",
+        title: "Author's Instructions",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "article",
+        title: "Article Processing Charge",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "contact",
+        title: "Contact",
+        links: [
+            {
+                name: "contact@elitepressjournals.com",
+                route: "",
+            }, 
+        ],
+    },
+];
+
+export const ejnhsSideLinks = [
+    {
+        id: "current",
+        title: "Current Issue",
+        links: [
+            {
+                // name: "Volume 2, Issue 1, 2024",
+                // route: "/journals/EJPH/VOL2ISS1",
+            },
+        ],
+    },
+    {
+        id: "archives",
+        title: "Archives",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            }, 
+        ],
+    },
+    {
+        id: "indexings",
+        title: "Indexings",
+        links: [
+            {
+                name: "Google Scholar",
+                route: "",
+            },
+            {
+                name: "Research Gate",
+                route: "",
+            },
+            {
+                name: "Academia Edu",
+                route: "",
+            },
+            {
+                name: "ISI Indexing",
+                route: "",
+            },
+            {
+                name: "Cosmo Impact Factor",
+                route: "",
+            },
+        ],
+    },
+    {
+        id: "editors",
+        title: "Editors",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "authors",
+        title: "Author's Instructions",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "article",
+        title: "Article Processing Charge",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "contact",
+        title: "Contact",
+        links: [
+            {
+                name: "contact@elitepressjournals.com",
+                route: "",
+            }, 
+        ],
+    },
+];
+
+export const ejsrrSideLinks = [
+    {
+        id: "current",
+        title: "Current Issue",
+        links: [
+            {
+                // name: "Volume 2, Issue 1, 2024",
+                // route: "/journals/EJPH/VOL2ISS1",
+            },
+        ],
+    },
+    {
+        id: "archives",
+        title: "Archives",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            }, 
+        ],
+    },
+    {
+        id: "indexings",
+        title: "Indexings",
+        links: [
+            {
+                name: "Google Scholar",
+                route: "",
+            },
+            {
+                name: "Research Gate",
+                route: "",
+            },
+            {
+                name: "Academia Edu",
+                route: "",
+            },
+            {
+                name: "ISI Indexing",
+                route: "",
+            },
+            {
+                name: "Cosmo Impact Factor",
+                route: "",
+            },
+        ],
+    },
+    {
+        id: "editors",
+        title: "Editors",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "authors",
+        title: "Author's Instructions",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "article",
+        title: "Article Processing Charge",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "contact",
+        title: "Contact",
+        links: [
+            {
+                name: "contact@elitepressjournals.com",
+                route: "",
+            }, 
+        ],
+    },
+];
+
+export const ejhivSideLinks = [
+    {
+        id: "current",
+        title: "Current Issue",
+        links: [
+            {
+                // name: "Volume 2, Issue 1, 2024",
+                // route: "/journals/EJPH/VOL2ISS1",
+            },
+        ],
+    },
+    {
+        id: "archives",
+        title: "Archives",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            }, 
+        ],
+    },
+    {
+        id: "indexings",
+        title: "Indexings",
+        links: [
+            {
+                name: "Google Scholar",
+                route: "",
+            },
+            {
+                name: "Research Gate",
+                route: "",
+            },
+            {
+                name: "Academia Edu",
+                route: "",
+            },
+            {
+                name: "ISI Indexing",
+                route: "",
+            },
+            {
+                name: "Cosmo Impact Factor",
+                route: "",
+            },
+        ],
+    },
+    {
+        id: "editors",
+        title: "Editors",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "authors",
+        title: "Author's Instructions",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
+            },
+        ],
+    },
+    {
+        id: "article",
+        title: "Article Processing Charge",
+        links: [
+            {
+                // name: "lorem ipsum",
+                // route: "",
             },
         ],
     },
