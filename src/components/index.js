@@ -37,6 +37,7 @@ import ResearchHero from './ResearchHero';
 import HIVHero from './HIVHero';
 import Sidebar from './Sidebar';
 import Sidebar2 from './Sidebar2';
+import EJPHVOL2ISS1 from './EJPHVOL2ISS1';
 
 export { 
     Navbar,
@@ -77,5 +78,6 @@ export {
     ResearchHero,
     HIVHero,
     Sidebar,
-    Sidebar2
+    Sidebar2,
+    EJPHVOL2ISS1,
 }
