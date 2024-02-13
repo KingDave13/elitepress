@@ -20,6 +20,7 @@ import EJHIV from './EJHIV.jpg';
 import footerImg from './footerImg.jpg';
 import arrow from './arrow.png';
 import arrowright from './arrowright.png';
+import EJPHVOL2ISS101 from './EJPHVOL2ISS101.pdf';
 
 export {
     logo,
@@ -44,4 +45,5 @@ export {
     aboutMain,
     arrow,
     arrowright,
+    EJPHVOL2ISS101,
 }
