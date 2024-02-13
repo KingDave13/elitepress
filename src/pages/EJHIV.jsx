@@ -12,7 +12,14 @@ import { ejhivSideLinks } from "../constants";
 
 import { hero3 } from "../assets";
 
+import { useEffect } from "react";
+
 const EJHIV = () => {
+
+  useEffect(() => {
+    document.title = 'Elite Journal of HIV | Elite Press Journals';
+  }, []); 
+
   return (
     <div className="font-instrument-sans">
       <NavbarPages />

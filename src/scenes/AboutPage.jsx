@@ -7,8 +7,14 @@ import {
   Footer } from "../components";
 
 import { hero2 } from "../assets";
+import { useEffect } from "react";
 
 const AboutPage = () => {
+
+useEffect(() => {
+  document.title = 'About Us | Elite Press Journals';
+}, []); 
+
   return (
     <div className="font-instrument-sans">
       <NavbarAlt />

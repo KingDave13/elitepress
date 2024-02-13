@@ -12,7 +12,14 @@ import { ejlmSideLinks } from "../constants";
 
 import { hero3 } from "../assets";
 
+import { useEffect } from "react";
+
 const EJLM = () => {
+
+  useEffect(() => {
+    document.title = 'Elite Journal of Laboratory Medicine | Elite Press Journals';
+  }, []); 
+
   return (
     <div className="font-instrument-sans">
       <NavbarPages />

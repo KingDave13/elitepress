@@ -11,8 +11,15 @@ import styles from "../styles";
 import { ejhSideLinks } from "../constants";
   
 import { hero3 } from "../assets";
+
+import { useEffect } from "react";
   
 const EJH = () => {
+
+useEffect(() => {
+  document.title = 'Elite Journal of Haematology | Elite Press Journals';
+}, []); 
+
   return (
     <div className="font-instrument-sans">
       <NavbarPages />

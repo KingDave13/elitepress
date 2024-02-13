@@ -12,7 +12,14 @@ import { ejsrrSideLinks } from "../constants";
 
 import { hero3 } from "../assets";
 
+import { useEffect } from "react";
+
 const EJSRR = () => {
+
+  useEffect(() => {
+    document.title = 'Elite Journal of Scientific Research and Review | Elite Press Journals';
+  }, []); 
+
   return (
     <div className="font-instrument-sans">
       <NavbarPages />

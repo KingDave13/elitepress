@@ -5,9 +5,16 @@ import {
   Newsletter,
   Footer } from "../components";
 
+import { useEffect } from "react";
+
 import { hero2 } from "../assets";
   
   const JournalsPage = () => {
+
+  useEffect(() => {
+    document.title = 'Journals | Elite Press Journals';
+  }, []); 
+
     return (
       <div className="font-instrument-sans">
         <div>

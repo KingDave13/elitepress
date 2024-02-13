@@ -12,7 +12,14 @@ import { ejhsSideLinks } from "../constants";
 
 import { hero3 } from "../assets";
 
+import { useEffect } from "react";
+
 const EJHS = () => {
+
+  useEffect(() => {
+    document.title = 'Elite Journal of Health Sciences | Elite Press Journals';
+  }, []); 
+
   return (
     <div className="font-instrument-sans">
       <NavbarPages />

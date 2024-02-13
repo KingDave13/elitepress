@@ -13,7 +13,14 @@ import styles from "../styles";
 
 import { hero3 } from "../assets";
 
+import { useEffect } from "react";
+
 const EJPH = () => {
+
+  useEffect(() => {
+    document.title = 'Elite Journal of Public Health | Elite Press Journals';
+  }, []); 
+
   return (
     <div className="font-instrument-sans">
       <NavbarPages />

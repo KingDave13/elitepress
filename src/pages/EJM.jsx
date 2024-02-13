@@ -12,7 +12,14 @@ import { ejmSideLinks } from "../constants";
 
 import { hero3 } from "../assets";
 
+import { useEffect } from "react";
+
 const EJM = () => {
+
+  useEffect(() => {
+    document.title = 'Elite Journal of Medicine | Elite Press Journals';
+  }, []); 
+
   return (
     <div className="font-instrument-sans">
       <NavbarPages />

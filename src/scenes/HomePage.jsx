@@ -2,7 +2,14 @@ import {
     Navbar, Hero, About, Journals, Newsletter, Footer
 } from '../components';
 
+import { useEffect } from 'react';
+
 const HomePage = () => {
+
+    useEffect(() => {
+        document.title = 'Elite Press Journals | Innovation and Novelty';
+    }, []); 
+
     return (
         <div className='font-instrument-sans'>
             <Navbar />
