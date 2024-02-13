@@ -1,9 +1,8 @@
 import { useState } from 'react';
-import { sideLinks } from '../constants';
 import { useNavigate } from 'react-router-dom';
 import { arrow, arrowright } from '../assets';
 
-const Sidebar = () => {
+const Sidebar = ({ sideLinks }) => {
   const navigate = useNavigate();
   const [expandedItem, setExpandedItem] = useState(null);
 

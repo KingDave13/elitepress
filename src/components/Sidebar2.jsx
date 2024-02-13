@@ -1,10 +1,9 @@
 import { useState } from 'react';
-import { sideLinks } from '../constants';
 import { useNavigate } from 'react-router-dom';
 import { arrow, arrowright } from '../assets';
 import { SectionWrapper } from '../hoc';
 
-const Sidebar2 = () => {
+const Sidebar2 = ({ sideLinks }) => {
   const navigate = useNavigate();
   const [expandedItem, setExpandedItem] = useState(null);
 

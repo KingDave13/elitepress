@@ -7,6 +7,8 @@ import {
   Sidebar2, 
   NavbarPages } from "../components";
 
+import { ejphSideLinks } from "../constants";
+
 import styles from "../styles";
 
 import { hero3 } from "../assets";
@@ -30,7 +32,7 @@ const EJPH = () => {
         <div className={`${styles.padding} max-w-[82rem] mx-auto flex 
         md:pt-28 ss:pt-28 pt-28 hidden md:flex`}>
           <div className="md:mr-4 mt-[30px] flex-1">
-            <Sidebar />
+            <Sidebar sideLinks={ejphSideLinks}/>
           </div>
 
           <div className='md:ml-20'>
@@ -44,7 +46,7 @@ const EJPH = () => {
           </div>
 
           <div className="">
-            <Sidebar2 />
+            <Sidebar2 sideLinks={ejphSideLinks}/>
           </div>
         </div>
       </div>
