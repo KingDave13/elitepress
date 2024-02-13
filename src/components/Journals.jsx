@@ -73,22 +73,24 @@ const Journals = () => {
             justify-center w-full'>
                 <div className='flex flex-wrap gap-12'>
                     {journals.slice(0, 3).map((journal, index) => (
-                        <JournalCard 
-                            key={journal.title}
-                            index={index}
-                            {...journal}
-                        />
+                      <JournalCard 
+                          key={journal.title}
+                          index={index}
+                          {...journal}
+                      />
                     ))}
                 </div>
             </motion.div>
 
             <div className='flex flex-row md:mt-16 ss:mt-10 mt-6 
             justify-center items-center gap-1 cursor-pointer 
-            grow2 md:mb-0 ss:mb-5 mb-0'>
+            grow2 md:mb-0 ss:mb-5 mb-0'
+            onClick={() => navigate('/journals')}
+            >
                 <p className='font-medium text-primary md:text-[17px]
                 ss:text-[16px] text-[14px]' 
-                onClick={() => navigate('/journals')}>
-                    View All
+                >
+                  View All
                 </p>
                 <BsArrowRightShort className='text-[30px] 
                 text-primary' />

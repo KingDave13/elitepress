@@ -68,7 +68,7 @@ const Sidebar2 = ({ sideLinks }) => {
                 text-white list-item bg-main ss:mt-16 mt-8'>
               <button
                 onClick={(e) => {
-                  e.preventDefault(); 
+                  e.preventDefault();
                   navigate('');
                 }}
                 className='flex gap-6 items-center w-full justify-between'
