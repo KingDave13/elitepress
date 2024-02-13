@@ -119,6 +119,7 @@ export const vol2iss1 = [
     {
         title: "Malaria's Silent Partner: Anemia in Children",
         authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "This review explores the often-overlooked but critical relationship between malaria and anemia in children. While malaria's immediate symptoms are well-documented, its silent partner, anemia, significantly impacts the health and development of affected children. The consequences of malarial anemia on child health, including fatigue, stunted growth, and cognitive impairments, are discussed.",
         route: "/journals/EJPH/VOL2ISS1/1",
     }
 ]
