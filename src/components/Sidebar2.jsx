@@ -14,6 +14,7 @@ const Sidebar2 = ({ sideLinks }) => {
   const handleSubItemClick = (route) => {
     navigate(route);
   };
+  
   return (
     <div className='flex items-center w-full'>
       <div className="w-full flex justify-between items-center">

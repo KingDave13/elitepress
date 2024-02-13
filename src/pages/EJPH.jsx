@@ -46,7 +46,7 @@ const EJPH = () => {
           </div>
 
           <div className="">
-            <Sidebar2 sideLinks={ejphSideLinks}/>
+            <Sidebar2 sideLinks={ejphSideLinks} />
           </div>
         </div>
       </div>

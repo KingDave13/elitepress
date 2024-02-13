@@ -9,6 +9,7 @@ import {
     } from "../components";
   
   import styles from "../styles";
+  import { ejphSideLinks } from "../constants";
   import { hero3 } from "../assets";
   
   const Vol2Iss1 = () => {
@@ -30,7 +31,7 @@ import {
           <div className={`${styles.padding} max-w-[82rem] mx-auto flex 
           md:pt-28 hidden md:flex`}>
             <div className="mr-4 mt-[30px]">
-              <Sidebar />
+              <Sidebar sideLinks={ejphSideLinks}/>
             </div>
   
             <div className='ml-20 w-full'>
@@ -44,7 +45,7 @@ import {
             </div>
   
             <div className="">
-              <Sidebar2 />
+              <Sidebar2 sideLinks={ejphSideLinks} />
             </div>
           </div>
         </div>
