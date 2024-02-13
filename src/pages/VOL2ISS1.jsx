@@ -2,10 +2,10 @@ import {
     EJPHVOL2ISS1,
     Newsletter,
     Footer, 
-    PublicHealthHero,
     Sidebar,
     Sidebar2, 
-    NavbarPages, 
+    NavbarPages,
+    Vol2Iss1Pubs, 
     } from "../components";
   
   import styles from "../styles";
@@ -35,13 +35,13 @@ import {
             </div>
   
             <div className='md:ml-20'>
-              <PublicHealthHero />
+              <Vol2Iss1Pubs />
             </div>
           </div>
   
           <div className='flex ss:pt-28 pt-28 md:hidden flex flex-col'>
             <div className=''>
-              <PublicHealthHero />
+              <Vol2Iss1Pubs />
             </div>
   
             <div className="">
