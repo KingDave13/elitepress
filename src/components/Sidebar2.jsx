@@ -26,7 +26,7 @@ const Sidebar2 = ({ sideLinks }) => {
                 className={`text-[15px] px-5 py-2 border-textalt
                 border-[0.5px] text-decoration-none cursor-pointer 
                 text-textalt list-item bg-white`}
-                onClick={(e) => handleSideItemClick(link, e)}
+                onClick={() => handleSideItemClick(link)}
               >
                 <div className="flex items-center justify-between">
                   {link.title}
@@ -45,15 +45,12 @@ const Sidebar2 = ({ sideLinks }) => {
                       <ul>
                         {link.links.map((submenuItem, index) => (
                           <li key={index}>
-                            <a href={submenuItem.route} className="block 
-                            text-main py-[2px] font-medium"
-                            onClick={(e) => {
-                              e.preventDefault();
-                              handleSubItemClick(submenuItem.route);
-                            }}
+                            <button
+                              className="block text-main py-[2px] font-medium"
+                              onClick={() => handleSubItemClick(submenuItem.route)}
                             >
                               {submenuItem.name}
-                            </a>
+                            </button>
                           </li>
                         ))}
                       </ul>
@@ -68,6 +65,7 @@ const Sidebar2 = ({ sideLinks }) => {
                 text-white list-item bg-main ss:mt-16 mt-8'>
               <button
                 onClick={(e) => {
+                  e.stopPropagation();
                   e.preventDefault();
                 }}
                 className='flex gap-6 items-center w-full justify-between'
