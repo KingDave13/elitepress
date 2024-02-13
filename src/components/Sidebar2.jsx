@@ -7,13 +7,17 @@ const Sidebar2 = ({ sideLinks }) => {
   const navigate = useNavigate();
   const [expandedItem, setExpandedItem] = useState(null);
 
-  const handleSideItemClick = (link) => {
+  const handleSideItemClick = (link, e) => {
+    e.stopPropagation();
     setExpandedItem(expandedItem === link.id ? null : link.id);
   };
-
-  const handleSubItemClick = (route) => {
+  
+  const handleSubItemClick = (route, e) => {
+    e.preventDefault();
+    e.stopPropagation();
     navigate(route);
   };
+  
   
   return (
     <div className='flex items-center w-full'>
@@ -49,7 +53,7 @@ const Sidebar2 = ({ sideLinks }) => {
                           text-main py-[2px] font-medium"
                           onClick={(e) => {
                             e.preventDefault();
-                            handleSubItemClick(submenuItem.route);
+                            handleSubItemClick(submenuItem.route, e);
                           }}
                           >
                             {submenuItem.name}
@@ -69,7 +73,6 @@ const Sidebar2 = ({ sideLinks }) => {
               <button
                 onClick={(e) => {
                   e.preventDefault();
-                  navigate('');
                 }}
                 className='flex gap-6 items-center w-full justify-between'
               >
