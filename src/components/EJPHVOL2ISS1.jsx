@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
-const HeroEJPH = () => {  
+const HeroEJPHVOL2ISS1 = () => {  
     return (
       <section className='w-full'>
           <div className=' w-full flex flex-col'
@@ -29,4 +29,4 @@ const HeroEJPH = () => {
     )
   };
   
-export default SectionWrapper(HeroEJPH, '');
+export default SectionWrapper(HeroEJPHVOL2ISS1, '');

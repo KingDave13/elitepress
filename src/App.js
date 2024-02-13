@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { AboutPage, ContactPage, HomePage, JournalsPage } from './scenes';
-import { EJH, EJM, EJHIV, EJHS, EJI, EJLM, EJMS, EJNHS, EJPH, EJSRR } from './pages';
+import { EJH, EJM, EJHIV, EJHS, EJI, EJLM, EJMS, EJNHS, EJPH, EJSRR, VOL2ISS1 } from './pages';
 import  ScrollToTop  from './constants/ScrollToTop';
 
 const App = () => {
@@ -22,6 +22,7 @@ const App = () => {
           <Route path='/journals/EJNHS' element={<EJNHS />} />
           <Route path='/journals/EJSRR' element={<EJSRR />} />
           <Route path='/journals/EJHIV' element={<EJHIV />} />
+          <Route path='/journals/EJPH/VOL2ISS1' element={<VOL2ISS1 />} />
         </Routes>
       </ScrollToTop>
     </BrowserRouter>

@@ -33,7 +33,7 @@ export const sideLinks = [
         links: [
             {
                 name: "Volume 2, Issue 1, 2024",
-                route: "",
+                route: "/journals/EJPH/VOL2ISS1",
             },
         ],
     },
