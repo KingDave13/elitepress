@@ -132,6 +132,13 @@ ol {
   transform: scale(1.02);
 }
 
+.grow5 {
+  transition: all .2s ease-in-out;
+}
+.grow5:hover {
+  transform: scale(1.01);
+}
+
 @media (max-width: 480px) {
   .aboutimage {
     align-items: center;
