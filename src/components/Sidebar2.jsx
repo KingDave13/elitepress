@@ -7,17 +7,13 @@ const Sidebar2 = ({ sideLinks }) => {
   const navigate = useNavigate();
   const [expandedItem, setExpandedItem] = useState(null);
 
-  const handleSideItemClick = (link, e) => {
-    e.stopPropagation();
+  const handleSideItemClick = (link) => {
     setExpandedItem(expandedItem === link.id ? null : link.id);
   };
-  
-  const handleSubItemClick = (route, e) => {
-    e.preventDefault();
-    e.stopPropagation();
+
+  const handleSubItemClick = (route) => {
     navigate(route);
   };
-  
   
   return (
     <div className='flex items-center w-full'>
@@ -28,8 +24,8 @@ const Sidebar2 = ({ sideLinks }) => {
               <li
                 key={link.id}
                 className={`text-[15px] px-5 py-2 border-textalt
-                  border-[0.5px] text-decoration-none cursor-pointer 
-                  text-textalt list-item bg-white`}
+                border-[0.5px] text-decoration-none cursor-pointer 
+                text-textalt list-item bg-white`}
                 onClick={(e) => handleSideItemClick(link, e)}
               >
                 <div className="flex items-center justify-between">
@@ -45,24 +41,24 @@ const Sidebar2 = ({ sideLinks }) => {
 
                 {expandedItem === link.id && (
                   <div className='mt-2'>
-                  {link.links && link.links.length > 0 && (
-                    <ul>
-                      {link.links.map((submenuItem, index) => (
-                        <li key={index}>
-                          <a href={submenuItem.route} className="block 
-                          text-main py-[2px] font-medium"
-                          onClick={(e) => {
-                            e.preventDefault();
-                            handleSubItemClick(submenuItem.route, e);
-                          }}
-                          >
-                            {submenuItem.name}
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                </div>
+                    {link.links && link.links.length > 0 && (
+                      <ul>
+                        {link.links.map((submenuItem, index) => (
+                          <li key={index}>
+                            <a href={submenuItem.route} className="block 
+                            text-main py-[2px] font-medium"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              handleSubItemClick(submenuItem.route);
+                            }}
+                            >
+                              {submenuItem.name}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
                 )}
               </li>
             ))}

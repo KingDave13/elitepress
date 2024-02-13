@@ -15,8 +15,7 @@ const Sidebar = ({ sideLinks }) => {
   };
 
   return (
-    <div className='flex items-center hidden md:flex w-full'
-    >
+    <div className='flex items-center hidden md:flex w-full'>
       <div className="w-full flex justify-between items-center py-10">
         <div className="flex flex-col items-center w-full">
           <ul className="list-none flex flex-col gap-5 w-[350px]">
