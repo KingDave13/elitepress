@@ -32,7 +32,7 @@ export const sideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "lorem ipsum",
+                name: "Volume 2, Issue 1, 2024",
                 route: "",
             },
         ],

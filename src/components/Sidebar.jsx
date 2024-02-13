@@ -45,7 +45,7 @@ const Sidebar = () => {
                         {link.links.map((submenuItem, index) => (
                           <li key={index}>
                             <a href={submenuItem.route} className="block 
-                            text-main py-[3px] hover:text-secondary">
+                            text-main py-[3px] font-medium">
                               {submenuItem.name}
                             </a>
                           </li>
