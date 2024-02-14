@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { fadeIn, textVariant } from '../utils/motion';
 import { vol2iss1 } from "../constants";
 
-const Publication = ({ index, abstract, title, authors, route }) => {
+const Publication = ({ pages, abstract, title, authors, route }) => {
     return (
         <motion.div
             variants={textVariant}
@@ -65,6 +65,16 @@ const Publication = ({ index, abstract, title, authors, route }) => {
                     <p className='text-textalt md:text-[14px] ss:text-[13px] 
                     text-[12px]'>
                         Volume 2, Issue 1, 2024
+                    </p>
+
+                    <p className='text-textalt md:text-[15px] ss:text-[14px] 
+                    text-[13px] md:flex ss:flex hidden'>
+                        |
+                    </p>
+
+                    <p className='text-textalt md:text-[14px] ss:text-[13px] 
+                    text-[12px]'>
+                        pp {pages}
                     </p>
                 </motion.div>
             </div>
