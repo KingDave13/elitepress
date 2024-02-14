@@ -21,6 +21,7 @@ import footerImg from './footerImg.jpg';
 import arrow from './arrow.png';
 import arrowright from './arrowright.png';
 import EJPHVOL2ISS101 from './EJPHVOL2ISS101.pdf';
+import EJPHVOL2ISS102 from './EJPHVOL2ISS102.pdf';
 
 export {
     logo,
@@ -46,4 +47,5 @@ export {
     arrow,
     arrowright,
     EJPHVOL2ISS101,
+    EJPHVOL2ISS102,
 }
