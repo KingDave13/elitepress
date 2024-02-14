@@ -85,6 +85,16 @@ export const ejhSideLinks = [
         ],
     },
     {
+        id: "frequency",
+        title: "Frequency",
+        links: [
+            {
+                name: "12",
+                route: "",
+            },
+        ],
+    },
+    {
         id: "authors",
         title: "Author's Instructions",
         links: [
@@ -170,6 +180,16 @@ export const ejmSideLinks = [
             {
                 // name: "lorem ipsum",
                 // route: "",
+            },
+        ],
+    },
+    {
+        id: "frequency",
+        title: "Frequency",
+        links: [
+            {
+                name: "12",
+                route: "",
             },
         ],
     },
