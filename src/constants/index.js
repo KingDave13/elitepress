@@ -86,10 +86,10 @@ export const ejhSideLinks = [
     },
     {
         id: "frequency",
-        title: "Frequency",
+        title: "Frequency: 12",
         links: [
             {
-                name: "12",
+                name: "Each month of the year",
                 route: "",
             },
         ],
@@ -185,10 +185,10 @@ export const ejmSideLinks = [
     },
     {
         id: "frequency",
-        title: "Frequency",
+        title: "Frequency: 12",
         links: [
             {
-                name: "12",
+                name: "Each month of the year",
                 route: "",
             },
         ],
@@ -283,6 +283,16 @@ export const ejhsSideLinks = [
         ],
     },
     {
+        id: "frequency",
+        title: "Frequency: 12",
+        links: [
+            {
+                name: "Each month of the year",
+                route: "",
+            },
+        ],
+    },
+    {
         id: "authors",
         title: "Author's Instructions",
         links: [
@@ -368,6 +378,16 @@ export const ejmsSideLinks = [
             {
                 // name: "lorem ipsum",
                 // route: "",
+            },
+        ],
+    },
+    {
+        id: "frequency",
+        title: "Frequency: 12",
+        links: [
+            {
+                name: "Each month of the year",
+                route: "",
             },
         ],
     },
@@ -461,6 +481,16 @@ export const ejphSideLinks = [
         ],
     },
     {
+        id: "frequency",
+        title: "Frequency: 12",
+        links: [
+            {
+                name: "Each month of the year",
+                route: "",
+            },
+        ],
+    },
+    {
         id: "authors",
         title: "Author's Instructions",
         links: [
@@ -546,6 +576,16 @@ export const ejiSideLinks = [
             {
                 // name: "lorem ipsum",
                 // route: "",
+            },
+        ],
+    },
+    {
+        id: "frequency",
+        title: "Frequency: 12",
+        links: [
+            {
+                name: "Each month of the year",
+                route: "",
             },
         ],
     },
@@ -639,6 +679,16 @@ export const ejlmSideLinks = [
         ],
     },
     {
+        id: "frequency",
+        title: "Frequency: 12",
+        links: [
+            {
+                name: "Each month of the year",
+                route: "",
+            },
+        ],
+    },
+    {
         id: "authors",
         title: "Author's Instructions",
         links: [
@@ -724,6 +774,16 @@ export const ejnhsSideLinks = [
             {
                 // name: "lorem ipsum",
                 // route: "",
+            },
+        ],
+    },
+    {
+        id: "frequency",
+        title: "Frequency: 12",
+        links: [
+            {
+                name: "Each month of the year",
+                route: "",
             },
         ],
     },
@@ -817,6 +877,16 @@ export const ejsrrSideLinks = [
         ],
     },
     {
+        id: "frequency",
+        title: "Frequency: 12",
+        links: [
+            {
+                name: "Each month of the year",
+                route: "",
+            },
+        ],
+    },
+    {
         id: "authors",
         title: "Author's Instructions",
         links: [
@@ -902,6 +972,16 @@ export const ejhivSideLinks = [
             {
                 // name: "lorem ipsum",
                 // route: "",
+            },
+        ],
+    },
+    {
+        id: "frequency",
+        title: "Frequency: 12",
+        links: [
+            {
+                name: "Each month of the year",
+                route: "",
             },
         ],
     },
