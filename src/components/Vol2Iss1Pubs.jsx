@@ -14,7 +14,7 @@ const Publication = ({ pages, abstract, title, authors, route }) => {
                 <div className="flex flex-col gap-1">
                     <h3
                     className='text-[18px] md:text-[25px] ss:text-[22px] 
-                    font-bold text-main'
+                    font-bold text-main leading-tight'
                     >
                         {title}
                     </h3>
@@ -74,7 +74,7 @@ const Publication = ({ pages, abstract, title, authors, route }) => {
 
                     <p className='text-textalt md:text-[14px] ss:text-[13px] 
                     text-[12px]'>
-                        pp {pages}
+                        pp. {pages}
                     </p>
                 </motion.div>
             </div>

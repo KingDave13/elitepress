@@ -515,7 +515,7 @@ export const ejphSideLinks = [
         title: "Contact",
         links: [
             {
-                name: "contact@elitepressjournals.com",
+                name: "contact@epjournals.com",
                 route: "",
             }, 
         ],
@@ -614,7 +614,7 @@ export const ejiSideLinks = [
         title: "Contact",
         links: [
             {
-                name: "contact@elitepressjournals.com",
+                name: "contact@epjournals.com",
                 route: "",
             }, 
         ],
@@ -713,7 +713,7 @@ export const ejlmSideLinks = [
         title: "Contact",
         links: [
             {
-                name: "contact@elitepressjournals.com",
+                name: "contact@epjournals.com",
                 route: "",
             }, 
         ],
@@ -812,7 +812,7 @@ export const ejnhsSideLinks = [
         title: "Contact",
         links: [
             {
-                name: "contact@elitepressjournals.com",
+                name: "contact@epjournals.com",
                 route: "",
             }, 
         ],
@@ -911,7 +911,7 @@ export const ejsrrSideLinks = [
         title: "Contact",
         links: [
             {
-                name: "contact@elitepressjournals.com",
+                name: "contact@epjournals.com",
                 route: "",
             }, 
         ],
@@ -1010,7 +1010,7 @@ export const ejhivSideLinks = [
         title: "Contact",
         links: [
             {
-                name: "contact@elitepressjournals.com",
+                name: "contact@epjournals.com",
                 route: "",
             }, 
         ],
