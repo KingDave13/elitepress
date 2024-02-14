@@ -82,7 +82,8 @@ const Vol2Iss1Pubs = () => {
                 <motion.div variants={fadeIn('down', 'spring', 0.2)}
                 className='flex items-center flex-col 
                 justify-center w-full'>
-                    <div className='w-full md:gap-12 ss:gap-6 gap-10'>
+                    <div className='w-full flex flex-col md:gap-12 
+                    ss:gap-10 gap-10'>
                         {vol2iss1.map((item, index) => (
                             <Publication
                                 key={item.title}

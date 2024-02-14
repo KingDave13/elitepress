@@ -1,7 +1,7 @@
 import { GrMail } from 'react-icons/gr';
 import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV, } 
 from '../assets';
-import { EJPHVOL2ISS101 } from '../assets';
+import { EJPHVOL2ISS101, EJPHVOL2ISS102 } from '../assets';
 
 export const navLinks = [
 {
@@ -1023,12 +1023,14 @@ export const vol2iss1 = [
         authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
         abstract: "This review explores the often-overlooked but critical relationship between malaria and anemia in children. While malaria's immediate symptoms are well-documented, its silent partner, anemia, significantly impacts the health and development of affected children. The consequences of malarial anemia on child health, including fatigue, stunted growth, and cognitive impairments, are discussed.",
         route: EJPHVOL2ISS101,
+        pages: "1-5",
     },
     {
         title: "Unmasking the Truth: Addressing Stigma in the Fight Against HIV",
         authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
         abstract: "The persistent stigma surrounding HIV remains a significant obstacle in the global efforts to combat the epidemic effectively. This review article aims to dissect the multifaceted dimensions of HIV stigma and explore strategies to unmask the truth about its detrimental impact on prevention, care, and support for those affected by the virus.",
         route: EJPHVOL2ISS102,
+        pages: "6-10",
     },
 ];
 
