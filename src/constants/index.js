@@ -574,8 +574,12 @@ export const ejiSideLinks = [
         title: "Editors",
         links: [
             {
-                // name: "lorem ipsum",
-                // route: "",
+                name: "Prof. Muhammad Akram",
+                route: "",
+            },
+            {
+                name: "Dr. Rida Zainab",
+                route: "",
             },
         ],
     },
@@ -673,8 +677,12 @@ export const ejlmSideLinks = [
         title: "Editors",
         links: [
             {
-                // name: "lorem ipsum",
-                // route: "",
+                name: "Prof. Muhammad Akram",
+                route: "",
+            },
+            {
+                name: "Dr. Rida Zainab",
+                route: "",
             },
         ],
     },
@@ -772,8 +780,12 @@ export const ejnhsSideLinks = [
         title: "Editors",
         links: [
             {
-                // name: "lorem ipsum",
-                // route: "",
+                name: "Prof. Muhammad Akram",
+                route: "",
+            },
+            {
+                name: "Dr. Rida Zainab",
+                route: "",
             },
         ],
     },
@@ -871,8 +883,12 @@ export const ejsrrSideLinks = [
         title: "Editors",
         links: [
             {
-                // name: "lorem ipsum",
-                // route: "",
+                name: "Prof. Muhammad Akram",
+                route: "",
+            },
+            {
+                name: "Dr. Rida Zainab",
+                route: "",
             },
         ],
     },
@@ -970,8 +986,12 @@ export const ejhivSideLinks = [
         title: "Editors",
         links: [
             {
-                // name: "lorem ipsum",
-                // route: "",
+                name: "Prof. Muhammad Akram",
+                route: "",
+            },
+            {
+                name: "Dr. Rida Zainab",
+                route: "",
             },
         ],
     },
