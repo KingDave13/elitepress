@@ -119,8 +119,8 @@ export const ejhSideLinks = [
         title: "Contact",
         links: [
             {
-                name: "contact@elitepressjournals.com",
-                route: "",
+                name: "contact@epjournals.com",
+                route: "mailto:contact@epjournals.com",
             }, 
         ],
     },
@@ -218,8 +218,8 @@ export const ejmSideLinks = [
         title: "Contact",
         links: [
             {
-                name: "contact@elitepressjournals.com",
-                route: "",
+                name: "contact@epjournals.com",
+                route: "mailto:contact@epjournals.com",
             }, 
         ],
     },
@@ -317,8 +317,8 @@ export const ejhsSideLinks = [
         title: "Contact",
         links: [
             {
-                name: "contact@elitepressjournals.com",
-                route: "",
+                name: "contact@epjournals.com",
+                route: "mailto:contact@epjournals.com",
             }, 
         ],
     },
@@ -416,8 +416,8 @@ export const ejmsSideLinks = [
         title: "Contact",
         links: [
             {
-                name: "contact@elitepressjournals.com",
-                route: "",
+                name: "contact@epjournals.com",
+                route: "mailto:contact@epjournals.com",
             }, 
         ],
     },
@@ -516,7 +516,7 @@ export const ejphSideLinks = [
         links: [
             {
                 name: "contact@epjournals.com",
-                route: "",
+                route: "mailto:contact@epjournals.com",
             }, 
         ],
     },
@@ -615,7 +615,7 @@ export const ejiSideLinks = [
         links: [
             {
                 name: "contact@epjournals.com",
-                route: "",
+                route: "mailto:contact@epjournals.com",
             }, 
         ],
     },
@@ -714,7 +714,7 @@ export const ejlmSideLinks = [
         links: [
             {
                 name: "contact@epjournals.com",
-                route: "",
+                route: "mailto:contact@epjournals.com",
             }, 
         ],
     },
@@ -813,7 +813,7 @@ export const ejnhsSideLinks = [
         links: [
             {
                 name: "contact@epjournals.com",
-                route: "",
+                route: "mailto:contact@epjournals.com",
             }, 
         ],
     },
@@ -912,7 +912,7 @@ export const ejsrrSideLinks = [
         links: [
             {
                 name: "contact@epjournals.com",
-                route: "",
+                route: "mailto:contact@epjournals.com",
             }, 
         ],
     },
@@ -1011,7 +1011,7 @@ export const ejhivSideLinks = [
         links: [
             {
                 name: "contact@epjournals.com",
-                route: "",
+                route: "mailto:contact@epjournals.com",
             }, 
         ],
     },
@@ -1101,7 +1101,7 @@ export const socialMedia = [
 {
     id: "social-media-2",
     Icon: GrMail,
-    link: "mailto:elitepressjournals@gmail.com"
+    link: "mailto:contact@epjournals.com"
 }
 ];
 

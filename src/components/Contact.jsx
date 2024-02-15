@@ -60,17 +60,17 @@ const Contact = () => {
             setLoading(true);
 
             emailjs.send(
-                'service_skvhseu',
-                'template_bu4q17u',
+                'service_1zam733',
+                'template_bjv8tlu',
                 {
-                  from_name: values.firstname,
-                  to_name: 'Anayo Okpala Global Concept',
+                  from_name: `${values.firstname} ${values.lastname}`,
+                  to_name: 'Elite Press Journals',
                   from_email: values.email,
-                  to_email: 'contact@anayookpalaglobalconcept.com',
+                  to_email: 'contact@epjournals.com',
                   subject: values.subject,
                   message: values.message,
                 },
-                'u4mJjP_i8Ayoq1SU-'
+                'UE-RzuF3c_ndNJ-Zw'
               )
               .then(
                 () => {
@@ -104,23 +104,13 @@ const Contact = () => {
 
             <motion.div variants={textVariant()} className='md:mt-10 ss:mt-8 
             mt-8 w-full'>
-                <div className="w-full flex md:flex-row ss:flex-row flex-col
-                justify-center items-center md:gap-10 ss:gap-8 gap-1">
+                <div className="w-full flex justify-center items-center">
                     <p className='text-main font-medium md:text-[20px] ss:text-[20px] 
                     text-[15px]'>
                         <span className='font-bold'>EMAIL: </span> 
-                        <a href='mailto:elitepressjournals@gmail.com' 
+                        <a href='mailto:contact@epjournals.com' 
                         className='hover:text-secondary'>
-                            elitepressjournals@gmail.com
-                        </a>
-                    </p>
-
-                    <p className='text-main font-medium md:text-[20px] ss:text-[20px] 
-                    text-[14px]'>
-                        <span className='font-bold'>PHONE: </span> 
-                        <a href='http://wa.me/23480xxxxxxx' 
-                        className='hover:text-secondary'>
-                            080xxxxxxxxxx
+                            contact@epjournals.com
                         </a>
                     </p>
                 </div>
