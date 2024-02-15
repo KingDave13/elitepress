@@ -83,7 +83,7 @@ const Contact = () => {
                     enableScroll();
                   }, 2000);
           
-                  values = formik.initialValues
+                  formik.resetForm();
                 },
                 
                 (error) => {
@@ -95,15 +95,14 @@ const Contact = () => {
     });
 
   return (
-    <section className="md:min-h-[1050px] ss:min-h-[920px] min-h-[900px] 
+    <section className="md:min-h-[1000px] ss:min-h-[920px] min-h-[880px] 
     flex items-center">
         <div className='items-center w-full flex flex-col'>
             {modalOpen && (
                 <Modal />
             )}
 
-            <motion.div variants={textVariant()} className='md:mt-10 ss:mt-8 
-            mt-8 w-full'>
+            <motion.div variants={textVariant()} className='w-full'>
                 <div className="w-full flex justify-center items-center">
                     <p className='text-main font-medium md:text-[20px] ss:text-[20px] 
                     text-[15px]'>
@@ -117,7 +116,7 @@ const Contact = () => {
             </motion.div>
 
             <motion.div variants={fadeIn('down', 'spring', 0.3)}
-            className='w-full md:mt-14 ss:mt-10 mt-6'>
+            className='w-full md:mt-10 ss:mt-8 mt-6'>
                 <div className='bg-main2 md:p-12 ss:p-8 p-5 rounded-xl'>
                 <form ref={formRef} onSubmit={formik.handleSubmit}
                 className="grid grid-cols-2 md:gap-6 ss:gap-6 gap-4">
