@@ -46,34 +46,30 @@ const Modal = ({ onClose, name, school, profileLink }) => {
         exit={{ y: 10, opacity: 0 }}
         transition={{ duration: 0.1 }}
         ref={modalRef} 
-        className="bg-primaryalt p-6 rounded-md shadow-xl flex flex-col 
-        justify-center w-auto h-auto items-center">
-          <div className='flex flex-col w-full justify-center 
-          items-center'>
-            <h1 className='text-white md:text-[42px] ss:text-[35px]
-            text-[25px] text-center md:leading-[55px]
-            ss:leading-[47px] leading-[33px] md:mb-6 ss:mb-6 mb-5'>
+        className="bg-primaryalt p-5 rounded-md shadow-xl flex flex-col 
+        justify-center w-auto h-auto items-center m-6">
+          <div className='flex flex-col w-full gap-2'>
+            <h1 className='text-maintext md:text-[42px] ss:text-[35px]
+            text-[20px] font-bold'>
               {name}
             </h1>
 
-            <p className='text-white md:text-[17px] ss:text-[17px]
-              text-[14px] text-center md:max-w-[520px] ss:max-w-[520px] 
-              max-w-[320px] md:leading-[23px] ss:leading-[24px] 
-              leading-[20px] md:mb-8 ss:mb-6 mb-5'>
+            <div className="flex-1 relative items-center justify-center">
+              <div className='bg-textalt w-full h-[1px]' />
+            </div>
+
+            <p className='text-maintext md:text-[17px] ss:text-[17px]
+              text-[14px] md:leading-[23px] ss:leading-[24px] 
+              leading-[18px]'>
                 {school}
             </p>
 
-            <button
+            <p
               onClick={handleClick}
-              className='grow4 bg-secondary border-none w-full
-              md:text-[16px] ss:text-[15px] text-[13px] md:py-4
-              ss:py-4 py-3 md:px-8 ss:px-7 px-5 text-primary 
-              md:rounded-[3px] ss:rounded-[3px] rounded-[3px] 
-              cursor-pointer md:mb-3 ss:mb-3 
-              mb-2'
+              className='w-full md:text-[16px] ss:text-[15px] text-[13px] text-main'
               >
                 {profileLink}
-            </button>
+            </p>
           </div>
         </motion.div>
       </motion.div>
