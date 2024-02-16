@@ -1,5 +1,5 @@
 import { GrMail } from 'react-icons/gr';
-import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV, EJPHVOL2ISS103, EJPHVOL2ISS104, EJPHVOL2ISS105, } 
+import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV, EJPHVOL2ISS103, EJPHVOL2ISS104, EJPHVOL2ISS105, EJPHVOL2ISS106, } 
 from '../assets';
 import { EJPHVOL2ISS101, EJPHVOL2ISS102 } from '../assets';
 
@@ -1142,6 +1142,13 @@ export const vol2iss1 = [
         abstract: "Early Infant Diagnosis (EID) stands as a cornerstone in the global strategy to eradicate pediatric Human Immunodeficiency Virus (HIV) infections. This review delves into the pivotal role of EID in preventing the transmission of HIV from mothers to infants, emphasizing its significance in breaking the chain of transmission.",
         route: EJPHVOL2ISS105,
         pages: "52-61",
+    },
+    {
+        title: "Anthropometric Parameters in Health and Diseases: A Review",
+        authors: "I.S.I. Ogbu and Emmanuel Ifeanyi Obeagu",
+        abstract: "Anthropometric parameters play a pivotal role in assessing human health and disease states. This paper aims to comprehensively explore the significance of various anthropometric measurements in understanding health outcomes and identifying potential disease risks.",
+        route: EJPHVOL2ISS106,
+        pages: "62-70",
     },
 ];
 
