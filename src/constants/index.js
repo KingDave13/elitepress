@@ -1167,34 +1167,34 @@ export const Ejhvol2iss1 = [
         route: EJPHVOL2ISS102,
         pages: "8-22",
     },
-    {
-        title: "Tuberculosis: Current Diagnosis and Management",
-        authors: "Hamisi Mahanga Swalehe and Emmanuel Ifeanyi Obeagu",
-        abstract: "Tuberculosis is an airborne disease caused by the bacterium Mycobacterium tuberculosis (M. tuberculosis). Mycobacterium tuberculosis is carried in airborne particles, called droplet nuclei, of 1-5 microns in diameter. Infectious droplet nuclei are generated when persons who have pulmonary or laryngeal TB disease cough, sneeze, shout, or sing.",
-        route: EJPHVOL2ISS103,
-        pages: "23-33",
-    },
-    {
-        title: "Awareness and Utilization of Reproductive Health Right among Women of Childbearing Age Attending Welfare Clinic in University Of Calabar Teaching Hospital, Calabar",
-        authors: "Nwanganga Ihuoma Ubosi, Nancy Aje Okune and Emmanuel Ifeanyi Obeagu",
-        abstract: "The study was carried out on awareness and utilization of reproductive health right among women of childbearing age attending welfare clinic at University of Calabar Teaching Hospital, Calabar. This study employed a descriptive design (survey) to determine the awareness and utilization of reproductive rights among the women of childbearing age.",
-        route: EJPHVOL2ISS104,
-        pages: "34-51",
-    },
-    {
-        title: "Early Infant Diagnosis: Key to Breaking the Chain of HIV Transmission",
-        authors: "Emmanuel Ifeanyi Obeagu, Nwanganga Ihuoma Ubosi, Getrude Uzoma Obeagu and Muhammad Akram",
-        abstract: "Early Infant Diagnosis (EID) stands as a cornerstone in the global strategy to eradicate pediatric Human Immunodeficiency Virus (HIV) infections. This review delves into the pivotal role of EID in preventing the transmission of HIV from mothers to infants, emphasizing its significance in breaking the chain of transmission.",
-        route: EJPHVOL2ISS105,
-        pages: "52-61",
-    },
-    {
-        title: "Anthropometric Parameters in Health and Diseases: A Review",
-        authors: "I.S.I. Ogbu and Emmanuel Ifeanyi Obeagu",
-        abstract: "Anthropometric parameters play a pivotal role in assessing human health and disease states. This paper aims to comprehensively explore the significance of various anthropometric measurements in understanding health outcomes and identifying potential disease risks.",
-        route: EJPHVOL2ISS106,
-        pages: "62-70",
-    },
+    // {
+    //     title: "Tuberculosis: Current Diagnosis and Management",
+    //     authors: "Hamisi Mahanga Swalehe and Emmanuel Ifeanyi Obeagu",
+    //     abstract: "Tuberculosis is an airborne disease caused by the bacterium Mycobacterium tuberculosis (M. tuberculosis). Mycobacterium tuberculosis is carried in airborne particles, called droplet nuclei, of 1-5 microns in diameter. Infectious droplet nuclei are generated when persons who have pulmonary or laryngeal TB disease cough, sneeze, shout, or sing.",
+    //     route: EJPHVOL2ISS103,
+    //     pages: "23-33",
+    // },
+    // {
+    //     title: "Awareness and Utilization of Reproductive Health Right among Women of Childbearing Age Attending Welfare Clinic in University Of Calabar Teaching Hospital, Calabar",
+    //     authors: "Nwanganga Ihuoma Ubosi, Nancy Aje Okune and Emmanuel Ifeanyi Obeagu",
+    //     abstract: "The study was carried out on awareness and utilization of reproductive health right among women of childbearing age attending welfare clinic at University of Calabar Teaching Hospital, Calabar. This study employed a descriptive design (survey) to determine the awareness and utilization of reproductive rights among the women of childbearing age.",
+    //     route: EJPHVOL2ISS104,
+    //     pages: "34-51",
+    // },
+    // {
+    //     title: "Early Infant Diagnosis: Key to Breaking the Chain of HIV Transmission",
+    //     authors: "Emmanuel Ifeanyi Obeagu, Nwanganga Ihuoma Ubosi, Getrude Uzoma Obeagu and Muhammad Akram",
+    //     abstract: "Early Infant Diagnosis (EID) stands as a cornerstone in the global strategy to eradicate pediatric Human Immunodeficiency Virus (HIV) infections. This review delves into the pivotal role of EID in preventing the transmission of HIV from mothers to infants, emphasizing its significance in breaking the chain of transmission.",
+    //     route: EJPHVOL2ISS105,
+    //     pages: "52-61",
+    // },
+    // {
+    //     title: "Anthropometric Parameters in Health and Diseases: A Review",
+    //     authors: "I.S.I. Ogbu and Emmanuel Ifeanyi Obeagu",
+    //     abstract: "Anthropometric parameters play a pivotal role in assessing human health and disease states. This paper aims to comprehensively explore the significance of various anthropometric measurements in understanding health outcomes and identifying potential disease risks.",
+    //     route: EJPHVOL2ISS106,
+    //     pages: "62-70",
+    // },
 ];
 
 export const journals = [
