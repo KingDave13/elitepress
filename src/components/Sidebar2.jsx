@@ -165,8 +165,9 @@ const Sidebar2 = ({ sideLinks }) => {
                                 )}
                               </div>
                               
-                              <span className="block text-maintext text-[13px]
-                              leading-[17px] font-normal text-start"
+                              <span className="block text-maintext ss:text-[14px] 
+                              text-[12px] leading-[16px] font-normal 
+                              text-start"
                               >
                                 {submenuItem.school}
                               </span>
