@@ -49,8 +49,8 @@ const Modal = ({ onClose, name, school, profileLink }) => {
         className="bg-primaryalt p-5 rounded-md shadow-xl flex flex-col 
         justify-center w-auto h-auto items-center m-6">
           <div className='flex flex-col w-full gap-2'>
-            <h1 className='text-maintext md:text-[42px] ss:text-[35px]
-            text-[20px] font-bold'>
+            <h1 className='text-maintext ss:text-[35px] text-[20px] 
+            font-bold'>
               {name}
             </h1>
 
@@ -58,15 +58,14 @@ const Modal = ({ onClose, name, school, profileLink }) => {
               <div className='bg-textalt w-full h-[1px]' />
             </div>
 
-            <p className='text-maintext md:text-[17px] ss:text-[17px]
-              text-[14px] md:leading-[23px] ss:leading-[24px] 
-              leading-[18px]'>
+            <p className='text-maintext ss:text-[17px] text-[14px] 
+            ss:leading-[24px] leading-[18px]'>
                 {school}
             </p>
 
             <p
               onClick={handleClick}
-              className='w-full md:text-[16px] ss:text-[15px] text-[13px] text-main'
+              className='w-full ss:text-[15px] text-[13px] text-main'
               >
                 {profileLink}
             </p>
