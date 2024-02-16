@@ -80,13 +80,16 @@ export const ejhSideLinks = [
         links: [
             {
                 name: "Prof. Muhammad Akram",
+                school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
                 route: "",
             },
             {
                 name: "Dr. Rida Zainab",
+                school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
                 route: "",
             },
         ],
+        special: true,
     },
     {
         id: "frequency",
@@ -183,13 +186,16 @@ export const ejmSideLinks = [
         links: [
             {
                 name: "Prof. Muhammad Akram",
+                school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
                 route: "",
             },
             {
                 name: "Dr. Rida Zainab",
+                school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
                 route: "",
             },
         ],
+        special: true,
     },
     {
         id: "frequency",
@@ -286,13 +292,16 @@ export const ejhsSideLinks = [
         links: [
             {
                 name: "Prof. Muhammad Akram",
+                school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
                 route: "",
             },
             {
                 name: "Dr. Rida Zainab",
+                school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
                 route: "",
             },
         ],
+        special: true,
     },
     {
         id: "frequency",
@@ -389,13 +398,16 @@ export const ejmsSideLinks = [
         links: [
             {
                 name: "Prof. Muhammad Akram",
+                school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
                 route: "",
             },
             {
                 name: "Dr. Rida Zainab",
+                school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
                 route: "",
             },
         ],
+        special: true,
     },
     {
         id: "frequency",
@@ -501,6 +513,7 @@ export const ejphSideLinks = [
                 route: "",
             },
         ],
+        special: true,
     },
     {
         id: "frequency",
@@ -597,13 +610,16 @@ export const ejiSideLinks = [
         links: [
             {
                 name: "Prof. Muhammad Akram",
+                school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
                 route: "",
             },
             {
                 name: "Dr. Rida Zainab",
+                school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
                 route: "",
             },
         ],
+        special: true,
     },
     {
         id: "frequency",
@@ -700,13 +716,16 @@ export const ejlmSideLinks = [
         links: [
             {
                 name: "Prof. Muhammad Akram",
+                school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
                 route: "",
             },
             {
                 name: "Dr. Rida Zainab",
+                school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
                 route: "",
             },
         ],
+        special: true,
     },
     {
         id: "frequency",
@@ -803,13 +822,16 @@ export const ejnhsSideLinks = [
         links: [
             {
                 name: "Prof. Muhammad Akram",
+                school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
                 route: "",
             },
             {
                 name: "Dr. Rida Zainab",
+                school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
                 route: "",
             },
         ],
+        special: true,
     },
     {
         id: "frequency",
@@ -906,13 +928,16 @@ export const ejsrrSideLinks = [
         links: [
             {
                 name: "Prof. Muhammad Akram",
+                school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
                 route: "",
             },
             {
                 name: "Dr. Rida Zainab",
+                school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
                 route: "",
             },
         ],
+        special: true,
     },
     {
         id: "frequency",
@@ -1009,13 +1034,16 @@ export const ejhivSideLinks = [
         links: [
             {
                 name: "Prof. Muhammad Akram",
+                school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
                 route: "",
             },
             {
                 name: "Dr. Rida Zainab",
+                school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
                 route: "",
             },
         ],
+        special: true,
     },
     {
         id: "frequency",
