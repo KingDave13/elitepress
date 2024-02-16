@@ -54,23 +54,23 @@ export const ejhSideLinks = [
         links: [
             {
                 name: "Google Scholar",
-                route: "",
+                route: null,
             },
             {
                 name: "Research Gate",
-                route: "",
+                route: null,
             },
             {
                 name: "Academia Edu",
-                route: "",
+                route: null,
             },
             {
                 name: "ISI Indexing",
-                route: "",
+                route: null,
             },
             {
                 name: "Cosmo Impact Factor",
-                route: "",
+                route: null,
             },
         ],
     },
@@ -97,7 +97,7 @@ export const ejhSideLinks = [
         links: [
             {
                 name: "Each month of the year",
-                route: "",
+                route: null,
             },
         ],
     },
@@ -107,7 +107,7 @@ export const ejhSideLinks = [
         links: [
             {
                 // name: "lorem ipsum",
-                // route: "",
+                // route: null,
             },
         ],
     },
@@ -117,7 +117,7 @@ export const ejhSideLinks = [
         links: [
             {
                 // name: "lorem ipsum",
-                // route: "",
+                // route: null,
             },
         ],
     },
@@ -160,23 +160,23 @@ export const ejmSideLinks = [
         links: [
             {
                 name: "Google Scholar",
-                route: "",
+                route: null,
             },
             {
                 name: "Research Gate",
-                route: "",
+                route: null,
             },
             {
                 name: "Academia Edu",
-                route: "",
+                route: null,
             },
             {
                 name: "ISI Indexing",
-                route: "",
+                route: null,
             },
             {
                 name: "Cosmo Impact Factor",
-                route: "",
+                route: null,
             },
         ],
     },
@@ -203,7 +203,7 @@ export const ejmSideLinks = [
         links: [
             {
                 name: "Each month of the year",
-                route: "",
+                route: null,
             },
         ],
     },
@@ -213,7 +213,7 @@ export const ejmSideLinks = [
         links: [
             {
                 // name: "lorem ipsum",
-                // route: "",
+                // route: null,
             },
         ],
     },
@@ -223,7 +223,7 @@ export const ejmSideLinks = [
         links: [
             {
                 // name: "lorem ipsum",
-                // route: "",
+                // route: null,
             },
         ],
     },
@@ -266,23 +266,23 @@ export const ejhsSideLinks = [
         links: [
             {
                 name: "Google Scholar",
-                route: "",
+                route: null,
             },
             {
                 name: "Research Gate",
-                route: "",
+                route: null,
             },
             {
                 name: "Academia Edu",
-                route: "",
+                route: null,
             },
             {
                 name: "ISI Indexing",
-                route: "",
+                route: null,
             },
             {
                 name: "Cosmo Impact Factor",
-                route: "",
+                route: null,
             },
         ],
     },
@@ -309,7 +309,7 @@ export const ejhsSideLinks = [
         links: [
             {
                 name: "Each month of the year",
-                route: "",
+                route: null,
             },
         ],
     },
@@ -319,7 +319,7 @@ export const ejhsSideLinks = [
         links: [
             {
                 // name: "lorem ipsum",
-                // route: "",
+                // route: null,
             },
         ],
     },
@@ -329,7 +329,7 @@ export const ejhsSideLinks = [
         links: [
             {
                 // name: "lorem ipsum",
-                // route: "",
+                // route: null,
             },
         ],
     },
@@ -372,23 +372,23 @@ export const ejmsSideLinks = [
         links: [
             {
                 name: "Google Scholar",
-                route: "",
+                route: null,
             },
             {
                 name: "Research Gate",
-                route: "",
+                route: null,
             },
             {
                 name: "Academia Edu",
-                route: "",
+                route: null,
             },
             {
                 name: "ISI Indexing",
-                route: "",
+                route: null,
             },
             {
                 name: "Cosmo Impact Factor",
-                route: "",
+                route: null,
             },
         ],
     },
@@ -415,7 +415,7 @@ export const ejmsSideLinks = [
         links: [
             {
                 name: "Each month of the year",
-                route: "",
+                route: null,
             },
         ],
     },
@@ -425,7 +425,7 @@ export const ejmsSideLinks = [
         links: [
             {
                 // name: "lorem ipsum",
-                // route: "",
+                // route: null,
             },
         ],
     },
@@ -435,7 +435,7 @@ export const ejmsSideLinks = [
         links: [
             {
                 // name: "lorem ipsum",
-                // route: "",
+                // route: null,
             },
         ],
     },
@@ -478,23 +478,23 @@ export const ejphSideLinks = [
         links: [
             {
                 name: "Google Scholar",
-                route: "",
+                route: null,
             },
             {
                 name: "Research Gate",
-                route: "",
+                route: null,
             },
             {
                 name: "Academia Edu",
-                route: "",
+                route: null,
             },
             {
                 name: "ISI Indexing",
-                route: "",
+                route: null,
             },
             {
                 name: "Cosmo Impact Factor",
-                route: "",
+                route: null,
             },
         ],
     },
@@ -505,11 +505,17 @@ export const ejphSideLinks = [
             {
                 name: "Prof. Muhammad Akram",
                 school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
+                infoName: "Prof. Muhammad Akram",
+                infoSchool: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
+                profileLink: "https://www.researchgate.net/profile/Muhammad-Akram-88", 
                 route: null,
             },
             {
                 name: "Dr. Rida Zainab",
                 school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
+                infoName: "Dr. Rida Zainab",
+                infoSchool: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
+                profileLink: "https://www.researchgate.net/profile/Rida_Zainab5",
                 route: null,
             },
         ],
@@ -521,7 +527,7 @@ export const ejphSideLinks = [
         links: [
             {
                 name: "Each month of the year",
-                route: "",
+                route: null,
             },
         ],
     },
@@ -531,7 +537,7 @@ export const ejphSideLinks = [
         links: [
             {
                 // name: "lorem ipsum",
-                // route: "",
+                // route: null,
             },
         ],
     },
@@ -541,7 +547,7 @@ export const ejphSideLinks = [
         links: [
             {
                 // name: "lorem ipsum",
-                // route: "",
+                // route: null,
             },
         ],
     },
@@ -584,23 +590,23 @@ export const ejiSideLinks = [
         links: [
             {
                 name: "Google Scholar",
-                route: "",
+                route: null,
             },
             {
                 name: "Research Gate",
-                route: "",
+                route: null,
             },
             {
                 name: "Academia Edu",
-                route: "",
+                route: null,
             },
             {
                 name: "ISI Indexing",
-                route: "",
+                route: null,
             },
             {
                 name: "Cosmo Impact Factor",
-                route: "",
+                route: null,
             },
         ],
     },
@@ -627,7 +633,7 @@ export const ejiSideLinks = [
         links: [
             {
                 name: "Each month of the year",
-                route: "",
+                route: null,
             },
         ],
     },
@@ -637,7 +643,7 @@ export const ejiSideLinks = [
         links: [
             {
                 // name: "lorem ipsum",
-                // route: "",
+                // route: null,
             },
         ],
     },
@@ -647,7 +653,7 @@ export const ejiSideLinks = [
         links: [
             {
                 // name: "lorem ipsum",
-                // route: "",
+                // route: null,
             },
         ],
     },
@@ -690,23 +696,23 @@ export const ejlmSideLinks = [
         links: [
             {
                 name: "Google Scholar",
-                route: "",
+                route: null,
             },
             {
                 name: "Research Gate",
-                route: "",
+                route: null,
             },
             {
                 name: "Academia Edu",
-                route: "",
+                route: null,
             },
             {
                 name: "ISI Indexing",
-                route: "",
+                route: null,
             },
             {
                 name: "Cosmo Impact Factor",
-                route: "",
+                route: null,
             },
         ],
     },
@@ -733,7 +739,7 @@ export const ejlmSideLinks = [
         links: [
             {
                 name: "Each month of the year",
-                route: "",
+                route: null,
             },
         ],
     },
@@ -743,7 +749,7 @@ export const ejlmSideLinks = [
         links: [
             {
                 // name: "lorem ipsum",
-                // route: "",
+                // route: null,
             },
         ],
     },
@@ -753,7 +759,7 @@ export const ejlmSideLinks = [
         links: [
             {
                 // name: "lorem ipsum",
-                // route: "",
+                // route: null,
             },
         ],
     },
@@ -796,23 +802,23 @@ export const ejnhsSideLinks = [
         links: [
             {
                 name: "Google Scholar",
-                route: "",
+                route: null,
             },
             {
                 name: "Research Gate",
-                route: "",
+                route: null,
             },
             {
                 name: "Academia Edu",
-                route: "",
+                route: null,
             },
             {
                 name: "ISI Indexing",
-                route: "",
+                route: null,
             },
             {
                 name: "Cosmo Impact Factor",
-                route: "",
+                route: null,
             },
         ],
     },
@@ -839,7 +845,7 @@ export const ejnhsSideLinks = [
         links: [
             {
                 name: "Each month of the year",
-                route: "",
+                route: null,
             },
         ],
     },
@@ -849,7 +855,7 @@ export const ejnhsSideLinks = [
         links: [
             {
                 // name: "lorem ipsum",
-                // route: "",
+                // route: null,
             },
         ],
     },
@@ -859,7 +865,7 @@ export const ejnhsSideLinks = [
         links: [
             {
                 // name: "lorem ipsum",
-                // route: "",
+                // route: null,
             },
         ],
     },
@@ -902,23 +908,23 @@ export const ejsrrSideLinks = [
         links: [
             {
                 name: "Google Scholar",
-                route: "",
+                route: null,
             },
             {
                 name: "Research Gate",
-                route: "",
+                route: null,
             },
             {
                 name: "Academia Edu",
-                route: "",
+                route: null,
             },
             {
                 name: "ISI Indexing",
-                route: "",
+                route: null,
             },
             {
                 name: "Cosmo Impact Factor",
-                route: "",
+                route: null,
             },
         ],
     },
@@ -945,7 +951,7 @@ export const ejsrrSideLinks = [
         links: [
             {
                 name: "Each month of the year",
-                route: "",
+                route: null,
             },
         ],
     },
@@ -955,7 +961,7 @@ export const ejsrrSideLinks = [
         links: [
             {
                 // name: "lorem ipsum",
-                // route: "",
+                // route: null,
             },
         ],
     },
@@ -965,7 +971,7 @@ export const ejsrrSideLinks = [
         links: [
             {
                 // name: "lorem ipsum",
-                // route: "",
+                // route: null,
             },
         ],
     },
@@ -1008,23 +1014,23 @@ export const ejhivSideLinks = [
         links: [
             {
                 name: "Google Scholar",
-                route: "",
+                route: null,
             },
             {
                 name: "Research Gate",
-                route: "",
+                route: null,
             },
             {
                 name: "Academia Edu",
-                route: "",
+                route: null,
             },
             {
                 name: "ISI Indexing",
-                route: "",
+                route: null,
             },
             {
                 name: "Cosmo Impact Factor",
-                route: "",
+                route: null,
             },
         ],
     },
@@ -1051,7 +1057,7 @@ export const ejhivSideLinks = [
         links: [
             {
                 name: "Each month of the year",
-                route: "",
+                route: null,
             },
         ],
     },
@@ -1061,7 +1067,7 @@ export const ejhivSideLinks = [
         links: [
             {
                 // name: "lorem ipsum",
-                // route: "",
+                // route: null,
             },
         ],
     },
@@ -1071,7 +1077,7 @@ export const ejhivSideLinks = [
         links: [
             {
                 // name: "lorem ipsum",
-                // route: "",
+                // route: null,
             },
         ],
     },

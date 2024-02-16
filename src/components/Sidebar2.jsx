@@ -157,10 +157,10 @@ const Sidebar2 = ({ sideLinks }) => {
                                 {link.special && (
                                   <img src={info} alt='info'
                                     className='h-[13px] w-auto'
-                                    // onClick={() => {
-                                    //   setModalOpen(true);
-                                    //   disableScroll();
-                                    // }}
+                                    onClick={() => {
+                                      setModalOpen(true);
+                                      disableScroll();
+                                    }}
                                   />               
                                 )}
                               </div>
