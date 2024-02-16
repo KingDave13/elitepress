@@ -1,11 +1,101 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { arrow, arrowright } from '../assets';
+import { arrow, arrowright, info } from '../assets';
 import { SectionWrapper } from '../hoc';
+import { motion, AnimatePresence } from 'framer-motion';
+
+const Modal = ({ onClose }) => {
+  const modalRef = useRef(null);
+
+  const enableScroll = () => {
+    document.body.style.overflow = 'auto';
+    document.body.style.top = '0';
+  };
+
+  const handleClick = () => {
+      onClose();
+      enableScroll();
+  };
+
+  useEffect(() => {
+      const handleClickOutside = (event) => {
+          if (modalRef.current && !modalRef.current.contains(event.target)) {
+              onClose();
+              enableScroll();
+          }
+      };
+  
+      document.addEventListener('mousedown', handleClickOutside);
+  
+      return () => {
+        document.removeEventListener('mousedown', handleClickOutside);
+      };
+  }, []);
+
+  return (
+    <AnimatePresence>
+      <motion.div 
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="fixed inset-0 flex items-center justify-center
+      bg-black bg-opacity-80 z-50">
+        <motion.div 
+        initial={{ y: 0, opacity: 0.7 }}
+        animate={{ y: 0, opacity: 1 }}
+        exit={{ y: 10, opacity: 0 }}
+        transition={{ duration: 0.1 }}
+        ref={modalRef} 
+        className="bg-primaryalt md:p-14 ss:p-10 p-6 rounded-md shadow-xl 
+        flex flex-col justify-center w-auto h-auto items-center">
+          <div className='flex flex-col w-full justify-center 
+          items-center'>
+            <h1 className='text-white md:text-[42px] ss:text-[35px]
+            text-[25px] text-center md:leading-[55px]
+            ss:leading-[47px] leading-[33px] md:mb-6 ss:mb-6 mb-5'>
+              How do you want to attend <br></br>this event?
+            </h1>
+
+            <p className='text-white md:text-[17px] ss:text-[17px]
+              text-[14px] text-center md:max-w-[520px] ss:max-w-[520px] 
+              max-w-[320px] md:leading-[23px] ss:leading-[24px] 
+              leading-[20px] md:mb-8 ss:mb-6 mb-5'>
+                There are two ways you can attend the following Nuude!
+                event. As a registered Nuude! member, you are entitled
+                to various benefits and full access to all our events
+                across the year!
+            </p>
+
+            <button
+              onClick={handleClick}
+              className='grow4 bg-secondary border-none w-full
+              md:text-[16px] ss:text-[15px] text-[13px] md:py-4
+              ss:py-4 py-3 md:px-8 ss:px-7 px-5 text-primary 
+              md:rounded-[3px] ss:rounded-[3px] rounded-[3px] 
+              cursor-pointer md:mb-3 ss:mb-3 
+              mb-2'
+              >
+                Apply for Nuude! Annual Membership
+            </button>
+          </div>
+        </motion.div>
+      </motion.div>
+    </AnimatePresence>
+  );
+};
 
 const Sidebar2 = ({ sideLinks }) => {
   const navigate = useNavigate();
   const [expandedItem, setExpandedItem] = useState(null);
+
+  const [modalOpen, setModalOpen] = useState(false);
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  const disableScroll = () => {
+    setScrollPosition(window.pageYOffset);
+    document.body.style.overflow = 'hidden';
+    document.body.style.top = `-${scrollPosition}px`;
+  };
 
   const handleSideItemClick = (link) => {
     setExpandedItem(expandedItem === link.id ? null : link.id);
@@ -17,6 +107,11 @@ const Sidebar2 = ({ sideLinks }) => {
   
   return (
     <div className='flex items-center w-full'>
+
+      {modalOpen && (
+          <Modal onClose={() => setModalOpen(false)} />
+      )}
+
       <div className="w-full flex justify-between items-center">
         <div className="flex flex-col items-center w-full pb-10">
           <ul className="list-none flex flex-col gap-4 w-full">
@@ -46,10 +141,29 @@ const Sidebar2 = ({ sideLinks }) => {
                         {link.links.map((submenuItem, index) => (
                           <li key={index}>
                             <button
-                              className="block text-main py-[2px] font-medium"
+                              className="block text-main ss:py-[5px] py-[4px] 
+                              font-medium"
                               onClick={() => handleSubItemClick(submenuItem.route)}
                             >
-                              {submenuItem.name}
+                              <div className='flex items-center gap-2'>
+                                {submenuItem.name}
+
+                                {link.special && (
+                                  <img src={info} alt='info'
+                                    className='h-[14px] w-auto'
+                                    // onClick={() => {
+                                    //   setModalOpen(true);
+                                    //   disableScroll();
+                                    // }}
+                                  />               
+                                )}
+                              </div>
+                              
+                              <span className="block text-maintext text-[13px]
+                              leading-[17px] font-normal text-start"
+                              >
+                                {submenuItem.school}
+                              </span>
                             </button>
                           </li>
                         ))}
