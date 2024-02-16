@@ -1,11 +1,11 @@
 import {
-    EJPHVOL2ISS1,
+    EJHVOL2ISS1,
     Newsletter,
     Footer, 
     Sidebar,
     Sidebar2, 
     NavbarPages,
-    Vol2Iss1Pubs, 
+    EjhVol2Iss1Pubs, 
     } from "../components";
   
   import styles from "../styles";
@@ -23,7 +23,7 @@ import {
           className='w-[120rem] md:h-[300px] ss:h-[250px]
           h-[150px]' />
           <div className='absolute w-full md:pb-8 ss:pb-8 pb-6'>
-            <EJPHVOL2ISS1 />
+            <EJHVOL2ISS1 />
           </div>
         </div>
   
@@ -35,13 +35,13 @@ import {
             </div>
   
             <div className='ml-20 w-full'>
-              <Vol2Iss1Pubs />
+              <EjhVol2Iss1Pubs />
             </div>
           </div>
   
           <div className='flex ss:pt-28 pt-28 md:hidden flex flex-col'>
             <div className=''>
-              <Vol2Iss1Pubs />
+              <EjhVol2Iss1Pubs />
             </div>
   
             <div className="">

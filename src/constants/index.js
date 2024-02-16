@@ -33,8 +33,8 @@ export const ejhSideLinks = [
         title: "Current Issue",
         links: [
             {
-                // name: "Volume 2, Issue 1, 2024",
-                // route: "/journals/EJPH/VOL2ISS1",
+                name: "Volume 2, Issue 1, 2024",
+                route: "/journals/EJH/VOL2ISS1",
             },
         ],
     },
@@ -1108,6 +1108,51 @@ export const ejhivSideLinks = [
 ];
 
 export const vol2iss1 = [
+    {
+        title: "Malaria's Silent Partner: Anemia in Children",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "This review explores the often-overlooked but critical relationship between malaria and anemia in children. While malaria's immediate symptoms are well-documented, its silent partner, anemia, significantly impacts the health and development of affected children. The consequences of malarial anemia on child health, including fatigue, stunted growth, and cognitive impairments, are discussed.",
+        route: EJPHVOL2ISS101,
+        pages: "1-7",
+    },
+    {
+        title: "Unmasking the Truth: Addressing Stigma in the Fight Against HIV",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "The persistent stigma surrounding HIV remains a significant obstacle in the global efforts to combat the epidemic effectively. This review article aims to dissect the multifaceted dimensions of HIV stigma and explore strategies to unmask the truth about its detrimental impact on prevention, care, and support for those affected by the virus.",
+        route: EJPHVOL2ISS102,
+        pages: "8-22",
+    },
+    {
+        title: "Tuberculosis: Current Diagnosis and Management",
+        authors: "Hamisi Mahanga Swalehe and Emmanuel Ifeanyi Obeagu",
+        abstract: "Tuberculosis is an airborne disease caused by the bacterium Mycobacterium tuberculosis (M. tuberculosis). Mycobacterium tuberculosis is carried in airborne particles, called droplet nuclei, of 1-5 microns in diameter. Infectious droplet nuclei are generated when persons who have pulmonary or laryngeal TB disease cough, sneeze, shout, or sing.",
+        route: EJPHVOL2ISS103,
+        pages: "23-33",
+    },
+    {
+        title: "Awareness and Utilization of Reproductive Health Right among Women of Childbearing Age Attending Welfare Clinic in University Of Calabar Teaching Hospital, Calabar",
+        authors: "Nwanganga Ihuoma Ubosi, Nancy Aje Okune and Emmanuel Ifeanyi Obeagu",
+        abstract: "The study was carried out on awareness and utilization of reproductive health right among women of childbearing age attending welfare clinic at University of Calabar Teaching Hospital, Calabar. This study employed a descriptive design (survey) to determine the awareness and utilization of reproductive rights among the women of childbearing age.",
+        route: EJPHVOL2ISS104,
+        pages: "34-51",
+    },
+    {
+        title: "Early Infant Diagnosis: Key to Breaking the Chain of HIV Transmission",
+        authors: "Emmanuel Ifeanyi Obeagu, Nwanganga Ihuoma Ubosi, Getrude Uzoma Obeagu and Muhammad Akram",
+        abstract: "Early Infant Diagnosis (EID) stands as a cornerstone in the global strategy to eradicate pediatric Human Immunodeficiency Virus (HIV) infections. This review delves into the pivotal role of EID in preventing the transmission of HIV from mothers to infants, emphasizing its significance in breaking the chain of transmission.",
+        route: EJPHVOL2ISS105,
+        pages: "52-61",
+    },
+    {
+        title: "Anthropometric Parameters in Health and Diseases: A Review",
+        authors: "I.S.I. Ogbu and Emmanuel Ifeanyi Obeagu",
+        abstract: "Anthropometric parameters play a pivotal role in assessing human health and disease states. This paper aims to comprehensively explore the significance of various anthropometric measurements in understanding health outcomes and identifying potential disease risks.",
+        route: EJPHVOL2ISS106,
+        pages: "62-70",
+    },
+];
+
+export const Ejhvol2iss1 = [
     {
         title: "Malaria's Silent Partner: Anemia in Children",
         authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
