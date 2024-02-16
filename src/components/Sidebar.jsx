@@ -48,7 +48,11 @@ const Sidebar = ({ sideLinks }) => {
                             text-main py-[5px] font-medium"
                             onClick={(e) => {
                               e.preventDefault();
-                              handleSubItemClick(submenuItem.route);
+                              if (submenuItem.route && submenuItem.route.startsWith('mailto:')) {
+                                window.location.href = submenuItem.route;
+                              } else if (submenuItem.route) {
+                                handleSubItemClick(submenuItem.route);
+                              }
                             }}
                             >
                               <div className='flex items-center gap-2'>
@@ -56,7 +60,11 @@ const Sidebar = ({ sideLinks }) => {
 
                                 {link.special && (
                                   <img src={info} alt='info'
-                                  className='h-[14px] w-auto'
+                                    className='h-[14px] w-auto'
+                                    // onClick={() => {
+                                    //   setModalOpen(true);
+                                    //   disableScroll();
+                                    // }}
                                   />               
                                 )}
                               </div>

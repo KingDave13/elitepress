@@ -143,7 +143,13 @@ const Sidebar2 = ({ sideLinks }) => {
                             <button
                               className="block text-main ss:py-[5px] py-[4px] 
                               font-medium"
-                              onClick={() => handleSubItemClick(submenuItem.route)}
+                              onClick={() => {
+                                if (submenuItem.route && submenuItem.route.startsWith('mailto:')) {
+                                  window.location.href = submenuItem.route;
+                                } else if (submenuItem.route) {
+                                  handleSubItemClick(submenuItem.route);
+                                }
+                              }}
                             >
                               <div className='flex items-center gap-2'>
                                 {submenuItem.name}

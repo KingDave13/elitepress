@@ -505,10 +505,12 @@ export const ejphSideLinks = [
             {
                 name: "Prof. Muhammad Akram",
                 school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
+                route: null,
             },
             {
                 name: "Dr. Rida Zainab",
                 school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
+                route: null,
             },
         ],
         special: true,
