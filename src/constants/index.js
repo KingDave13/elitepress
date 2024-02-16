@@ -1080,18 +1080,18 @@ export const vol2iss1 = [
         pages: "23-33",
     },
     {
-        title: "Unmasking the Truth: Addressing Stigma in the Fight Against HIV",
-        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
-        abstract: "The persistent stigma surrounding HIV remains a significant obstacle in the global efforts to combat the epidemic effectively. This review article aims to dissect the multifaceted dimensions of HIV stigma and explore strategies to unmask the truth about its detrimental impact on prevention, care, and support for those affected by the virus.",
+        title: "Awareness and Utilization of Reproductive Health Right among Women of Childbearing Age Attending Welfare Clinic in University Of Calabar Teaching Hospital, Calabar",
+        authors: "Nwanganga Ihuoma Ubosi, Nancy Aje Okune and Emmanuel Ifeanyi Obeagu",
+        abstract: "The study was carried out on awareness and utilization of reproductive health right among women of childbearing age attending welfare clinic at University of Calabar Teaching Hospital, Calabar. This study employed a descriptive design (survey) to determine the awareness and utilization of reproductive rights among the women of childbearing age.",
         route: EJPHVOL2ISS104,
-        pages: "8-22",
+        pages: "34-51",
     },
     {
-        title: "Unmasking the Truth: Addressing Stigma in the Fight Against HIV",
-        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
-        abstract: "The persistent stigma surrounding HIV remains a significant obstacle in the global efforts to combat the epidemic effectively. This review article aims to dissect the multifaceted dimensions of HIV stigma and explore strategies to unmask the truth about its detrimental impact on prevention, care, and support for those affected by the virus.",
+        title: "Early Infant Diagnosis: Key to Breaking the Chain of HIV Transmission",
+        authors: "Emmanuel Ifeanyi Obeagu, Nwanganga Ihuoma Ubosi, Getrude Uzoma Obeagu and Muhammad Akram",
+        abstract: "Early Infant Diagnosis (EID) stands as a cornerstone in the global strategy to eradicate pediatric Human Immunodeficiency Virus (HIV) infections. This review delves into the pivotal role of EID in preventing the transmission of HIV from mothers to infants, emphasizing its significance in breaking the chain of transmission.",
         route: EJPHVOL2ISS105,
-        pages: "8-22",
+        pages: "52-61",
     },
 ];
 
