@@ -1,7 +1,7 @@
 import { GrMail } from 'react-icons/gr';
 import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV, EJPHVOL2ISS103, EJPHVOL2ISS104, EJPHVOL2ISS105, EJPHVOL2ISS106, } 
 from '../assets';
-import { EJPHVOL2ISS101, EJPHVOL2ISS102 } from '../assets';
+import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102 } from '../assets';
 
 export const navLinks = [
 {
@@ -1154,18 +1154,18 @@ export const vol2iss1 = [
 
 export const Ejhvol2iss1 = [
     {
-        title: "Malaria's Silent Partner: Anemia in Children",
-        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
-        abstract: "This review explores the often-overlooked but critical relationship between malaria and anemia in children. While malaria's immediate symptoms are well-documented, its silent partner, anemia, significantly impacts the health and development of affected children. The consequences of malarial anemia on child health, including fatigue, stunted growth, and cognitive impairments, are discussed.",
-        route: EJPHVOL2ISS101,
-        pages: "1-7",
+        title: "Assessment of Haemostatic Parameters on Preeclampsia Subjects in Aba, Abia State",
+        authors: "Ukamaka C. Edward, Stella Ijeoma Henry and Emmanuel Ifeanyi Obeagu",
+        abstract: "The present study assessed the haemostatic parameters in preeclampsia subjects in Aba, Abia state Nigeria. A total of sixty subjects between the ages of eighteen to forty – four years were used for this study. Thirty were preeclampsia subjects who were medically diagnosed while thirty were apparently healthy individuals who served as control subjects.",
+        route: EJHVOL2ISS101,
+        pages: "1-9",
     },
     {
-        title: "Unmasking the Truth: Addressing Stigma in the Fight Against HIV",
-        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
-        abstract: "The persistent stigma surrounding HIV remains a significant obstacle in the global efforts to combat the epidemic effectively. This review article aims to dissect the multifaceted dimensions of HIV stigma and explore strategies to unmask the truth about its detrimental impact on prevention, care, and support for those affected by the virus.",
-        route: EJPHVOL2ISS102,
-        pages: "8-22",
+        title: "Assessment of the Serum Iron Status of Preeclampsia Subjects in Aba, Abia State",
+        authors: "Ukamaka C. Edward, Stella Ijeoma Henry and Emmanuel Ifeanyi Obeagu",
+        abstract: "The present study assessed the levels of iron status and haemostatic parameters in preeclampsia subjects in Aba, Abia state Nigeria. A total of sixty subjects between the ages of eighteen to forty – four years were used for this study. Thirty were preeclampsia subjects who were medically diagnosed while thirty were apparently healthy individuals who served as control subjects.",
+        route: EJHVOL2ISS102,
+        pages: "10-18",
     },
     // {
     //     title: "Tuberculosis: Current Diagnosis and Management",
