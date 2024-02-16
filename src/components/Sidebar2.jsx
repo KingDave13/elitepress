@@ -151,12 +151,12 @@ const Sidebar2 = ({ sideLinks }) => {
                                 }
                               }}
                             >
-                              <div className='flex items-center gap-2'>
+                              <div className='flex items-center gap-2.5'>
                                 {submenuItem.name}
 
                                 {link.special && (
                                   <img src={info} alt='info'
-                                    className='h-[14px] w-auto'
+                                    className='h-[13px] w-auto'
                                     // onClick={() => {
                                     //   setModalOpen(true);
                                     //   disableScroll();
