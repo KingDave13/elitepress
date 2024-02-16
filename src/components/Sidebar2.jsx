@@ -30,7 +30,7 @@ const Modal = ({ onClose, name, school, profileLink }) => {
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
-  }, []);
+  }, [onClose]);
 
   return (
     <AnimatePresence>
