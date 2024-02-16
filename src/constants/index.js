@@ -497,7 +497,7 @@ export const ejphSideLinks = [
             },
             {
                 name: "Dr. Rida Zainab",
-                school: "",
+                school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan",
                 route: "",
             },
         ],
