@@ -1073,11 +1073,11 @@ export const vol2iss1 = [
         pages: "8-22",
     },
     {
-        title: "Unmasking the Truth: Addressing Stigma in the Fight Against HIV",
-        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
-        abstract: "The persistent stigma surrounding HIV remains a significant obstacle in the global efforts to combat the epidemic effectively. This review article aims to dissect the multifaceted dimensions of HIV stigma and explore strategies to unmask the truth about its detrimental impact on prevention, care, and support for those affected by the virus.",
+        title: "Tuberculosis: Current Diagnosis and Management",
+        authors: "Hamisi Mahanga Swalehe and Emmanuel Ifeanyi Obeagu",
+        abstract: "Tuberculosis is an airborne disease caused by the bacterium Mycobacterium tuberculosis (M. tuberculosis). Mycobacterium tuberculosis is carried in airborne particles, called droplet nuclei, of 1-5 microns in diameter. Infectious droplet nuclei are generated when persons who have pulmonary or laryngeal TB disease cough, sneeze, shout, or sing.",
         route: EJPHVOL2ISS103,
-        pages: "8-22",
+        pages: "23-33",
     },
     {
         title: "Unmasking the Truth: Addressing Stigma in the Fight Against HIV",
