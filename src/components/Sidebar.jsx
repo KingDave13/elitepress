@@ -11,11 +11,6 @@ const Modal = ({ onClose, name, school, profileLink }) => {
     document.body.style.top = '0';
   };
 
-  const handleClick = () => {
-    onClose();
-    enableScroll();
-  };
-
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (modalRef.current && !modalRef.current.contains(event.target)) {
@@ -60,12 +55,14 @@ const Modal = ({ onClose, name, school, profileLink }) => {
                 {school}
             </p>
 
-            <p
-              onClick={handleClick}
-              className='w-full text-[17px] text-main'
+            <a
+              href={profileLink}
+              target='_blank'
+              rel='noreferrer'
+              className='text-[17px] text-main'
               >
                 {profileLink}
-            </p>
+            </a>
           </div>
         </motion.div>
       </motion.div>
@@ -124,12 +121,13 @@ const Sidebar = ({ sideLinks }) => {
             {sideLinks.map((link) => (
               <li
                 key={link.id}
-                className={`grow4 text-[18px] px-6 py-3 border-textalt 
-                border-[0.5px] text-decoration-none cursor-pointer
-                text-textalt list-item bg-white`}
-                onClick={(e) => handleSideItemClick(link, e)}
+                className='grow4 text-[18px] px-6 py-3 border-textalt 
+                border-[0.5px] text-decoration-none 
+                text-textalt list-item bg-white'
               >
-                <div className="flex gap-6 items-center justify-between">
+                <div className="flex gap-6 items-center justify-between
+                cursor-pointer"
+                onClick={(e) => handleSideItemClick(link, e)}>
                   {link.title}
                   <span>
                     <img
@@ -162,8 +160,9 @@ const Sidebar = ({ sideLinks }) => {
 
                                 {link.special && (
                                   <img src={info} alt='info'
-                                    className='h-[14px] w-auto'
-                                    onClick={() => {
+                                    className='h-[14px] w-auto cursor-pointer'
+                                    onClick={(e) => {
+                                      e.stopPropagation();
                                       handleModalOpen(submenuItem);
                                     }}
                                   />               

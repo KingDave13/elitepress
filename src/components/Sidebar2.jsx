@@ -12,11 +12,6 @@ const Modal = ({ onClose, name, school, profileLink }) => {
     document.body.style.top = '0';
   };
 
-  const handleClick = () => {
-    onClose();
-    enableScroll();
-  };
-
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (modalRef.current && !modalRef.current.contains(event.target)) {
@@ -63,12 +58,14 @@ const Modal = ({ onClose, name, school, profileLink }) => {
                 {school}
             </p>
 
-            <p
-              onClick={handleClick}
+            <a
+              href={profileLink}
+              target='_blank'
+              rel='noreferrer'
               className='w-full ss:text-[15px] text-[13px] text-main'
               >
                 {profileLink}
-            </p>
+            </a>
           </div>
         </motion.div>
       </motion.div>
@@ -127,12 +124,12 @@ const Sidebar2 = ({ sideLinks }) => {
             {sideLinks.map((link) => (
               <li
                 key={link.id}
-                className={`text-[15px] px-5 py-2 border-textalt
-                border-[0.5px] text-decoration-none cursor-pointer 
-                text-textalt list-item bg-white`}
-                onClick={() => handleSideItemClick(link)}
+                className='text-[15px] px-5 py-2 border-textalt
+                border-[0.5px] text-decoration-none text-textalt list-item 
+                bg-white'
               >
-                <div className="flex items-center justify-between">
+                <div className="flex items-center justify-between"
+                onClick={() => handleSideItemClick(link)}>
                   {link.title}
                   <span>
                     <img
@@ -166,7 +163,8 @@ const Sidebar2 = ({ sideLinks }) => {
                                 {link.special && (
                                   <img src={info} alt='info'
                                     className='h-[13px] w-auto'
-                                    onClick={() => {
+                                    onClick={(e) => {
+                                      e.stopPropagation();
                                       handleModalOpen(submenuItem);
                                     }}
                                   />               
