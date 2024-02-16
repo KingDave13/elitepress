@@ -505,16 +505,12 @@ export const ejphSideLinks = [
             {
                 name: "Prof. Muhammad Akram",
                 school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
-                infoName: "Prof. Muhammad Akram",
-                infoSchool: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
                 profileLink: "https://www.researchgate.net/profile/Muhammad-Akram-88", 
                 route: null,
             },
             {
                 name: "Dr. Rida Zainab",
                 school: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
-                infoName: "Dr. Rida Zainab",
-                infoSchool: "Department of Eastern Medicine, Government College University, Faisalabad, Pakistan.",
                 profileLink: "https://www.researchgate.net/profile/Rida_Zainab5",
                 route: null,
             },

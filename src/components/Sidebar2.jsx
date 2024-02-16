@@ -4,7 +4,7 @@ import { arrow, arrowright, info } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const Modal = ({ onClose }) => {
+const Modal = ({ onClose, name, school, profileLink }) => {
   const modalRef = useRef(null);
 
   const enableScroll = () => {
@@ -13,23 +13,23 @@ const Modal = ({ onClose }) => {
   };
 
   const handleClick = () => {
-      onClose();
-      enableScroll();
+    onClose();
+    enableScroll();
   };
 
   useEffect(() => {
-      const handleClickOutside = (event) => {
-          if (modalRef.current && !modalRef.current.contains(event.target)) {
-              onClose();
-              enableScroll();
-          }
-      };
-  
-      document.addEventListener('mousedown', handleClickOutside);
-  
-      return () => {
-        document.removeEventListener('mousedown', handleClickOutside);
-      };
+    const handleClickOutside = (event) => {
+      if (modalRef.current && !modalRef.current.contains(event.target)) {
+        onClose();
+        enableScroll();
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
   }, []);
 
   return (
@@ -46,24 +46,21 @@ const Modal = ({ onClose }) => {
         exit={{ y: 10, opacity: 0 }}
         transition={{ duration: 0.1 }}
         ref={modalRef} 
-        className="bg-primaryalt md:p-14 ss:p-10 p-6 rounded-md shadow-xl 
-        flex flex-col justify-center w-auto h-auto items-center">
+        className="bg-primaryalt p-6 rounded-md shadow-xl flex flex-col 
+        justify-center w-auto h-auto items-center">
           <div className='flex flex-col w-full justify-center 
           items-center'>
             <h1 className='text-white md:text-[42px] ss:text-[35px]
             text-[25px] text-center md:leading-[55px]
             ss:leading-[47px] leading-[33px] md:mb-6 ss:mb-6 mb-5'>
-              How do you want to attend <br></br>this event?
+              {name}
             </h1>
 
             <p className='text-white md:text-[17px] ss:text-[17px]
               text-[14px] text-center md:max-w-[520px] ss:max-w-[520px] 
               max-w-[320px] md:leading-[23px] ss:leading-[24px] 
               leading-[20px] md:mb-8 ss:mb-6 mb-5'>
-                There are two ways you can attend the following Nuude!
-                event. As a registered Nuude! member, you are entitled
-                to various benefits and full access to all our events
-                across the year!
+                {school}
             </p>
 
             <button
@@ -75,7 +72,7 @@ const Modal = ({ onClose }) => {
               cursor-pointer md:mb-3 ss:mb-3 
               mb-2'
               >
-                Apply for Nuude! Annual Membership
+                {profileLink}
             </button>
           </div>
         </motion.div>
@@ -88,6 +85,7 @@ const Sidebar2 = ({ sideLinks }) => {
   const navigate = useNavigate();
   const [expandedItem, setExpandedItem] = useState(null);
 
+  const [modalInfo, setModalInfo] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
   const [scrollPosition, setScrollPosition] = useState(0);
 
@@ -104,12 +102,28 @@ const Sidebar2 = ({ sideLinks }) => {
   const handleSubItemClick = (route) => {
     navigate(route);
   };
+
+  const handleModalOpen = (info) => {
+    setModalInfo(info);
+    setModalOpen(true);
+    disableScroll();
+  };
+
+  const handleModalClose = () => {
+    setModalInfo(null);
+    setModalOpen(false);
+  };
   
   return (
     <div className='flex items-center w-full'>
 
       {modalOpen && (
-          <Modal onClose={() => setModalOpen(false)} />
+        <Modal 
+          onClose={handleModalClose}
+          name={modalInfo.name}
+          school={modalInfo.school}
+          profileLink={modalInfo.profileLink}
+        />
       )}
 
       <div className="w-full flex justify-between items-center">
@@ -158,8 +172,7 @@ const Sidebar2 = ({ sideLinks }) => {
                                   <img src={info} alt='info'
                                     className='h-[13px] w-auto'
                                     onClick={() => {
-                                      setModalOpen(true);
-                                      disableScroll();
+                                      handleModalOpen(submenuItem);
                                     }}
                                   />               
                                 )}
