@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { arrow, arrowright } from '../assets';
+import { arrow, arrowright, info } from '../assets';
 
 const Sidebar = ({ sideLinks }) => {
   const navigate = useNavigate();
@@ -51,8 +51,16 @@ const Sidebar = ({ sideLinks }) => {
                               handleSubItemClick(submenuItem.route);
                             }}
                             >
-                              {submenuItem.name}
+                              <div className='flex items-center gap-2'>
+                                {submenuItem.name}
 
+                                {link.special && (
+                                  <img src={info} alt='info'
+                                  className='h-[14px] w-auto'
+                                  />               
+                                )}
+                              </div>
+                              
                               <span className="block text-maintext text-[14px]
                               leading-[18px] font-normal"
                               >
