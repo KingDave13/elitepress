@@ -45,13 +45,19 @@ const Sidebar = ({ sideLinks }) => {
                         {link.links.map((submenuItem, index) => (
                           <li key={index}>
                             <a href={submenuItem.route} className="block 
-                            text-main py-[3px] font-medium"
+                            text-main py-[5px] font-medium"
                             onClick={(e) => {
                               e.preventDefault();
                               handleSubItemClick(submenuItem.route);
                             }}
                             >
                               {submenuItem.name}
+
+                              <span className="block text-maintext text-[14px]
+                              leading-[18px] font-normal"
+                              >
+                                {submenuItem.school}
+                              </span>
                             </a>
                           </li>
                         ))}
