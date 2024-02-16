@@ -45,10 +45,10 @@ const Modal = ({ onClose, name, school, profileLink }) => {
         exit={{ y: 10, opacity: 0 }}
         transition={{ duration: 0.1 }}
         ref={modalRef} 
-        className="bg-primaryalt p-5 rounded-md shadow-xl flex flex-col 
-        justify-center w-auto h-auto items-center m-6">
-          <div className='flex flex-col w-full gap-2'>
-            <h1 className='text-maintext text-[42px] font-bold'>
+        className="bg-primaryalt p-8 rounded-md shadow-xl flex flex-col 
+        justify-center w-1/3 h-1/4 items-center m-6">
+          <div className='flex flex-col w-full gap-4'>
+            <h1 className='text-maintext text-[35px] font-bold'>
               {name}
             </h1>
 
@@ -56,13 +56,13 @@ const Modal = ({ onClose, name, school, profileLink }) => {
               <div className='bg-textalt w-full h-[1px]' />
             </div>
 
-            <p className='text-maintext text-[17px] leading-[23px]'>
+            <p className='text-maintext text-[18px] leading-[23px]'>
                 {school}
             </p>
 
             <p
               onClick={handleClick}
-              className='w-full text-[16px] text-main'
+              className='w-full text-[17px] text-main'
               >
                 {profileLink}
             </p>
@@ -157,7 +157,7 @@ const Sidebar = ({ sideLinks }) => {
                               }
                             }}
                             >
-                              <div className='flex items-center gap-2'>
+                              <div className='flex items-center gap-3'>
                                 {submenuItem.name}
 
                                 {link.special && (
