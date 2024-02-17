@@ -1,5 +1,5 @@
 import { GrMail } from 'react-icons/gr';
-import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV, EJPHVOL2ISS103, EJPHVOL2ISS104, EJPHVOL2ISS105, EJPHVOL2ISS106, } 
+import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV, EJPHVOL2ISS103, EJPHVOL2ISS104, EJPHVOL2ISS105, EJPHVOL2ISS106, EJPHVOL1ISS102, EJPHVOL1ISS101, } 
 from '../assets';
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102 } from '../assets';
 
@@ -475,8 +475,8 @@ export const ejphSideLinks = [
         title: "Archives",
         links: [
             {
-                // name: "lorem ipsum",
-                // route: "",
+                name: "Volume 1, Issue 1, 2023",
+                route: "/journals/EJPH/VOL1ISS1",
             }, 
         ],
     },
@@ -1104,6 +1104,23 @@ export const ejhivSideLinks = [
                 route: "mailto:ejhiv@epjournals.com",
             }, 
         ],
+    },
+];
+
+export const vol1iss1 = [
+    {
+        title: "Harnessing Technology for Effective Sickle Cell Disease Awareness Among Ugandan Adolescents: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu, Christiana Uchenna Ezeanya and Getrude Uzoma Obeagu",
+        abstract: "Sickle Cell Disease (SCD) poses a significant health challenge among adolescents in Uganda, necessitating innovative approaches for awareness and education. This review examines the role of technology in enhancing SCD awareness, with a focus on mobile applications, social media, telemedicine, and educational games.",
+        route: EJPHVOL1ISS101,
+        pages: "1-11",
+    },
+    {
+        title: "Strategies to Combat Mother-to-Child Transmission of HIV in Uganda: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Mother-to-Child Transmission (MTCT) of HIV remains a significant public health concern in Uganda, demanding effective strategies to prevent and mitigate its impact. This comprehensive review critically examines the various approaches and interventions implemented to combat MTCT in the Ugandan context.",
+        route: EJPHVOL1ISS102,
+        pages: "12-24",
     },
 ];
 
