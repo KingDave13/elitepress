@@ -38,6 +38,8 @@ import HIVHero from './HIVHero';
 import Sidebar from './Sidebar';
 import Sidebar2 from './Sidebar2';
 import EJPHVOL2ISS1 from './EJPHVOL2ISS1';
+import EJPHVOL1ISS1 from './EJPHVOL1ISS1';
+import Vol1Iss1Pubs from './Vol1Iss1Pubs';
 import Vol2Iss1Pubs from './Vol2Iss1Pubs';
 import EJHVOL2ISS1 from './EJHVOL2ISS1';
 import EjhVol2Iss1Pubs from './EjhVol2Iss1Pubs';
@@ -83,7 +85,9 @@ export {
     Sidebar,
     Sidebar2,
     EJPHVOL2ISS1,
+    EJPHVOL1ISS1,
     Vol2Iss1Pubs,
+    Vol1Iss1Pubs,
     EJHVOL2ISS1,
     EjhVol2Iss1Pubs,
 }
