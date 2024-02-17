@@ -9,6 +9,7 @@ import EJNHS from './EJNHS';
 import EJSRR from './EJSRR';
 import EJHIV from './EJHIV';
 import Vol2Iss1 from './Vol2Iss1';
+import Vol1Iss1 from './Vol1Iss1';
 import EjhVol2Iss1 from './EjhVol2Iss1';
 
 export { 
@@ -23,5 +24,6 @@ export {
     EJPH,
     EJSRR,
     Vol2Iss1,
+    Vol1Iss1,
     EjhVol2Iss1,
 }
