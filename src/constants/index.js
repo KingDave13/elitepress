@@ -1,7 +1,8 @@
 import { GrMail } from 'react-icons/gr';
 import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV, EJPHVOL2ISS103, EJPHVOL2ISS104, EJPHVOL2ISS105, EJPHVOL2ISS106, EJPHVOL1ISS102, EJPHVOL1ISS101, } 
 from '../assets';
-import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102 } from '../assets';
+import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
+ EJMSVOL2ISS101, EJMSVOL2ISS102, EJHSVOL2ISS101, EJMVOL2ISS101 } from '../assets';
 
 export const navLinks = [
 {
@@ -141,8 +142,8 @@ export const ejmSideLinks = [
         title: "Current Issue",
         links: [
             {
-                // name: "Volume 2, Issue 1, 2024",
-                // route: "/journals/EJPH/VOL2ISS1",
+                name: "Volume 2, Issue 1, 2024",
+                route: "/journals/EJM/VOL2ISS1",
             },
         ],
     },
@@ -249,8 +250,8 @@ export const ejhsSideLinks = [
         title: "Current Issue",
         links: [
             {
-                // name: "Volume 2, Issue 1, 2024",
-                // route: "/journals/EJPH/VOL2ISS1",
+                name: "Volume 2, Issue 1, 2024",
+                route: "/journals/EJHS/VOL2ISS1",
             },
         ],
     },
@@ -357,8 +358,8 @@ export const ejmsSideLinks = [
         title: "Current Issue",
         links: [
             {
-                // name: "Volume 2, Issue 1, 2024",
-                // route: "/journals/EJPH/VOL2ISS1",
+                name: "Volume 2, Issue 1, 2024",
+                route: "/journals/EJMS/VOL2ISS1",
             },
         ],
     },
@@ -1166,6 +1167,33 @@ export const vol2iss1 = [
         abstract: "Anthropometric parameters play a pivotal role in assessing human health and disease states. This paper aims to comprehensively explore the significance of various anthropometric measurements in understanding health outcomes and identifying potential disease risks.",
         route: EJPHVOL2ISS106,
         pages: "62-70",
+    },
+];
+
+export const Ejmsvol2iss1 = [
+    {
+        title: "Ameliorative Tendency of Methanol Leaf Extract of Anthocleista Vogelli on Mercury Chloride Induced Neurotoxicity",
+        authors: "Simeon Ikechukwu Egba, Chibuzor Onyinye Okonkwo, Emmanuel Nnaemeka Uhuo, Humphery Chukwudi Omeoga, Uguru Grace Kalu and Emmanuel Ifeanyi Obeagu.",
+        abstract: "This study investigated the effects of methanol leaf extract of A. vogelli on some neurotoxicity indices in Wistar rats. Sixteen (16) male rats were randomly grouped into four (4); Group 1: normal control, Group 2: mercury (II) chloride, Group 3: mercury (II) chloride + Diazepam 5 mg/kg and Group 4: mercury (II) chloride + plant extract 400 mg/kg bw.",
+        route: EJMSVOL2ISS101,
+        pages: "1-9",
+    },
+    {
+        title: "Association between Socio-demographic and Economic characteristics and Packed Cell Volume of the Expectant Mothers Attending Antenatal Clinic in FMC, Abuja.",
+        authors: "Nwanganga Ihuoma Ubosi, Gideon Ikechukwu Anyaegbusim Okoroiwu, Golden Njideka Aguzie and Emmanuel Ifeanyi Obeagu.",
+        abstract: "The study aimed to assess the nutritional knowledge, practices and packed cell volume of expectant mothers attending antenatal clinic in FMC Abuja. A structured interviewer-administered questionnaire was used. The questionnaire was adequately checked and validated. It was also pretested for sensitivity of questions, ambiguity and suitability of language.",
+        route: EJMSVOL2ISS102,
+        pages: "10-18",
+    },
+];
+
+export const Ejhsvol2iss1 = [
+    {
+        title: "Assessment of Nutritional Knowledge, Practices and Packed Cell Volume (PCV) of Expectant Mothers Attending Antenatal Clinic in FMC, Abuja.",
+        authors: "Nwanganga Ihuoma Ubosi, Gideon Ikechukwu Anyaegbusim Okoroiwu, Golden Njideka Aguzie and Emmanuel Ifeanyi Obeagu",
+        abstract: "The study aimed to assess the nutritional knowledge, practices and packed cell volume of expectant mothers attending antenatal clinic in FMC Abuja. A structured interviewer-administered questionnaire was used.",
+        route: EJHSVOL2ISS101,
+        pages: "1-19",
     },
 ];
 

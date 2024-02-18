@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { AboutPage, ContactPage, HomePage, JournalsPage } from './scenes';
 import { EJH, EJM, EJHIV, EJHS, EJI, EJLM, EJMS, EJNHS, EJPH, EJSRR, 
-  Vol2Iss1, Vol1Iss1, EjhVol2Iss1 } from './pages';
+  Vol2Iss1, Vol1Iss1, EjhVol2Iss1, EjmsVol2Iss1, EjhsVol2Iss1 } from './pages';
 import  ScrollToTop  from './constants/ScrollToTop';
 
 const App = () => {
@@ -26,6 +26,8 @@ const App = () => {
           <Route path='/journals/EJPH/Vol2Iss1' element={<Vol2Iss1 />} />
           <Route path='/journals/EJPH/Vol1Iss1' element={<Vol1Iss1 />} />
           <Route path='/journals/EJH/Vol2Iss1' element={<EjhVol2Iss1 />} />
+          <Route path='/journals/EJMS/Vol2Iss1' element={<EjmsVol2Iss1 />} />
+          <Route path='/journals/EJHS/Vol2Iss1' element={<EjhsVol2Iss1 />} />
         </Routes>
       </ScrollToTop>
     </BrowserRouter>
