@@ -1229,13 +1229,13 @@ export const Ejhvol2iss1 = [
         route: EJHVOL2ISS102,
         pages: "10-18",
     },
-    // {
-    //     title: "Tuberculosis: Current Diagnosis and Management",
-    //     authors: "Hamisi Mahanga Swalehe and Emmanuel Ifeanyi Obeagu",
-    //     abstract: "Tuberculosis is an airborne disease caused by the bacterium Mycobacterium tuberculosis (M. tuberculosis). Mycobacterium tuberculosis is carried in airborne particles, called droplet nuclei, of 1-5 microns in diameter. Infectious droplet nuclei are generated when persons who have pulmonary or laryngeal TB disease cough, sneeze, shout, or sing.",
-    //     route: EJPHVOL2ISS103,
-    //     pages: "23-33",
-    // },
+    {
+        title: "Molecular Basis of Diabetes: A Focus on Red Blood Cells Morphology",
+        authors: "Dahir Farax Fartuun and Emmanuel Ifeanyi Obeagu",
+        abstract: "Diabetes mellitus, a chronic metabolic disorder characterized by elevated blood glucose levels, poses a significant global health challenge. While much research has centered on the impact of diabetes on major organs such as the pancreas, liver, and kidneys, the intricate relationship between diabetes and red blood cells (RBCs) morphology has gained recognition as a crucial aspect of the disease's pathophysiology.",
+        route: EJHVOL2ISS103,
+        pages: "19-25",
+    },
     // {
     //     title: "Awareness and Utilization of Reproductive Health Right among Women of Childbearing Age Attending Welfare Clinic in University Of Calabar Teaching Hospital, Calabar",
     //     authors: "Nwanganga Ihuoma Ubosi, Nancy Aje Okune and Emmanuel Ifeanyi Obeagu",
