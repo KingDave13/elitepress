@@ -2,7 +2,8 @@ import { GrMail } from 'react-icons/gr';
 import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV, EJPHVOL2ISS103, EJPHVOL2ISS104, EJPHVOL2ISS105, EJPHVOL2ISS106, EJPHVOL1ISS102, EJPHVOL1ISS101, } 
 from '../assets';
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
- EJMSVOL2ISS101, EJMSVOL2ISS102, EJHSVOL2ISS101, EJMVOL2ISS101 } from '../assets';
+ EJMSVOL2ISS101, EJMSVOL2ISS102, EJHSVOL2ISS101, EJMVOL2ISS101,
+ EJHVOL2ISS103, EJHVOL2ISS104 } from '../assets';
 
 export const navLinks = [
 {
@@ -1236,13 +1237,13 @@ export const Ejhvol2iss1 = [
         route: EJHVOL2ISS103,
         pages: "19-25",
     },
-    // {
-    //     title: "Awareness and Utilization of Reproductive Health Right among Women of Childbearing Age Attending Welfare Clinic in University Of Calabar Teaching Hospital, Calabar",
-    //     authors: "Nwanganga Ihuoma Ubosi, Nancy Aje Okune and Emmanuel Ifeanyi Obeagu",
-    //     abstract: "The study was carried out on awareness and utilization of reproductive health right among women of childbearing age attending welfare clinic at University of Calabar Teaching Hospital, Calabar. This study employed a descriptive design (survey) to determine the awareness and utilization of reproductive rights among the women of childbearing age.",
-    //     route: EJPHVOL2ISS104,
-    //     pages: "34-51",
-    // },
+    {
+        title: "Advances in Understanding the Impact of Blood Transfusion on Anemia Resolution in HIV-Positive Children with Severe Malaria: A Comprehensive Review",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Anemia remains a significant and multifaceted complication in pediatric severe malaria, particularly in the context of coexisting HIV infection. This review critically examines the impact of blood transfusion on anemia resolution in HIV-positive children with severe malaria.",
+        route: EJHVOL2ISS104,
+        pages: "26-41",
+    },
     // {
     //     title: "Early Infant Diagnosis: Key to Breaking the Chain of HIV Transmission",
     //     authors: "Emmanuel Ifeanyi Obeagu, Nwanganga Ihuoma Ubosi, Getrude Uzoma Obeagu and Muhammad Akram",
