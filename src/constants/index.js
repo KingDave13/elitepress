@@ -3,7 +3,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV, EJPHVOL2ISS
 from '../assets';
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
  EJMSVOL2ISS101, EJMSVOL2ISS102, EJHSVOL2ISS101, EJMVOL2ISS101,
- EJHVOL2ISS103, EJHVOL2ISS104 } from '../assets';
+ EJHVOL2ISS103, EJHVOL2ISS104, EJHVOL2ISS105, EJHSVOL2ISS102,
+ EJMSVOL2ISS103 } from '../assets';
 
 export const navLinks = [
 {
@@ -1213,6 +1214,13 @@ export const Ejhsvol2iss1 = [
         route: EJHSVOL2ISS101,
         pages: "1-19",
     },
+    {
+        title: "Assessment of Nutritional Knowledge, Practices and Packed Cell Volume (PCV) of Expectant Mothers Attending Antenatal Clinic in FMC, Abuja.",
+        authors: "Nwanganga Ihuoma Ubosi, Gideon Ikechukwu Anyaegbusim Okoroiwu, Golden Njideka Aguzie and Emmanuel Ifeanyi Obeagu",
+        abstract: "The study aimed to assess the nutritional knowledge, practices and packed cell volume of expectant mothers attending antenatal clinic in FMC Abuja. A structured interviewer-administered questionnaire was used.",
+        route: EJHSVOL2ISS102,
+        pages: "20-24",
+    },
 ];
 
 export const Ejhvol2iss1 = [
@@ -1244,13 +1252,13 @@ export const Ejhvol2iss1 = [
         route: EJHVOL2ISS104,
         pages: "26-41",
     },
-    // {
-    //     title: "Early Infant Diagnosis: Key to Breaking the Chain of HIV Transmission",
-    //     authors: "Emmanuel Ifeanyi Obeagu, Nwanganga Ihuoma Ubosi, Getrude Uzoma Obeagu and Muhammad Akram",
-    //     abstract: "Early Infant Diagnosis (EID) stands as a cornerstone in the global strategy to eradicate pediatric Human Immunodeficiency Virus (HIV) infections. This review delves into the pivotal role of EID in preventing the transmission of HIV from mothers to infants, emphasizing its significance in breaking the chain of transmission.",
-    //     route: EJPHVOL2ISS105,
-    //     pages: "52-61",
-    // },
+    {
+        title: "Genetic Determinants of Red Blood Cell Morphology in Diabetes",
+        authors: "Abdirizak Farhan Mohamed and Emmanuel Ifeanyi Obeagu",
+        abstract: "This paper explores the genetic determinants of red blood cell (RBC) morphology in diabetes, highlighting their significance in disease progression and complications. Through genetic studies, several variants impacting hemoglobin glycation, oxidative stress response, and RBC membrane structure have been identified.",
+        route: EJHVOL2ISS105,
+        pages: "42-47",
+    },
     // {
     //     title: "Anthropometric Parameters in Health and Diseases: A Review",
     //     authors: "I.S.I. Ogbu and Emmanuel Ifeanyi Obeagu",
