@@ -1204,6 +1204,13 @@ export const Ejmsvol2iss1 = [
         route: EJMSVOL2ISS102,
         pages: "10-18",
     },
+    {
+        title: "Association between Socio-demographic and Economic characteristics and Packed Cell Volume of the Expectant Mothers Attending Antenatal Clinic in FMC, Abuja.",
+        authors: "Nwanganga Ihuoma Ubosi, Gideon Ikechukwu Anyaegbusim Okoroiwu, Golden Njideka Aguzie and Emmanuel Ifeanyi Obeagu.",
+        abstract: "The study aimed to assess the nutritional knowledge, practices and packed cell volume of expectant mothers attending antenatal clinic in FMC Abuja. A structured interviewer-administered questionnaire was used. The questionnaire was adequately checked and validated. It was also pretested for sensitivity of questions, ambiguity and suitability of language.",
+        route: EJMSVOL2ISS103,
+        pages: "10-18",
+    },
 ];
 
 export const Ejhsvol2iss1 = [
@@ -1215,9 +1222,9 @@ export const Ejhsvol2iss1 = [
         pages: "1-19",
     },
     {
-        title: "Assessment of Nutritional Knowledge, Practices and Packed Cell Volume (PCV) of Expectant Mothers Attending Antenatal Clinic in FMC, Abuja.",
-        authors: "Nwanganga Ihuoma Ubosi, Gideon Ikechukwu Anyaegbusim Okoroiwu, Golden Njideka Aguzie and Emmanuel Ifeanyi Obeagu",
-        abstract: "The study aimed to assess the nutritional knowledge, practices and packed cell volume of expectant mothers attending antenatal clinic in FMC Abuja. A structured interviewer-administered questionnaire was used.",
+        title: "Genetic Heterogeneity in Breast Cancer: Implications",
+        authors: "Qali Hassan Mohamed and *Emmanuel Ifeanyi Obeagu",
+        abstract: "Breast cancer, a heterogeneous disease with diverse molecular subtypes, presents a complex challenge in the realm of oncology. The recognition of genetic heterogeneity within breast cancer has revolutionized our understanding of its etiology and progression.",
         route: EJHSVOL2ISS102,
         pages: "20-24",
     },
