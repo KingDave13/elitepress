@@ -1205,11 +1205,11 @@ export const Ejmsvol2iss1 = [
         pages: "10-18",
     },
     {
-        title: "Association between Socio-demographic and Economic characteristics and Packed Cell Volume of the Expectant Mothers Attending Antenatal Clinic in FMC, Abuja.",
-        authors: "Nwanganga Ihuoma Ubosi, Gideon Ikechukwu Anyaegbusim Okoroiwu, Golden Njideka Aguzie and Emmanuel Ifeanyi Obeagu.",
-        abstract: "The study aimed to assess the nutritional knowledge, practices and packed cell volume of expectant mothers attending antenatal clinic in FMC Abuja. A structured interviewer-administered questionnaire was used. The questionnaire was adequately checked and validated. It was also pretested for sensitivity of questions, ambiguity and suitability of language.",
+        title: "Genetic Influence on Breast Cancer Progression: A Molecular Perspective",
+        authors: "Abdirizak Farhan Mohamed and Emmanuel Ifeanyi Obeagu",
+        abstract: "Breast cancer is a complex and heterogeneous disease with various clinical outcomes, and its progression is influenced by a multitude of factors, including genetic components. This paper explores the molecular perspective of genetic influences on breast cancer progression, aiming to enhance our understanding of the underlying mechanisms driving the disease.",
         route: EJMSVOL2ISS103,
-        pages: "10-18",
+        pages: "19-22",
     },
 ];
 
