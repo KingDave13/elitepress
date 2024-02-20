@@ -1277,11 +1277,11 @@ export const Ejhvol2iss1 = [
 
 export const Ejnhsvol2iss1 = [
     {
-        title: "Assessment of Nutritional Knowledge, Practices and Packed Cell Volume (PCV) of Expectant Mothers Attending Antenatal Clinic in FMC, Abuja.",
-        authors: "Nwanganga Ihuoma Ubosi, Gideon Ikechukwu Anyaegbusim Okoroiwu, Golden Njideka Aguzie and Emmanuel Ifeanyi Obeagu",
-        abstract: "The study aimed to assess the nutritional knowledge, practices and packed cell volume of expectant mothers attending antenatal clinic in FMC Abuja. A structured interviewer-administered questionnaire was used.",
+        title: "Genetic And Hormonal Influence; Unraveling Breast Cancer Complexity",
+        authors: "Debrah Asiimwe and Emmanuel Ifeanyi Obeagu",
+        abstract: "Breast cancer is a disease in which abnormal breast cells grow out of control and form tumors which when not treated tumors spread throughout the body and become fatal. Breast cancer has been the most frequent disease in women worldwide, represents a significant public health concern on a global scale.",
         route: EJNHSVOL2ISS101,
-        pages: "1-19",
+        pages: "1-5",
     },
     // {
     //     title: "Genetic Heterogeneity in Breast Cancer: Implications",
