@@ -4,7 +4,8 @@ from '../assets';
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
  EJMSVOL2ISS101, EJMSVOL2ISS102, EJHSVOL2ISS101, EJMVOL2ISS101,
  EJHVOL2ISS103, EJHVOL2ISS104, EJHVOL2ISS105, EJHSVOL2ISS102,
- EJMSVOL2ISS103, EJNHSVOL2ISS101 } from '../assets';
+ EJMSVOL2ISS103, EJNHSVOL2ISS101, EJNHSVOL2ISS102, EJNHSVOL2ISS103,
+  } from '../assets';
 
 export const navLinks = [
 {
@@ -1283,13 +1284,20 @@ export const Ejnhsvol2iss1 = [
         route: EJNHSVOL2ISS101,
         pages: "1-5",
     },
-    // {
-    //     title: "Genetic Heterogeneity in Breast Cancer: Implications",
-    //     authors: "Qali Hassan Mohamed and *Emmanuel Ifeanyi Obeagu",
-    //     abstract: "Breast cancer, a heterogeneous disease with diverse molecular subtypes, presents a complex challenge in the realm of oncology. The recognition of genetic heterogeneity within breast cancer has revolutionized our understanding of its etiology and progression.",
-    //     route: EJHSVOL2ISS102,
-    //     pages: "20-24",
-    // },
+    {
+        title: "Intersection of Genetics and Diabetes Based on Red Blood Cell Morphology",
+        authors: "Debrah Asiimwe and Emmanuel Ifeanyi Obeagu",
+        abstract: "Diabetes, a complex metabolic disorder, has long been associated with genetic predisposition. Recent research has uncovered intriguing connections between genetic variations and alterations in red blood cell structure and function in individuals with diabetes.",
+        route: EJNHSVOL2ISS102,
+        pages: "6-12",
+    },
+    {
+        title: "Perception to Computer Based Test Professional Nursing Examination among Nursing Students and Nurse Educators in Imo State",
+        authors: "Christiana Ogochukwu Mbama and Chinelo C. N. Vincent",
+        abstract: "This research work will be carried out to ascertain the perception, attitude and constraints to computer-based test professional nursing examination among nursing students and nurse educators in Imo State. The study will also pinpoint on the various ways of limiting the constraints to CBT.",
+        route: EJNHSVOL2ISS103,
+        pages: "13-19",
+    },
 ];
 
 export const journals = [
