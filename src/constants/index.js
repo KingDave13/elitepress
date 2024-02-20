@@ -4,7 +4,7 @@ from '../assets';
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
  EJMSVOL2ISS101, EJMSVOL2ISS102, EJHSVOL2ISS101, EJMVOL2ISS101,
  EJHVOL2ISS103, EJHVOL2ISS104, EJHVOL2ISS105, EJHSVOL2ISS102,
- EJMSVOL2ISS103 } from '../assets';
+ EJMSVOL2ISS103, EJNHSVOL2ISS101 } from '../assets';
 
 export const navLinks = [
 {
@@ -792,8 +792,8 @@ export const ejnhsSideLinks = [
         title: "Current Issue",
         links: [
             {
-                // name: "Volume 2, Issue 1, 2024",
-                // route: "/journals/EJPH/VOL2ISS1",
+                name: "Volume 2, Issue 1, 2024",
+                route: "/journals/EJNHS/VOL2ISS1",
             },
         ],
     },
