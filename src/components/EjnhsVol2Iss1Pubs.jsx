@@ -1,7 +1,7 @@
 import { SectionWrapper } from "../hoc";
 import { motion } from 'framer-motion';
 import { fadeIn, textVariant } from '../utils/motion';
-import { Ejmsvol2iss1 } from "../constants";
+import { Ejnhsvol2iss1 } from "../constants";
 
 const Publication = ({ pages, abstract, title, authors, route }) => {
     return (
@@ -94,7 +94,7 @@ const EjnhsVol2Iss1Pubs = () => {
                 w-full'>
                     <div className='w-full flex flex-col md:gap-12 
                     ss:gap-10 gap-10'>
-                        {Ejmsvol2iss1.map((item, index) => (
+                        {Ejnhsvol2iss1.map((item, index) => (
                             <Publication
                                 key={item.title}
                                 index={index}
