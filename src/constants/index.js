@@ -1275,6 +1275,23 @@ export const Ejhvol2iss1 = [
     // },
 ];
 
+export const Ejnhsvol2iss1 = [
+    {
+        title: "Assessment of Nutritional Knowledge, Practices and Packed Cell Volume (PCV) of Expectant Mothers Attending Antenatal Clinic in FMC, Abuja.",
+        authors: "Nwanganga Ihuoma Ubosi, Gideon Ikechukwu Anyaegbusim Okoroiwu, Golden Njideka Aguzie and Emmanuel Ifeanyi Obeagu",
+        abstract: "The study aimed to assess the nutritional knowledge, practices and packed cell volume of expectant mothers attending antenatal clinic in FMC Abuja. A structured interviewer-administered questionnaire was used.",
+        route: EJNHSVOL2ISS101,
+        pages: "1-19",
+    },
+    // {
+    //     title: "Genetic Heterogeneity in Breast Cancer: Implications",
+    //     authors: "Qali Hassan Mohamed and *Emmanuel Ifeanyi Obeagu",
+    //     abstract: "Breast cancer, a heterogeneous disease with diverse molecular subtypes, presents a complex challenge in the realm of oncology. The recognition of genetic heterogeneity within breast cancer has revolutionized our understanding of its etiology and progression.",
+    //     route: EJHSVOL2ISS102,
+    //     pages: "20-24",
+    // },
+];
+
 export const journals = [
     {
         title: 'Elite Journal of Haematology (EJH)',
