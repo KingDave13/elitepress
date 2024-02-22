@@ -1196,11 +1196,11 @@ export const Ejmvol2iss1 = [
         pages: "23-34",
     },
     {
-        title: "The Role of Blood Transfusion Strategies in HIV Management: Current Insights and Future Directions",
+        title: "Understanding B Lymphocyte Functions in HIV Infection: Implications for Immune Dysfunction and Therapeutic Strategies",
         authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
         abstract: "The coexistence of Human Immunodeficiency Virus (HIV) and anemia presents a multifaceted challenge in patient management. Anemia, prevalent in individuals with HIV, stems from diverse etiologies, including direct viral impact, medication side effects, and opportunistic infections.",
         route: EJMVOL2ISS104,
-        pages: "10-22",
+        pages: "35-46",
     },
     {
         title: "The Role of Blood Transfusion Strategies in HIV Management: Current Insights and Future Directions",
