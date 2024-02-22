@@ -1182,7 +1182,7 @@ export const Ejmvol2iss1 = [
         pages: "1-9",
     },
     {
-        title: "Association between Socio-demographic and Economic characteristics and Packed Cell Volume of the Expectant Mothers Attending Antenatal Clinic in FMC, Abuja.",
+        title: "The Role of Blood Transfusion Strategies in HIV Management: Current Insights and Future Directions",
         authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
         abstract: "The coexistence of Human Immunodeficiency Virus (HIV) and anemia presents a multifaceted challenge in patient management. Anemia, prevalent in individuals with HIV, stems from diverse etiologies, including direct viral impact, medication side effects, and opportunistic infections.",
         route: EJMVOL2ISS102,
