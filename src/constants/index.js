@@ -1202,13 +1202,13 @@ export const Ejmvol2iss1 = [
         route: EJMVOL2ISS104,
         pages: "35-46",
     },
-    // {
-    //     title: "Understanding B Lymphocyte Functions in HIV Infection: Implications for Immune Dysfunction and Therapeutic Strategies",
-    //     authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
-    //     abstract: "Human Immunodeficiency Virus (HIV) infection poses a significant challenge to the immune system, with B lymphocytes playing a central role in orchestrating humoral immune responses. This comprehensive review explores the intricate dynamics of B lymphocyte functions in the context of HIV infection, aiming to elucidate the implications for immune dysfunction and therapeutic strategies.",
-    //     route: EJMVOL2ISS105,
-    //     pages: "47-58",
-    // },
+    {
+        title: "Dual Management: Diabetes and Sickle Cell Anemia in Patient Care",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "The coexistence of diabetes mellitus (DM) and sickle cell anemia (SCA) presents a complex medical challenge, necessitating an integrated approach to patient care. This review explores the interplay between diabetes and sickle cell anemia, addressing the epidemiology, pathophysiological intricacies, and the compounded complications associated with these comorbidities.",
+        route: EJMVOL2ISS105,
+        pages: "47-56",
+    },
 ];
 
 export const Ejmvol1iss1 = [
