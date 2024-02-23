@@ -88,6 +88,8 @@ const Publication = ({ pages, abstract, title, authors, route }) => {
 }
 
 const Vol2Iss1Pubs = () => {
+    const isMobile = window.innerWidth <= 620;
+
     const itemsPerPage = 3;
     const [currentPage, setCurrentPage] = useState(1);
     const totalItems = vol2iss1.length;
@@ -124,35 +126,38 @@ const Vol2Iss1Pubs = () => {
                         ))}
                     </div>
 
-                    <div className="w-full flex justify-center md:mt-8
+                    <div className="w-full flex justify-center mt-8
                     items-center relative">
                         <div className='flex gap-5'>
                             <button className='bg-main text-white font-medium
-                            flex items-center justify-center gap-2 px-5 py-2.5
+                            flex items-center justify-center gap-2 md:px-5 
+                            ss:px-5 px-3 md:py-2.5 ss:py-2.5 py-2
                             rounded-md cursor-pointer grow4 text-[13px]'
                             onClick={handlePrevPage} 
                             disabled={currentPage === 1}
                             >
                                 <GoArrowLeft 
-                                size={25}
+                                size={isMobile ? 23 : 25}
                                 />
                             </button>
                             
                             <button className='bg-main text-white font-medium
-                            flex items-center justify-center gap-2 px-5 py-2.5
+                            flex items-center justify-center gap-2 md:px-5 
+                            ss:px-5 px-3 md:py-2.5 ss:py-2.5 py-2
                             rounded-md cursor-pointer grow4 text-[13px]'
                             onClick={handleNextPage}
                             disabled={currentPage === totalPages}
                             >   
-                                Next Page
+                                <span className={isMobile ? 'hidden' : 'block'}>Next Page</span>
                                 <GoArrowRight 
-                                size={20}
+                                size={isMobile ? 23 : 20}
                                 />
                             </button>
                         </div>
                         
                         <div className='flex absolute right-0'>
-                            <p className='text-maintext font-medium'>
+                            <p className='text-maintext font-medium 
+                            md:text-[17px] ss:text-[16px] text-[14px]'>
                                 Page <span className='font-bold'>
                                     {currentPage}
                                     </span> of <span className='font-bold'>
