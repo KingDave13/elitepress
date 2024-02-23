@@ -155,8 +155,8 @@ export const ejmSideLinks = [
         title: "Archives",
         links: [
             {
-                // name: "lorem ipsum",
-                // route: "",
+                name: "Volume 1, 2023",
+                route: "",
             }, 
         ],
     },
@@ -1213,9 +1213,9 @@ export const Ejmvol2iss1 = [
 
 export const Ejmvol1iss1 = [
     {
-        title: "Harnessing Technology for Effective Sickle Cell Disease Awareness Among Ugandan Adolescents: A Review",
-        authors: "Emmanuel Ifeanyi Obeagu, Christiana Uchenna Ezeanya and Getrude Uzoma Obeagu",
-        abstract: "Sickle Cell Disease (SCD) poses a significant health challenge among adolescents in Uganda, necessitating innovative approaches for awareness and education. This review examines the role of technology in enhancing SCD awareness, with a focus on mobile applications, social media, telemedicine, and educational games.",
+        title: "Strength in Unity: Building Support Networks for HIV Patients in Uganda",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: 'This comprehensive review delves into the imperative role of building support networks for HIV patients in Uganda, emphasizing the pivotal concept of "Strength in Unity." By examining keywords such as "HIV patients," "support networks," and "strength in unity," the article offers a nuanced exploration of the unique challenges faced by individuals living with HIV/AIDS in the Ugandan context.',
         route: EJMVOL1ISS101,
         pages: "1-16",
     },
