@@ -126,9 +126,9 @@ const Vol2Iss1Pubs = () => {
 
                     <div className="w-full flex justify-center md:mt-8
                     items-center relative">
-                        <div className='flex gap-4'>
+                        <div className='flex gap-5'>
                             <button className='bg-main text-white font-medium
-                            flex items-center justify-center gap-2 px-5 py-3
+                            flex items-center justify-center gap-2 px-5 py-2.5
                             rounded-md cursor-pointer grow4 text-[13px]'
                             onClick={handlePrevPage} 
                             disabled={currentPage === 1}
@@ -139,7 +139,7 @@ const Vol2Iss1Pubs = () => {
                             </button>
                             
                             <button className='bg-main text-white font-medium
-                            flex items-center justify-center gap-2 px-5 py-3
+                            flex items-center justify-center gap-2 px-5 py-2.5
                             rounded-md cursor-pointer grow4 text-[13px]'
                             onClick={handleNextPage}
                             disabled={currentPage === totalPages}
@@ -152,9 +152,13 @@ const Vol2Iss1Pubs = () => {
                         </div>
                         
                         <div className='flex absolute right-0'>
-                            <span>
-                                {`Page ${currentPage} of ${totalPages}`}
-                            </span>
+                            <p className='text-maintext font-medium'>
+                                Page <span className='font-bold'>
+                                    {currentPage}
+                                    </span> of <span className='font-bold'>
+                                    {totalPages}
+                                    </span>
+                            </p>
                         </div>
                     </div>
                 </motion.div>
