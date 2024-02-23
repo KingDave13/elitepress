@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 
 import { GoArrowRight, GoArrowLeft } from "react-icons/go";
-
 import { SectionWrapper } from "../hoc";
 import { motion } from 'framer-motion';
 import { fadeIn, textVariant } from '../utils/motion';
@@ -90,20 +89,24 @@ const Publication = ({ pages, abstract, title, authors, route }) => {
 const EjhVol2Iss1Pubs = () => {
     const isMobile = window.innerWidth <= 620;
 
+    const [currentPage, setCurrentPage] = useState(() => {
+        const savedPage = parseInt(localStorage.getItem('currentPage'));
+        return isNaN(savedPage) ? 1 : savedPage;
+    });
     const itemsPerPage = 3;
-    const [currentPage, setCurrentPage] = useState(1);
     const totalItems = Ejhvol2iss1.length;
     const totalPages = Math.ceil(totalItems / itemsPerPage);
 
     const handleNextPage = () => {
-        setCurrentPage(prevPage => prevPage < totalPages ? prevPage + 1 : prevPage);
+        setCurrentPage(prevPage => Math.min(prevPage + 1, totalPages));
     };
 
     const handlePrevPage = () => {
-        setCurrentPage(prevPage => prevPage > 1 ? prevPage - 1 : prevPage);
+        setCurrentPage(prevPage => Math.max(prevPage - 1, 1));
     };
 
     useEffect(() => {
+        localStorage.setItem('currentPage', currentPage.toString());
         window.scrollTo(0, 0);
     }, [currentPage]);
 
