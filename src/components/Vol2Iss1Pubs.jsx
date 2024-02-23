@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+import { GoArrowRight, GoArrowLeft } from "react-icons/go";
+
 import { SectionWrapper } from "../hoc";
 import { motion } from 'framer-motion';
 import { fadeIn, textVariant } from '../utils/motion';
@@ -122,10 +124,38 @@ const Vol2Iss1Pubs = () => {
                         ))}
                     </div>
 
-                    <div className="pagination">
-                        <button onClick={handlePrevPage} disabled={currentPage === 1}>Previous</button>
-                        <span>{`Page ${currentPage} of ${totalPages}`}</span>
-                        <button onClick={handleNextPage} disabled={currentPage === totalPages}>Next</button>
+                    <div className="w-full flex justify-center md:mt-8
+                    items-center relative">
+                        <div className='flex gap-4'>
+                            <button className='bg-main text-white font-medium
+                            flex items-center justify-center gap-2 px-5 py-3
+                            rounded-md cursor-pointer grow4 text-[13px]'
+                            onClick={handlePrevPage} 
+                            disabled={currentPage === 1}
+                            >
+                                <GoArrowLeft 
+                                size={25}
+                                />
+                            </button>
+                            
+                            <button className='bg-main text-white font-medium
+                            flex items-center justify-center gap-2 px-5 py-3
+                            rounded-md cursor-pointer grow4 text-[13px]'
+                            onClick={handleNextPage}
+                            disabled={currentPage === totalPages}
+                            >   
+                                Next Page
+                                <GoArrowRight 
+                                size={20}
+                                />
+                            </button>
+                        </div>
+                        
+                        <div className='flex absolute right-0'>
+                            <span>
+                                {`Page ${currentPage} of ${totalPages}`}
+                            </span>
+                        </div>
                     </div>
                 </motion.div>
             </div>
