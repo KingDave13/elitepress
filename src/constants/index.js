@@ -155,8 +155,8 @@ export const ejmSideLinks = [
         title: "Archives",
         links: [
             {
-                name: "Volume 1, 2023",
-                route: "",
+                name: "Volume 1 (2023)",
+                route: "/journals/EJM/VOL1",
             }, 
         ],
     },
@@ -479,8 +479,8 @@ export const ejphSideLinks = [
         title: "Archives",
         links: [
             {
-                name: "Volume 1, Issue 1, 2023",
-                route: "/journals/EJPH/VOL1ISS1",
+                name: "Volume 1 (2023)",
+                route: "/journals/EJPH/VOL1",
             }, 
         ],
     },

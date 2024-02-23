@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
-const HeroEJPHVOL1ISS1 = () => {  
+const HeroEJMVOL1ISS1 = () => {  
     return (
       <section className='w-full'>
           <div className=' w-full flex flex-col'
@@ -15,7 +15,7 @@ const HeroEJPHVOL1ISS1 = () => {
                 <h1 className='text-secondary font-bold md:text-[65px]
                 ss:text-[60px] text-[30px] tracking-tight text-center
                 md:leading-[90px] ss:leading-[65px] leading-[30px]'>
-                  Elite Journal of Public Health
+                  Elite Journal of Medicine
                 </h1>
 
                 <div className='flex flex-row items-center md:gap-3 
@@ -29,4 +29,4 @@ const HeroEJPHVOL1ISS1 = () => {
     )
   };
   
-export default SectionWrapper(HeroEJPHVOL1ISS1, '');
+export default SectionWrapper(HeroEJMVOL1ISS1, '');
