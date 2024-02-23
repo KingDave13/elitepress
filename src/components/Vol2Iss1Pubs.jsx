@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 import { SectionWrapper } from "../hoc";
 import { motion } from 'framer-motion';
 import { fadeIn, textVariant } from '../utils/motion';
@@ -84,6 +86,23 @@ const Publication = ({ pages, abstract, title, authors, route }) => {
 }
 
 const Vol2Iss1Pubs = () => {
+    const itemsPerPage = 3;
+    const [currentPage, setCurrentPage] = useState(1);
+    const totalItems = vol2iss1.length;
+    const totalPages = Math.ceil(totalItems / itemsPerPage);
+
+    const handleNextPage = () => {
+        setCurrentPage(prevPage => prevPage < totalPages ? prevPage + 1 : prevPage);
+    };
+
+    const handlePrevPage = () => {
+        setCurrentPage(prevPage => prevPage > 1 ? prevPage - 1 : prevPage);
+    };
+
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = Math.min(startIndex + itemsPerPage, totalItems);
+    const currentItems = vol2iss1.slice(startIndex, endIndex);
+
     return (
         <section className="w-full md:min-h-[550px] ss:min-h-[300px] 
         min-h-[500px] flex flex-col"
@@ -94,13 +113,19 @@ const Vol2Iss1Pubs = () => {
                 justify-center w-full'>
                     <div className='w-full flex flex-col md:gap-12 
                     ss:gap-10 gap-10'>
-                        {vol2iss1.map((item, index) => (
+                        {currentItems.map((item, index) => (
                             <Publication
                                 key={item.title}
-                                index={index}
+                                index={startIndex + index + 1}
                                 {...item}
                             />
                         ))}
+                    </div>
+
+                    <div className="pagination">
+                        <button onClick={handlePrevPage} disabled={currentPage === 1}>Previous</button>
+                        <span>{`Page ${currentPage} of ${totalPages}`}</span>
+                        <button onClick={handleNextPage} disabled={currentPage === totalPages}>Next</button>
                     </div>
                 </motion.div>
             </div>
