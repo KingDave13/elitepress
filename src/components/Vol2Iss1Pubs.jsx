@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import { GoArrowRight, GoArrowLeft } from "react-icons/go";
 
@@ -102,6 +102,10 @@ const Vol2Iss1Pubs = () => {
     const handlePrevPage = () => {
         setCurrentPage(prevPage => prevPage > 1 ? prevPage - 1 : prevPage);
     };
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [currentPage]);
 
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = Math.min(startIndex + itemsPerPage, totalItems);
