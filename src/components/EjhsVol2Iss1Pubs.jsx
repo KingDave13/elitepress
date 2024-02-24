@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 
 import { GoArrowRight, GoArrowLeft } from "react-icons/go";
-
 import { SectionWrapper } from "../hoc";
 import { motion } from 'framer-motion';
 import { fadeIn, textVariant } from '../utils/motion';
@@ -45,6 +44,7 @@ const Publication = ({ pages, abstract, title, authors, route }) => {
                     <a
                     href={route}
                     target="blank"
+                    rel="noopener noreferrer"
                     className='text-primary underline text-[14px] md:text-[16px] 
                     ss:text-[14px] font-medium cursor-pointer hover:text-secondary'
                     >
@@ -52,7 +52,7 @@ const Publication = ({ pages, abstract, title, authors, route }) => {
                     </a>
                 </div>
 
-                <motion.div variants={textVariant()}
+                <motion.div
                 className='md:mt-3 ss:mt-3 mt-2 flex md:flex-row ss:flex-row
                 flex-col md:gap-2 ss:gap-2 gap-1 md:items-center 
                 ss:items-center'>
@@ -90,20 +90,24 @@ const Publication = ({ pages, abstract, title, authors, route }) => {
 const EjhsVol2Iss1Pubs = () => {
     const isMobile = window.innerWidth <= 620;
 
+    const [currentPage, setCurrentPage] = useState(() => {
+        const savedPage = parseInt(localStorage.getItem('currentPage'));
+        return isNaN(savedPage) ? 1 : savedPage;
+    });
     const itemsPerPage = 3;
-    const [currentPage, setCurrentPage] = useState(1);
     const totalItems = Ejhsvol2iss1.length;
     const totalPages = Math.ceil(totalItems / itemsPerPage);
 
     const handleNextPage = () => {
-        setCurrentPage(prevPage => prevPage < totalPages ? prevPage + 1 : prevPage);
+        setCurrentPage(prevPage => Math.min(prevPage + 1, totalPages));
     };
 
     const handlePrevPage = () => {
-        setCurrentPage(prevPage => prevPage > 1 ? prevPage - 1 : prevPage);
+        setCurrentPage(prevPage => Math.max(prevPage - 1, 1));
     };
 
     useEffect(() => {
+        localStorage.setItem('currentPage', currentPage.toString());
         window.scrollTo(0, 0);
     }, [currentPage]);
 
