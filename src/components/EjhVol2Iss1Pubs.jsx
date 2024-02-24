@@ -52,7 +52,7 @@ const Publication = ({ pages, abstract, title, authors, route }) => {
                     </a>
                 </div>
 
-                <motion.div variants={textVariant()}
+                <motion.div
                 className='md:mt-3 ss:mt-3 mt-2 flex md:flex-row ss:flex-row
                 flex-col md:gap-2 ss:gap-2 gap-1 md:items-center 
                 ss:items-center'>
