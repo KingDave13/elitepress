@@ -44,6 +44,7 @@ const Publication = ({ pages, abstract, title, authors, route }) => {
                     <a
                     href={route}
                     target="blank"
+                    rel="noopener noreferrer"
                     className='text-primary underline text-[14px] md:text-[16px] 
                     ss:text-[14px] font-medium cursor-pointer hover:text-secondary'
                     >
