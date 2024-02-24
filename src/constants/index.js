@@ -1260,7 +1260,7 @@ export const Ejmsvol2iss1 = [
     {
         title: "Effects of Long-Term Omeprazole Use on Red Blood Cells: A Review",
         authors: "Emmanuel Ifeanyi Obeagu",
-        abstract: "The use of plants, plant extracts or plant-derived chemicals in the treatment of diseases is a therapeutic modality that has been explored for centuries. Cancer is the leading cause of mortality worldwide and most of the chemotherapeutic agents have been reported to exhibit several normal tissue toxicities, accompanied by undesirable side effects.",
+        abstract: "Omeprazole, a proton pump inhibitor (PPI), stands as a cornerstone in managing acid-related disorders like gastroesophageal reflux disease (GERD) and peptic ulcers. However, the widespread use of omeprazole has raised concerns regarding its potential impact on various physiological systems, including hematological parameters, particularly red blood cells (RBCs).",
         route: EJMSVOL2ISS105,
         pages: "44-52",
     },
