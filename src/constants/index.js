@@ -1257,6 +1257,13 @@ export const Ejmsvol2iss1 = [
         route: EJMSVOL2ISS104,
         pages: "23-43",
     },
+    {
+        title: "Effects of different Extracts of Phyllantus amarus on selected haematological and haemostatic parameters of Leukemic Wistar Rats",
+        authors: "Arinze Favour Anyiam, Musa Abidemi Muhibi, Godfrey Iyare, Pius Omoruyi Omosigho, Matthew Folaranmi Olaniyan, Onyinye Cecilia Arinze-Anyiam, Oluwafemi Emmanuel and Emmanuel Ifeanyi Obeagu",
+        abstract: "The use of plants, plant extracts or plant-derived chemicals in the treatment of diseases is a therapeutic modality that has been explored for centuries. Cancer is the leading cause of mortality worldwide and most of the chemotherapeutic agents have been reported to exhibit several normal tissue toxicities, accompanied by undesirable side effects.",
+        route: EJMSVOL2ISS104,
+        pages: "23-43",
+    },
 ];
 
 export const Ejhsvol2iss1 = [
@@ -1291,7 +1298,7 @@ export const Ejhsvol2iss1 = [
     {
         title: "Maternal Malaria and Neonatal Developmental Outcomes: A Life course Perspective",
         authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
-        abstract: "The inadequate information on the phytochemistry, toxicity and pharmacological profiles of many medicinal plants has been a major challenge. The present study was undertaken to ascertain the level of toxicity of Securidaca longepedunculata in order to have an informed knowledge of this medicinal plant thereby avoiding the deleterious effects often associated with some of these herbal remedies.",
+        abstract: "Maternal malaria, a pervasive health challenge in malaria-endemic regions, extends its impact beyond immediate maternal and perinatal outcomes. This review explores the life course perspective of maternal malaria and its intricate influence on neonatal developmental outcomes.",
         route: EJHSVOL2ISS105,
         pages: "43-50",
     },
