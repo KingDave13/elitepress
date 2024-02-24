@@ -1289,8 +1289,8 @@ export const Ejhsvol2iss1 = [
         pages: "33-42",
     },
     {
-        title: "Toxicological Evaluation of Methanol Extract of Securidaca longepedunculata",
-        authors: "Abonyi, O, Egba S.I. and Uzoegwu, P.N. and Emmanuel Ifeanyi Obeagu",
+        title: "Maternal Malaria and Neonatal Developmental Outcomes: A Life course Perspective",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
         abstract: "The inadequate information on the phytochemistry, toxicity and pharmacological profiles of many medicinal plants has been a major challenge. The present study was undertaken to ascertain the level of toxicity of Securidaca longepedunculata in order to have an informed knowledge of this medicinal plant thereby avoiding the deleterious effects often associated with some of these herbal remedies.",
         route: EJHSVOL2ISS105,
         pages: "43-50",
