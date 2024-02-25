@@ -1,5 +1,5 @@
 import { GrMail } from 'react-icons/gr';
-import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV, EJPHVOL2ISS103, EJPHVOL2ISS104, EJPHVOL2ISS105, EJPHVOL2ISS106, EJPHVOL1ISS102, EJPHVOL1ISS101, EJMVOL2ISS102, EJMVOL2ISS103, EJMVOL2ISS104, EJMVOL2ISS105, EJMVOL1ISS101, EJHSVOL2ISS103, EJMSVOL2ISS104, EJHSVOL2ISS104, EJHSVOL2ISS105, EJMSVOL2ISS105, } 
+import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV, EJPHVOL2ISS103, EJPHVOL2ISS104, EJPHVOL2ISS105, EJPHVOL2ISS106, EJPHVOL1ISS102, EJPHVOL1ISS101, EJMVOL2ISS102, EJMVOL2ISS103, EJMVOL2ISS104, EJMVOL2ISS105, EJMVOL1ISS101, EJHSVOL2ISS103, EJMSVOL2ISS104, EJHSVOL2ISS104, EJHSVOL2ISS105, EJMSVOL2ISS105, EJHIVVOL2ISS101, EJHIVVOL2ISS102, EJHIVVOL2ISS103, EJHIVVOL2ISS104, EJHIVVOL2ISS105, } 
 from '../assets';
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
  EJMSVOL2ISS101, EJMSVOL2ISS102, EJHSVOL2ISS101, EJMVOL2ISS101,
@@ -1369,6 +1369,44 @@ export const Ejnhsvol2iss1 = [
         authors: "Christiana Ogochukwu Mbama and Chinelo C. N. Vincent",
         abstract: "This research work will be carried out to ascertain the perception, attitude and constraints to computer-based test professional nursing examination among nursing students and nurse educators in Imo State. The study will also pinpoint on the various ways of limiting the constraints to CBT.",
         route: EJNHSVOL2ISS103,
+        pages: "13-19",
+    },
+];
+
+export const Ejhivvol2iss1 = [
+    {
+        title: "Unveiling B Cell Mediated Immunity in HIV Infection: Insights, Challenges, and Potential Therapeutic Avenues",
+        authors: "Emmanuel Ifeanyi Obeagu, Arinze Favour Anyiam and Getrude Uzoma Obeagu",
+        abstract: "Human Immunodeficiency Virus (HIV) poses a significant global health challenge, necessitating a deeper comprehension of the immune responses engaged in infection. B cell mediated immunity emerges as a pivotal aspect in the battle against HIV, with this review aiming to elucidate the intricacies of antibody responses, viral escape mechanisms, and their implications for vaccine development.",
+        route: EJHIVVOL2ISS101,
+        pages: "1-15",
+    },
+    {
+        title: "Intersection of Genetics and Diabetes Based on Red Blood Cell Morphology",
+        authors: "Debrah Asiimwe and Emmanuel Ifeanyi Obeagu",
+        abstract: "Diabetes, a complex metabolic disorder, has long been associated with genetic predisposition. Recent research has uncovered intriguing connections between genetic variations and alterations in red blood cell structure and function in individuals with diabetes.",
+        route: EJHIVVOL2ISS102,
+        pages: "6-12",
+    },
+    {
+        title: "Perception to Computer Based Test Professional Nursing Examination among Nursing Students and Nurse Educators in Imo State",
+        authors: "Christiana Ogochukwu Mbama and Chinelo C. N. Vincent",
+        abstract: "This research work will be carried out to ascertain the perception, attitude and constraints to computer-based test professional nursing examination among nursing students and nurse educators in Imo State. The study will also pinpoint on the various ways of limiting the constraints to CBT.",
+        route: EJHIVVOL2ISS103,
+        pages: "13-19",
+    },
+    {
+        title: "Perception to Computer Based Test Professional Nursing Examination among Nursing Students and Nurse Educators in Imo State",
+        authors: "Christiana Ogochukwu Mbama and Chinelo C. N. Vincent",
+        abstract: "This research work will be carried out to ascertain the perception, attitude and constraints to computer-based test professional nursing examination among nursing students and nurse educators in Imo State. The study will also pinpoint on the various ways of limiting the constraints to CBT.",
+        route: EJHIVVOL2ISS104,
+        pages: "13-19",
+    },
+    {
+        title: "Perception to Computer Based Test Professional Nursing Examination among Nursing Students and Nurse Educators in Imo State",
+        authors: "Christiana Ogochukwu Mbama and Chinelo C. N. Vincent",
+        abstract: "This research work will be carried out to ascertain the perception, attitude and constraints to computer-based test professional nursing examination among nursing students and nurse educators in Imo State. The study will also pinpoint on the various ways of limiting the constraints to CBT.",
+        route: EJHIVVOL2ISS105,
         pages: "13-19",
     },
 ];
