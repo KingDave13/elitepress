@@ -1019,8 +1019,8 @@ export const ejhivSideLinks = [
         title: "Archives",
         links: [
             {
-                // name: "lorem ipsum",
-                // route: "",
+                name: "lorem ipsum",
+                route: "",
             }, 
         ],
     },
