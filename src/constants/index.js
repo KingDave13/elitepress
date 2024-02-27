@@ -1379,18 +1379,18 @@ export const Ejnhsvol2iss1 = [
         pages: "21-31",
     },
     {
-        title: "Perception to Computer Based Test Professional Nursing Examination among Nursing Students and Nurse Educators in Imo State",
-        authors: "Christiana Ogochukwu Mbama and Chinelo C. N. Vincent",
-        abstract: "This research work was carried out to ascertain the perception, attitude and constraints to computer-based test professional nursing examination among nursing students and nurse educators in Imo State. The study pinpointed on the various ways of limiting the constraints to CBT.",
+        title: "Maternal Eosinophilic Responses in HIV-Positive Pregnant Women: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Human Immunodeficiency Virus (HIV) infection during pregnancy introduces complex alterations in the maternal immune system, impacting various facets of the host response. This comprehensive review focuses on the distinctive role of eosinophils in the immune milieu of HIV-positive pregnant women and explores the implications for vertical transmission and perinatal outcomes.",
         route: EJNHSVOL2ISS105,
-        pages: "13-19",
+        pages: "32-47",
     },
     {
-        title: "Perception to Computer Based Test Professional Nursing Examination among Nursing Students and Nurse Educators in Imo State",
-        authors: "Christiana Ogochukwu Mbama and Chinelo C. N. Vincent",
-        abstract: "This research work was carried out to ascertain the perception, attitude and constraints to computer-based test professional nursing examination among nursing students and nurse educators in Imo State. The study pinpointed on the various ways of limiting the constraints to CBT.",
+        title: "The Impact of Antioxidants on Ovulation and Conception: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "The journey towards conception is a complex and intricate process involving numerous physiological events. Ovulation, the release of a mature egg from the ovary, plays a crucial role in fertility, and disruptions in this process can hinder successful conception.",
         route: EJNHSVOL2ISS106,
-        pages: "13-19",
+        pages: "48-54",
     },
 ];
 
