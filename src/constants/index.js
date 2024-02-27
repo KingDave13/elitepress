@@ -1367,7 +1367,7 @@ export const Ejnhsvol2iss1 = [
     {
         title: "Perception to Computer Based Test Professional Nursing Examination among Nursing Students and Nurse Educators in Imo State",
         authors: "Christiana Ogochukwu Mbama and Chinelo C. N. Vincent",
-        abstract: "This research work will be carried out to ascertain the perception, attitude and constraints to computer-based test professional nursing examination among nursing students and nurse educators in Imo State. The study will also pinpoint on the various ways of limiting the constraints to CBT.",
+        abstract: "This research work was carried out to ascertain the perception, attitude and constraints to computer-based test professional nursing examination among nursing students and nurse educators in Imo State. The study pinpointed on the various ways of limiting the constraints to CBT.",
         route: EJNHSVOL2ISS103,
         pages: "13-19",
     },
