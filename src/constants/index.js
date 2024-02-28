@@ -685,8 +685,8 @@ export const ejlmSideLinks = [
         title: "Current Issue",
         links: [
             {
-                // name: "Volume 2, Issue 1, 2024",
-                // route: "/journals/EJPH/VOL2ISS1",
+                name: "Volume 2, Issue 1, 2024",
+                route: "/journals/EJLM/VOL2ISS1",
             },
         ],
     },
@@ -1347,6 +1347,44 @@ export const Ejhvol2iss1 = [
     //     route: EJPHVOL2ISS106,
     //     pages: "62-70",
     // },
+];
+
+export const Ejlmvol2iss1 = [
+    {
+        title: "Assessment of Haemostatic Parameters on Preeclampsia Subjects in Aba, Abia State",
+        authors: "Ukamaka C. Edward, Stella Ijeoma Henry and Emmanuel Ifeanyi Obeagu",
+        abstract: "The present study assessed the haemostatic parameters in preeclampsia subjects in Aba, Abia state Nigeria. A total of sixty subjects between the ages of eighteen to forty – four years were used for this study. Thirty were preeclampsia subjects who were medically diagnosed while thirty were apparently healthy individuals who served as control subjects.",
+        route: EJHVOL2ISS101,
+        pages: "1-9",
+    },
+    {
+        title: "Assessment of the Serum Iron Status of Preeclampsia Subjects in Aba, Abia State",
+        authors: "Ukamaka C. Edward, Stella Ijeoma Henry and Emmanuel Ifeanyi Obeagu",
+        abstract: "The present study assessed the levels of iron status and haemostatic parameters in preeclampsia subjects in Aba, Abia state Nigeria. A total of sixty subjects between the ages of eighteen to forty – four years were used for this study. Thirty were preeclampsia subjects who were medically diagnosed while thirty were apparently healthy individuals who served as control subjects.",
+        route: EJHVOL2ISS102,
+        pages: "10-18",
+    },
+    {
+        title: "Molecular Basis of Diabetes: A Focus on Red Blood Cells Morphology",
+        authors: "Dahir Farax Fartuun and Emmanuel Ifeanyi Obeagu",
+        abstract: "Diabetes mellitus, a chronic metabolic disorder characterized by elevated blood glucose levels, poses a significant global health challenge. While much research has centered on the impact of diabetes on major organs such as the pancreas, liver, and kidneys, the intricate relationship between diabetes and red blood cells (RBCs) morphology has gained recognition as a crucial aspect of the disease's pathophysiology.",
+        route: EJHVOL2ISS103,
+        pages: "19-25",
+    },
+    {
+        title: "Advances in Understanding the Impact of Blood Transfusion on Anemia Resolution in HIV-Positive Children with Severe Malaria: A Comprehensive Review",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Anemia remains a significant and multifaceted complication in pediatric severe malaria, particularly in the context of coexisting HIV infection. This review critically examines the impact of blood transfusion on anemia resolution in HIV-positive children with severe malaria.",
+        route: EJHVOL2ISS104,
+        pages: "26-41",
+    },
+    {
+        title: "Genetic Determinants of Red Blood Cell Morphology in Diabetes",
+        authors: "Abdirizak Farhan Mohamed and Emmanuel Ifeanyi Obeagu",
+        abstract: "This paper explores the genetic determinants of red blood cell (RBC) morphology in diabetes, highlighting their significance in disease progression and complications. Through genetic studies, several variants impacting hemoglobin glycation, oxidative stress response, and RBC membrane structure have been identified.",
+        route: EJHVOL2ISS105,
+        pages: "42-47",
+    },
 ];
 
 export const Ejnhsvol2iss1 = [
