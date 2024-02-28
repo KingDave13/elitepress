@@ -1365,11 +1365,11 @@ export const Ejlmvol2iss1 = [
         pages: "14-32",
     },
     {
-        title: "A Critical Appraisal of Erythropoietin Levels in HIV: Clinical Relevance",
+        title: "Hematological Changes Following Blood Transfusion in Young Children with Severe Malaria and HIV: A Critical Review",
         authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
-        abstract: "This review critically evaluates the intricate relationship between erythropoietin levels and HIV infection, shedding light on its clinical relevance, particularly in the context of anemia and hematopoiesis. Erythropoietin, a key regulator of red blood cell production, plays a pivotal role in maintaining hematological homeostasis.",
+        abstract: "This critical review explores the intricate landscape of hematological changes following blood transfusion in young children afflicted by severe malaria and HIV. Severe malaria and HIV individually contribute to hematological abnormalities in pediatric patients, with anemia being a common denominator.",
         route: EJLMVOL2ISS103,
-        pages: "1-13",
+        pages: "33-45",
     },
     {
         title: "A Critical Appraisal of Erythropoietin Levels in HIV: Clinical Relevance",
