@@ -1379,11 +1379,11 @@ export const Ejlmvol2iss1 = [
         pages: "46-58",
     },
     {
-        title: "A Critical Appraisal of Erythropoietin Levels in HIV: Clinical Relevance",
+        title: "Overcoming Hurdles: Anemia Management in Malaria-Affected Childhood",
         authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
-        abstract: "This review critically evaluates the intricate relationship between erythropoietin levels and HIV infection, shedding light on its clinical relevance, particularly in the context of anemia and hematopoiesis. Erythropoietin, a key regulator of red blood cell production, plays a pivotal role in maintaining hematological homeostasis.",
+        abstract: "Anemia and malaria, prevalent health challenges in childhood, often coexist in regions where the burden of these conditions intersects. This review explores the complexities of managing anemia in the context of malaria-affected childhood, investigating the interplay between these two conditions.",
         route: EJLMVOL2ISS105,
-        pages: "1-13",
+        pages: "59-69",
     },
 ];
 
