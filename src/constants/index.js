@@ -1372,11 +1372,11 @@ export const Ejlmvol2iss1 = [
         pages: "33-45",
     },
     {
-        title: "A Critical Appraisal of Erythropoietin Levels in HIV: Clinical Relevance",
+        title: "Maternal Influence on Infant Immunological Responses to HIV: A Review",
         authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
-        abstract: "This review critically evaluates the intricate relationship between erythropoietin levels and HIV infection, shedding light on its clinical relevance, particularly in the context of anemia and hematopoiesis. Erythropoietin, a key regulator of red blood cell production, plays a pivotal role in maintaining hematological homeostasis.",
+        abstract: "This paper critically examines the complex interplay between maternal factors and infant immunological responses to Human Immunodeficiency Virus (HIV). The transmission of HIV from mother to child presents unique challenges that span the prenatal period, labor and delivery, and the postnatal phase, particularly during breastfeeding.",
         route: EJLMVOL2ISS104,
-        pages: "1-13",
+        pages: "46-58",
     },
     {
         title: "A Critical Appraisal of Erythropoietin Levels in HIV: Clinical Relevance",
