@@ -1,5 +1,5 @@
 import { GrMail } from 'react-icons/gr';
-import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV, EJPHVOL2ISS103, EJPHVOL2ISS104, EJPHVOL2ISS105, EJPHVOL2ISS106, EJPHVOL1ISS102, EJPHVOL1ISS101, EJMVOL2ISS102, EJMVOL2ISS103, EJMVOL2ISS104, EJMVOL2ISS105, EJMVOL1ISS101, EJHSVOL2ISS103, EJMSVOL2ISS104, EJHSVOL2ISS104, EJHSVOL2ISS105, EJMSVOL2ISS105, EJHIVVOL2ISS101, EJHIVVOL2ISS102, EJHIVVOL2ISS103, EJHIVVOL2ISS104, EJHIVVOL2ISS105, EJNHSVOL2ISS104, EJNHSVOL2ISS105, EJNHSVOL2ISS106, EJLMVOL2ISS101, EJLMVOL2ISS102, EJLMVOL2ISS103, EJLMVOL2ISS104, EJLMVOL2ISS105, } 
+import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV, EJPHVOL2ISS103, EJPHVOL2ISS104, EJPHVOL2ISS105, EJPHVOL2ISS106, EJPHVOL1ISS102, EJPHVOL1ISS101, EJMVOL2ISS102, EJMVOL2ISS103, EJMVOL2ISS104, EJMVOL2ISS105, EJMVOL1ISS101, EJHSVOL2ISS103, EJMSVOL2ISS104, EJHSVOL2ISS104, EJHSVOL2ISS105, EJMSVOL2ISS105, EJHIVVOL2ISS101, EJHIVVOL2ISS102, EJHIVVOL2ISS103, EJHIVVOL2ISS104, EJHIVVOL2ISS105, EJNHSVOL2ISS104, EJNHSVOL2ISS105, EJNHSVOL2ISS106, EJLMVOL2ISS101, EJLMVOL2ISS102, EJLMVOL2ISS103, EJLMVOL2ISS104, EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, } 
 from '../assets';
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
  EJMSVOL2ISS101, EJMSVOL2ISS102, EJHSVOL2ISS101, EJMVOL2ISS101,
@@ -577,8 +577,8 @@ export const ejiSideLinks = [
         title: "Current Issue",
         links: [
             {
-                // name: "Volume 2, Issue 1, 2024",
-                // route: "/journals/EJPH/VOL2ISS1",
+                name: "Volume 2, Issue 1, 2024",
+                route: "/journals/EJI/VOL2ISS1",
             },
         ],
     },
@@ -901,8 +901,8 @@ export const ejsrrSideLinks = [
         title: "Current Issue",
         links: [
             {
-                // name: "Volume 2, Issue 1, 2024",
-                // route: "/journals/EJPH/VOL2ISS1",
+                name: "Volume 2, Issue 1, 2024",
+                route: "/journals/EJSRR/VOL2ISS1",
             },
         ],
     },
@@ -1346,6 +1346,37 @@ export const Ejhvol2iss1 = [
     //     abstract: "Anthropometric parameters play a pivotal role in assessing human health and disease states. This paper aims to comprehensively explore the significance of various anthropometric measurements in understanding health outcomes and identifying potential disease risks.",
     //     route: EJPHVOL2ISS106,
     //     pages: "62-70",
+    // },
+];
+
+export const Ejivol2iss1 = [
+    {
+        title: "CD8 Dynamics in HIV Infection: A Synoptic Review",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "The complex interplay between CD8 T cells and Human Immunodeficiency Virus (HIV) infection is a pivotal determinant of disease progression and immune responses. This synoptic review provides an in-depth analysis of CD8 dynamics during HIV infection, elucidating key mechanisms, implications for disease progression, and potential therapeutic interventions.",
+        route: EJIVOL2ISS101,
+        pages: "1-12",
+    },
+    {
+        title: "Optimizing Immune Health in HIV Patients through Nutrition: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu, Getrude Uzoma Obeagu and Chetachi Blessing Okwuanaso",
+        abstract: "Human Immunodeficiency Virus (HIV) infection poses a continual challenge to global health, affecting the immune system and rendering individuals susceptible to opportunistic infections. With the advancements in Antiretroviral Therapy (ART), increasing attention is being directed towards holistic approaches, including nutritional interventions, to optimize immune health in people living with HIV.",
+        route: EJIVOL2ISS102,
+        pages: "13-33",
+    },
+    // {
+    //     title: "Molecular Basis of Diabetes: A Focus on Red Blood Cells Morphology",
+    //     authors: "Dahir Farax Fartuun and Emmanuel Ifeanyi Obeagu",
+    //     abstract: "Diabetes mellitus, a chronic metabolic disorder characterized by elevated blood glucose levels, poses a significant global health challenge. While much research has centered on the impact of diabetes on major organs such as the pancreas, liver, and kidneys, the intricate relationship between diabetes and red blood cells (RBCs) morphology has gained recognition as a crucial aspect of the disease's pathophysiology.",
+    //     route: EJHVOL2ISS103,
+    //     pages: "19-25",
+    // },
+    // {
+    //     title: "Advances in Understanding the Impact of Blood Transfusion on Anemia Resolution in HIV-Positive Children with Severe Malaria: A Comprehensive Review",
+    //     authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+    //     abstract: "Anemia remains a significant and multifaceted complication in pediatric severe malaria, particularly in the context of coexisting HIV infection. This review critically examines the impact of blood transfusion on anemia resolution in HIV-positive children with severe malaria.",
+    //     route: EJHVOL2ISS104,
+    //     pages: "26-41",
     // },
 ];
 
