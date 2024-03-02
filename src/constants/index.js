@@ -1,5 +1,5 @@
 import { GrMail } from 'react-icons/gr';
-import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV, EJPHVOL2ISS103, EJPHVOL2ISS104, EJPHVOL2ISS105, EJPHVOL2ISS106, EJPHVOL1ISS102, EJPHVOL1ISS101, EJMVOL2ISS102, EJMVOL2ISS103, EJMVOL2ISS104, EJMVOL2ISS105, EJMVOL1ISS101, EJHSVOL2ISS103, EJMSVOL2ISS104, EJHSVOL2ISS104, EJHSVOL2ISS105, EJMSVOL2ISS105, EJHIVVOL2ISS101, EJHIVVOL2ISS102, EJHIVVOL2ISS103, EJHIVVOL2ISS104, EJHIVVOL2ISS105, EJNHSVOL2ISS104, EJNHSVOL2ISS105, EJNHSVOL2ISS106, EJLMVOL2ISS101, EJLMVOL2ISS102, EJLMVOL2ISS103, EJLMVOL2ISS104, EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, } 
+import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV, EJPHVOL2ISS103, EJPHVOL2ISS104, EJPHVOL2ISS105, EJPHVOL2ISS106, EJPHVOL1ISS102, EJPHVOL1ISS101, EJMVOL2ISS102, EJMVOL2ISS103, EJMVOL2ISS104, EJMVOL2ISS105, EJMVOL1ISS101, EJHSVOL2ISS103, EJMSVOL2ISS104, EJHSVOL2ISS104, EJHSVOL2ISS105, EJMSVOL2ISS105, EJHIVVOL2ISS101, EJHIVVOL2ISS102, EJHIVVOL2ISS103, EJHIVVOL2ISS104, EJHIVVOL2ISS105, EJNHSVOL2ISS104, EJNHSVOL2ISS105, EJNHSVOL2ISS106, EJLMVOL2ISS101, EJLMVOL2ISS102, EJLMVOL2ISS103, EJLMVOL2ISS104, EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, EJSRRVOL2ISS102, } 
 from '../assets';
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
  EJMSVOL2ISS101, EJMSVOL2ISS102, EJHSVOL2ISS101, EJMVOL2ISS101,
@@ -1416,6 +1416,44 @@ export const Ejlmvol2iss1 = [
         route: EJLMVOL2ISS105,
         pages: "59-69",
     },
+];
+
+export const Ejsrrvol2iss1 = [
+    {
+        title: "Quantifying Compliance: Quantity Surveyors as Guardians of Public Funds in Construction Projects: A Comprehensive Review",
+        authors: "Ezekiel Oluwaseun Ejiofor Nnadi, George Chinonye Obiechefu and Onyekachi M. Egwuagu",
+        abstract: "This study examines the role of Quantity Surveyors (QS) in ensuring compliance and safeguarding public funds in construction projects. QS professionals are responsible for cost estimation, budgeting, tendering, contract management, risk management, and value engineering.",
+        route: EJSRRVOL2ISS101,
+        pages: "1-12",
+    },
+    {
+        title: "Navigating the Economic Recession: A Comprehensive Examination of The Impact on Nigeria's Construction Industry",
+        authors: "Chinonyelum Obainuju Nancy Nze and Ezekiel Oluwaseun Ejiofor Nnadi",
+        abstract: "A recession is a significant decline in economic activity that lasts for months or even years, experts equally declare recession as when a nation’s economy experiences negative gross domestic product (GDP), rising levels of unemployment, falling retail sales, and contracting measures of income and manufacturing for an extended period.",
+        route: EJSRRVOL2ISS102,
+        pages: "13-23",
+    },
+    // {
+    //     title: "Hematological Changes Following Blood Transfusion in Young Children with Severe Malaria and HIV: A Critical Review",
+    //     authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+    //     abstract: "This critical review explores the intricate landscape of hematological changes following blood transfusion in young children afflicted by severe malaria and HIV. Severe malaria and HIV individually contribute to hematological abnormalities in pediatric patients, with anemia being a common denominator.",
+    //     route: EJLMVOL2ISS103,
+    //     pages: "33-45",
+    // },
+    // {
+    //     title: "Maternal Influence on Infant Immunological Responses to HIV: A Review",
+    //     authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+    //     abstract: "This paper critically examines the complex interplay between maternal factors and infant immunological responses to Human Immunodeficiency Virus (HIV). The transmission of HIV from mother to child presents unique challenges that span the prenatal period, labor and delivery, and the postnatal phase, particularly during breastfeeding.",
+    //     route: EJLMVOL2ISS104,
+    //     pages: "46-58",
+    // },
+    // {
+    //     title: "Overcoming Hurdles: Anemia Management in Malaria-Affected Childhood",
+    //     authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+    //     abstract: "Anemia and malaria, prevalent health challenges in childhood, often coexist in regions where the burden of these conditions intersects. This review explores the complexities of managing anemia in the context of malaria-affected childhood, investigating the interplay between these two conditions.",
+    //     route: EJLMVOL2ISS105,
+    //     pages: "59-69",
+    // },
 ];
 
 export const Ejnhsvol2iss1 = [

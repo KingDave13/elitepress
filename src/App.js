@@ -3,7 +3,7 @@ import { AboutPage, ContactPage, HomePage, JournalsPage } from './scenes';
 import { EJH, EJM, EJHIV, EJHS, EJI, EJLM, EJMS, EJNHS, EJPH, EJSRR, 
   Vol2Iss1, Vol1Iss1, EjhVol2Iss1, EjmsVol2Iss1, EjhsVol2Iss1, 
   EjmVol2Iss1, EjmVol1Iss1, EjlmVol2Iss1, EjnhsVol2Iss1, EjhivVol2Iss1,
-  EjiVol2Iss1 } from './pages';
+  EjiVol2Iss1, EjsrrVol2Iss1 } from './pages';
 import  ScrollToTop  from './constants/ScrollToTop';
 
 const App = () => {
@@ -36,6 +36,7 @@ const App = () => {
           <Route path='/journals/EJLM/Vol2Iss1' element={<EjlmVol2Iss1 />} />
           <Route path='/journals/EJNHS/Vol2Iss1' element={<EjnhsVol2Iss1 />} />
           <Route path='/journals/EJHIV/Vol2Iss1' element={<EjhivVol2Iss1 />} />
+          <Route path='/journals/EJSRR/Vol2Iss1' element={<EjsrrVol2Iss1 />} />
         </Routes>
       </ScrollToTop>
     </BrowserRouter>
