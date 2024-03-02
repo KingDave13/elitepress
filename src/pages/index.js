@@ -18,6 +18,7 @@ import EjmVol1Iss1 from './EjmVol1Iss1';
 import EjlmVol2Iss1 from './EjlmVol2Iss1';
 import EjnhsVol2Iss1 from './EjnhsVol2Iss1';
 import EjhivVol2Iss1 from './EjhivVol2Iss1';
+import EjiVol2Iss1 from './EjiVol2Iss1';
 
 export { 
     EJH,
@@ -39,5 +40,6 @@ export {
     EjmVol1Iss1,
     EjlmVol2Iss1,
     EjnhsVol2Iss1,
-    EjhivVol2Iss1
+    EjhivVol2Iss1,
+    EjiVol2Iss1,
 }
