@@ -12,7 +12,7 @@ import {
   import { ejsrrSideLinks } from "../constants";
   import { hero3 } from "../assets";
   
-  const EjhsVol2Iss1 = () => {
+  const EjsrrVol2Iss1 = () => {
     return (
       <div className="font-instrument-sans">
         <NavbarPages />
