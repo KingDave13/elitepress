@@ -42,14 +42,18 @@ import EJPHVOL1ISS1 from './EJPHVOL1ISS1';
 import Vol1Iss1Pubs from './Vol1Iss1Pubs';
 import Vol2Iss1Pubs from './Vol2Iss1Pubs';
 import EJHVOL2ISS1 from './EJHVOL2ISS1';
+import EJHVOL2ISS2 from './EJHVOL2ISS2';
 import EjhVol2Iss1Pubs from './EjhVol2Iss1Pubs';
+import EjhVol2Iss2Pubs from './EjhVol2Iss2Pubs';
 import EJMSVOL2ISS1 from './EJMSVOL2ISS1';
 import EjmsVol2Iss1Pubs from './EjmsVol2Iss1Pubs';
 import EJHSVOL2ISS1 from './EJHSVOL2ISS1';
 import EjhsVol2Iss1Pubs from './EjhsVol2Iss1Pubs';
 import EJMVOL2ISS1 from './EJMVOL2ISS1';
 import EJMVOL1ISS1 from './EJMVOL1ISS1';
+import EJMVOL2ISS2 from './EJMVOL2ISS2';
 import EjmVol1Iss1Pubs from './EjmVol1Iss1Pubs';
+import EjmVol2Iss2Pubs from './EjmVol2Iss2Pubs';
 import EjmVol2Iss1Pubs from './EjmVol2Iss1Pubs';
 import EJLMVOL2ISS1 from './EJLMVOL2ISS1';
 import EjlmVol2Iss1Pubs from './EjlmVol2Iss1Pubs';
@@ -126,4 +130,8 @@ export {
     EJIVOL2ISS1,
     EJSRRVOL2ISS1,
     EjsrrVol2Iss1Pubs,
+    EJMVOL2ISS2,
+    EjmVol2Iss2Pubs,
+    EJHVOL2ISS2,
+    EjhVol2Iss2Pubs,
 }
