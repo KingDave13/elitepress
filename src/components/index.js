@@ -65,6 +65,8 @@ import EjiVol2Iss1Pubs from './EjiVol2Iss1Pubs';
 import EJIVOL2ISS1 from './EJIVOL2ISS1';
 import EJSRRVOL2ISS1 from './EJSRRVOL2ISS1';
 import EjsrrVol2Iss1Pubs from './EjsrrVol2Iss1Pubs';
+import EjmVol2Issues from './EjmVol2Issues';
+import EJMVOL2 from './EJMVOL2';
 
 export { 
     Navbar,
@@ -134,4 +136,6 @@ export {
     EjmVol2Iss2Pubs,
     EJHVOL2ISS2,
     EjhVol2Iss2Pubs,
+    EjmVol2Issues,
+    EJMVOL2,
 }
