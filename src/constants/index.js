@@ -1,6 +1,19 @@
 import { GrMail } from 'react-icons/gr';
-import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV, EJPHVOL2ISS103, EJPHVOL2ISS104, EJPHVOL2ISS105, EJPHVOL2ISS106, EJPHVOL1ISS102, EJPHVOL1ISS101, EJMVOL2ISS102, EJMVOL2ISS103, EJMVOL2ISS104, EJMVOL2ISS105, EJMVOL1ISS101, EJHSVOL2ISS103, EJMSVOL2ISS104, EJHSVOL2ISS104, EJHSVOL2ISS105, EJMSVOL2ISS105, EJHIVVOL2ISS101, EJHIVVOL2ISS102, EJHIVVOL2ISS103, EJHIVVOL2ISS104, EJHIVVOL2ISS105, EJNHSVOL2ISS104, EJNHSVOL2ISS105, EJNHSVOL2ISS106, EJLMVOL2ISS101, EJLMVOL2ISS102, EJLMVOL2ISS103, EJLMVOL2ISS104, EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, EJHVOL2ISS202, EJMVOL2ISS201, } 
+
+import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV, 
+    EJPHVOL2ISS103, EJPHVOL2ISS104, EJPHVOL2ISS105, EJPHVOL2ISS106, 
+    EJPHVOL1ISS102, EJPHVOL1ISS101, EJMVOL2ISS102, EJMVOL2ISS103, 
+    EJMVOL2ISS104, EJMVOL2ISS105, EJMVOL1ISS101, EJHSVOL2ISS103, 
+    EJMSVOL2ISS104, EJHSVOL2ISS104, EJHSVOL2ISS105, EJMSVOL2ISS105, 
+    EJHIVVOL2ISS101, EJHIVVOL2ISS102, EJHIVVOL2ISS103, EJHIVVOL2ISS104, 
+    EJHIVVOL2ISS105, EJNHSVOL2ISS104, EJNHSVOL2ISS105, EJNHSVOL2ISS106, 
+    EJLMVOL2ISS101, EJLMVOL2ISS102, EJLMVOL2ISS103, EJLMVOL2ISS104, 
+    EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, 
+    EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, 
+    EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, 
+    EJHVOL2ISS202, EJMVOL2ISS201, } 
 from '../assets';
+
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
  EJMSVOL2ISS101, EJMSVOL2ISS102, EJHSVOL2ISS101, EJMVOL2ISS101,
  EJHVOL2ISS103, EJHVOL2ISS104, EJHVOL2ISS105, EJHSVOL2ISS102,
@@ -37,11 +50,11 @@ export const ejhSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 1, 2024",
+                name: "Volume 2, Issue 1. (2024)",
                 route: "/journals/EJH/VOL2ISS1",
             },
             {
-                name: "Volume 2, Issue 2, 2024",
+                name: "Volume 2, Issue 2. (2024)",
                 route: "/journals/EJH/VOL2ISS2",
             },
         ],
@@ -149,11 +162,11 @@ export const ejmSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 1, 2024",
+                name: "Volume 2, Issue 1. (2024)",
                 route: "/journals/EJM/VOL2ISS1",
             },
             {
-                name: "Volume 2, Issue 2, 2024",
+                name: "Volume 2, Issue 2. (2024)",
                 route: "/journals/EJM/VOL2ISS2",
             },
         ],
@@ -261,7 +274,7 @@ export const ejhsSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 1, 2024",
+                name: "Volume 2, Issue 1. (2024)",
                 route: "/journals/EJHS/VOL2ISS1",
             },
         ],
@@ -369,7 +382,7 @@ export const ejmsSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 1, 2024",
+                name: "Volume 2, Issue 1. (2024)",
                 route: "/journals/EJMS/VOL2ISS1",
             },
         ],
@@ -477,7 +490,7 @@ export const ejphSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 1, 2024",
+                name: "Volume 2, Issue 1. (2024)",
                 route: "/journals/EJPH/VOL2ISS1",
             },
         ],
@@ -585,7 +598,7 @@ export const ejiSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 1, 2024",
+                name: "Volume 2, Issue 1. (2024)",
                 route: "/journals/EJI/VOL2ISS1",
             },
         ],
@@ -693,7 +706,7 @@ export const ejlmSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 1, 2024",
+                name: "Volume 2, Issue 1. (2024)",
                 route: "/journals/EJLM/VOL2ISS1",
             },
         ],
@@ -801,7 +814,7 @@ export const ejnhsSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 1, 2024",
+                name: "Volume 2, Issue 1. (2024)",
                 route: "/journals/EJNHS/VOL2ISS1",
             },
         ],
@@ -909,7 +922,7 @@ export const ejsrrSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 1, 2024",
+                name: "Volume 2, Issue 1. (2024)",
                 route: "/journals/EJSRR/VOL2ISS1",
             },
         ],
@@ -1017,7 +1030,7 @@ export const ejhivSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 1, 2024",
+                name: "Volume 2, Issue 1. (2024)",
                 route: "/journals/EJHIV/VOL2ISS1",
             },
         ],
