@@ -40,6 +40,10 @@ export const ejhSideLinks = [
                 name: "Volume 2, Issue 1, 2024",
                 route: "/journals/EJH/VOL2ISS1",
             },
+            {
+                name: "Volume 2, Issue 2, 2024",
+                route: "/journals/EJH/VOL2ISS2",
+            },
         ],
     },
     {
@@ -147,6 +151,10 @@ export const ejmSideLinks = [
             {
                 name: "Volume 2, Issue 1, 2024",
                 route: "/journals/EJM/VOL2ISS1",
+            },
+            {
+                name: "Volume 2, Issue 2, 2024",
+                route: "/journals/EJM/VOL2ISS2",
             },
         ],
     },
