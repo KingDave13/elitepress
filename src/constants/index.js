@@ -1,5 +1,5 @@
 import { GrMail } from 'react-icons/gr';
-import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV, EJPHVOL2ISS103, EJPHVOL2ISS104, EJPHVOL2ISS105, EJPHVOL2ISS106, EJPHVOL1ISS102, EJPHVOL1ISS101, EJMVOL2ISS102, EJMVOL2ISS103, EJMVOL2ISS104, EJMVOL2ISS105, EJMVOL1ISS101, EJHSVOL2ISS103, EJMSVOL2ISS104, EJHSVOL2ISS104, EJHSVOL2ISS105, EJMSVOL2ISS105, EJHIVVOL2ISS101, EJHIVVOL2ISS102, EJHIVVOL2ISS103, EJHIVVOL2ISS104, EJHIVVOL2ISS105, EJNHSVOL2ISS104, EJNHSVOL2ISS105, EJNHSVOL2ISS106, EJLMVOL2ISS101, EJLMVOL2ISS102, EJLMVOL2ISS103, EJLMVOL2ISS104, EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, } 
+import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV, EJPHVOL2ISS103, EJPHVOL2ISS104, EJPHVOL2ISS105, EJPHVOL2ISS106, EJPHVOL1ISS102, EJPHVOL1ISS101, EJMVOL2ISS102, EJMVOL2ISS103, EJMVOL2ISS104, EJMVOL2ISS105, EJMVOL1ISS101, EJHSVOL2ISS103, EJMSVOL2ISS104, EJHSVOL2ISS104, EJHSVOL2ISS105, EJMSVOL2ISS105, EJHIVVOL2ISS101, EJHIVVOL2ISS102, EJHIVVOL2ISS103, EJHIVVOL2ISS104, EJHIVVOL2ISS105, EJNHSVOL2ISS104, EJNHSVOL2ISS105, EJNHSVOL2ISS106, EJLMVOL2ISS101, EJLMVOL2ISS102, EJLMVOL2ISS103, EJLMVOL2ISS104, EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, } 
 from '../assets';
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
  EJMSVOL2ISS101, EJMSVOL2ISS102, EJHSVOL2ISS101, EJMVOL2ISS101,
@@ -1364,20 +1364,27 @@ export const Ejivol2iss1 = [
         route: EJIVOL2ISS102,
         pages: "13-33",
     },
-    // {
-    //     title: "Molecular Basis of Diabetes: A Focus on Red Blood Cells Morphology",
-    //     authors: "Dahir Farax Fartuun and Emmanuel Ifeanyi Obeagu",
-    //     abstract: "Diabetes mellitus, a chronic metabolic disorder characterized by elevated blood glucose levels, poses a significant global health challenge. While much research has centered on the impact of diabetes on major organs such as the pancreas, liver, and kidneys, the intricate relationship between diabetes and red blood cells (RBCs) morphology has gained recognition as a crucial aspect of the disease's pathophysiology.",
-    //     route: EJHVOL2ISS103,
-    //     pages: "19-25",
-    // },
-    // {
-    //     title: "Advances in Understanding the Impact of Blood Transfusion on Anemia Resolution in HIV-Positive Children with Severe Malaria: A Comprehensive Review",
-    //     authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
-    //     abstract: "Anemia remains a significant and multifaceted complication in pediatric severe malaria, particularly in the context of coexisting HIV infection. This review critically examines the impact of blood transfusion on anemia resolution in HIV-positive children with severe malaria.",
-    //     route: EJHVOL2ISS104,
-    //     pages: "26-41",
-    // },
+    {
+        title: "Implications of B Lymphocyte Dysfunction in HIV/AIDS",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "The ongoing battle against Human Immunodeficiency Virus (HIV) necessitates a comprehensive understanding of the intricate interplay between various components of the immune system. While the role of T lymphocytes has been extensively explored, recent research has illuminated the critical involvement of B lymphocytes and their dysfunction in the context of HIV/AIDS.",
+        route: EJIVOL2ISS103,
+        pages: "34-46",
+    },
+    {
+        title: "Maternal Eosinophilic Responses in HIV-Positive Pregnant Women: Unraveling Immunological Dynamics for Improved Maternal-Fetal Health",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Human Immunodeficiency Virus (HIV) infection during pregnancy introduces a complex interplay between the maternal immune system and the imperative need for fetal development. This review delves into the nuanced relationship between maternal eosinophilic responses and HIV infection during pregnancy, offering insights into the immunological dynamics that influence both maternal and fetal outcomes.",
+        route: EJIVOL2ISS104,
+        pages: "47-64",
+    },
+    {
+        title: "Cytokine Modulation as a Strategy for Type 1 Diabetes Intervention: Unraveling Immunological Complexities for Therapeutic Advancements",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Type 1 diabetes (T1D) stands as a formidable autoimmune challenge, marked by the progressive destruction of insulin-producing pancreatic beta cells. This review explores the potential of cytokine modulation as a strategic intervention in T1D, acknowledging the complex interplay between cytokines, immune cells, and the pancreatic microenvironment.",
+        route: EJIVOL2ISS105,
+        pages: "65-75",
+    },
 ];
 
 export const Ejlmvol2iss1 = [
