@@ -11,7 +11,7 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, 
     EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, 
     EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, 
-    EJHVOL2ISS202, EJMVOL2ISS201, } 
+    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -50,10 +50,6 @@ export const ejhSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 1. (2024)",
-                route: "/journals/EJH/VOL2ISS1",
-            },
-            {
                 name: "Volume 2, Issue 2. (2024)",
                 route: "/journals/EJH/VOL2ISS2",
             },
@@ -64,9 +60,9 @@ export const ejhSideLinks = [
         title: "Archives",
         links: [
             {
-                // name: "lorem ipsum",
-                // route: "",
-            }, 
+                name: "Volume 2 (2024)",
+                route: "/journals/EJH/VOL2",
+            },
         ],
     },
     {
@@ -274,8 +270,8 @@ export const ejhsSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 1. (2024)",
-                route: "/journals/EJHS/VOL2ISS1",
+                name: "Volume 2, Issue 2. (2024)",
+                route: "/journals/EJHS/VOL2ISS2",
             },
         ],
     },
@@ -284,8 +280,8 @@ export const ejhsSideLinks = [
         title: "Archives",
         links: [
             {
-                // name: "lorem ipsum",
-                // route: "",
+                name: "Volume 2 (2024)",
+                route: "/journals/EJHS/VOL2",
             }, 
         ],
     },
@@ -814,8 +810,8 @@ export const ejnhsSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 1. (2024)",
-                route: "/journals/EJNHS/VOL2ISS1",
+                name: "Volume 2, Issue 2. (2024)",
+                route: "/journals/EJNHS/VOL2ISS2",
             },
         ],
     },
@@ -824,8 +820,8 @@ export const ejnhsSideLinks = [
         title: "Archives",
         links: [
             {
-                // name: "lorem ipsum",
-                // route: "",
+                name: "Volume 2 (2024)",
+                route: "/journals/EJNHS/VOL2",
             }, 
         ],
     },
@@ -1240,6 +1236,13 @@ export const Ejmvol2iss2 = [
         route: EJMVOL2ISS201,
         pages: "1-17",
     },
+    {
+        title: "Knowledge of Glycemic Control among Diabetic Patients in Federal University Teaching Hospital, Owerri",
+        authors: "Charles Uyiosa Iyabor, Chinelo C.N. Vincent, Chinonso Adaku Korie and Felicia Anyim",
+        abstract: "The researchers investigated the knowledge, attitude, practices and hindrances to glycemic control among diabetic patients in Federal University Teaching Hospital, Owerri, Nigeria. The study adopted a descriptive survey research design. The study was guided by four research questions and two hypotheses.",
+        route: EJMVOL2ISS202,
+        pages: "18-25",
+    },
 ];
 
 export const Ejmvol1iss1 = [
@@ -1326,6 +1329,17 @@ export const Ejhsvol2iss1 = [
         route: EJHSVOL2ISS105,
         pages: "43-50",
     },
+];
+
+export const Ejhsvol2iss2 = [
+    {
+        title: "Attitude to Glycemic Control among Diabetic Patients in Federal University Teaching Hospital, Owerri",
+        authors: "Charles Uyiosa Iyabor, Onasoga Abolore Olyayinka and Emmanuel Ifeanyi Obeagu",
+        abstract: "The researchers investigated the knowledge, attitude, practices and hindrances to glycemic control among diabetic patients in Federal University Teaching Hospital, Owerri, Nigeria. The study adopted a descriptive survey research design. The study was guided by four research questions and two hypotheses.",
+        route: EJHSVOL2ISS201,
+        pages: "1-6",
+    },
+
 ];
 
 export const Ejhvol2iss1 = [
@@ -1539,6 +1553,16 @@ export const Ejnhsvol2iss1 = [
         abstract: "The journey towards conception is a complex and intricate process involving numerous physiological events. Ovulation, the release of a mature egg from the ovary, plays a crucial role in fertility, and disruptions in this process can hinder successful conception.",
         route: EJNHSVOL2ISS106,
         pages: "48-54",
+    },
+];
+
+export const Ejnhsvol2iss2 = [
+    {
+        title: "Comparison of the Academic Performance of Nursing Students in Imo State University and Madonna University in 2018 Nursing and Midwifery Council Examination",
+        authors: "Chioma Ibe, Clementina Ezenwuba, Chinelo C.N. Vincent, Julia Ibebuike and Solomon Adanma J. Nwagwu",
+        abstract: "This study was conducted to compare the influence of social media on academic performance of nursing students in two selected tertiary institutions in Nigeria. A retrospective comparative design was adopted for the study. Relevant literatures were reviewed. The total population of the study is 1,752. Census sampling technique was employed.",
+        route: EJNHSVOL2ISS201,
+        pages: "1-4",
     },
 ];
 

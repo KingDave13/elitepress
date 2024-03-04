@@ -1,7 +1,7 @@
 import { SectionWrapper } from "../hoc";
 import { useNavigate } from 'react-router-dom';
 
-const EJMVol2Issues = () => {
+const EJNHSVol2Issues = () => {
     const navigate = useNavigate();
 
   return (
@@ -13,7 +13,7 @@ const EJMVol2Issues = () => {
                     rounded-lg bg-primaryalt md:py-5 ss:py-5 flex items-center
                     justify-center py-3'
                     onClick={() => {
-                        navigate('/journals/EJM/Vol2/Vol2Iss1');
+                        navigate('/journals/EJNHS/Vol2/Vol2Iss1');
                     }}
                 >
                     <p className="md:text-[20px] ss:text-[14px] font-medium">
@@ -158,4 +158,4 @@ const EJMVol2Issues = () => {
   );
 };
 
-export default SectionWrapper(EJMVol2Issues, '');
+export default SectionWrapper(EJNHSVol2Issues, '');

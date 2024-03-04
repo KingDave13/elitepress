@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
-const HeroEJMVOL1ISS1 = () => {  
+const HeroEJMVOL1 = () => {  
     return (
       <section className='w-full'>
           <div className=' w-full flex flex-col'
@@ -21,12 +21,12 @@ const HeroEJMVOL1ISS1 = () => {
                 <div className='flex flex-row items-center md:gap-3 
                 ss:gap-2 gap-1 text-white md:text-[20px] ss:text-[20px] 
                 text-[13px] justify-center'>
-                  <p>Volume 1, Issue1, 2023 Publications</p>
+                  <p>Volume 1, 2023 Publications</p>
                 </div>
-              </motion.div>
+              </motion.div>          
           </div>
       </section>  
     )
   };
   
-export default SectionWrapper(HeroEJMVOL1ISS1, '');
+export default SectionWrapper(HeroEJMVOL1, '');

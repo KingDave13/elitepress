@@ -1,18 +1,18 @@
 import {
-    EJMVOL1,
+    VOL1,
     Newsletter,
     Footer, 
     Sidebar,
     Sidebar2, 
     NavbarPages,
-    EjmVol1Issues,
+    EjphVol1Issues,
     } from "../components";
   
   import styles from "../styles";
-  import { ejmSideLinks } from "../constants";
+  import { ejphSideLinks } from "../constants";
   import { hero3 } from "../assets";
   
-  const EjmVol1 = () => {
+  const Vol1 = () => {
     return (
       <div className="font-instrument-sans">
         <NavbarPages />
@@ -23,7 +23,7 @@ import {
           className='w-[120rem] md:h-[300px] ss:h-[250px]
           h-[150px]' />
           <div className='absolute w-full md:pb-8 ss:pb-8 pb-6'>
-            <EJMVOL1 />
+            <VOL1 />
           </div>
         </div>
   
@@ -31,21 +31,21 @@ import {
           <div className={`${styles.padding} max-w-[82rem] mx-auto flex 
           md:pt-28 hidden md:flex`}>
             <div className="mr-4 mt-[30px]">
-              <Sidebar sideLinks={ejmSideLinks}/>
+              <Sidebar sideLinks={ejphSideLinks}/>
             </div>
   
             <div className='ml-20 w-full'>
-              <EjmVol1Issues />
+              <EjphVol1Issues />
             </div>
           </div>
   
           <div className='flex ss:pt-28 pt-28 md:hidden flex flex-col'>
             <div className=''>
-              <EjmVol1Issues />
+              <EjphVol1Issues />
             </div>
   
             <div className="">
-              <Sidebar2 sideLinks={ejmSideLinks} />
+              <Sidebar2 sideLinks={ejphSideLinks} />
             </div>
           </div>
         </div>
@@ -61,4 +61,4 @@ import {
     );
   };
   
-  export default EjmVol1;
+  export default Vol1;
