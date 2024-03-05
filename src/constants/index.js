@@ -11,7 +11,7 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, 
     EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, 
     EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, 
-    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, } 
+    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1265,11 +1265,11 @@ export const Ejmvol2iss2 = [
         pages: "55-66",
     },
     {
-        title: "Knowledge of Glycemic Control among Diabetic Patients in Federal University Teaching Hospital, Owerri",
+        title: "Unraveling the Role of Transforming Growth Factor-Beta (TGF-β) in the Progression of Fibroids",
         authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
         abstract: "The researchers investigated the knowledge, attitude, practices and hindrances to glycemic control among diabetic patients in Federal University Teaching Hospital, Owerri, Nigeria. The study adopted a descriptive survey research design. The study was guided by four research questions and two hypotheses.",
-        route: EJMVOL2ISS202,
-        pages: "18-25",
+        route: EJMVOL2ISS206,
+        pages: "67-77",
     },
     {
         title: "Knowledge of Glycemic Control among Diabetic Patients in Federal University Teaching Hospital, Owerri",
