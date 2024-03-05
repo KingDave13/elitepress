@@ -11,7 +11,7 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, 
     EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, 
     EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, 
-    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, } 
+    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1273,10 +1273,10 @@ export const Ejmvol2iss2 = [
     },
     {
         title: "Serum Bilirubin Levels in Patients with Acute Appendicitis in Western Uganda: A Multicenter Study",
-        authors: "Charles Uyiosa Iyabor, Chinelo C.N. Vincent, Chinonso Adaku Korie and Felicia Anyim",
+        authors: "Cikuru Rodrigue Buhendwa1, Edyedu Isaac1, Idania Hidalgo2, Simba Lionel Msafiri1, Olivier Iyivuze1, Kumbakulu Patrick Kumbowi3, Maxwel Duncan Okuku1, Khodolwa Stephen Angira1, M’mebwa Mtende Luc4 and Emmanuel Ifeanyi Obeagu",
         abstract: "Globally, acute appendicitis, requiring emergency surgery, occurs in 7 to 22 cases per 10,000 persons. The study aimed to assess the correlation between acute appendicitis and serum bilirubin. This was observational prospective cohort study, conducted in Western Uganda from November 2023 to January 2024, involved 62 adult patients diagnosed with acute appendicitis.",
-        route: EJMVOL2ISS202,
-        pages: "18-25",
+        route: EJMVOL2ISS207,
+        pages: "78-84",
     },
 ];
 
