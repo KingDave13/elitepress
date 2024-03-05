@@ -1273,7 +1273,7 @@ export const Ejmvol2iss2 = [
     },
     {
         title: "Serum Bilirubin Levels in Patients with Acute Appendicitis in Western Uganda: A Multicenter Study",
-        authors: "Cikuru Rodrigue Buhendwa1, Edyedu Isaac1, Idania Hidalgo2, Simba Lionel Msafiri1, Olivier Iyivuze1, Kumbakulu Patrick Kumbowi3, Maxwel Duncan Okuku1, Khodolwa Stephen Angira1, M’mebwa Mtende Luc4 and Emmanuel Ifeanyi Obeagu",
+        authors: "Cikuru Rodrigue Buhendwa, Edyedu Isaac, Idania Hidalgo, Simba Lionel Msafiri, Olivier Iyivuze, Kumbakulu Patrick Kumbowi, Maxwel Duncan Okuku, Khodolwa Stephen Angira, M'mebwa Mtende Luc and Emmanuel Ifeanyi Obeagu",
         abstract: "Globally, acute appendicitis, requiring emergency surgery, occurs in 7 to 22 cases per 10,000 persons. The study aimed to assess the correlation between acute appendicitis and serum bilirubin. This was observational prospective cohort study, conducted in Western Uganda from November 2023 to January 2024, involved 62 adult patients diagnosed with acute appendicitis.",
         route: EJMVOL2ISS207,
         pages: "78-84",
