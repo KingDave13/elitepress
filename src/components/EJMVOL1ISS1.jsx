@@ -21,7 +21,7 @@ const HeroEJMVOL1ISS1 = () => {
                 <div className='flex flex-row items-center md:gap-3 
                 ss:gap-2 gap-1 text-white md:text-[20px] ss:text-[20px] 
                 text-[13px] justify-center'>
-                  <p>Volume 1, Issue1, 2023 Publications</p>
+                  <p>Volume 1, Issue 1, 2023 Publications</p>
                 </div>
               </motion.div>
           </div>
