@@ -11,7 +11,7 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, 
     EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, 
     EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, 
-    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, } 
+    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1244,18 +1244,18 @@ export const Ejmvol2iss2 = [
         pages: "18-25",
     },
     {
-        title: "Knowledge of Glycemic Control among Diabetic Patients in Federal University Teaching Hospital, Owerri",
-        authors: "Charles Uyiosa Iyabor, Chinelo C.N. Vincent, Chinonso Adaku Korie and Felicia Anyim",
-        abstract: "The researchers investigated the knowledge, attitude, practices and hindrances to glycemic control among diabetic patients in Federal University Teaching Hospital, Owerri, Nigeria. The study adopted a descriptive survey research design. The study was guided by four research questions and two hypotheses.",
-        route: EJMVOL2ISS202,
-        pages: "18-25",
+        title: "Immune Checkpoint Inhibitors in Type 1 Diabetes: A New Frontier in Therapy",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Type 1 Diabetes (T1D) is a chronic autoimmune disease characterized by the immune-mediated destruction of insulin-producing beta cells in the pancreas. Current therapeutic strategies primarily focus on glycemic control through exogenous insulin administration.",
+        route: EJMVOL2ISS203,
+        pages: "26-41",
     },
     {
-        title: "Knowledge of Glycemic Control among Diabetic Patients in Federal University Teaching Hospital, Owerri",
-        authors: "Charles Uyiosa Iyabor, Chinelo C.N. Vincent, Chinonso Adaku Korie and Felicia Anyim",
-        abstract: "The researchers investigated the knowledge, attitude, practices and hindrances to glycemic control among diabetic patients in Federal University Teaching Hospital, Owerri, Nigeria. The study adopted a descriptive survey research design. The study was guided by four research questions and two hypotheses.",
-        route: EJMVOL2ISS202,
-        pages: "18-25",
+        title: "Breaking Ground: PARP Inhibitors and Their Efficacy in Breast Cancer Stages",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Breast cancer remains a formidable challenge in healthcare, necessitating innovative therapeutic strategies to improve patient outcomes. This abstract provides a comprehensive overview of the groundbreaking role played by Poly (ADP-ribose) polymerase (PARP) inhibitors in the context of breast cancer treatment across different stages.",
+        route: EJMVOL2ISS204,
+        pages: "42-54",
     },
     {
         title: "Knowledge of Glycemic Control among Diabetic Patients in Federal University Teaching Hospital, Owerri",
