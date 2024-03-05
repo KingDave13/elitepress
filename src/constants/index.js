@@ -1267,7 +1267,7 @@ export const Ejmvol2iss2 = [
     {
         title: "Unraveling the Role of Transforming Growth Factor-Beta (TGF-β) in the Progression of Fibroids",
         authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
-        abstract: "The researchers investigated the knowledge, attitude, practices and hindrances to glycemic control among diabetic patients in Federal University Teaching Hospital, Owerri, Nigeria. The study adopted a descriptive survey research design. The study was guided by four research questions and two hypotheses.",
+        abstract: "Fibroids, or uterine leiomyomas, represent a prevalent gynecological condition impacting women of reproductive age worldwide. Transforming Growth Factor-Beta (TGF-β) emerges as a critical mediator in the intricate landscape of fibroid development and progression. This abstract encapsulates a comprehensive review elucidating the multifaceted roles of TGF-β in the context of fibroid pathogenesis, encompassing molecular mechanisms and clinical implications.",
         route: EJMVOL2ISS206,
         pages: "67-77",
     },
