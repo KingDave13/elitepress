@@ -1243,6 +1243,41 @@ export const Ejmvol2iss2 = [
         route: EJMVOL2ISS202,
         pages: "18-25",
     },
+    {
+        title: "Knowledge of Glycemic Control among Diabetic Patients in Federal University Teaching Hospital, Owerri",
+        authors: "Charles Uyiosa Iyabor, Chinelo C.N. Vincent, Chinonso Adaku Korie and Felicia Anyim",
+        abstract: "The researchers investigated the knowledge, attitude, practices and hindrances to glycemic control among diabetic patients in Federal University Teaching Hospital, Owerri, Nigeria. The study adopted a descriptive survey research design. The study was guided by four research questions and two hypotheses.",
+        route: EJMVOL2ISS202,
+        pages: "18-25",
+    },
+    {
+        title: "Knowledge of Glycemic Control among Diabetic Patients in Federal University Teaching Hospital, Owerri",
+        authors: "Charles Uyiosa Iyabor, Chinelo C.N. Vincent, Chinonso Adaku Korie and Felicia Anyim",
+        abstract: "The researchers investigated the knowledge, attitude, practices and hindrances to glycemic control among diabetic patients in Federal University Teaching Hospital, Owerri, Nigeria. The study adopted a descriptive survey research design. The study was guided by four research questions and two hypotheses.",
+        route: EJMVOL2ISS202,
+        pages: "18-25",
+    },
+    {
+        title: "Knowledge of Glycemic Control among Diabetic Patients in Federal University Teaching Hospital, Owerri",
+        authors: "Charles Uyiosa Iyabor, Chinelo C.N. Vincent, Chinonso Adaku Korie and Felicia Anyim",
+        abstract: "The researchers investigated the knowledge, attitude, practices and hindrances to glycemic control among diabetic patients in Federal University Teaching Hospital, Owerri, Nigeria. The study adopted a descriptive survey research design. The study was guided by four research questions and two hypotheses.",
+        route: EJMVOL2ISS202,
+        pages: "18-25",
+    },
+    {
+        title: "Knowledge of Glycemic Control among Diabetic Patients in Federal University Teaching Hospital, Owerri",
+        authors: "Charles Uyiosa Iyabor, Chinelo C.N. Vincent, Chinonso Adaku Korie and Felicia Anyim",
+        abstract: "The researchers investigated the knowledge, attitude, practices and hindrances to glycemic control among diabetic patients in Federal University Teaching Hospital, Owerri, Nigeria. The study adopted a descriptive survey research design. The study was guided by four research questions and two hypotheses.",
+        route: EJMVOL2ISS202,
+        pages: "18-25",
+    },
+    {
+        title: "Knowledge of Glycemic Control among Diabetic Patients in Federal University Teaching Hospital, Owerri",
+        authors: "Charles Uyiosa Iyabor, Chinelo C.N. Vincent, Chinonso Adaku Korie and Felicia Anyim",
+        abstract: "The researchers investigated the knowledge, attitude, practices and hindrances to glycemic control among diabetic patients in Federal University Teaching Hospital, Owerri, Nigeria. The study adopted a descriptive survey research design. The study was guided by four research questions and two hypotheses.",
+        route: EJMVOL2ISS202,
+        pages: "18-25",
+    },
 ];
 
 export const Ejmvol1iss1 = [
