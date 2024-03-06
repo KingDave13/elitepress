@@ -1194,7 +1194,7 @@ export const vol2iss1 = [
     },
 ];
 
-export const Vol2iss2 = [
+export const vol2iss2 = [
     {
         title: "Prevalence of Brucellosis among Febrile Patients Attending Kampala International University Teaching Hospital, Southwestern Uganda",
         authors: "Benard Bushoborozi, Ezera Agwu, Emmanuel Ifeanyi Obeagu, Samson Adewale Oyebadejo, Yakubu Sunday Bot, Mary Gorret Abalinda, Pius Theophilus, Onyekachi Splendid Uwakwe, Kenedy Kyaluzi and Sarah Nakyeyune",

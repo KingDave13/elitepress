@@ -1,18 +1,18 @@
 import {
-    VOL2,
+    EJPHVOL2ISS2,
     Newsletter,
     Footer, 
     Sidebar,
     Sidebar2, 
     NavbarPages,
-    EjphVol2Issues,
+    Vol2Iss2Pubs, 
     } from "../components";
   
   import styles from "../styles";
   import { ejphSideLinks } from "../constants";
   import { hero3 } from "../assets";
   
-  const Vol2 = () => {
+  const Vol2Iss2 = () => {
     return (
       <div className="font-instrument-sans">
         <NavbarPages />
@@ -23,7 +23,7 @@ import {
           className='w-[120rem] md:h-[300px] ss:h-[250px]
           h-[150px]' />
           <div className='absolute w-full md:pb-8 ss:pb-8 pb-6'>
-            <VOL2 />
+            <EJPHVOL2ISS2 />
           </div>
         </div>
   
@@ -35,13 +35,13 @@ import {
             </div>
   
             <div className='ml-20 w-full'>
-              <EjphVol2Issues />
+              <Vol2Iss2Pubs />
             </div>
           </div>
   
           <div className='flex ss:pt-28 pt-28 md:hidden flex flex-col'>
             <div className=''>
-              <EjphVol2Issues />
+              <Vol2Iss2Pubs />
             </div>
   
             <div className="">
@@ -61,4 +61,4 @@ import {
     );
   };
   
-  export default Vol2;
+  export default Vol2Iss2;

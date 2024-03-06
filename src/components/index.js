@@ -38,9 +38,11 @@ import HIVHero from './HIVHero';
 import Sidebar from './Sidebar';
 import Sidebar2 from './Sidebar2';
 import EJPHVOL2ISS1 from './EJPHVOL2ISS1';
+import EJPHVOL2ISS2 from './EJPHVOL2ISS2';
 import EJPHVOL1ISS1 from './EJPHVOL1ISS1';
 import Vol1Iss1Pubs from './Vol1Iss1Pubs';
 import Vol2Iss1Pubs from './Vol2Iss1Pubs';
+import Vol2Iss2Pubs from './Vol2Iss2Pubs';
 import EJHVOL2ISS1 from './EJHVOL2ISS1';
 import EJHVOL2ISS2 from './EJHVOL2ISS2';
 import EjhVol2Iss1Pubs from './EjhVol2Iss1Pubs';
@@ -72,6 +74,7 @@ import EjmVol1Issues from './EjmVol1Issues';
 import VOL1 from './VOL1';
 import VOL2 from './VOL2';
 import EjphVol1Issues from './EjphVol1Issues';
+import EjphVol2Issues from './EjphVol2Issues';
 import EJHVOL2 from './EJHVOL2';
 import EjhVol2Issues from './EjhVol2Issues';
 import EJHSVOL2ISS2 from './EJHSVOL2ISS2';
@@ -124,9 +127,11 @@ export {
     Sidebar,
     Sidebar2,
     EJPHVOL2ISS1,
+    EJPHVOL2ISS2,
     EJPHVOL1ISS1,
     Vol2Iss1Pubs,
     Vol1Iss1Pubs,
+    Vol2Iss2Pubs,
     EJHVOL2ISS1,
     EjhVol2Iss1Pubs,
     EJMSVOL2ISS1,
@@ -158,6 +163,7 @@ export {
     VOL1,
     VOL2,
     EjphVol1Issues,
+    EjphVol2Issues,
     EJHVOL2,
     EjhVol2Issues,
     EJHSVOL2ISS2,
