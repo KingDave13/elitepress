@@ -1280,8 +1280,8 @@ export const Ejmvol2iss2 = [
     },
     {
         title: "Effect of Metformin on Vitamin B12 and Homocysteine Levels Among Sudanese with Type 2 Diabetes Mellitus",
-        authors: "Cikuru Rodrigue Buhendwa, Edyedu Isaac, Idania Hidalgo, Simba Lionel Msafiri, Olivier Iyivuze, Kumbakulu Patrick Kumbowi, Maxwel Duncan Okuku, Khodolwa Stephen Angira, M'mebwa Mtende Luc and Emmanuel Ifeanyi Obeagu",
-        abstract: "Globally, acute appendicitis, requiring emergency surgery, occurs in 7 to 22 cases per 10,000 persons. The study aimed to assess the correlation between acute appendicitis and serum bilirubin. This was observational prospective cohort study, conducted in Western Uganda from November 2023 to January 2024, involved 62 adult patients diagnosed with acute appendicitis.",
+        authors: "Sumaia Mohammed Ali AL-Ghaili, Eltayeb Mohammed Ahmed Tayrab, and Emmanuel Ifeanyi Obeagu",
+        abstract: "Metformin is the first-line treatment for type 2 diabetes mellitus (T2DM), and hyperglycemia. When taken in high doses or for an extended period, metformin may decrease vitamin B12 (VitB12) level and may increase homocysteine (Hcy) level. There has been no research conducted in Sudan to determine whether metformin has an impact on VitB12 and Hcy levels in individuals with T2DM.",
         route: EJMVOL2ISS208,
         pages: "85-103",
     },
