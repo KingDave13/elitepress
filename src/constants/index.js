@@ -1369,7 +1369,7 @@ export const Ejhsvol2iss1 = [
 export const Ejhsvol2iss2 = [
     {
         title: "Attitude to Glycemic Control among Diabetic Patients in Federal University Teaching Hospital, Owerri",
-        authors: "Charles Uyiosa Iyabor, Onasoga Abolore Olyayinka and Emmanuel Ifeanyi Obeagu",
+        authors: "Charles Uyiosa Iyabor, Olayinka Abolore Onasoga and Emmanuel Ifeanyi Obeagu",
         abstract: "The researchers investigated the knowledge, attitude, practices and hindrances to glycemic control among diabetic patients in Federal University Teaching Hospital, Owerri, Nigeria. The study adopted a descriptive survey research design. The study was guided by four research questions and two hypotheses.",
         route: EJHSVOL2ISS201,
         pages: "1-6",
