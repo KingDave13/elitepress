@@ -486,8 +486,8 @@ export const ejphSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 1. (2024)",
-                route: "/journals/EJPH/VOL2ISS1",
+                name: "Volume 2, Issue 2. (2024)",
+                route: "/journals/EJPH/VOL2ISS2",
             },
         ],
     },
@@ -498,6 +498,10 @@ export const ejphSideLinks = [
             {
                 name: "Volume 1 (2023)",
                 route: "/journals/EJPH/VOL1",
+            },
+            {
+                name: "Volume 2 (2024)",
+                route: "/journals/EJPH/VOL2",
             }, 
         ],
     },
@@ -702,8 +706,8 @@ export const ejlmSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 1. (2024)",
-                route: "/journals/EJLM/VOL2ISS1",
+                name: "Volume 2, Issue 2. (2024)",
+                route: "/journals/EJLM/VOL2ISS2",
             },
         ],
     },
@@ -712,8 +716,8 @@ export const ejlmSideLinks = [
         title: "Archives",
         links: [
             {
-                // name: "lorem ipsum",
-                // route: "",
+                name: "Volume 2 (2024)",
+                route: "/journals/EJLM/VOL2",
             }, 
         ],
     },
