@@ -19,12 +19,14 @@ import EjmVol2Iss1 from './EjmVol2Iss1';
 import EjmVol2Iss2 from './EjmVol2Iss2';
 import EjmVol1Iss1 from './EjmVol1Iss1';
 import EjlmVol2Iss1 from './EjlmVol2Iss1';
+import EjlmVol2Iss2 from './EjlmVol2Iss2';
 import EjnhsVol2Iss1 from './EjnhsVol2Iss1';
 import EjhivVol2Iss1 from './EjhivVol2Iss1';
 import EjiVol2Iss1 from './EjiVol2Iss1';
 import EjsrrVol2Iss1 from './EjsrrVol2Iss1';
 import EjmVol1 from './EjmVol1';
 import EjmVol2 from './EjmVol2';
+import EjlmVol2 from './EjlmVol2';
 import Vol1 from './Vol1';
 import Vol2 from './Vol2';
 import EjhVol2 from './EjhVol2';
@@ -55,12 +57,14 @@ export {
     EjmVol2Iss2,
     EjmVol1Iss1,
     EjlmVol2Iss1,
+    EjlmVol2Iss2,
     EjnhsVol2Iss1,
     EjhivVol2Iss1,
     EjiVol2Iss1,
     EjsrrVol2Iss1,
     EjmVol1,
     EjmVol2,
+    EjlmVol2,
     Vol1,
     Vol2,
     EjhVol2,

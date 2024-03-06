@@ -85,6 +85,10 @@ import EjnhsVol2Issues from './EjnhsVol2Issues';
 import EJNHSVOL2 from './EJNHSVOL2';
 import EjnhsVol2Iss2Pubs from './EjnhsVol2Iss2Pubs';
 import EJNHSVOL2ISS2 from './EJNHSVOL2ISS2';
+import EJLMVOL2 from './EJLMVOL2';
+import EjlmVol2Iss2Pubs from './EjlmVol2Iss2Pubs';
+import EJLMVOL2ISS2 from './EJLMVOL2ISS2';
+import EjlmVol2Issues from './EjlmVol2Issues';
 
 export { 
     Navbar,
@@ -174,4 +178,8 @@ export {
     EJNHSVOL2,
     EjnhsVol2Iss2Pubs,
     EJNHSVOL2ISS2,
+    EJLMVOL2,
+    EjlmVol2Iss2Pubs,
+    EJLMVOL2ISS2,
+    EjlmVol2Issues,
 }
