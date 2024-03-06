@@ -11,7 +11,7 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, 
     EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, 
     EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, 
-    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, } 
+    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1190,6 +1190,16 @@ export const vol2iss1 = [
     },
 ];
 
+export const Vol2iss2 = [
+    {
+        title: "Prevalence of Brucellosis among Febrile Patients Attending Kampala International University Teaching Hospital, Southwestern Uganda",
+        authors: "Benard Bushoborozi, Ezera Agwu, Emmanuel Ifeanyi Obeagu, Samson Adewale Oyebadejo, Yakubu Sunday Bot, Mary Gorret Abalinda, Pius Theophilus, Onyekachi Splendid Uwakwe, Kenedy Kyaluzi and Sarah Nakyeyune",
+        abstract: "Brucellosis is a zoonotic disease mainly acquired through consumption of infected animal products such as milk and meat. It is one of the leading zoonotic diseases and is a serious public health concern in endemic areas. Specifically, the study aimed at determining the prevalence, antibiogram, comorbidities and factors associated with Brucellosis among febrile patients attending Kampala International University Teaching Hospital.",
+        route: EJPHVOL2ISS201,
+        pages: "1-14",
+    },
+];
+
 export const Ejmvol2iss1 = [
     {
         title: "Association between Socio-demographic and Economic characteristics and Packed Cell Volume of the Expectant Mothers Attending Antenatal Clinic in FMC, Abuja.",
@@ -1519,6 +1529,16 @@ export const Ejlmvol2iss1 = [
         abstract: "Anemia and malaria, prevalent health challenges in childhood, often coexist in regions where the burden of these conditions intersects. This review explores the complexities of managing anemia in the context of malaria-affected childhood, investigating the interplay between these two conditions.",
         route: EJLMVOL2ISS105,
         pages: "59-69",
+    },
+];
+
+export const Ejlmvol2iss2 = [
+    {
+        title: "Evaluation of Thyroid Hormones in Congestive Heart Failure Subjects Attending Federal University Teaching Hospital Owerri, Imo State",
+        authors: "Ukamaka Edward, Esther E. Iwuajoku and Emmanuel Ifeanyi Obeagu",
+        abstract: "This study was carried out to evaluate levels of thyroid hormones in patients with congestive heart failure. A total of sixty (60) subjects aged forty-five (45) – sixty-five (65) years were recruited for the study and were divided into two groups subjects with congestive heart failure and control subjects. The data was analysed using SPSS version 21.0. The probability P < 0.05 was statistically significant.",
+        route: EJLMVOL2ISS201,
+        pages: "1-7",
     },
 ];
 
