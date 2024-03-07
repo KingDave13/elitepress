@@ -11,7 +11,7 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, 
     EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, 
     EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, 
-    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, } 
+    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1461,8 +1461,8 @@ export const Ejhvol2iss2 = [
     {
         title: "Anaemia and Plasmodiasis among children below five years attending OPD at Ishaka Adventist Hospital, Bushenyi District",
         authors: "Anslem O. Ajugwo, Yakubu Sunday Bot, Emmanuel Ifeanyi Obeagu and Moses Mugabiza",
-        abstract: "Platelets are a type of inflammatory cell. As a result, they exhibit characteristics similar to those of a traditional cell-mediated immune effector cell. Platelets are known to contain and can be stimulated to release a variety of bioactive molecules.",
-        route: EJHVOL2ISS202,
+        abstract: "Anaemia impacts on the quality of life of people by inducing such symptoms as loss of stamina, rapid heart rate and shortness of breath. This work was carried out to determine the risk factors and prevalence of anaemia in malaria positive children below five years attending outpatient department at Ishaka Adventist Hospital Bushenyi District.",
+        route: EJHVOL2ISS203,
         pages: "34-45",
     },
 ];
