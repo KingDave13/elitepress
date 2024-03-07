@@ -1458,6 +1458,13 @@ export const Ejhvol2iss2 = [
         route: EJHVOL2ISS202,
         pages: "20-33",
     },
+    {
+        title: "The Role of Platelets in Host Defence Against Pathogens",
+        authors: "Festus Uchechukwu Onuigwe, Nasiru Maniru, Nkechi Judith Uchechukwu and Emmanuel Ifeanyi Obeagu",
+        abstract: "Platelets are a type of inflammatory cell. As a result, they exhibit characteristics similar to those of a traditional cell-mediated immune effector cell. Platelets are known to contain and can be stimulated to release a variety of bioactive molecules.",
+        route: EJHVOL2ISS202,
+        pages: "34-45",
+    },
 ];
 
 export const Ejivol2iss1 = [
