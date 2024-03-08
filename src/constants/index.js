@@ -11,7 +11,7 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, 
     EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, 
     EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, 
-    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, } 
+    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1201,6 +1201,20 @@ export const vol2iss2 = [
         abstract: "Brucellosis is a zoonotic disease mainly acquired through consumption of infected animal products such as milk and meat. It is one of the leading zoonotic diseases and is a serious public health concern in endemic areas. Specifically, the study aimed at determining the prevalence, antibiogram, comorbidities and factors associated with Brucellosis among febrile patients attending Kampala International University Teaching Hospital.",
         route: EJPHVOL2ISS201,
         pages: "1-14",
+    },
+    {
+        title: "The Role of Parents: Strengthening Adolescent Education for Sickle Cell Disease Prevention",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "This review article explores the critical role parents play in strengthening adolescent education for the prevention of Sickle Cell Disease (SCD). SCD, a genetic blood disorder, places a disproportionate burden on populations with a high prevalence of carriers, necessitating comprehensive prevention strategies.",
+        route: EJPHVOL2ISS202,
+        pages: "15-21",
+    },
+    {
+        title: "Understanding Hematocrit Fluctuations in HIV-Malaria Coinfection for Improved Management",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "This review explores the intricate dynamics of hematocrit fluctuations in individuals experiencing concurrent HIV and malaria infections, highlighting the challenges and clinical implications of these hematological changes. Hematocrit levels, a critical indicator of red blood cell mass, are significantly influenced by the synergistic interaction of these two prevalent diseases, leading to diagnostic complexities and impacting therapeutic strategies.",
+        route: EJPHVOL2ISS203,
+        pages: "22-34",
     },
 ];
 
