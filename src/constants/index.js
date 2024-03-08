@@ -11,7 +11,7 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, 
     EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, 
     EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, 
-    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, } 
+    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1298,6 +1298,13 @@ export const Ejmvol2iss2 = [
         abstract: "Metformin is the first-line treatment for type 2 diabetes mellitus (T2DM), and hyperglycemia. When taken in high doses or for an extended period, metformin may decrease vitamin B12 (VitB12) level and may increase homocysteine (Hcy) level. There has been no research conducted in Sudan to determine whether metformin has an impact on VitB12 and Hcy levels in individuals with T2DM.",
         route: EJMVOL2ISS208,
         pages: "85-103",
+    },
+    {
+        title: "Interactions between Blood Transfusion and Antiretroviral Medications: Implications for Patient Care",
+        authors: "*Emmanuel Ifeanyi Obeagu, Ebere Emilia Ayogu and Getrude Uzoma Obeagu",
+        abstract: "This review examines the intricate interplay between blood transfusion and antiretroviral medications, shedding light on the implications for patient care in individuals living with HIV. The coexistence of these two critical interventions introduces complexities that extend beyond routine considerations in both transfusion medicine and HIV management.",
+        route: EJMVOL2ISS209,
+        pages: "104-115",
     },
 ];
 
