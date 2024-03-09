@@ -25,7 +25,7 @@ const EJMVol2Issues = () => {
                     rounded-lg bg-primaryalt md:py-5 ss:py-5 flex items-center
                     justify-center py-3'
                     onClick={() => {
-                        navigate('/journals/EJM/Vol2Iss2');
+                        navigate('/journals/EJM/Vol2/Vol2Iss2');
                     }}
                 >
                     <p className="md:text-[20px] ss:text-[14px] font-medium">
