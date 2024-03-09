@@ -5,7 +5,7 @@ import { EJH, EJM, EJHIV, EJHS, EJI, EJLM, EJMS, EJNHS, EJPH, EJSRR,
   EjmVol2Iss1, EjmVol1, EjmVol2, EjlmVol2Iss1, EjnhsVol2Iss1, EjhivVol2Iss1,
   EjiVol2Iss1, EjsrrVol2Iss1, EjmVol2Iss2, EjhVol2Iss2, EjmVol1Iss1, 
   Vol1, Vol2, EjhVol2, EjhsVol2, EjhsVol2Iss2, EjnhsVol2, EjnhsVol2Iss2,
-  Vol2Iss2, EjlmVol2, EjlmVol2Iss2, EjmVol2Iss3, } from './pages';
+  Vol2Iss2, EjlmVol2, EjlmVol2Iss2, EjmVol2Iss3, EjmsVol2, EjmsVol2Iss2 } from './pages';
 import  ScrollToTop  from './constants/ScrollToTop';
 
 const App = () => {
@@ -35,7 +35,9 @@ const App = () => {
           <Route path='/journals/EJH/Vol2/Vol2Iss1' element={<EjhVol2Iss1 />} />
           <Route path='/journals/EJH/Vol2Iss2' element={<EjhVol2Iss2 />} />
           <Route path='/journals/EJH/Vol2' element={<EjhVol2 />} />
-          <Route path='/journals/EJMS/Vol2Iss1' element={<EjmsVol2Iss1 />} />
+          <Route path='/journals/EJMS/Vol2Iss2' element={<EjmsVol2Iss2 />} />
+          <Route path='/journals/EJMS/Vol2' element={<EjmsVol2 />} />
+          <Route path='/journals/EJMS/Vol2/Vol2Iss1' element={<EjmsVol2Iss1 />} />
           <Route path='/journals/EJHS/Vol2Iss2' element={<EjhsVol2Iss2 />} />
           <Route path='/journals/EJHS/Vol2/Vol2Iss1' element={<EjhsVol2Iss1 />} />
           <Route path='/journals/EJHS/Vol2' element={<EjhsVol2 />} />
