@@ -1775,7 +1775,13 @@ export const Ejhivvol2iss2 = [
         route: EJHIVVOL2ISS201,
         pages: "1-17",
     },
-
+    {
+        title: "Unraveling the Immunological Nexus: Implications of Monocytes in the Context of HIV and Fibroids - A Critical Review",
+        authors: "Emmanuel Ifeanyi Obeagu, Chioma Ibe, Chinyere Nkemjika Anyanwu and Getrude Uzoma Obeagu",
+        abstract: "This critical review investigates the intricate interplay between monocytes, HIV, and fibroids, aiming to unravel the immunological complexities that influence disease progression in women. The paper critically examines existing literature, highlighting the multifaceted role of monocytes and their implications on the pathogenesis of both HIV and fibroids.",
+        route: EJHIVVOL2ISS202,
+        pages: "18-29",
+    },
 ];
 
 export const journals = [
