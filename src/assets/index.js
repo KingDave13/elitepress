@@ -100,6 +100,10 @@ import EJHSVOL2ISS202 from './EJHSVOL2ISS202.pdf';
 import EJNHSVOL2ISS201 from './EJNHSVOL2ISS201.pdf';
 import EJNHSVOL2ISS202 from './EJNHSVOL2ISS202.pdf';
 
+import logout from './logout.png';
+import arrowreverse from './arrowreverse.png';
+import picture from './picture.png';
+
 
 export {
     logo,
@@ -203,4 +207,8 @@ export {
     EJSRRVOL2ISS105,
     EJHSVOL2ISS201,
     EJHSVOL2ISS202,
+
+    logout,
+    picture,
+    arrowreverse,
 }

@@ -3,10 +3,13 @@ import NavbarAlt from './NavbarAlt';
 import NavbarAlt2 from './NavbarAlt2';
 import NavbarAlt3 from './NavbarAlt3';
 import NavbarPages from './NavbarPages';
+import NavbarAdmin from './NavbarAdmin';
+
 import Hero from './Hero';
 import Hero2 from './Hero2';
 import Hero3 from './Hero3';
 import Hero4 from './Hero4';
+
 import HeroEJH from './HeroEJH';
 import HeroEJM from './HeroEJM';
 import HeroEJHS from './HeroEJHS';
@@ -17,6 +20,7 @@ import HeroEJLM from './HeroEJLM';
 import HeroEJNHS from './HeroEJNHS';
 import HeroEJSRR from './HeroEJSRR';
 import HeroEJHIV from './HeroEJHIV';
+
 import Contact from './Contact';
 import Commitment from './Commitment';
 import About from './About';
@@ -25,6 +29,7 @@ import Journals from './Journals';
 import JournalsMain from './JournalsMain';
 import Newsletter from './Newsletter';
 import Footer from './Footer';
+
 import HaematologyHero from './HaematologyHero';
 import MedicineHero from './MedicineHero';
 import HealthSciencesHero from './HealthSciencesHero';
@@ -37,6 +42,8 @@ import ResearchHero from './ResearchHero';
 import HIVHero from './HIVHero';
 import Sidebar from './Sidebar';
 import Sidebar2 from './Sidebar2';
+import Login from './Login';
+
 import EJPHVOL2ISS1 from './EJPHVOL2ISS1';
 import EJPHVOL2ISS2 from './EJPHVOL2ISS2';
 import EJPHVOL1ISS1 from './EJPHVOL1ISS1';
@@ -90,16 +97,20 @@ import EjlmVol2Iss2Pubs from './EjlmVol2Iss2Pubs';
 import EJLMVOL2ISS2 from './EJLMVOL2ISS2';
 import EjlmVol2Issues from './EjlmVol2Issues';
 
+
 export { 
     Navbar,
     NavbarAlt,
     NavbarAlt2,
     NavbarAlt3,
     NavbarPages,
+    NavbarAdmin,
+
     Hero,
     Hero2,
     Hero3,
     Hero4,
+
     HeroEJH,
     HeroEJM,
     HeroEJHIV,
@@ -110,6 +121,7 @@ export {
     HeroEJNHS,
     HeroEJPH,
     HeroEJSRR,
+
     Contact,
     Commitment,
     About,
@@ -118,6 +130,7 @@ export {
     JournalsMain,
     Newsletter,
     Footer,
+
     HaematologyHero,
     MedicineHero,
     HealthSciencesHero,
@@ -130,6 +143,8 @@ export {
     HIVHero,
     Sidebar,
     Sidebar2,
+    Login,
+    
     EJPHVOL2ISS1,
     EJPHVOL2ISS2,
     EJPHVOL1ISS1,

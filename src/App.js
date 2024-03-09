@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { AboutPage, ContactPage, HomePage, JournalsPage } from './scenes';
+import { AboutPage, ContactPage, HomePage, JournalsPage, AdminLogin } from './scenes';
 import { EJH, EJM, EJHIV, EJHS, EJI, EJLM, EJMS, EJNHS, EJPH, EJSRR, 
   Vol2Iss1, Vol1Iss1, EjhVol2Iss1, EjmsVol2Iss1, EjhsVol2Iss1, 
   EjmVol2Iss1, EjmVol1, EjmVol2, EjlmVol2Iss1, EjnhsVol2Iss1, EjhivVol2Iss1,
@@ -53,6 +53,8 @@ const App = () => {
           <Route path='/journals/EJNHS/Vol2/Vol2Iss1' element={<EjnhsVol2Iss1 />} />
           <Route path='/journals/EJHIV/Vol2Iss1' element={<EjhivVol2Iss1 />} />
           <Route path='/journals/EJSRR/Vol2Iss1' element={<EjsrrVol2Iss1 />} />
+
+          <Route path='/admin' element={<AdminLogin />} />
         </Routes>
       </ScrollToTop>
     </BrowserRouter>

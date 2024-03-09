@@ -1315,7 +1315,7 @@ export const Ejmvol2iss2 = [
     },
     {
         title: "Interactions between Blood Transfusion and Antiretroviral Medications: Implications for Patient Care",
-        authors: "*Emmanuel Ifeanyi Obeagu, Ebere Emilia Ayogu and Getrude Uzoma Obeagu",
+        authors: "Emmanuel Ifeanyi Obeagu, Ebere Emilia Ayogu and Getrude Uzoma Obeagu",
         abstract: "This review examines the intricate interplay between blood transfusion and antiretroviral medications, shedding light on the implications for patient care in individuals living with HIV. The coexistence of these two critical interventions introduces complexities that extend beyond routine considerations in both transfusion medicine and HIV management.",
         route: EJMVOL2ISS209,
         pages: "104-115",
