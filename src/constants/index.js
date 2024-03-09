@@ -11,7 +11,7 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, 
     EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, 
     EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, 
-    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, } 
+    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1320,6 +1320,13 @@ export const Ejmvol2iss2 = [
         route: EJMVOL2ISS209,
         pages: "104-115",
     },
+    {
+        title: "Serum Cortisol, Lipid Profile and Microalbumin Levels in Newly Diagnosed Adult Hypertensive with and without Malaria Infection in Nnewi, Nigeria",
+        authors: "Nkiruka R Ukibe, Chinedum C Onyenekwe, Emmanuel Ifeanyi Obeagu, Ofia A Kalu, Chinaemelum A Ezeh, Ezinne G Ukibe, Blessing C Ukibe",
+        abstract: "Malaria and Hypertension are among the important public health challenges in sub-Saharan Africa including Nigeria. Microalbuminuria and dyslipidemia have been regarded as two predictors of cardiovascular and renal dysfunction.",
+        route: EJMVOL2ISS210,
+        pages: "116-131",
+    },
 ];
 
 export const Ejmvol1iss1 = [
@@ -1506,6 +1513,13 @@ export const Ejhvol2iss2 = [
         abstract: "This review delves into the intricate relationship between sickle cell anemia and diabetes, shedding light on the unique challenges and considerations in diabetes care for individuals affected by this hemoglobinopathy. Sickle cell anemia, a hereditary blood disorder characterized by abnormal hemoglobin, introduces complexities in managing diabetes that extend beyond those encountered in the general population.",
         route: EJHVOL2ISS206,
         pages: "70-79",
+    },
+    {
+        title: "Assessment of some Haemostatic and Inflammatory Markers in Renal Disease Patients in Specialist Hospital, Sokoto",
+        authors: "Hauwa Ali Buhari, Moses Obinna Ike and Emmanuel Ifeanyi Obeagu",
+        abstract: "There is a continuous increase in the prevalence of renal disease worldwide as well as in Nigeria and the patient with severe renal failure are at risk of bleeding diathesis. This study was designed to investigate the status of some haemostatic and inflammatory parameters in patients with kidney disease and to compare their effect on different types of kidney disease.",
+        route: EJHVOL2ISS207,
+        pages: "80-90",
     },
 ];
 
