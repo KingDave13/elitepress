@@ -378,8 +378,8 @@ export const ejmsSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 1. (2024)",
-                route: "/journals/EJMS/VOL2ISS1",
+                name: "Volume 2, Issue 2. (2024)",
+                route: "/journals/EJMS/VOL2ISS2",
             },
         ],
     },
@@ -388,9 +388,9 @@ export const ejmsSideLinks = [
         title: "Archives",
         links: [
             {
-                // name: "lorem ipsum",
-                // route: "",
-            }, 
+                name: "Volume 2 (2024)",
+                route: "/journals/EJMS/VOL2",
+            },
         ],
     },
     {
@@ -1030,8 +1030,8 @@ export const ejhivSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 1. (2024)",
-                route: "/journals/EJHIV/VOL2ISS1",
+                name: "Volume 2, Issue 2. (2024)",
+                route: "/journals/EJHIV/VOL2ISS2",
             },
         ],
     },
@@ -1040,9 +1040,9 @@ export const ejhivSideLinks = [
         title: "Archives",
         links: [
             {
-                // name: "lorem ipsum",
-                // route: "",
-            }, 
+                name: "Volume 2 (2024)",
+                route: "/journals/EJHIV/VOL2",
+            },
         ],
     },
     {
