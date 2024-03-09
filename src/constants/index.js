@@ -11,7 +11,7 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, 
     EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, 
     EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, 
-    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, } 
+    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -158,8 +158,8 @@ export const ejmSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 2. (2024)",
-                route: "/journals/EJM/VOL2ISS2",
+                name: "Volume 2, Issue 3. (2024)",
+                route: "/journals/EJM/VOL2ISS3",
             },
         ],
     },
@@ -1769,18 +1769,11 @@ export const Ejhivvol2iss1 = [
 
 export const Ejhivvol2iss2 = [
     {
-        title: "Unveiling B Cell Mediated Immunity in HIV Infection: Insights, Challenges, and Potential Therapeutic Avenues",
-        authors: "Emmanuel Ifeanyi Obeagu, Arinze Favour Anyiam and Getrude Uzoma Obeagu",
-        abstract: "Human Immunodeficiency Virus (HIV) poses a significant global health challenge, necessitating a deeper comprehension of the immune responses engaged in infection. B cell mediated immunity emerges as a pivotal aspect in the battle against HIV, with this review aiming to elucidate the intricacies of antibody responses, viral escape mechanisms, and their implications for vaccine development.",
-        route: EJHIVVOL2ISS101,
-        pages: "1-15",
-    },
-    {
         title: "Challenges and Considerations in Managing Blood Transfusion for Individuals with HIV",
         authors: "Emmanuel Ifeanyi Obeagu, Chinyere Nkemjika Anyanwu and Getrude Uzoma Obeagu",
         abstract: "This review addresses the complex landscape of managing blood transfusions for individuals with HIV, uncovering challenges and considerations that influence patient care. As HIV has evolved into a manageable chronic condition with the advent of antiretroviral therapy (ART), the coexistence of transfusion requirements introduces a nuanced dynamic.",
-        route: EJHIVVOL2ISS202,
-        pages: "16-32",
+        route: EJHIVVOL2ISS201,
+        pages: "1-17",
     },
 
 ];

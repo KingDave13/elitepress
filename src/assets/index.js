@@ -103,7 +103,7 @@ import EJHSVOL2ISS201 from './EJHSVOL2ISS201.pdf';
 import EJHSVOL2ISS202 from './EJHSVOL2ISS202.pdf';
 import EJNHSVOL2ISS201 from './EJNHSVOL2ISS201.pdf';
 import EJNHSVOL2ISS202 from './EJNHSVOL2ISS202.pdf';
-import EJHIVVOL2ISS202 from './EJHIVVOL2ISS202.pdf';
+import EJHIVVOL2ISS201 from './EJHIVVOL2ISS201.pdf';
 
 import logout from './logout.png';
 import arrowreverse from './arrowreverse.png';
@@ -216,7 +216,7 @@ export {
     EJMVOL2ISS301,
     EJHVOL2ISS207,
     EJMSVOL2ISS201,
-    EJHIVVOL2ISS202,
+    EJHIVVOL2ISS201,
 
     logout,
     picture,
