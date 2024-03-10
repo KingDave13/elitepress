@@ -105,6 +105,10 @@ import EJNHSVOL2ISS201 from './EJNHSVOL2ISS201.pdf';
 import EJNHSVOL2ISS202 from './EJNHSVOL2ISS202.pdf';
 import EJHIVVOL2ISS201 from './EJHIVVOL2ISS201.pdf';
 import EJHIVVOL2ISS202 from './EJHIVVOL2ISS202.pdf';
+import EJMVOL2ISS302 from './EJMVOL2ISS302.pdf';
+import EJMVOL2ISS303 from './EJMVOL2ISS303.pdf';
+import EJNHSVOL2ISS203 from './EJNHSVOL2ISS203.pdf';
+import EJNHSVOL2ISS204 from './EJNHSVOL2ISS204.pdf';
 
 import logout from './logout.png';
 import arrowreverse from './arrowreverse.png';
