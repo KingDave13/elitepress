@@ -11,7 +11,7 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, 
     EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, 
     EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, 
-    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, } 
+    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, EJNHSVOL2ISS203, EJNHSVOL2ISS204, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1725,6 +1725,20 @@ export const Ejnhsvol2iss2 = [
         authors: "Emmanuel Ifeanyi Obeagu, Ebere Emilia Ayogu and Getrude Uzoma Obeagu",
         abstract: "This review delves into the intricate relationship between blood transfusion and antiretroviral therapy (ART) in the context of HIV management, specifically focusing on their impact on viral load dynamics. Viral load, a critical marker of HIV replication, serves as a key parameter guiding treatment decisions and prognosis.",
         route: EJNHSVOL2ISS202,
+        pages: "5-15",
+    },
+    {
+        title: "Impact on Viral Load Dynamics: Understanding the Interplay between Blood Transfusion and Antiretroviral Therapy in HIV Management",
+        authors: "Emmanuel Ifeanyi Obeagu, Ebere Emilia Ayogu and Getrude Uzoma Obeagu",
+        abstract: "This review delves into the intricate relationship between blood transfusion and antiretroviral therapy (ART) in the context of HIV management, specifically focusing on their impact on viral load dynamics. Viral load, a critical marker of HIV replication, serves as a key parameter guiding treatment decisions and prognosis.",
+        route: EJNHSVOL2ISS203,
+        pages: "5-15",
+    },
+    {
+        title: "Impact on Viral Load Dynamics: Understanding the Interplay between Blood Transfusion and Antiretroviral Therapy in HIV Management",
+        authors: "Emmanuel Ifeanyi Obeagu, Ebere Emilia Ayogu and Getrude Uzoma Obeagu",
+        abstract: "This review delves into the intricate relationship between blood transfusion and antiretroviral therapy (ART) in the context of HIV management, specifically focusing on their impact on viral load dynamics. Viral load, a critical marker of HIV replication, serves as a key parameter guiding treatment decisions and prognosis.",
+        route: EJNHSVOL2ISS204,
         pages: "5-15",
     },
 ];
