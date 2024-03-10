@@ -1728,18 +1728,18 @@ export const Ejnhsvol2iss2 = [
         pages: "5-15",
     },
     {
-        title: "Impact on Viral Load Dynamics: Understanding the Interplay between Blood Transfusion and Antiretroviral Therapy in HIV Management",
-        authors: "Emmanuel Ifeanyi Obeagu, Ebere Emilia Ayogu and Getrude Uzoma Obeagu",
-        abstract: "This review delves into the intricate relationship between blood transfusion and antiretroviral therapy (ART) in the context of HIV management, specifically focusing on their impact on viral load dynamics. Viral load, a critical marker of HIV replication, serves as a key parameter guiding treatment decisions and prognosis.",
+        title: "Receptor for Advanced Glycation-end Product and Related End Products of Glycation as Biochemical Markers for Microvascular Complications in Patients with type 2 Diabetes Mellitus: A Cross-sectional Study in Kano, Nigeria",
+        authors: "J. M. Bunza, A. J. Alhassan, M. U. Sani, M. Y. Gwarzo, K. A. Ogunwale, F. A. Ciroma, M. K. Dallatu, M. H. Yeldu, M. L. Jidda, A. A. Ngaski, I. K. Kwaifa, M. H. Yeldu, M. Kasimu, B. M. Yale, K. B. Aliyu and S. B. Dadzie and Emmanuel Ifeanyi Obeagu",
+        abstract: "Persistent hyperglycaemia causes advanced-glycation end products (AGEs) formation with implication in the pathogenesis of microvascular complications in diabetes mellitus (DM). Aim of this research was to assess the plasma level of Receptor for AGEs (RAGE)/AGEs as an index of microvascular complications in patients with type 2 DM in Kano, Nigeria.",
         route: EJNHSVOL2ISS203,
-        pages: "5-15",
+        pages: "16-32",
     },
     {
-        title: "Impact on Viral Load Dynamics: Understanding the Interplay between Blood Transfusion and Antiretroviral Therapy in HIV Management",
-        authors: "Emmanuel Ifeanyi Obeagu, Ebere Emilia Ayogu and Getrude Uzoma Obeagu",
-        abstract: "This review delves into the intricate relationship between blood transfusion and antiretroviral therapy (ART) in the context of HIV management, specifically focusing on their impact on viral load dynamics. Viral load, a critical marker of HIV replication, serves as a key parameter guiding treatment decisions and prognosis.",
+        title: "B Cell Deficiency and Implications in HIV Pathogenesis: Unraveling the Complex Interplay",
+        authors: "Emmanuel Ifeanyi Obeagu, Amaeze Augustine Amaeze, I.S.I. Ogbu and Getrude Uzoma Obeagu",
+        abstract: "This review delves into the intricate relationship between B cell deficiency and its profound implications in the pathogenesis of human immunodeficiency virus (HIV) infection. As a key component of the adaptive immune system, B cells orchestrate humoral immunity through antibody production and antigen presentation.",
         route: EJNHSVOL2ISS204,
-        pages: "5-15",
+        pages: "33-46",
     },
 ];
 
