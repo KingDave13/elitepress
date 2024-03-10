@@ -11,7 +11,7 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, 
     EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, 
     EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, 
-    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, EJNHSVOL2ISS203, EJNHSVOL2ISS204, } 
+    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, EJNHSVOL2ISS203, EJNHSVOL2ISS204, EJMVOL2ISS302, EJMVOL2ISS303, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1346,6 +1346,13 @@ export const Ejmvol2iss3 = [
         abstract: "The research aimed at evaluating the safety or toxicity outcomes of ciprofloxacin and gentamicin co-administration and the possible ameliorating role of vitamin C and E. Wistar albino rats were divided into five groups of five rats in each group. Animals were co-administered ciprofloxacin (7.14 mg/kg) and gentamicin (1.14 mg/kg) and treated with vitamin C (100 mg/kg), vitamin E (1000 iu) or a co-administration of vitamin C and E at the initial dose.",
         route: EJMVOL2ISS301,
         pages: "1-14",
+    },
+    {
+        title: "Influence of Glycaemic Control and Microvascular Complications on Oxidative Stress in Patients with Type 2 Diabetes Mellitus: A Cross-sectional Study in Kano, Nigeria",
+        authors: "J. M. Bunza, A. J. Alhassan, M. U. Sani, M. Y. Gwarzo, K. A. Ogunwale, S. Haruna, F. A. Ciroma, M. K. Dallatu, M. L. Jidda, A. A. Ngaski, I. K. Kwaifa, M. Kasimu, B. M. Yale, and K. B. Aliyu and Emmanuel Ifeanyi Obeagu",
+        abstract: "Increase in oxidative stress accelerates the risk of cardiovascular events in diabetes mellitus (DM) by inducing inflammatory reactions and endothelial dysfunction This research was aimed to determine the effect of glycaemic control and microvascular complications on oxidative stress biomarkers (SOD, GPx, CAT and MDA) in patients with type 2 DM in Kano, Nigeria.",
+        route: EJMVOL2ISS302,
+        pages: "15-27",
     },
 ];
 
