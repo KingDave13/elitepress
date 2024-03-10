@@ -1354,6 +1354,13 @@ export const Ejmvol2iss3 = [
         route: EJMVOL2ISS302,
         pages: "15-27",
     },
+    {
+        title: "Prevalence and Association of Microvascular Complications with some clinical Factors in Patients with Type 2 Diabetes Mellitus in Kano, Nigeria",
+        authors: "J. M. Bunza1, A. J. Alhassan, M. U. Sani, M. Y. Gwarzo, K. A. Ogunwale, S. Haruna, F. A. Ciroma, M. K. Dallatu, M. H. Yeldu, M. L. Jidda, A. A. Ngaski, I. K. Kwaifa, M. Kasimu, B. M. Yale, K. B. Aliyu and S. B. Dadzie and Emmanuel Ifeanyi Obeagu",
+        abstract: "Diabetes mellitus (DM) is a serious, long-term condition that occurs when raised blood glucose levels persist because the body cannot produce any or adequate insulin or cannot effectively use the insulin it produces.",
+        route: EJMVOL2ISS303,
+        pages: "28-40",
+    },
 ];
 
 export const Ejmsvol2iss1 = [
