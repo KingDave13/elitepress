@@ -11,7 +11,7 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, 
     EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, 
     EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, 
-    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, EJNHSVOL2ISS203, EJNHSVOL2ISS204, EJMVOL2ISS302, EJMVOL2ISS303, } 
+    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, EJNHSVOL2ISS203, EJNHSVOL2ISS204, EJMVOL2ISS302, EJMVOL2ISS303, EJMVOL2ISS304, EJMSVOL2ISS202, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1361,6 +1361,13 @@ export const Ejmvol2iss3 = [
         route: EJMVOL2ISS303,
         pages: "28-40",
     },
+    {
+        title: "Anthropometric Comparison of Cephalic Indices Between Fulani and Hausa Ethnic Groups in Ringim Local Government Area of Jigawa State Nigeria",
+        authors: "Mikail Isyaku Umar, Muhammad Ummusalma Lawal, Usman Ismail Hassan, Saadatu Garba Magaga, Aisha Shettima Uthman, Abdullahi Gudaji, Musa Abubakar and Emmanuel Ifeanyi Obeagu",
+        abstract: "The Fulani and Hausa are two prominent ethnic groups in West Africa, each with distinct cultural and historical backgrounds. The aim of this study is to compare the cephalic index between two ethnic groups Hausa and Fulani in order to gain a better understanding of the diversity of cranial shapes and sizes.",
+        route: EJMVOL2ISS304,
+        pages: "41-47",
+    },
 ];
 
 export const Ejmsvol2iss1 = [
@@ -1408,6 +1415,13 @@ export const Ejmsvol2iss2 = [
         abstract: "This review scrutinizes the intricate landscape of drug-drug interactions in the management of coexisting sickle cell anemia and diabetes, two chronic conditions that often intersect, challenging healthcare providers in their pursuit of optimal patient care.",
         route: EJMSVOL2ISS201,
         pages: "1-9",
+    },
+    {
+        title: "Drug-Drug Interactions in the Management of Coexisting Sickle Cell Anemia and Diabetes",
+        authors: "Emmanuel Ifeanyi Obeagu, Ebere Emilia Ayogu, Chinyere Nkemjika Anyanwu and Getrude Uzoma Obeagu",
+        abstract: "This review scrutinizes the intricate landscape of drug-drug interactions in the management of coexisting sickle cell anemia and diabetes, two chronic conditions that often intersect, challenging healthcare providers in their pursuit of optimal patient care.",
+        route: EJMSVOL2ISS202,
+        pages: "10-19",
     },
 ];
 
