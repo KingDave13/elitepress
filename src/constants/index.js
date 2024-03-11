@@ -11,7 +11,7 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, 
     EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, 
     EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, 
-    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, EJNHSVOL2ISS203, EJNHSVOL2ISS204, EJMVOL2ISS302, EJMVOL2ISS303, EJMVOL2ISS304, EJMSVOL2ISS202, } 
+    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, EJNHSVOL2ISS203, EJNHSVOL2ISS204, EJMVOL2ISS302, EJMVOL2ISS303, EJMVOL2ISS304, EJMSVOL2ISS202, EJNHSVOL2ISS205, EJNHSVOL2ISS206, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1768,6 +1768,20 @@ export const Ejnhsvol2iss2 = [
         abstract: "This review delves into the intricate relationship between B cell deficiency and its profound implications in the pathogenesis of human immunodeficiency virus (HIV) infection. As a key component of the adaptive immune system, B cells orchestrate humoral immunity through antibody production and antigen presentation.",
         route: EJNHSVOL2ISS204,
         pages: "33-46",
+    },
+    {
+        title: "Comparative Study of Patient's Perception with Nursing Care Services in Selected Government Health Facilities in Imo State, Nigeria",
+        authors: "Chinonso Adaku Korie, Julia Ibebuike, Chinelo C.N. Vincent, Uche Onyeke, Charles Iyabor, Felicia Anyim and Ihuoma Anukam",
+        abstract: "The study is a comparative study of patient's perception and satisfaction with nursing care services in selected government health facilities in Imo State. Literature related to the study were reviewed. The study adopted a comparative survey research designed on a target population of 250 inmates of health facilities in Imo state.",
+        route: EJNHSVOL2ISS205,
+        pages: "47-52",
+    },
+    {
+        title: "Determination of students related factors that contribute to poor performance in professional Nursing examination among nursing students in Imo State",
+        authors: "Scholarstica Chinwe Alagwu and Chinelo C.N. Vincent",
+        abstract: "The study was conducted to find out the predictors of poor performance in professional nursing examination among nursing students in Imo State. A descriptive survey design was adopted for the study. Four (4) research questions and four (4) hypotheses were formulated to direct the study. The population comprised of all the students in nursing institutions that have written the professional nursing examination in Imo State.",
+        route: EJNHSVOL2ISS206,
+        pages: "53-58",
     },
 ];
 
