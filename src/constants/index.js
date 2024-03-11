@@ -1417,9 +1417,9 @@ export const Ejmsvol2iss2 = [
         pages: "1-9",
     },
     {
-        title: "Drug-Drug Interactions in the Management of Coexisting Sickle Cell Anemia and Diabetes",
-        authors: "Emmanuel Ifeanyi Obeagu, Ebere Emilia Ayogu, Chinyere Nkemjika Anyanwu and Getrude Uzoma Obeagu",
-        abstract: "This review scrutinizes the intricate landscape of drug-drug interactions in the management of coexisting sickle cell anemia and diabetes, two chronic conditions that often intersect, challenging healthcare providers in their pursuit of optimal patient care.",
+        title: "Prevalence of Ankle Injuries Among Sport Participants of Federal University Dutse",
+        authors: "Mikail Isyaku Umar, Usman Ismail Hassan, Muhammad Ummusalma Lawal, Usman Ismail Hassan, Saadatu Garba Magaga, Aisha Shettima Uthman, Abdullahi Gudaji, Musa Abubakar and Emmanuel Ifeanyi Obeagu",
+        abstract: "Ankle pain is a common condition among sport participants, particularly in sports that involve repetitive jumping, landing, and twisting movements. A study conducted by researchers at the University of Southern California found that the prevalence of ankle injuries among sport participants is higher than previously thought.",
         route: EJMSVOL2ISS202,
         pages: "10-19",
     },
