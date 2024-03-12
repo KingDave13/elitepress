@@ -113,6 +113,8 @@ import EJMVOL2ISS304 from './EJMVOL2ISS304.pdf';
 import EJMSVOL2ISS202 from './EJMSVOL2ISS202.pdf';
 import EJNHSVOL2ISS205 from './EJNHSVOL2ISS205.pdf';
 import EJNHSVOL2ISS206 from './EJNHSVOL2ISS206.pdf';
+import EJMSVOL2ISS203 from './EJMSVOL2ISS203.pdf';
+import EJNHSVOL2ISS301 from './EJNHSVOL2ISS301.pdf';
 
 import logout from './logout.png';
 import arrowreverse from './arrowreverse.png';
