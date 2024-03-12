@@ -237,6 +237,8 @@ export {
     EJNHSVOL2ISS206,
     EJMSVOL2ISS202,
     EJMVOL2ISS304,
+    EJMSVOL2ISS203,
+    EJNHSVOL2ISS301,
 
     logout,
     picture,
