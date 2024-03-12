@@ -1426,7 +1426,7 @@ export const Ejmsvol2iss2 = [
     {
         title: "Hematologic Considerations in Breast Cancer Patients with HIV: Insights into Blood Transfusion Strategies",
         authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
-        abstract: "Ankle pain is a common condition among sport participants, particularly in sports that involve repetitive jumping, landing, and twisting movements. A study conducted by researchers at the University of Southern California found that the prevalence of ankle injuries among sport participants is higher than previously thought.",
+        abstract: "Breast cancer and HIV coexistence presents a challenging medical landscape, necessitating a thorough exploration of hematologic considerations and blood transfusion strategies. This review delves into the intricate interplay of anemia, thrombocytopenia, neutropenia, and coagulopathy in breast cancer patients with HIV, offering insights into the management of these hematologic complications.",
         route: EJMSVOL2ISS203,
         pages: "20-35",
     },
