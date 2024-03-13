@@ -6,7 +6,8 @@ import { EJH, EJM, EJHIV, EJHS, EJI, EJLM, EJMS, EJNHS, EJPH, EJSRR,
   EjiVol2Iss1, EjsrrVol2Iss1, EjmVol2Iss2, EjhVol2Iss2, EjmVol1Iss1, 
   Vol1, Vol2, EjhVol2, EjhsVol2, EjhsVol2Iss2, EjnhsVol2, EjnhsVol2Iss2,
   Vol2Iss2, EjlmVol2, EjlmVol2Iss2, EjmVol2Iss3, EjmsVol2, EjmsVol2Iss2,
-  EjhivVol2, EjhivVol2Iss2, EjnhsVol2Iss3, } from './pages';
+  EjhivVol2, EjhivVol2Iss2, EjnhsVol2Iss3, EjiVol2, EjiVol2Iss2, 
+  EjhVol2Iss3, } from './pages';
 import  ScrollToTop  from './constants/ScrollToTop';
 
 const App = () => {
@@ -34,7 +35,8 @@ const App = () => {
           <Route path='/journals/EJPH/Vol2' element={<Vol2 />} />
           <Route path='/journals/EJPH/Vol1/Vol1Iss1' element={<Vol1Iss1 />} />
           <Route path='/journals/EJH/Vol2/Vol2Iss1' element={<EjhVol2Iss1 />} />
-          <Route path='/journals/EJH/Vol2Iss2' element={<EjhVol2Iss2 />} />
+          <Route path='/journals/EJH/Vol2/Vol2Iss2' element={<EjhVol2Iss2 />} />
+          <Route path='/journals/EJH/Vol2Iss3' element={<EjhVol2Iss3 />} />
           <Route path='/journals/EJH/Vol2' element={<EjhVol2 />} />
           <Route path='/journals/EJMS/Vol2Iss2' element={<EjmsVol2Iss2 />} />
           <Route path='/journals/EJMS/Vol2' element={<EjmsVol2 />} />
@@ -48,7 +50,9 @@ const App = () => {
           <Route path='/journals/EJM/Vol2Iss3' element={<EjmVol2Iss3 />} />
           <Route path='/journals/EJM/Vol1' element={<EjmVol1 />} />
           <Route path='/journals/EJM/Vol2' element={<EjmVol2 />} />
-          <Route path='/journals/EJI/Vol2Iss1' element={<EjiVol2Iss1 />} />
+          <Route path='/journals/EJI/Vol2Iss2' element={<EjiVol2Iss2 />} />
+          <Route path='/journals/EJI/Vol2' element={<EjiVol2 />} />
+          <Route path='/journals/EJI/Vol2/Vol2Iss1' element={<EjiVol2Iss1 />} />
           <Route path='/journals/EJLM/Vol2Iss2' element={<EjlmVol2Iss2 />} />
           <Route path='/journals/EJLM/Vol2/Vol2Iss1' element={<EjlmVol2Iss1 />} />
           <Route path='/journals/EJLM/Vol2' element={<EjlmVol2 />} />
