@@ -1855,6 +1855,13 @@ export const Ejhivvol2iss2 = [
         route: EJHIVVOL2ISS202,
         pages: "18-29",
     },
+    {
+        title: "Breaking Barriers: Mitigating Stigma to Control HIV Transmission",
+        authors: "Emmanuel Ifeanyi Obeagu, Getrude Uzoma Obeagu and Amaeze Augustine Amaeze",
+        abstract: "Human Immunodeficiency Virus (HIV) remains a significant global health concern, with stigma acting as a critical barrier to effective control and prevention. This review article delves into the complex interplay between stigma and HIV transmission, emphasizing the detrimental impact of societal attitudes on testing, treatment adherence, and healthcare access.",
+        route: EJHIVVOL2ISS202,
+        pages: "30-42",
+    },
 ];
 
 export const journals = [
