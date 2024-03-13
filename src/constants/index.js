@@ -11,7 +11,7 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, 
     EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, 
     EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, 
-    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, EJNHSVOL2ISS203, EJNHSVOL2ISS204, EJMVOL2ISS302, EJMVOL2ISS303, EJMVOL2ISS304, EJMSVOL2ISS202, EJNHSVOL2ISS205, EJNHSVOL2ISS206, EJMSVOL2ISS203, EJNHSVOL2ISS301, } 
+    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, EJNHSVOL2ISS203, EJNHSVOL2ISS204, EJMVOL2ISS302, EJMVOL2ISS303, EJMVOL2ISS304, EJMSVOL2ISS202, EJNHSVOL2ISS205, EJNHSVOL2ISS206, EJMSVOL2ISS203, EJNHSVOL2ISS301, EJHIVVOL2ISS203, EJIVOL2ISS201, EJIVOL2ISS202, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1616,6 +1616,23 @@ export const Ejivol2iss1 = [
     },
 ];
 
+export const Ejivol2iss2 = [
+    {
+        title: "Dendritic Cell Function in HIV-Infected Pediatric Populations",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Pediatric HIV infection presents unique challenges due to the dynamic interplay between the virus and the developing immune system. Dendritic cells, key regulators of immune responses, play a crucial role in shaping the outcomes of HIV infection in children. This comprehensive review explores the multifaceted functions of dendritic cells in pediatric HIV, unraveling their contributions to immune modulation, antigen presentation and adaptive immunity.",
+        route: EJIVOL2ISS201,
+        pages: "1-14",
+    },
+    {
+        title: "Harnessing B Cell Responses for Personalized Approaches in HIV Management",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "This comprehensive review explores the forefront of HIV management through the lens of personalized medicine, with a specific focus on harnessing B cell responses. The dynamic interplay between the virus and the adaptive immune system, particularly B cells, forms the crux of this examination.",
+        route: EJIVOL2ISS202,
+        pages: "15-28",
+    },
+];
+
 export const Ejlmvol2iss1 = [
     {
         title: "A Critical Appraisal of Erythropoietin Levels in HIV: Clinical Relevance",
@@ -1859,7 +1876,7 @@ export const Ejhivvol2iss2 = [
         title: "Breaking Barriers: Mitigating Stigma to Control HIV Transmission",
         authors: "Emmanuel Ifeanyi Obeagu, Getrude Uzoma Obeagu and Amaeze Augustine Amaeze",
         abstract: "Human Immunodeficiency Virus (HIV) remains a significant global health concern, with stigma acting as a critical barrier to effective control and prevention. This review article delves into the complex interplay between stigma and HIV transmission, emphasizing the detrimental impact of societal attitudes on testing, treatment adherence, and healthcare access.",
-        route: EJHIVVOL2ISS202,
+        route: EJHIVVOL2ISS203,
         pages: "30-42",
     },
 ];
