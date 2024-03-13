@@ -108,6 +108,12 @@ import EjhivVol2Issues from './EjhivVol2Issues';
 import EJHIVVOL2 from './EJHIVVOL2';
 import EJNHSVOL2ISS3 from './EJNHSVOL2ISS3';
 import EjnhsVol2Iss3Pubs from './EjnhsVol2Iss3Pubs';
+import EJHVOL2ISS3 from './EJHVOL2ISS3';
+import EjhVol2Iss3Pubs from './EjhVol2Iss3Pubs';
+import EJIVOL2 from './EJIVOL2';
+import EJIVOL2ISS2 from './EJIVOL2ISS2';
+import EjiVol2Issues from './EjiVol2Issues';
+import EjiVol2Iss2Pubs from './EjiVol2Iss2Pubs';
 
 
 export { 
@@ -221,4 +227,10 @@ export {
     EjhivVol2Issues,
     EJNHSVOL2ISS3,
     EjnhsVol2Iss3Pubs,
+    EJHVOL2ISS3,
+    EJIVOL2,
+    EJIVOL2ISS2,
+    EjhVol2Iss3Pubs,
+    EjiVol2Iss2Pubs,
+    EjiVol2Issues,
 }
