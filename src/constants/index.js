@@ -922,8 +922,8 @@ export const ejsrrSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 1. (2024)",
-                route: "/journals/EJSRR/VOL2ISS1",
+                name: "Volume 2, Issue 2. (2024)",
+                route: "/journals/EJSRR/VOL2ISS2",
             },
         ],
     },
@@ -932,8 +932,8 @@ export const ejsrrSideLinks = [
         title: "Archives",
         links: [
             {
-                // name: "lorem ipsum",
-                // route: "",
+                name: "Volume 2 (2024)",
+                route: "/journals/EJSRR/VOL2",
             }, 
         ],
     },

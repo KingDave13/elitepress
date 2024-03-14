@@ -114,6 +114,10 @@ import EJIVOL2 from './EJIVOL2';
 import EJIVOL2ISS2 from './EJIVOL2ISS2';
 import EjiVol2Issues from './EjiVol2Issues';
 import EjiVol2Iss2Pubs from './EjiVol2Iss2Pubs';
+import EJSRRVOL2 from './EJSRRVOL2';
+import EJSRRVOL2ISS2 from './EJSRRVOL2ISS2';
+import EjsrrVol2Issues from './EjsrrVol2Issues';
+import EjsrrVol2Iss2Pubs from './EjsrrVol2Iss2Pubs';
 
 
 export { 
@@ -233,4 +237,8 @@ export {
     EjhVol2Iss3Pubs,
     EjiVol2Iss2Pubs,
     EjiVol2Issues,
+    EJSRRVOL2,
+    EJSRRVOL2ISS2,
+    EjsrrVol2Iss2Pubs,
+    EjsrrVol2Issues,
 }
