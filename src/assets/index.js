@@ -120,6 +120,10 @@ import EJHVOL2ISS301 from './EJHVOL2ISS301.pdf';
 import EJIVOL2ISS201 from './EJIVOL2ISS201.pdf';
 import EJIVOL2ISS202 from './EJIVOL2ISS202.pdf';
 import EJLMVOL2ISS202 from './EJLMVOL2ISS202.pdf';
+import EJHVOL2ISS302 from './EJHVOL2ISS302.pdf';
+import EJSRRVOL2ISS201 from './EJSRRVOL2ISS201.pdf';
+import EJHSVOL2ISS203 from './EJHSVOL2ISS203.pdf';
+import EJIVOL2ISS203 from './EJIVOL2ISS203.pdf';
 
 import logout from './logout.png';
 import arrowreverse from './arrowreverse.png';
