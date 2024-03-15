@@ -11,7 +11,7 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, 
     EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, 
     EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, 
-    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, EJNHSVOL2ISS203, EJNHSVOL2ISS204, EJMVOL2ISS302, EJMVOL2ISS303, EJMVOL2ISS304, EJMSVOL2ISS202, EJNHSVOL2ISS205, EJNHSVOL2ISS206, EJMSVOL2ISS203, EJNHSVOL2ISS301, EJHIVVOL2ISS203, EJIVOL2ISS201, EJIVOL2ISS202, EJHVOL2ISS301, EJLMVOL2ISS202, EJHVOL2ISS302, EJIVOL2ISS203, EJHSVOL2ISS203, EJSRRVOL2ISS201, } 
+    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, EJNHSVOL2ISS203, EJNHSVOL2ISS204, EJMVOL2ISS302, EJMVOL2ISS303, EJMVOL2ISS304, EJMSVOL2ISS202, EJNHSVOL2ISS205, EJNHSVOL2ISS206, EJMSVOL2ISS203, EJNHSVOL2ISS301, EJHIVVOL2ISS203, EJIVOL2ISS201, EJIVOL2ISS202, EJHVOL2ISS301, EJLMVOL2ISS202, EJHVOL2ISS302, EJIVOL2ISS203, EJHSVOL2ISS203, EJSRRVOL2ISS201, EJMVOL2ISS305, EJHSVOL2ISS204, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1368,6 +1368,13 @@ export const Ejmvol2iss3 = [
         route: EJMVOL2ISS304,
         pages: "41-47",
     },
+    {
+        title: "Assessment of Serum Cystatin C, Microalbumin Levels and Egfr in HIV Seropositive Individuals based on Age and Gender in NAUTH, Nnewi, Nigeria",
+        authors: "Ofia A. Kalu, Nkiruka R. Ukibe, Charles C. Onyenekwe, Rejoice Chinenye Okoyeagu, Wuraola S. Nnaemeka, Amala Joy Onyenekwe, Ezinne G. Ukibe, Blessing C. Ukibe, Victory E. Ukibe and Emmanuel Ifeanyi Obeagu",
+        abstract: "Human immunodeficiency virus (HIV) is now a confirmed risk factor for kidney disease with higher burden in persons of African origin. The aim of this study is to assess the renal function of HIV seropositive patients in NAUTH Nnewi using Cystatin C, Microalbuminuria and eGFR as biomarkers.",
+        route: EJMVOL2ISS305,
+        pages: "41-47",
+    },
 ];
 
 export const Ejmsvol2iss1 = [
@@ -1491,6 +1498,13 @@ export const Ejhsvol2iss2 = [
         abstract: "P-Selectin, a pivotal cell adhesion molecule expressed on activated endothelial cells and platelets, plays a critical role in immune activation and inflammation. In the context of human immunodeficiency virus (HIV) infection, dysregulation of P-Selectin contributes significantly to chronic immune activation, endothelial dysfunction, and heightened cardiovascular risk.",
         route: EJHSVOL2ISS203,
         pages: "16-29",
+    },
+    {
+        title: "Assessment of Serum Cystatin C, Microalbumin Levels and EGFR in HIV Seropositive Individuals in NAUTH, Nnewi, Nigeria",
+        authors: "Ofia A. Kalu, Nkiruka R. Ukibe, Charles C. Onyenekwe, Rejoice Chinenye Okoyeagu, Wuraola S. Nnaemeka, Amala Joy Onyenekwe, Ezinne G. Ukibe, Blessing C. Ukibe, Victory E. Ukibe and Emmanuel Ifeanyi Obeagu",
+        abstract: "Human immunodeficiency virus (HIV) is now a confirmed risk factor for kidney disease with higher burden in persons of African origin. The aim of this study is to assess the renal function of HIV seropositive patients in NAUTH Nnewi using Cystatin C, Microalbuminuria and eGFR as biomarkers.",
+        route: EJHSVOL2ISS204,
+        pages: "30-39",
     },
 ];
 
