@@ -9,7 +9,6 @@ import { Link, useNavigate } from 'react-router-dom';
 
 
 const NavbarAdmin = () => {
-  const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
   const [toggle2, setToggle2] = useState(false);
   const menuRef = useRef(null);
@@ -47,7 +46,6 @@ const NavbarAdmin = () => {
 }, []);
 
 const handleSideItemClick = (link) => {
-  setActive(link.title);
   navigate(link.route)
 //   console.log(session);
 //   console.log('session');
@@ -61,9 +59,8 @@ const handleSideItemClick = (link) => {
       <div className="w-full flex items-center max-w-[82rem] mx-auto">
         <div className='flex w-full justify-between hidden md:flex 
         items-center'>
-            <Link to='/'
+            <Link to='/admin'
             onClick={() => {
-            setActive('Home');
             window.scrollTo(0, 0);
             }}
             className='md:mr-10'>
