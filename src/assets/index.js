@@ -133,6 +133,11 @@ import EJHIVVOL2ISS204 from './EJHIVVOL2ISS204.pdf';
 import EJLMVOL2ISS204 from './EJLMVOL2ISS204.pdf';
 import EJIVOL2ISS204 from './EJIVOL2ISS204.pdf';
 import EJPHVOL2ISS204 from './EJPHVOL2ISS204.pdf';
+import EJPHVOL2ISS205 from './EJPHVOL2ISS205.pdf';
+import EJHIVVOL2ISS205 from './EJHIVVOL2ISS205.pdf';
+import EJHVOL2ISS304 from './EJHVOL2ISS304.pdf';
+import EJHVOL2ISS305 from './EJHVOL2ISS305.pdf';
+import EJHVOL2ISS306 from './EJHVOL2ISS306.pdf';
 
 import logout from './logout.png';
 import arrowreverse from './arrowreverse.png';
