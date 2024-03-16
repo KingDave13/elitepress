@@ -11,7 +11,7 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, 
     EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, 
     EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, 
-    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, EJNHSVOL2ISS203, EJNHSVOL2ISS204, EJMVOL2ISS302, EJMVOL2ISS303, EJMVOL2ISS304, EJMSVOL2ISS202, EJNHSVOL2ISS205, EJNHSVOL2ISS206, EJMSVOL2ISS203, EJNHSVOL2ISS301, EJHIVVOL2ISS203, EJIVOL2ISS201, EJIVOL2ISS202, EJHVOL2ISS301, EJLMVOL2ISS202, EJHVOL2ISS302, EJIVOL2ISS203, EJHSVOL2ISS203, EJSRRVOL2ISS201, EJMVOL2ISS305, EJHSVOL2ISS204, EJLMVOL2ISS203, EJIVOL2ISS204, EJLMVOL2ISS204, EJSRRVOL2ISS202, EJHIVVOL2ISS204, EJPHVOL2ISS204, EJHVOL2ISS303, } 
+    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, EJNHSVOL2ISS203, EJNHSVOL2ISS204, EJMVOL2ISS302, EJMVOL2ISS303, EJMVOL2ISS304, EJMSVOL2ISS202, EJNHSVOL2ISS205, EJNHSVOL2ISS206, EJMSVOL2ISS203, EJNHSVOL2ISS301, EJHIVVOL2ISS203, EJIVOL2ISS201, EJIVOL2ISS202, EJHVOL2ISS301, EJLMVOL2ISS202, EJHVOL2ISS302, EJIVOL2ISS203, EJHSVOL2ISS203, EJSRRVOL2ISS201, EJMVOL2ISS305, EJHSVOL2ISS204, EJLMVOL2ISS203, EJIVOL2ISS204, EJLMVOL2ISS204, EJSRRVOL2ISS202, EJHIVVOL2ISS204, EJPHVOL2ISS204, EJHVOL2ISS303, EJHVOL2ISS304, EJHVOL2ISS305, EJHVOL2ISS306, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1625,6 +1625,27 @@ export const Ejhvol2iss3 = [
         authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
         abstract: "HIV infection is associated with a heightened risk of coagulopathy, encompassing thrombosis, hemorrhage, and endothelial dysfunction, which significantly impact disease progression and clinical outcomes. P-Selectin, a critical cell adhesion molecule expressed on activated platelets and endothelial cells, plays a pivotal role in mediating leukocyte-endothelial interactions and platelet activation, thus contributing to hemostasis and inflammation.",
         route: EJHVOL2ISS303,
+        pages: "25-41",
+    },
+    {
+        title: "P-Selectin Expression in HIV-Associated Coagulopathy: Implications for Treatment",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "HIV infection is associated with a heightened risk of coagulopathy, encompassing thrombosis, hemorrhage, and endothelial dysfunction, which significantly impact disease progression and clinical outcomes. P-Selectin, a critical cell adhesion molecule expressed on activated platelets and endothelial cells, plays a pivotal role in mediating leukocyte-endothelial interactions and platelet activation, thus contributing to hemostasis and inflammation.",
+        route: EJHVOL2ISS304,
+        pages: "25-41",
+    },
+    {
+        title: "P-Selectin Expression in HIV-Associated Coagulopathy: Implications for Treatment",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "HIV infection is associated with a heightened risk of coagulopathy, encompassing thrombosis, hemorrhage, and endothelial dysfunction, which significantly impact disease progression and clinical outcomes. P-Selectin, a critical cell adhesion molecule expressed on activated platelets and endothelial cells, plays a pivotal role in mediating leukocyte-endothelial interactions and platelet activation, thus contributing to hemostasis and inflammation.",
+        route: EJHVOL2ISS305,
+        pages: "25-41",
+    },
+    {
+        title: "P-Selectin Expression in HIV-Associated Coagulopathy: Implications for Treatment",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "HIV infection is associated with a heightened risk of coagulopathy, encompassing thrombosis, hemorrhage, and endothelial dysfunction, which significantly impact disease progression and clinical outcomes. P-Selectin, a critical cell adhesion molecule expressed on activated platelets and endothelial cells, plays a pivotal role in mediating leukocyte-endothelial interactions and platelet activation, thus contributing to hemostasis and inflammation.",
+        route: EJHVOL2ISS306,
         pages: "25-41",
     },
 ];
