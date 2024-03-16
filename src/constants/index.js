@@ -11,7 +11,7 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, 
     EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, 
     EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, 
-    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, EJNHSVOL2ISS203, EJNHSVOL2ISS204, EJMVOL2ISS302, EJMVOL2ISS303, EJMVOL2ISS304, EJMSVOL2ISS202, EJNHSVOL2ISS205, EJNHSVOL2ISS206, EJMSVOL2ISS203, EJNHSVOL2ISS301, EJHIVVOL2ISS203, EJIVOL2ISS201, EJIVOL2ISS202, EJHVOL2ISS301, EJLMVOL2ISS202, EJHVOL2ISS302, EJIVOL2ISS203, EJHSVOL2ISS203, EJSRRVOL2ISS201, EJMVOL2ISS305, EJHSVOL2ISS204, EJLMVOL2ISS203, } 
+    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, EJNHSVOL2ISS203, EJNHSVOL2ISS204, EJMVOL2ISS302, EJMVOL2ISS303, EJMVOL2ISS304, EJMSVOL2ISS202, EJNHSVOL2ISS205, EJNHSVOL2ISS206, EJMSVOL2ISS203, EJNHSVOL2ISS301, EJHIVVOL2ISS203, EJIVOL2ISS201, EJIVOL2ISS202, EJHVOL2ISS301, EJLMVOL2ISS202, EJHVOL2ISS302, EJIVOL2ISS203, EJHSVOL2ISS203, EJSRRVOL2ISS201, EJMVOL2ISS305, EJHSVOL2ISS204, EJLMVOL2ISS203, EJIVOL2ISS204, EJLMVOL2ISS204, EJSRRVOL2ISS202, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1675,6 +1675,13 @@ export const Ejivol2iss2 = [
         route: EJIVOL2ISS203,
         pages: "29-42",
     },
+    {
+        title: "Understanding Immune Cell Trafficking in Tuberculosis-HIV Coinfection: The Role of L-selectin Pathways",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Tuberculosis (TB) and human immunodeficiency virus (HIV) coinfection pose significant challenges to global health, with dysregulated immune cell trafficking contributing to disease progression and morbidity. L-selectin, a key cell adhesion molecule, plays a pivotal role in orchestrating immune cell trafficking by mediating leukocyte adhesion to endothelial cells and subsequent migration to inflamed tissues.",
+        route: EJIVOL2ISS204,
+        pages: "43-59",
+    },
 ];
 
 export const Ejlmvol2iss1 = [
@@ -1737,6 +1744,13 @@ export const Ejlmvol2iss2 = [
         route: EJLMVOL2ISS203,
         pages: "21-29",
     },
+    {
+        title: "L-selectin and HIV-Induced Immune Cell Trafficking: Implications for Pathogenesis and Therapeutic Strategies",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "HIV infection is characterized by dysregulated immune cell trafficking, contributing to chronic immune activation, inflammation, and disease progression. L-selectin, a key adhesion molecule orchestrating immune cell migration, has emerged as a significant player in the pathogenesis of HIV-induced immune dysfunction.",
+        route: EJLMVOL2ISS204,
+        pages: "30-46",
+    },
 ];
 
 export const Ejsrrvol2iss1 = [
@@ -1784,6 +1798,13 @@ export const Ejsrrvol2iss2 = [
         abstract: "Platelet dysfunction is increasingly recognized as a significant complication in individuals living with human immunodeficiency virus (HIV), with implications for disease progression, coagulopathy, and cardiovascular risk. While antiretroviral therapy (ART) has transformed the management of HIV by suppressing viral replication and restoring immune function, emerging evidence suggests potential risks associated with ART-induced platelet dysfunction.",
         route: EJSRRVOL2ISS201,
         pages: "1-16",
+    },
+    {
+        title: "P-Selectin and Platelet Activation in HIV: Implications for Antiviral Therapy",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Platelet activation and dysregulation of cell adhesion molecules, particularly P-Selectin, play pivotal roles in the pathogenesis of human immunodeficiency virus (HIV) infection, contributing to thrombotic risk and endothelial dysfunction. This review explores the intricate interplay between P-Selectin and platelet activation in HIV, elucidating their mechanistic interactions and clinical implications.",
+        route: EJSRRVOL2ISS202,
+        pages: "17-41",
     },
 ];
 
