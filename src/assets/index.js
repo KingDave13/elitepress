@@ -127,6 +127,12 @@ import EJIVOL2ISS203 from './EJIVOL2ISS203.pdf';
 import EJMVOL2ISS305 from './EJMVOL2ISS305.pdf';
 import EJLMVOL2ISS203 from './EJLMVOL2ISS203.pdf';
 import EJHSVOL2ISS204 from './EJHSVOL2ISS204.pdf';
+import EJHVOL2ISS303 from './EJHVOL2ISS303.pdf';
+import EJSRRVOL2ISS202 from './EJSRRVOL2ISS202.pdf';
+import EJHIVVOL2ISS204 from './EJHIVVOL2ISS204.pdf';
+import EJLMVOL2ISS204 from './EJLMVOL2ISS204.pdf';
+import EJIVOL2ISS204 from './EJIVOL2ISS204.pdf';
+import EJPHVOL2ISS204 from './EJPHVOL2ISS204.pdf';
 
 import logout from './logout.png';
 import arrowreverse from './arrowreverse.png';
