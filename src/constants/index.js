@@ -2024,6 +2024,7 @@ export const Ejhivvol2iss2 = [
         route: EJHIVVOL2ISS205,
         pages: "60-73",
     },
+    
 ];
 
 export const journals = [
