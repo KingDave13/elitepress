@@ -1241,9 +1241,9 @@ export const vol2iss3 = [
         pages: "1-7",
     },
     {
-        title: "The Role of Parents: Strengthening Adolescent Education for Sickle Cell Disease Prevention",
-        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
-        abstract: "This review article explores the critical role parents play in strengthening adolescent education for the prevention of Sickle Cell Disease (SCD). SCD, a genetic blood disorder, places a disproportionate burden on populations with a high prevalence of carriers, necessitating comprehensive prevention strategies.",
+        title: "Promising Strategies for Mitigating HIV Transmission in Uganda",
+        authors: "Emmanuel Ifeanyi Obeagu, Matthew Chibunna Igwe and Getrude Uzoma Obeagu",
+        abstract: "HIV/AIDS remains a significant public health challenge in Uganda, necessitating effective strategies for its mitigation. This paper explores promising interventions aimed at reducing HIV transmission rates in Uganda. Drawing upon a comprehensive review of literature, the study investigates various multifaceted approaches including behavioral, biomedical, and structural interventions that have shown promise in addressing the complex dynamics of HIV transmission.",
         route: EJPHVOL2ISS302,
         pages: "8-21",
     },
