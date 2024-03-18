@@ -140,6 +140,13 @@ import EJHVOL2ISS305 from './EJHVOL2ISS305.pdf';
 import EJHVOL2ISS306 from './EJHVOL2ISS306.pdf';
 import EJPHVOL2ISS301 from './EJPHVOL2ISS301.pdf';
 import EJPHVOL2ISS302 from './EJPHVOL2ISS302.pdf';
+import EJMSVOL2ISS204 from './EJMSVOL2ISS204.pdf';
+import EJLMVOL2ISS205 from './EJLMVOL2ISS205.pdf';
+import EJIVOL2ISS205 from './EJIVOL2ISS205.pdf';
+import EJHVOL2ISS307 from './EJHVOL2ISS307.pdf';
+import EJHVOL2ISS308 from './EJHVOL2ISS308.pdf';
+import EJHSVOL2ISS205 from './EJHSVOL2ISS205.pdf';
+import EJMVOL2ISS306 from './EJMVOL2ISS306.pdf';
 
 import logout from './logout.png';
 import arrowreverse from './arrowreverse.png';
