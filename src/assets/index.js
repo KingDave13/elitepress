@@ -147,6 +147,8 @@ import EJHVOL2ISS307 from './EJHVOL2ISS307.pdf';
 import EJHVOL2ISS308 from './EJHVOL2ISS308.pdf';
 import EJHSVOL2ISS205 from './EJHSVOL2ISS205.pdf';
 import EJMVOL2ISS306 from './EJMVOL2ISS306.pdf';
+import EJMSVOL2ISS205 from './EJMSVOL2ISS205.pdf';
+import EJHVOL2ISS309 from './EJHVOL2ISS309.pdf';
 
 import logout from './logout.png';
 import arrowreverse from './arrowreverse.png';
@@ -303,6 +305,8 @@ export {
     EJLMVOL2ISS205,
     EJMSVOL2ISS204,
     EJMVOL2ISS306,
+    EJHVOL2ISS309,
+    EJMSVOL2ISS205,
 
     logout,
     picture,
