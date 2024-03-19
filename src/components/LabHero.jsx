@@ -48,7 +48,7 @@ const Lab = () => {
             ss:items-center'>
                 <p className='text-main md:text-[18px] ss:text-[17px] 
                 text-[15px] font-bold'>
-                    ISSN: <span className="font-light">1234-56789</span>
+                    E-ISSN: <span className="font-light">1118-728X</span>
                 </p>
 
                 <p className='text-main md:text-[20px] ss:text-[17px] 
