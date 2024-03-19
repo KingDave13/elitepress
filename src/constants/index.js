@@ -11,7 +11,7 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, 
     EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, 
     EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, 
-    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, EJNHSVOL2ISS203, EJNHSVOL2ISS204, EJMVOL2ISS302, EJMVOL2ISS303, EJMVOL2ISS304, EJMSVOL2ISS202, EJNHSVOL2ISS205, EJNHSVOL2ISS206, EJMSVOL2ISS203, EJNHSVOL2ISS301, EJHIVVOL2ISS203, EJIVOL2ISS201, EJIVOL2ISS202, EJHVOL2ISS301, EJLMVOL2ISS202, EJHVOL2ISS302, EJIVOL2ISS203, EJHSVOL2ISS203, EJSRRVOL2ISS201, EJMVOL2ISS305, EJHSVOL2ISS204, EJLMVOL2ISS203, EJIVOL2ISS204, EJLMVOL2ISS204, EJSRRVOL2ISS202, EJHIVVOL2ISS204, EJPHVOL2ISS204, EJHVOL2ISS303, EJHVOL2ISS304, EJHVOL2ISS305, EJHVOL2ISS306, EJPHVOL2ISS205, EJHIVVOL2ISS205, EJPHVOL2ISS301, EJPHVOL2ISS302, EJMVOL2ISS306, EJHSVOL2ISS205, EJHVOL2ISS307, EJHVOL2ISS308, EJMSVOL2ISS204, EJIVOL2ISS205, EJLMVOL2ISS205, EJMSVOL2ISS205, EJHVOL2ISS309, } 
+    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, EJNHSVOL2ISS203, EJNHSVOL2ISS204, EJMVOL2ISS302, EJMVOL2ISS303, EJMVOL2ISS304, EJMSVOL2ISS202, EJNHSVOL2ISS205, EJNHSVOL2ISS206, EJMSVOL2ISS203, EJNHSVOL2ISS301, EJHIVVOL2ISS203, EJIVOL2ISS201, EJIVOL2ISS202, EJHVOL2ISS301, EJLMVOL2ISS202, EJHVOL2ISS302, EJIVOL2ISS203, EJHSVOL2ISS203, EJSRRVOL2ISS201, EJMVOL2ISS305, EJHSVOL2ISS204, EJLMVOL2ISS203, EJIVOL2ISS204, EJLMVOL2ISS204, EJSRRVOL2ISS202, EJHIVVOL2ISS204, EJPHVOL2ISS204, EJHVOL2ISS303, EJHVOL2ISS304, EJHVOL2ISS305, EJHVOL2ISS306, EJPHVOL2ISS205, EJHIVVOL2ISS205, EJPHVOL2ISS301, EJPHVOL2ISS302, EJMVOL2ISS306, EJHSVOL2ISS205, EJHVOL2ISS307, EJHVOL2ISS308, EJMSVOL2ISS204, EJIVOL2ISS205, EJLMVOL2ISS205, EJMSVOL2ISS205, EJHVOL2ISS309, EJHIVVOL2ISS206, EJNHSVOL2ISS302, EJNHSVOL2ISS303, EJHVOL2ISS310, EJHSVOL2ISS206, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1565,6 +1565,13 @@ export const Ejhsvol2iss2 = [
         route: EJHSVOL2ISS205,
         pages: "40-49",
     },
+    {
+        title: "Comparative Study of Body Mass Index and Academic Performance among Primary School Pupils in Dutse Local Government Area, Jigawa State",
+        authors: "Mikail Isyaku Umar, Aisha Shettima Uthman, Sa'adatu Garba Magaga, Muhammad Ummusalma Lawal, Usman Ismail Hassan, Abdullahi Gudaji and Musa Abubakar",
+        abstract: "The prevalence of obesity has significantly increased globally for individuals of all ages, leading to numerous health risks and lower health-related quality of life. Additionally, research has shown a correlation between obesity and academic performance, with inconsistent findings ranging from a strong negative correlation to a weak positive correlation.",
+        route: EJHSVOL2ISS206,
+        pages: "50-55",
+    },
 ];
 
 export const Ejhvol2iss1 = [
@@ -1720,6 +1727,13 @@ export const Ejhvol2iss3 = [
         abstract: "This research studied the effect of electromagnetic radiation in forms of X-ray radiation on red blood cell. It is well known that ionizing radiation provokes damage directly by deposition of energy or indirectly by producing oxygen/nitrogen species in DNA double helix in the nucleus.",
         route: EJHVOL2ISS309,
         pages: "107-110",
+    },
+    {
+        title: "Understanding the Intersection of Highly Active Antiretroviral Therapy and Platelets in HIV Patients: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu, Elham Ali Ibrahim Elamin and Getrude Uzoma Obeagu",
+        abstract: "Highly Active Antiretroviral Therapy (HAART) has revolutionized the treatment landscape for HIV/AIDS, significantly enhancing patient outcomes and life expectancy. However, the intricate relationship between HAART and platelet function in HIV patients poses unique challenges. This review delves into the complex interplay between HAART and platelets, focusing on its implications for HIV patients.",
+        route: EJHVOL2ISS310,
+        pages: "111-117",
     },
 ];
 
@@ -2028,6 +2042,20 @@ export const Ejnhsvol2iss3 = [
         route: EJNHSVOL2ISS301,
         pages: "1-17",
     },
+    {
+        title: "Protein and Lactose Content of Breast Milk of Lactating Mothers Attending Alex Ekwueme Federal University Teaching Hospital, Abakaliki. Ebonyi State. Nigeria",
+        authors: "Innocent Sidney Ikechi Ogbu, Nneamake Chukwukamso Amanze, Kingsley Anya, Ezinne Jane Ejike-Odeh, Chinemerem Chukwuka Ogbu and Emmanuel Ifeanyi Obeagu",
+        abstract: "Human breast milk (HBM) is a food designed to fulfill the energy and nutritional requirements of babies. This study was designed to determine the protein and lactose concentration in breast milk. The lactose and protein concentration were estimated using Phenol-Sulphuric Acid and Biuret method respectively.",
+        route: EJNHSVOL2ISS302,
+        pages: "18-27",
+    },
+    {
+        title: "Effects of Sunscreen on the Facial Skin of Female Students in Federal University Dutse, Jigawa State",
+        authors: "Mikail Isyaku Umar, Sa'adatu Garba Magaga, Aisha Shettima Uthman, Muhammad Ummusalma Lawal, Usman Ismail Hassan, Abdullahi Gudaji and Musa Abubakar",
+        abstract: "Sunscreens have long been recognized as substances to provide effective protection against the detrimental effects of solar radiation. The deleterious effects of sun exposure can be either acute (e.g. sunburn and drug-induced photo toxicity) or chronic (potential long-term risks of repeated sun exposure).",
+        route: EJNHSVOL2ISS303,
+        pages: "28-37",
+    },
 ];
 
 export const Ejhivvol2iss1 = [
@@ -2103,6 +2131,13 @@ export const Ejhivvol2iss2 = [
         abstract: "Antiretroviral therapy (ART) has transformed the landscape of HIV/AIDS management, significantly improving patient outcomes. However, the impact of ART on platelet functionality is an emerging area of concern with implications for the health of HIV patients. This review explores the relationship between ART and platelet function, highlighting key findings and clinical implications.",
         route: EJHIVVOL2ISS205,
         pages: "60-73",
+    },
+    {
+        title: "Connecting the Dots: Erythropoietin and Immune Response in HIV",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Erythropoietin (EPO), traditionally recognized for its role in erythropoiesis, has emerged as a pivotal player in immune modulation, expanding its relevance beyond hematopoiesis. In the context of Human Immunodeficiency Virus (HIV) infection, where dysregulated immune responses and hematological abnormalities are prevalent, understanding the intricate relationship between EPO and immune function is paramount.",
+        route: EJHIVVOL2ISS206,
+        pages: "74-87",
     },
 ];
 
