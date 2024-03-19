@@ -1714,6 +1714,13 @@ export const Ejhvol2iss3 = [
         route: EJHVOL2ISS308,
         pages: "96-106",
     },
+    {
+        title: "Safety and Efficacy of Blood Transfusions in Pregnant Women",
+        authors: "Emmanuel Ifeanyi Obeagu, Getrude Uzoma Obeagu and Joseph Obiezu Chukwujekwu Ezeonwumelu",
+        abstract: "Blood transfusions play a pivotal role in managing various complications during pregnancy, addressing critical situations such as anemia, hemorrhage, and other obstetric emergencies. This critical review examines the safety and efficacy of blood transfusions in pregnant women, encompassing a comprehensive analysis of available literature and clinical evidence.",
+        route: EJHVOL2ISS308,
+        pages: "96-106",
+    },
 ];
 
 export const Ejivol2iss1 = [
