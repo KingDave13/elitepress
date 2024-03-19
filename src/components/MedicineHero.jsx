@@ -49,7 +49,7 @@ const Medicine = () => {
             ss:items-center'>
                 <p className='text-main md:text-[18px] ss:text-[17px] 
                 text-[15px] font-bold'>
-                    EISSN: <span className="font-light">3027-2920</span>
+                    E-ISSN: <span className="font-light">3027-2920</span>
                 </p>
 
                 <p className='text-main md:text-[20px] ss:text-[17px] 
