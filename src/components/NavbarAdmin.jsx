@@ -79,34 +79,85 @@ const handleSideItemClick = (link) => {
             </p>
           </div>
 
-            <div className='flex justify-end w-full items-center gap-5'>
-              <img 
-                src={picture}
-                width={45}
-                height={'auto'}
-                alt='profilepic'
-                className='object-contain'
-              />
+          <div className='flex justify-end w-full items-center gap-5
+            cursor-pointer'
+            onClick={() => setToggle2(!toggle2)}
+          >
+            <img 
+              src={picture}
+              width={45}
+              height={'auto'}
+              alt='profilepic'
+              className='object-contain'
+            />
 
-              <h1 className='text-main font-medium text-[18px]'>
-                Elite Admin
-              </h1>
+            <h1 className='text-main font-medium text-[18px]'>
+              Elite Admin
+            </h1>
 
-              <img
-                src={arrow}
-                alt='arrow'
-                width={12}
-                height={'auto'}
-              />
-            </div>
+            <img
+              src={arrow}
+              alt='arrow'
+              width={12}
+              height={'auto'}
+            />
+          </div>
+
+            <div
+            ref={menuRef}
+            className='bg-white absolute rounded-lg z-10 flex-col
+            p-6 shadow-xl '
+            style={{ height: toggle2 ? 'auto' : 0, opacity: toggle2 ? 1 : 0, 
+            visibility: toggle2 ? 'visible' : 'hidden', 
+            transition: 'height 0.3s, opacity 0.3s, visibility 0.3s' }}
+            >
+              <div className="list-none flex justify-end flex-col">
+                <div className='flex w-full items-center gap-6
+                cursor-pointer'>
+                  <img 
+                    src={picture}
+                    width={35}
+                    height={'auto'}
+                    alt='profilepic'
+                    className='object-contain'
+                    
+                  />
+
+                  <h1 className='text-main text-[18px] font-medium'>
+                    Elite Admin
+                  </h1>
+
+                  <img
+                    src={arrowreverse}
+                    alt='arrow'
+                    width={12}
+                    height={'auto'}
+                  />
+                </div>
+                
+                <div className='hover:text-secondary grow3 text-[17px] 
+                list-item cursor-pointer text-textalt mt-6'>
+                  <a 
+                    href='/'
+                    className='flex gap-5 items-center'
+                  >
+                    <img src={logout} 
+                      alt='logout'
+                      width={18} 
+                      height={'auto'}
+                    />
+                    Logout
+                  </a>
+                </div>
+              </div>
+          </div>
         </div>
 
         {/* FOR MOBILE */}
         
         <div className="md:hidden flex-1 items-center
           mt-3">
-          <div className='flex justify-between w-full border-b-[1px]
-          pb-4'>
+          <div className='flex justify-between w-full pb-4'>
             <div className="flex items-center z-20">
               {toggle ? (
                 <BsX
