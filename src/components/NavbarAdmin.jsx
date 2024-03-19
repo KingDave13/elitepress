@@ -53,7 +53,7 @@ const handleSideItemClick = (link) => {
 
   return (
     <nav className={`${styles.paddingX} w-full flex items-center fixed 
-    md:py-6 ss:py-4 py-3 top-0 z-20 navsmooth backdrop-blur-md bg-opacity-90
+    md:py-6 ss:py-6 py-3 top-0 z-20 navsmooth backdrop-blur-md bg-opacity-90
     ${ isScrolled ? 'bg-primaryalt shadow-lg' : '' }`}
     >
       <div className="w-full flex items-center max-w-[82rem] mx-auto">
@@ -106,20 +106,20 @@ const handleSideItemClick = (link) => {
         <div className="md:hidden flex-1 items-center
           mt-3">
           <div className='flex justify-between w-full border-b-[1px]
-          border-primaryalt pb-4'>
+          pb-4'>
             <div className="flex items-center z-20">
               {toggle ? (
                 <BsX
                   size={40}
                   className="object-contain cursor-pointer"
-                  style={{ color: '#fff' }}
+                  style={{ color: '#021e31' }}
                   onClick={() => setToggle(!toggle)}
                 />
               ) : (
                 <HiOutlineMenuAlt3
                   size={40}
                   className="object-contain cursor-pointer"
-                  style={{ color: '#fff' }}
+                  style={{ color: '#021e31' }}
                   onClick={() => setToggle(!toggle)}
                 />
               )}
@@ -146,12 +146,11 @@ const handleSideItemClick = (link) => {
           </div>
 
           <div className="flex w-full flex-col ss:mt-5 mt-5 border-b-[1px]
-          border-primaryalt pb-4">
-            <h1 className='text-secondary ss:text-[30px]
-            text-[25px]'>
+          border-maintext pb-6">
+            <h1 className='text-main ss:text-[30px] text-[25px] font-bold'>
               Admin Dashboard
             </h1>
-            <p className='text-white ss:text-[15px] text-[13px]'>
+            <p className='text-maintext ss:text-[16px] text-[13px]'>
               Manage new membership requests, view info and communicate 
               with members and more.
             </p>
@@ -178,8 +177,9 @@ const handleSideItemClick = (link) => {
                   
                 />
 
-                <h1 className='text-primary ss:text-[20px] text-[16px]'>
-                  Nuude! Admin
+                <h1 className='text-primary ss:text-[20px] text-[16px]
+                font-medium'>
+                  Elite Admin
                 </h1>
 
                 <img
@@ -249,13 +249,13 @@ const handleSideItemClick = (link) => {
                   </a>
                 </li>
               ))} */}
-              <img
+              {/* <img
                 src={logo}
                 alt='logo'
                 width={100}
                 height={'auto'}
                 className='mt-10 mx-auto'
-              />
+              /> */}
             </ul>
           </div>
         </div>
