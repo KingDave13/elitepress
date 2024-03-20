@@ -181,7 +181,7 @@ const handleSideItemClick = (link) => {
             onClick={() => setToggle2(!toggle2)}>
               <img 
                 src={picture}
-                width={35}
+                width={32}
                 height={'auto'}
                 alt='profilepic'
                 className='object-contain'
@@ -190,7 +190,7 @@ const handleSideItemClick = (link) => {
               <img
                 src={arrow}
                 alt='arrow'
-                width={13}
+                width={12}
                 height={'auto'}
               />
             </div>
@@ -209,7 +209,7 @@ const handleSideItemClick = (link) => {
 
           <div
             ref={menuRef}
-            className='ss:p-6 p-4 bg-white absolute ss:top-5 top-5 right-6 
+            className='ss:p-6 p-4 bg-white absolute ss:top-5 top-3.5 right-6 
             rounded-lg z-10 flex-col shadow-xl ss:mt-4 mt-3'
             style={{ height: toggle2 ? 'auto' : 0, opacity: toggle2 ? 1 : 0, 
             visibility: toggle2 ? 'visible' : 'hidden', 
@@ -221,7 +221,7 @@ const handleSideItemClick = (link) => {
               cursor-pointer'>
                 <img 
                   src={picture}
-                  width={35}
+                  width={32}
                   height={'auto'}
                   alt='profilepic'
                   className='object-contain'
@@ -236,21 +236,21 @@ const handleSideItemClick = (link) => {
                 <img
                   src={arrowreverse}
                   alt='arrow'
-                  width={12}
+                  width={11}
                   height={'auto'}
                 />
               </div>
               
               <div className='hover:text-secondary grow3 ss:text-[21px] 
-              text-[17px] list-item cursor-pointer text-textalt ss:mt-6
-              mt-6'>
+              text-[16px] list-item cursor-pointer text-textalt ss:mt-6
+              mt-3'>
                 <a 
                   href='/'
                   className='flex ss:gap-6 gap-5 items-center'
                 >
                   <img src={logout} 
                     alt='logout'
-                    width={18} 
+                    width={17} 
                     height={'auto'}
                   />
                   Logout
