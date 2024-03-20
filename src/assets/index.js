@@ -154,6 +154,11 @@ import EJNHSVOL2ISS303 from './EJNHSVOL2ISS303.pdf';
 import EJHSVOL2ISS206 from './EJHSVOL2ISS206.pdf';
 import EJHVOL2ISS310 from './EJHVOL2ISS310.pdf';
 import EJHIVVOL2ISS206 from './EJHIVVOL2ISS206.pdf';
+import EJPHVOL2ISS303 from './EJPHVOL2ISS303.pdf';
+import EJHVOL2ISS311 from './EJHVOL2ISS311.pdf';
+import EJIVOL2ISS301 from './EJIVOL2ISS301.pdf';
+import EJLMVOL2ISS301 from './EJLMVOL2ISS301.pdf';
+import EJPHVOL2ISS304 from './EJPHVOL2ISS304.pdf';
 
 import logout from './logout.png';
 import arrowreverse from './arrowreverse.png';
