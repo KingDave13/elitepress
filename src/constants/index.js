@@ -11,7 +11,7 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, 
     EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, 
     EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, 
-    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, EJNHSVOL2ISS203, EJNHSVOL2ISS204, EJMVOL2ISS302, EJMVOL2ISS303, EJMVOL2ISS304, EJMSVOL2ISS202, EJNHSVOL2ISS205, EJNHSVOL2ISS206, EJMSVOL2ISS203, EJNHSVOL2ISS301, EJHIVVOL2ISS203, EJIVOL2ISS201, EJIVOL2ISS202, EJHVOL2ISS301, EJLMVOL2ISS202, EJHVOL2ISS302, EJIVOL2ISS203, EJHSVOL2ISS203, EJSRRVOL2ISS201, EJMVOL2ISS305, EJHSVOL2ISS204, EJLMVOL2ISS203, EJIVOL2ISS204, EJLMVOL2ISS204, EJSRRVOL2ISS202, EJHIVVOL2ISS204, EJPHVOL2ISS204, EJHVOL2ISS303, EJHVOL2ISS304, EJHVOL2ISS305, EJHVOL2ISS306, EJPHVOL2ISS205, EJHIVVOL2ISS205, EJPHVOL2ISS301, EJPHVOL2ISS302, EJMVOL2ISS306, EJHSVOL2ISS205, EJHVOL2ISS307, EJHVOL2ISS308, EJMSVOL2ISS204, EJIVOL2ISS205, EJLMVOL2ISS205, EJMSVOL2ISS205, EJHVOL2ISS309, EJHIVVOL2ISS206, EJNHSVOL2ISS302, EJNHSVOL2ISS303, EJHVOL2ISS310, EJHSVOL2ISS206, } 
+    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, EJNHSVOL2ISS203, EJNHSVOL2ISS204, EJMVOL2ISS302, EJMVOL2ISS303, EJMVOL2ISS304, EJMSVOL2ISS202, EJNHSVOL2ISS205, EJNHSVOL2ISS206, EJMSVOL2ISS203, EJNHSVOL2ISS301, EJHIVVOL2ISS203, EJIVOL2ISS201, EJIVOL2ISS202, EJHVOL2ISS301, EJLMVOL2ISS202, EJHVOL2ISS302, EJIVOL2ISS203, EJHSVOL2ISS203, EJSRRVOL2ISS201, EJMVOL2ISS305, EJHSVOL2ISS204, EJLMVOL2ISS203, EJIVOL2ISS204, EJLMVOL2ISS204, EJSRRVOL2ISS202, EJHIVVOL2ISS204, EJPHVOL2ISS204, EJHVOL2ISS303, EJHVOL2ISS304, EJHVOL2ISS305, EJHVOL2ISS306, EJPHVOL2ISS205, EJHIVVOL2ISS205, EJPHVOL2ISS301, EJPHVOL2ISS302, EJMVOL2ISS306, EJHSVOL2ISS205, EJHVOL2ISS307, EJHVOL2ISS308, EJMSVOL2ISS204, EJIVOL2ISS205, EJLMVOL2ISS205, EJMSVOL2ISS205, EJHVOL2ISS309, EJHIVVOL2ISS206, EJNHSVOL2ISS302, EJNHSVOL2ISS303, EJHVOL2ISS310, EJHSVOL2ISS206, EJHVOL2ISS311, EJIVOL2ISS301, EJLMVOL2ISS301, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1735,6 +1735,13 @@ export const Ejhvol2iss3 = [
         route: EJHVOL2ISS310,
         pages: "111-117",
     },
+    {
+        title: "Cognitive and Neurodevelopmental Impact of Blood Transfusion in Children with Severe Malaria and HIV: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Severe malaria and HIV infection are significant causes of morbidity and mortality in children, particularly in resource-limited settings. Blood transfusion is a life-saving intervention commonly utilized in the management of severe anemia secondary to malaria and complications of HIV infection.",
+        route: EJHVOL2ISS311,
+        pages: "118-135",
+    },
 ];
 
 export const Ejivol2iss1 = [
@@ -1813,6 +1820,16 @@ export const Ejivol2iss2 = [
     },
 ];
 
+export const Ejivol2iss3 = [
+    {
+        title: "Impact of Maternal Eosinophils on Neonatal Immunity in HIV-Exposed Infants: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Maternal immune factors, including eosinophils, play a pivotal role in shaping neonatal immunity, particularly in the context of HIV-exposed infants. This review explores the impact of maternal eosinophils on neonatal immunity in HIV-exposed infants, focusing on their role in immune modulation, allergy, infection susceptibility, and the implications for breastfeeding practices and public health interventions.",
+        route: EJIVOL2ISS301,
+        pages: "1-18",
+    },
+];
+
 export const Ejlmvol2iss1 = [
     {
         title: "A Critical Appraisal of Erythropoietin Levels in HIV: Clinical Relevance",
@@ -1888,6 +1905,17 @@ export const Ejlmvol2iss2 = [
         pages: "47-58",
     },
 ];
+
+export const Ejlmvol2iss3 = [
+    {
+        title: "Reactive Oxygen Species and Antioxidant Defense Mechanisms in Sickle Cell Anemia: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Sickle cell anemia (SCA) is a genetic hemoglobinopathy characterized by abnormal hemoglobin S (HbS) production, leading to the formation of sickle-shaped red blood cells. Oxidative stress, resulting from the imbalance between reactive oxygen species (ROS) production and antioxidant defense mechanisms, plays a pivotal role in the pathophysiology of SCA.",
+        route: EJLMVOL2ISS301,
+        pages: "1-10",
+    },
+];
+
 
 export const Ejsrrvol2iss1 = [
     {
