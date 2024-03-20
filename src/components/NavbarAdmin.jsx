@@ -196,17 +196,6 @@ const handleSideItemClick = (link) => {
             </div>
           </div>
 
-          <div className="flex w-full flex-col ss:mt-5 mt-5 border-b-[1px]
-          border-maintext pb-6">
-            <h1 className='text-main ss:text-[30px] text-[25px] font-bold'>
-              Admin Dashboard
-            </h1>
-            <p className='text-maintext ss:text-[16px] text-[13px]'>
-              Manage new membership requests, view info and communicate 
-              with members and more.
-            </p>
-          </div>
-
           <div
             ref={menuRef}
             className='ss:p-6 p-4 bg-white absolute ss:top-5 top-3.5 right-6 
@@ -242,7 +231,7 @@ const handleSideItemClick = (link) => {
               </div>
               
               <div className='hover:text-secondary grow3 ss:text-[21px] 
-              text-[16px] list-item cursor-pointer text-textalt ss:mt-6
+              text-[16px] list-item cursor-pointer text-textalt ss:mt-4
               mt-3'>
                 <a 
                   href='/'
