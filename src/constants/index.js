@@ -11,7 +11,7 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, 
     EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, 
     EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, 
-    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, EJNHSVOL2ISS203, EJNHSVOL2ISS204, EJMVOL2ISS302, EJMVOL2ISS303, EJMVOL2ISS304, EJMSVOL2ISS202, EJNHSVOL2ISS205, EJNHSVOL2ISS206, EJMSVOL2ISS203, EJNHSVOL2ISS301, EJHIVVOL2ISS203, EJIVOL2ISS201, EJIVOL2ISS202, EJHVOL2ISS301, EJLMVOL2ISS202, EJHVOL2ISS302, EJIVOL2ISS203, EJHSVOL2ISS203, EJSRRVOL2ISS201, EJMVOL2ISS305, EJHSVOL2ISS204, EJLMVOL2ISS203, EJIVOL2ISS204, EJLMVOL2ISS204, EJSRRVOL2ISS202, EJHIVVOL2ISS204, EJPHVOL2ISS204, EJHVOL2ISS303, EJHVOL2ISS304, EJHVOL2ISS305, EJHVOL2ISS306, EJPHVOL2ISS205, EJHIVVOL2ISS205, EJPHVOL2ISS301, EJPHVOL2ISS302, EJMVOL2ISS306, EJHSVOL2ISS205, EJHVOL2ISS307, EJHVOL2ISS308, EJMSVOL2ISS204, EJIVOL2ISS205, EJLMVOL2ISS205, EJMSVOL2ISS205, EJHVOL2ISS309, EJHIVVOL2ISS206, EJNHSVOL2ISS302, EJNHSVOL2ISS303, EJHVOL2ISS310, EJHSVOL2ISS206, EJHVOL2ISS311, EJIVOL2ISS301, EJLMVOL2ISS301, EJPHVOL2ISS303, EJPHVOL2ISS304, } 
+    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, EJNHSVOL2ISS203, EJNHSVOL2ISS204, EJMVOL2ISS302, EJMVOL2ISS303, EJMVOL2ISS304, EJMSVOL2ISS202, EJNHSVOL2ISS205, EJNHSVOL2ISS206, EJMSVOL2ISS203, EJNHSVOL2ISS301, EJHIVVOL2ISS203, EJIVOL2ISS201, EJIVOL2ISS202, EJHVOL2ISS301, EJLMVOL2ISS202, EJHVOL2ISS302, EJIVOL2ISS203, EJHSVOL2ISS203, EJSRRVOL2ISS201, EJMVOL2ISS305, EJHSVOL2ISS204, EJLMVOL2ISS203, EJIVOL2ISS204, EJLMVOL2ISS204, EJSRRVOL2ISS202, EJHIVVOL2ISS204, EJPHVOL2ISS204, EJHVOL2ISS303, EJHVOL2ISS304, EJHVOL2ISS305, EJHVOL2ISS306, EJPHVOL2ISS205, EJHIVVOL2ISS205, EJPHVOL2ISS301, EJPHVOL2ISS302, EJMVOL2ISS306, EJHSVOL2ISS205, EJHVOL2ISS307, EJHVOL2ISS308, EJMSVOL2ISS204, EJIVOL2ISS205, EJLMVOL2ISS205, EJMSVOL2ISS205, EJHVOL2ISS309, EJHIVVOL2ISS206, EJNHSVOL2ISS302, EJNHSVOL2ISS303, EJHVOL2ISS310, EJHSVOL2ISS206, EJHVOL2ISS311, EJIVOL2ISS301, EJLMVOL2ISS301, EJPHVOL2ISS303, EJPHVOL2ISS304, EJHSVOL2ISS301, EJHSVOL2ISS302, EJHSVOL2ISS303, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -270,8 +270,8 @@ export const ejhsSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 2. (2024)",
-                route: "/journals/EJHS/VOL2ISS2",
+                name: "Volume 2, Issue 3. (2024)",
+                route: "/journals/EJHS/VOL2ISS3",
             },
         ],
     },
@@ -1585,6 +1585,30 @@ export const Ejhsvol2iss2 = [
         abstract: "The prevalence of obesity has significantly increased globally for individuals of all ages, leading to numerous health risks and lower health-related quality of life. Additionally, research has shown a correlation between obesity and academic performance, with inconsistent findings ranging from a strong negative correlation to a weak positive correlation.",
         route: EJHSVOL2ISS206,
         pages: "50-55",
+    },
+];
+
+export const Ejhsvol2iss3 = [
+    {
+        title: "The Antibacterial Effect of some Selected Chewing Sticks on Bacteria Isolated from Decayed Tooth",
+        authors: "Umar Asiya Imam, Abdulqadir Zahrau and Emmanuel Ifeanyi Obeagu",
+        abstract: "The study assessed the antibacterial efficacy of different chewing sticks purchased from market in Sokoto, on selected bacteria isolated from decayed tooth. 10 decayed tooth specimens were collected from Usmanu Danfodiyo University Teaching Hospital Dental Clinic, in Sokoto State. The specimens were processed for isolation of bacteria following standard bacteriological.",
+        route: EJHSVOL2ISS301,
+        pages: "1-10",
+    },
+    {
+        title: "Bacteriological Study of Wound Infections in Patients Attending Specialist Hospitals Sokoto",
+        authors: "Umar Asiya Imam, Abubakar Zayyanu Sokoto and Emmanuel Ifeanyi Obeagu",
+        abstract: "Wound infection is the invasion and proliferation by one or more species of microorganisms sometimes resulting in pus formation. The aim of this research was to determine the bacterial profile and antibiotic susceptibility pattern of bacterial pathogens isolated from wound infections in patients attending some selected hospitals in Sokoto metropolis, Northwestern of Nigeria.",
+        route: EJHSVOL2ISS302,
+        pages: "11-22",
+    },
+    {
+        title: "Erythropoietin and the Immune System: Relevance in HIV Management",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Erythropoietin (EPO) is recognized primarily for its role in stimulating red blood cell production, but emerging evidence suggests its involvement in modulating immune responses. In the context of HIV infection, where anemia and immune dysregulation are common, understanding the interplay between EPO and the immune system is crucial.",
+        route: EJHSVOL2ISS303,
+        pages: "23-35",
     },
 ];
 
