@@ -127,6 +127,8 @@ import EJLMVOL2ISS3 from './EJLMVOL2ISS3';
 import EjlmVol2Iss3Pubs from './EjlmVol2Iss3Pubs';
 import EJHSVOL2ISS3 from './EJHSVOL2ISS3';
 import EjhsVol2Iss3Pubs from './EjhsVol2Iss3Pubs';
+import EjhivVol2Iss3Pubs from './EjhivVol2Iss3Pubs';
+import EJHIVVOL2ISS3 from './EJHIVVOL2ISS3';
 
 export { 
     Navbar,
@@ -258,4 +260,6 @@ export {
     EjlmVol2Iss3Pubs,
     EJHSVOL2ISS3,
     EjhsVol2Iss3Pubs,
+    EjhivVol2Iss3Pubs,
+    EJHIVVOL2ISS3,
 }
