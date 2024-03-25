@@ -1276,11 +1276,11 @@ export const vol2iss3 = [
         pages: "63-77",
     },
     {
-        title: "From Challenges to Solutions: Groundbreaking HIV Prevention Innovations in Africa",
-        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
-        abstract: "HIV/AIDS remains a pressing public health challenge in Africa, with the continent bearing a disproportionate burden of the global epidemic. Despite efforts to curb transmission, traditional prevention strategies encounter barriers in effectively reaching key populations.",
+        title: "Level of Awareness of Patients to Symptoms of Hypertension in Rural and Urban Hospitals in Umuahia Abia State: A Comparative Study of Rural and Urban Hospitals in Umuahia, Abia State",
+        authors: "Pauline Chizomam Uroegbulam, Julia Ibebuike, C.C. Akuwudike, J. Innocent and Chinelo C.N. Vincent",
+        abstract: "The research investigated the prevalence and determinants of hypertension in rural and urban hospitals in Umuahia, Abia state. Related literature was reviewed. Four research questions and two null hypotheses were formulated for the study. The descriptive survey design was adopted for the study.",
         route: EJPHVOL2ISS307,
-        pages: "37-51",
+        pages: "78-85",
     },
 ];
 
