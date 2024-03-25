@@ -1269,11 +1269,11 @@ export const vol2iss3 = [
         pages: "52-62",
     },
     {
-        title: "From Challenges to Solutions: Groundbreaking HIV Prevention Innovations in Africa",
-        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
-        abstract: "HIV/AIDS remains a pressing public health challenge in Africa, with the continent bearing a disproportionate burden of the global epidemic. Despite efforts to curb transmission, traditional prevention strategies encounter barriers in effectively reaching key populations.",
+        title: "Empowering Progress: Impactful Innovations in HIV Prevention in Africa",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "In the battle against HIV/AIDS, Africa has been a pivotal battleground, grappling with a disproportionate burden of the epidemic. This review delves into the landscape of HIV prevention in Africa, focusing on innovative strategies that have catalyzed progress and empowered communities in the fight against the virus.",
         route: EJPHVOL2ISS306,
-        pages: "37-51",
+        pages: "63-77",
     },
     {
         title: "From Challenges to Solutions: Groundbreaking HIV Prevention Innovations in Africa",
