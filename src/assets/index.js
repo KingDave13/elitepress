@@ -183,6 +183,11 @@ import EJHSVOL2ISS305 from './EJHSVOL2ISS305.pdf';
 import EJLMVOL2ISS303 from './EJLMVOL2ISS303.pdf';
 import EJHIVVOL2ISS304 from './EJHIVVOL2ISS304.pdf';
 import EJNHSVOL2ISS308 from './EJNHSVOL2ISS308.pdf';
+import EJPHVOL2ISS401 from './EJPHVOL2ISS401.pdf';
+import EJNHSVOL2ISS401 from './EJNHSVOL2ISS401.pdf';
+import EJMSVOL2ISS302 from './EJMSVOL2ISS302.pdf';
+import EJHSVOL2ISS306 from './EJHSVOL2ISS306.pdf';
+import EJPHVOL2ISS308 from './EJPHVOL2ISS308.pdf';
 
 import logout from './logout.png';
 import arrowreverse from './arrowreverse.png';
