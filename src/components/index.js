@@ -135,6 +135,10 @@ import Vol2Iss4Pubs from './Vol2Iss4Pubs';
 import EJPHVOL2ISS4 from './EJPHVOL2ISS4';
 import EjnhsVol2Iss4Pubs from './EjnhsVol2Iss4Pubs';
 import EJNHSVOL2ISS4 from './EJNHSVOL2ISS4';
+import EJHSVOL2ISS4 from './EJHSVOL2ISS4';
+import EjhsVol2Iss4Pubs from './EjhsVol2Iss4Pubs';
+import EJHVOL2ISS4 from './EJHVOL2ISS4';
+import EjhVol2Iss4Pubs from './EjhVol2Iss44Pubs';
 
 export { 
     Navbar,
