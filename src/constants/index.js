@@ -50,8 +50,8 @@ export const ejhSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 3. (2024)",
-                route: "/journals/EJH/VOL2ISS3",
+                name: "Volume 2, Issue 4. (2024)",
+                route: "/journals/EJH/VOL2ISS4",
             },
         ],
     },
@@ -270,8 +270,8 @@ export const ejhsSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 3. (2024)",
-                route: "/journals/EJHS/VOL2ISS3",
+                name: "Volume 2, Issue 4. (2024)",
+                route: "/journals/EJHS/VOL2ISS4",
             },
         ],
     },
