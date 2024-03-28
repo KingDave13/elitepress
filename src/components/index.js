@@ -138,7 +138,7 @@ import EJNHSVOL2ISS4 from './EJNHSVOL2ISS4';
 import EJHSVOL2ISS4 from './EJHSVOL2ISS4';
 import EjhsVol2Iss4Pubs from './EjhsVol2Iss4Pubs';
 import EJHVOL2ISS4 from './EJHVOL2ISS4';
-import EjhVol2Iss4Pubs from './EjhVol2Iss44Pubs';
+import EjhVol2Iss4Pubs from './EjhVol2Iss4Pubs';
 
 export { 
     Navbar,
