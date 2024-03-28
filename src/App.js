@@ -9,7 +9,7 @@ import { EJH, EJM, EJHIV, EJHS, EJI, EJLM, EJMS, EJNHS, EJPH, EJSRR,
   EjhivVol2, EjhivVol2Iss2, EjnhsVol2Iss3, EjiVol2, EjiVol2Iss2, 
   EjhVol2Iss3, EjsrrVol2, EjsrrVol2Iss2, Vol2Iss3, EjiVol2Iss3, 
   EjlmVol2Iss3, EjhsVol2Iss3, EjhivVol2Iss3, EjmsVol2Iss3, 
-  EjnhsVol2Iss4, Vol2Iss4, } from './pages';
+  EjnhsVol2Iss4, Vol2Iss4, EjhVol2Iss4, EjhsVol2Iss4, } from './pages';
 import  ScrollToTop  from './constants/ScrollToTop';
 
 const App = () => {
@@ -40,15 +40,17 @@ const App = () => {
           <Route path='/journals/EJPH/Vol1/Vol1Iss1' element={<Vol1Iss1 />} />
           <Route path='/journals/EJH/Vol2/Vol2Iss1' element={<EjhVol2Iss1 />} />
           <Route path='/journals/EJH/Vol2/Vol2Iss2' element={<EjhVol2Iss2 />} />
-          <Route path='/journals/EJH/Vol2Iss3' element={<EjhVol2Iss3 />} />
+          <Route path='/journals/EJH/Vol2/Vol2Iss3' element={<EjhVol2Iss3 />} />
+          <Route path='/journals/EJH/Vol2Iss4' element={<EjhVol2Iss4 />} />
           <Route path='/journals/EJH/Vol2' element={<EjhVol2 />} />
           <Route path='/journals/EJMS/Vol2Iss3' element={<EjmsVol2Iss3 />} />
           <Route path='/journals/EJMS/Vol2' element={<EjmsVol2 />} />
           <Route path='/journals/EJMS/Vol2/Vol2Iss1' element={<EjmsVol2Iss1 />} />
           <Route path='/journals/EJMS/Vol2/Vol2Iss2' element={<EjmsVol2Iss2 />} />
-          <Route path='/journals/EJHS/Vol2Iss3' element={<EjhsVol2Iss3 />} />
+          <Route path='/journals/EJHS/Vol2Iss4' element={<EjhsVol2Iss4 />} />
           <Route path='/journals/EJHS/Vol2/Vol2Iss1' element={<EjhsVol2Iss1 />} />
           <Route path='/journals/EJHS/Vol2/Vol2Iss2' element={<EjhsVol2Iss2 />} />
+          <Route path='/journals/EJHS/Vol2/Vol2Iss3' element={<EjhsVol2Iss3 />} />
           <Route path='/journals/EJHS/Vol2' element={<EjhsVol2 />} />
           <Route path='/journals/EJM/Vol2/Vol2Iss1' element={<EjmVol2Iss1 />} />
           <Route path='/journals/EJM/Vol1/Vol1Iss1' element={<EjmVol1Iss1 />} />
