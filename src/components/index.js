@@ -278,4 +278,8 @@ export {
     EJPHVOL2ISS4,
     EjnhsVol2Iss4Pubs,
     Vol2Iss4Pubs,
+    EJHSVOL2ISS4,
+    EJHVOL2ISS4,
+    EjhVol2Iss4Pubs,
+    EjhsVol2Iss4Pubs,
 }
