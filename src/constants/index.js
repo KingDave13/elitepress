@@ -1884,7 +1884,7 @@ export const Ejhvol2iss3 = [
 
 export const Ejhvol2iss4 = [
     {
-        title: "Assessment of Prothrombin Time Activated Partial Thromboplastin Time, and Platelets Count among Children with Schistosomiasis at Alhajalej School, Assalay Locality, White Nile State, Sudan",
+        title: "Assessment of Prothrombin Time, Activated Partial Thromboplastin Time and Platelets Count among Children with Schistosomiasis at Alhajalej School, Assalay Locality, White Nile State, Sudan",
         authors: "Elham Elamin, Abdelhakam G. Tamomh, Ahmed M. E. Elkhalifa, Emmanuel Ifeanyi Obeagu, Almanna A. HassbAllah, Ibrahim E. Mustafa and Yunus B. Y. Ahmed",
         abstract: "Schistosomiasis plays critical role to increase the risk for several diseases worldwide particular in developing country, also are related to hematologic changes by disturbing blood flow and endothelial function, which leads to hypercoagulability.",
         route: EJHVOL2ISS402,
