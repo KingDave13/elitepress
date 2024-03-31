@@ -11,7 +11,7 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS105, EJIVOL2ISS101, EJIVOL2ISS102, EJSRRVOL2ISS101, 
     EJSRRVOL2ISS102, EJSRRVOL2ISS105, EJSRRVOL2ISS104, EJSRRVOL2ISS103, 
     EJIVOL2ISS103, EJIVOL2ISS104, EJIVOL2ISS105, EJHVOL2ISS201, 
-    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, EJNHSVOL2ISS203, EJNHSVOL2ISS204, EJMVOL2ISS302, EJMVOL2ISS303, EJMVOL2ISS304, EJMSVOL2ISS202, EJNHSVOL2ISS205, EJNHSVOL2ISS206, EJMSVOL2ISS203, EJNHSVOL2ISS301, EJHIVVOL2ISS203, EJIVOL2ISS201, EJIVOL2ISS202, EJHVOL2ISS301, EJLMVOL2ISS202, EJHVOL2ISS302, EJIVOL2ISS203, EJHSVOL2ISS203, EJSRRVOL2ISS201, EJMVOL2ISS305, EJHSVOL2ISS204, EJLMVOL2ISS203, EJIVOL2ISS204, EJLMVOL2ISS204, EJSRRVOL2ISS202, EJHIVVOL2ISS204, EJPHVOL2ISS204, EJHVOL2ISS303, EJHVOL2ISS304, EJHVOL2ISS305, EJHVOL2ISS306, EJPHVOL2ISS205, EJHIVVOL2ISS205, EJPHVOL2ISS301, EJPHVOL2ISS302, EJMVOL2ISS306, EJHSVOL2ISS205, EJHVOL2ISS307, EJHVOL2ISS308, EJMSVOL2ISS204, EJIVOL2ISS205, EJLMVOL2ISS205, EJMSVOL2ISS205, EJHVOL2ISS309, EJHIVVOL2ISS206, EJNHSVOL2ISS302, EJNHSVOL2ISS303, EJHVOL2ISS310, EJHSVOL2ISS206, EJHVOL2ISS311, EJIVOL2ISS301, EJLMVOL2ISS301, EJPHVOL2ISS303, EJPHVOL2ISS304, EJHSVOL2ISS301, EJHSVOL2ISS302, EJHSVOL2ISS303, EJNHSVOL2ISS304, EJNHSVOL2ISS305, EJHIVVOL2ISS301, EJIVOL2ISS302, EJLMVOL2ISS302, EJSRRVOL2ISS203, EJNHSVOL2ISS306, EJNHSVOL2ISS3007, EJHIVVOL2ISS302, EJHIVVOL2ISS303, EJIVOL2ISS303, EJHVOL2ISS312, EJHSVOL2ISS304, EJMSVOL2ISS301, EJLMVOL2ISS303, EJNHSVOL2ISS308, EJHIVVOL2ISS304, EJHSVOL2ISS305, EJPHVOL2ISS305, EJPHVOL2ISS306, EJPHVOL2ISS307, EJPHVOL2ISS401, EJPHVOL2ISS308, EJMSVOL2ISS302, EJHSVOL2ISS306, EJNHSVOL2ISS401, EJHIVVOL2ISS305, EJHVOL2ISS402, EJHVOL2ISS403, EJHVOL2ISS404, EJHSVOL2ISS401, EJPHVOL2ISS402, EJHVOL2ISS401, } 
+    EJHVOL2ISS202, EJMVOL2ISS201, EJMVOL2ISS202, EJHSVOL2ISS201, EJNHSVOL2ISS201, EJMVOL2ISS203, EJMVOL2ISS204, EJMVOL2ISS205, EJMVOL2ISS206, EJMVOL2ISS207, EJHSVOL2ISS202, EJMVOL2ISS208, EJPHVOL2ISS201, EJLMVOL2ISS201, EJHVOL2ISS203, EJHVOL2ISS204, EJHVOL2ISS205, EJHVOL2ISS206, EJMVOL2ISS209, EJPHVOL2ISS202, EJPHVOL2ISS203, EJNHSVOL2ISS202, EJMVOL2ISS210, EJHVOL2ISS207, EJMSVOL2ISS201, EJMVOL2ISS301, EJHIVVOL2ISS202, EJHIVVOL2ISS201, EJNHSVOL2ISS203, EJNHSVOL2ISS204, EJMVOL2ISS302, EJMVOL2ISS303, EJMVOL2ISS304, EJMSVOL2ISS202, EJNHSVOL2ISS205, EJNHSVOL2ISS206, EJMSVOL2ISS203, EJNHSVOL2ISS301, EJHIVVOL2ISS203, EJIVOL2ISS201, EJIVOL2ISS202, EJHVOL2ISS301, EJLMVOL2ISS202, EJHVOL2ISS302, EJIVOL2ISS203, EJHSVOL2ISS203, EJSRRVOL2ISS201, EJMVOL2ISS305, EJHSVOL2ISS204, EJLMVOL2ISS203, EJIVOL2ISS204, EJLMVOL2ISS204, EJSRRVOL2ISS202, EJHIVVOL2ISS204, EJPHVOL2ISS204, EJHVOL2ISS303, EJHVOL2ISS304, EJHVOL2ISS305, EJHVOL2ISS306, EJPHVOL2ISS205, EJHIVVOL2ISS205, EJPHVOL2ISS301, EJPHVOL2ISS302, EJMVOL2ISS306, EJHSVOL2ISS205, EJHVOL2ISS307, EJHVOL2ISS308, EJMSVOL2ISS204, EJIVOL2ISS205, EJLMVOL2ISS205, EJMSVOL2ISS205, EJHVOL2ISS309, EJHIVVOL2ISS206, EJNHSVOL2ISS302, EJNHSVOL2ISS303, EJHVOL2ISS310, EJHSVOL2ISS206, EJHVOL2ISS311, EJIVOL2ISS301, EJLMVOL2ISS301, EJPHVOL2ISS303, EJPHVOL2ISS304, EJHSVOL2ISS301, EJHSVOL2ISS302, EJHSVOL2ISS303, EJNHSVOL2ISS304, EJNHSVOL2ISS305, EJHIVVOL2ISS301, EJIVOL2ISS302, EJLMVOL2ISS302, EJSRRVOL2ISS203, EJNHSVOL2ISS306, EJNHSVOL2ISS3007, EJHIVVOL2ISS302, EJHIVVOL2ISS303, EJIVOL2ISS303, EJHVOL2ISS312, EJHSVOL2ISS304, EJMSVOL2ISS301, EJLMVOL2ISS303, EJNHSVOL2ISS308, EJHIVVOL2ISS304, EJHSVOL2ISS305, EJPHVOL2ISS305, EJPHVOL2ISS306, EJPHVOL2ISS307, EJPHVOL2ISS401, EJPHVOL2ISS308, EJMSVOL2ISS302, EJHSVOL2ISS306, EJNHSVOL2ISS401, EJHIVVOL2ISS305, EJHVOL2ISS402, EJHVOL2ISS403, EJHVOL2ISS404, EJHSVOL2ISS401, EJPHVOL2ISS402, EJHVOL2ISS401, EJHVOL2ISS405, EJHVOL2ISS406, EJHVOL2ISS407, EJHVOL2ISS408, EJHVOL2ISS409, EJIVOL2ISS304, EJIVOL2ISS305, EJIVOL2ISS401, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1911,6 +1911,41 @@ export const Ejhvol2iss4 = [
         route: EJHVOL2ISS404,
         pages: "36-50",
     },
+    {
+        title: "Anemia in HIV: The Role of Erythropoietin in Disease Progression",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Anemia is a common complication in individuals living with HIV (human immunodeficiency virus), contributing significantly to morbidity and mortality. Erythropoietin (EPO), a key hormone in regulating red blood cell production, plays a crucial role in the pathogenesis and management of anemia in HIV-infected individuals.",
+        route: EJHVOL2ISS405,
+        pages: "51-67",
+    },
+    {
+        title: "ART and Platelet Dynamics: Assessing Implications for HIV Patient Care",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Antiretroviral therapy (ART) has drastically improved the prognosis of HIV infection, yet its effects on platelet dynamics raise concerns regarding hematological complications. Thrombocytopenia, characterized by low platelet counts, is a prevalent complication among HIV-infected individuals receiving ART.",
+        route: EJHVOL2ISS406,
+        pages: "68-85",
+    },
+    {
+        title: "Exploring Hemovigilance in Blood Transfusion for HIV-Positive Individuals: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Hemovigilance, the systematic monitoring and surveillance of blood transfusion practices, plays a critical role in ensuring the safety and quality of transfusion therapy for individuals living with Human Immunodeficiency Virus (HIV).",
+        route: EJHVOL2ISS407,
+        pages: "36-50",
+    },
+    {
+        title: "GATA-1 and Hematopoietic Stem Cell Dysfunction in HIV-Related Hematological Malignancies: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Hematological malignancies represent a significant complication in individuals living with HIV/AIDS, posing unique challenges in diagnosis, treatment, and management. GATA-1, a critical transcription factor involved in hematopoietic stem cell (HSC) differentiation and maturation, has garnered attention for its potential role in the pathogenesis of hematological malignancies in the context of HIV infection.",
+        route: EJHVOL2ISS408,
+        pages: "105-122",
+    },
+    {
+        title: "Exploration of Intricate Relationship between GATA-1 and Anemia in HIV",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Anemia is a prevalent complication in individuals living with HIV/AIDS, contributing significantly to morbidity and mortality. Despite advancements in treatment, anemia remains a persistent challenge in managing HIV/AIDS patients, with multifactorial origins. Recent research has shed light on the role of GATA-1, a pivotal transcription factor governing erythropoiesis, in the pathogenesis of anemia in HIV/AIDS.",
+        route: EJHVOL2ISS409,
+        pages: "123-140",
+    },
 ];
 
 export const Ejivol2iss1 = [
@@ -2010,6 +2045,30 @@ export const Ejivol2iss3 = [
         abstract: "Pediatric HIV infection presents unique challenges due to the developing immune system and distinctive clinical manifestations compared to adult HIV infection. Innate immune activation, a fundamental component of the early host defense response, plays a crucial role in shaping the pathogenesis and clinical course of HIV in children.",
         route: EJIVOL2ISS303,
         pages: "33-44",
+    },
+    {
+        title: "HIV-Induced Immune Exhaustion in Neonates: A Review of Mechanisms and Implications",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "HIV infection during early life poses unique challenges to neonatal immune development, potentially leading to immune exhaustion and increased susceptibility to infections. This review explores the mechanisms and implications of HIV-induced immune exhaustion in neonates, focusing on the intricate interplay between viral pathogenesis, host immune responses, and developmental factors.",
+        route: EJIVOL2ISS304,
+        pages: "45-61",
+    },
+    {
+        title: "Immunodeficiency and Immune Reconstitution in Pediatric HIV: Mechanisms, Challenges, and Therapeutic Strategies",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Pediatric HIV infection poses unique challenges to the developing immune system, leading to profound immunodeficiency and impaired immune reconstitution despite antiretroviral therapy (ART).",
+        route: EJIVOL2ISS305,
+        pages: "62-79",
+    },
+];
+
+export const Ejivol2iss4 = [
+    {
+        title: "Programmed Cell Death Protein 1 (PD-1) and Immune Checkpoint Inhibitors in HIV-Related Lymphomas: Current Insights and Future Directions",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "HIV infection is associated with an increased risk of lymphomas, presenting a therapeutic challenge due to the complex interplay between immune dysfunction and tumorigenesis. The programmed cell death protein 1 (PD-1) pathway has emerged as a pivotal immune checkpoint involved in the pathogenesis of HIV-related lymphomas, offering a promising target for immunotherapy.",
+        route: EJIVOL2ISS401,
+        pages: "1-17",
     },
 ];
 
