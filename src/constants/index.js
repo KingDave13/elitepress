@@ -1926,11 +1926,11 @@ export const Ejhvol2iss4 = [
         pages: "68-85",
     },
     {
-        title: "Exploring Hemovigilance in Blood Transfusion for HIV-Positive Individuals: A Review",
-        authors: "Emmanuel Ifeanyi Obeagu",
-        abstract: "Hemovigilance, the systematic monitoring and surveillance of blood transfusion practices, plays a critical role in ensuring the safety and quality of transfusion therapy for individuals living with Human Immunodeficiency Virus (HIV).",
+        title: "Hematological Consequences of Erythropoietin in HIV: Clinical Implications",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Hematological complications, particularly anemia, are common in individuals living with HIV and can significantly impact their quality of life and disease outcomes. Erythropoietin, a key regulator of erythropoiesis, has been investigated as a therapeutic intervention to manage anemia in HIV-infected individuals.",
         route: EJHVOL2ISS407,
-        pages: "36-50",
+        pages: "86-104",
     },
     {
         title: "GATA-1 and Hematopoietic Stem Cell Dysfunction in HIV-Related Hematological Malignancies: A Review",

@@ -139,6 +139,10 @@ import EJHSVOL2ISS4 from './EJHSVOL2ISS4';
 import EjhsVol2Iss4Pubs from './EjhsVol2Iss4Pubs';
 import EJHVOL2ISS4 from './EJHVOL2ISS4';
 import EjhVol2Iss4Pubs from './EjhVol2Iss4Pubs';
+import EJIVOL2ISS4 from './EJIVOL2ISS4';
+import EJHIVVOL2ISS4 from './EJHIVVOL2ISS4';
+import EjhivVol2Iss4Pubs from './EjhivVol2Iss4Pubs';
+import EjiVol2Iss4Pubs from './EjiVol2Iss4Pubs';
 
 export { 
     Navbar,
@@ -282,4 +286,8 @@ export {
     EJHVOL2ISS4,
     EjhVol2Iss4Pubs,
     EjhsVol2Iss4Pubs,
+    EJHIVVOL2ISS4,
+    EJIVOL2ISS4,
+    EjhivVol2Iss4Pubs,
+    EjiVol2Iss4Pubs,
 }
