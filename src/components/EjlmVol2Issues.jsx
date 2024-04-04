@@ -34,11 +34,11 @@ const EJLMVol2Issues = () => {
                 </div>
 
                 <div className='w-full cursor-pointer shadow-md hover:shadow-lg 
-                    rounded-lg bg-main2 md:py-5 ss:py-5 flex items-center
+                    rounded-lg bg-primaryalt md:py-5 ss:py-5 flex items-center
                     justify-center py-3'
-                    // onClick={() => {
-                    //     navigate('/journals/EJM/Vol2Iss1');
-                    // }}
+                    onClick={() => {
+                        navigate('/journals/EJLM/Vol2/Vol2Iss3');
+                    }}
                 >
                     <p className="md:text-[20px] ss:text-[14px] font-medium">
                         Issue 3
