@@ -71,24 +71,24 @@ const Login = () => {
         password: Yup.string().required('Password is required.'),
       }),
 
-    //   onSubmit: async (values) => {
-    //     try {
-    //       const res = await signIn("credentials", {
-    //         email: values.email,
-    //         password: values.password,
-    //         redirect: false,
-    //       })
-    //       if(res.error) {
-    //         console.log(res.error, 'invalid credentials');
-    //         setModalOpen(true);
-    //         disableScroll();
-    //         return;
-    //       }
-    //       router.push('/requests');
-    //     } catch (error) {
-    //       console.log(error, 'Could not log in');
-    //     }
-    //   },
+      onSubmit: async (values) => {
+        try {
+          const res = await fetch("http://localhost:3001/auth/login", {
+            method: 'POST',
+            body: JSON.stringify({
+              email: values.email,
+              password: values.password,
+            }),
+          });
+          if (res.ok) {
+            console.log('Admin user registered successfully');
+          } else {
+            console.error('Failed to register admin user');
+          }
+        } catch (error) {
+          console.error('Error registering admin user:', error);
+        }
+      },
   });
 
   return (
