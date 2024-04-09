@@ -1,9 +1,7 @@
-
 import { useState, useEffect, useRef } from 'react';
 import { BsX } from 'react-icons/bs';
 import styles from '../styles';
 import { HiOutlineMenuAlt3 } from 'react-icons/hi';
-// import { sideLinks } from '../constants';
 import { logo, picture, arrow, arrowreverse, logout } from '../assets';
 import { Link, useNavigate } from 'react-router-dom';
 

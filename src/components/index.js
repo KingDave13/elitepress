@@ -4,6 +4,7 @@ import NavbarAlt2 from './NavbarAlt2';
 import NavbarAlt3 from './NavbarAlt3';
 import NavbarPages from './NavbarPages';
 import NavbarAdmin from './NavbarAdmin';
+import NavbarAdminLogin from './NavbarAdminLogin';
 
 import Hero from './Hero';
 import Hero2 from './Hero2';
@@ -157,6 +158,7 @@ export {
     NavbarAlt3,
     NavbarPages,
     NavbarAdmin,
+    NavbarAdminLogin,
 
     Hero,
     Hero2,

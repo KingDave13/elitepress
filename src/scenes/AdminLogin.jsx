@@ -1,5 +1,5 @@
 import {
-    NavbarAdmin, Login,
+    Login, NavbarAdminLogin,
 } from '../components';
 
 import { useEffect } from 'react';
@@ -12,7 +12,7 @@ const AdminLogin = () => {
 
     return (
         <div className='font-instrument-sans'>
-            <NavbarAdmin />
+            <NavbarAdminLogin />
 
             <div className='hero'>
                 <Login />
