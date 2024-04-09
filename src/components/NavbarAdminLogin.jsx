@@ -1,48 +1,35 @@
-import { useState, useEffect } from 'react';
 import styles from '../styles';
 import { logo } from '../assets';
 import { Link } from 'react-router-dom';
 
 
 const NavbarAdminLogin = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 0);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
-
+ 
   return (
     <nav className={`${styles.paddingX} w-full flex items-center fixed 
-    md:py-6 ss:py-6 py-3 top-0 z-20 navsmooth backdrop-blur-md bg-opacity-90
-    ${ isScrolled ? 'bg-primaryalt shadow-lg' : '' }`}
+    md:py-6 ss:py-6 py-5 top-0 z-20 bg-primaryalt`}
     >
         <div className="w-full flex items-center max-w-[82rem] mx-auto">
-            <div className='flex w-full justify-between hidden md:flex 
-            items-center'>
+            <div className='flex w-full justify-between items-center'>
                 <Link to='/admin'
                 onClick={() => {
                 window.scrollTo(0, 0);
                 }}
-                className='md:mr-10'>
+                className='md:mr-10 ss:mr-8 mr-6'>
                 <img src={logo} alt='logo'
-                className='md:w-[120px] ss:w-[80px] w-[45px] h-auto'/>
+                className='md:w-[75px] ss:w-[75px] w-[70px] h-auto'/>
                 </Link>
 
                 <div className="flex w-full flex-col">
-                    <h1 className='text-main font-bold text-[30px]'>
+                    <h1 className='text-main font-bold md:text-[30px]
+                    ss:text-[28px] text-[21px] md:leading-[40px] 
+                    ss:leading-[40px] leading-[30px]'>
                     Admin Dashboard
                     </h1>
 
-                    <p className='text-maintext text-[17px]'>
+                    <p className='text-maintext md:text-[17px]
+                    ss:text-[16px] text-[13px] md:leading-[25px] 
+                    ss:leading-[25px] leading-[15px]'>
                     Manage papers and articles for each journal, 
                     submisson requests and more.
                     </p>
