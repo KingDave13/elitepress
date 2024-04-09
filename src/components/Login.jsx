@@ -110,7 +110,7 @@ const Login = () => {
       )}
 
       <motion.div variants={slideIn('down', 'tween', 0.2, 1)}
-        className='md:w-1/2 ss:w-2/3 w-full font-medium flex 
+        className='md:w-1/2 ss:w-3/4 w-full font-medium flex 
         items-center justify-center flex-col bg-main2 rounded-lg 
         md:p-10 ss:p-10 p-6 shadow-xl md:mb-0 ss:mb-60 mb-60'
       >
