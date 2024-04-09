@@ -378,8 +378,8 @@ export const ejmsSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 3. (2024)",
-                route: "/journals/EJMS/VOL2ISS3",
+                name: "Volume 2, Issue 4. (2024)",
+                route: "/journals/EJMS/VOL2ISS4",
             },
         ],
     },
