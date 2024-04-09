@@ -75,6 +75,9 @@ const Login = () => {
         try {
           const res = await fetch("http://localhost:3001/auth/login", {
             method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
             body: JSON.stringify({
               email: values.email,
               password: values.password,
@@ -82,6 +85,8 @@ const Login = () => {
           });
           if (res.ok) {
             console.log('Admin user registered successfully');
+          } else if (res.status === 400) {
+            console.error('An admin with this email already exists');
           } else {
             console.error('Failed to register admin user');
           }
