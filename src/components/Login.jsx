@@ -1,10 +1,10 @@
 import { useEffect, useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { slideIn } from '../utils/motion';
 import { useFormik } from "formik";
 import * as Yup from 'yup';
-// import { signIn } from "next-auth/react";
 import { SectionWrapper } from "../hoc";
 
 const Modal = ({ onClose }) => {
@@ -50,9 +50,15 @@ const Modal = ({ onClose }) => {
 };
 
 const Login = () => {
-    const navigate = useNavigate();
-    const [modalOpen, setModalOpen] = useState(false);
-    const [scrollPosition, setScrollPosition] = useState(0);
+  const navigate = useNavigate();
+  const [modalOpen, setModalOpen] = useState(false);
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  const [showPassword, setShowPassword] = useState(false);
+
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+};
 
   const disableScroll = () => {
     setScrollPosition(window.pageYOffset);
@@ -118,39 +124,40 @@ const Login = () => {
         className='flex flex-col w-full md:mt-8 ss:mt-5 mt-5 md:gap-4
         ss:gap-4 gap-3'>
           <div className="flex flex-col">
-              <label className="text-main font-bold md:mb-3 ss:mb-2 mb-2 
-              md:text-[18px] ss:text-[15px] text-[14px]">
-                Email
-              </label>
-              <input
-              type="email"
-              name="email"
-              value={formik.values.email}
-              onChange={formik.handleChange}
+            <label className="text-main font-bold md:mb-3 ss:mb-2 mb-2 
+            md:text-[18px] ss:text-[15px] text-[14px]">
+              Email
+            </label>
+            <input
+            type="email"
+            name="email"
+            value={formik.values.email}
+            onChange={formik.handleChange}
 
-              onBlur={formik.handleBlur}
-              placeholder="Enter your email"
-              className="md:py-3 ss:py-2 py-2 px-4 border-none 
-              outline-none text-maintext md:rounded-[5px] 
-              ss:rounded-[3px] rounded-[3px] placeholder:text-textalt 
-              focus:outline-none md:placeholder:text-[15px] 
-              ss:placeholder:text-[12px] placeholder:text-[12px] 
-              bg-primaryalt"
-              />
-              <p className="text-mainRed md:text-[14px] 
-              ss:text-[12px] text-[11px] md:mt-2 ss:mt-2 mt-1"
-              >
-                {formik.touched.email && formik.errors.email}
-              </p>
+            onBlur={formik.handleBlur}
+            placeholder="Enter your email"
+            className="md:py-3 ss:py-2 py-2 px-4 border-none 
+            outline-none text-maintext md:rounded-[5px] 
+            ss:rounded-[3px] rounded-[3px] placeholder:text-textalt 
+            focus:outline-none md:placeholder:text-[15px] 
+            ss:placeholder:text-[12px] placeholder:text-[12px] 
+            bg-primaryalt"
+            />
+            <p className="text-mainRed md:text-[14px] 
+            ss:text-[12px] text-[11px] md:mt-2 ss:mt-2 mt-1"
+            >
+              {formik.touched.email && formik.errors.email}
+            </p>
           </div>
 
           <div className="flex flex-col">
-              <label className="text-main font-bold md:mb-3 ss:mb-2 mb-2 
-              md:text-[18px] ss:text-[15px] text-[14px]">
-                Password
-              </label>
+            <label className="text-main font-bold md:mb-3 ss:mb-2 mb-2 
+            md:text-[18px] ss:text-[15px] text-[14px]">
+              Password
+            </label>
+            <div className="relative">
               <input
-              type="text"
+              type={showPassword ? "text" : "password"}
               name="password"
               value={formik.values.password}
               onChange={formik.handleChange}
@@ -161,13 +168,28 @@ const Login = () => {
               ss:rounded-[3px] rounded-[3px] placeholder:text-textalt 
               focus:outline-none md:placeholder:text-[15px] 
               ss:placeholder:text-[12px] placeholder:text-[12px] 
-              bg-primaryalt"
+              bg-primaryalt w-full"
               />
-              <p className="text-mainRed md:text-[14px] 
-              ss:text-[12px] text-[11px] md:mt-2 ss:mt-2 mt-1"
-              >
-                {formik.touched.password && formik.errors.password}
-              </p>
+              <div className="absolute right-0 inset-y-0 flex pr-4
+              items-center">
+                {showPassword ? (
+                    <FaEyeSlash
+                      className="text-gray-400 cursor-pointer"
+                      onClick={togglePasswordVisibility}
+                    />
+                ) : (
+                    <FaEye
+                      className="text-gray-400 cursor-pointer"
+                      onClick={togglePasswordVisibility}
+                    />
+                )}
+              </div>
+            </div>
+            <p className="text-mainRed md:text-[14px] 
+            ss:text-[12px] text-[11px] md:mt-2 ss:mt-2 mt-1"
+            >
+              {formik.touched.password && formik.errors.password}
+            </p>
           </div>
 
           <div className="md:mt-2 ss:mt-2 mt-3 w-full flex items-center 
