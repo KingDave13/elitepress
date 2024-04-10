@@ -280,6 +280,10 @@ export const ejhsSideLinks = [
         title: "Archives",
         links: [
             {
+                name: "Volume 1 (2023)",
+                route: "/journals/EJHS/VOL1",
+            }, 
+            {
                 name: "Volume 2 (2024)",
                 route: "/journals/EJHS/VOL2",
             }, 
