@@ -1,4 +1,6 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Navigate, Routes, Route } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+
 import { AboutPage, ContactPage, HomePage, JournalsPage, AdminLogin, AdminHome } from './scenes';
 import { EJH, EJM, EJHIV, EJHS, EJI, EJLM, EJMS, EJNHS, EJPH, EJSRR, 
   Vol2Iss1, Vol1Iss1, EjhVol2Iss1, EjmsVol2Iss1, EjhsVol2Iss1, 
@@ -16,6 +18,8 @@ import { EJH, EJM, EJHIV, EJHS, EJI, EJLM, EJMS, EJNHS, EJPH, EJSRR,
 import  ScrollToTop  from './constants/ScrollToTop';
 
 const App = () => {
+  const isAuth = Boolean(useSelector((state) => state.token));
+
   return (
     <BrowserRouter>
       <ScrollToTop>
@@ -94,7 +98,7 @@ const App = () => {
 
           <Route path='/admin' element={<AdminLogin />} />
           <Route path='/admin/dashboard' 
-            element = { <AdminHome />} 
+            element = {isAuth ? <AdminHome /> : <Navigate to='/admin' />} 
             />
         </Routes>
       </ScrollToTop>
