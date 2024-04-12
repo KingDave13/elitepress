@@ -214,7 +214,7 @@ const Login = () => {
             </button>
 
             <a 
-              href=""
+              href="/admin"
               className='text-mainRed md:text-[16px] ss:text-[15px]
               text-[13px] grow2 font-medium'
             >
