@@ -156,6 +156,15 @@ import EJHSVOL1 from './EJHSVOL1';
 import EJHSVOL1ISS1 from './EJHSVOL1ISS1';
 import EjhsVol1Issues from './EjhsVol1Issues';
 import EjhsVol1Iss1Pubs from './EjhsVol1Iss1Pubs';
+import EJMSVOL1 from './EJMSVOL1';
+import EJMSVOL1ISS1 from './EJMSVOL1ISS1';
+import EjmsVol1Iss1Pubs from './EjmsVol1Iss1Pubs';
+import EjmsVol1Issues from './EjmsVol1Issues';
+
+import EJNHSVOL1 from './EJNHSVOL1';
+import EJNHSVOL1ISS1 from './EJNHSVOL1ISS1';
+import EjnhsVol1Iss1Pubs from './EjnhsVol1Iss1Pubs';
+import EjnhsVol1Issues from './EjnhsVol1Issues';
 
 export { 
     Navbar,
@@ -316,4 +325,12 @@ export {
     EJHSVOL1ISS1,
     EjhsVol1Iss1Pubs,
     EjhsVol1Issues,
+    EJMSVOL1,
+    EJMSVOL1ISS1,
+    EjmsVol1Iss1Pubs,
+    EjmsVol1Issues,
+    EJNHSVOL1,
+    EJNHSVOL1ISS1,
+    EjnhsVol1Iss1Pubs,
+    EjnhsVol1Issues,
 }
