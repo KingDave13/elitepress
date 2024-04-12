@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { AboutPage, ContactPage, HomePage, JournalsPage, AdminLogin } from './scenes';
+import { AboutPage, ContactPage, HomePage, JournalsPage, AdminLogin, AdminHome } from './scenes';
 import { EJH, EJM, EJHIV, EJHS, EJI, EJLM, EJMS, EJNHS, EJPH, EJSRR, 
   Vol2Iss1, Vol1Iss1, EjhVol2Iss1, EjmsVol2Iss1, EjhsVol2Iss1, 
   EjmVol2Iss1, EjmVol1, EjmVol2, EjlmVol2Iss1, EjnhsVol2Iss1, EjhivVol2Iss1,
@@ -24,6 +24,7 @@ const App = () => {
           <Route path='/about' element={<AboutPage />} />
           <Route path='/journals' element={<JournalsPage />} />
           <Route path='/contact' element={<ContactPage />} />
+
           <Route path='/journals/EJH' element={<EJH />} />
           <Route path='/journals/EJM' element={<EJM />} />
           <Route path='/journals/EJHS' element={<EJHS />} />
@@ -34,6 +35,7 @@ const App = () => {
           <Route path='/journals/EJNHS' element={<EJNHS />} />
           <Route path='/journals/EJSRR' element={<EJSRR />} />
           <Route path='/journals/EJHIV' element={<EJHIV />} />
+
           <Route path='/journals/EJPH/Vol2/Vol2Iss1' element={<Vol2Iss1 />} />
           <Route path='/journals/EJPH/Vol2/Vol2Iss2' element={<Vol2Iss2 />} />
           <Route path='/journals/EJPH/Vol2/Vol2Iss3' element={<Vol2Iss3 />} />
@@ -91,6 +93,9 @@ const App = () => {
           <Route path='/journals/EJSRR/Vol2/Vol2Iss2' element={<EjsrrVol2Iss2 />} />
 
           <Route path='/admin' element={<AdminLogin />} />
+          <Route path='/admin/dashboard' 
+            element = { <AdminHome />} 
+            />
         </Routes>
       </ScrollToTop>
     </BrowserRouter>

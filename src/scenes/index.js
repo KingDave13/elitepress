@@ -3,6 +3,7 @@ import AboutPage from './AboutPage';
 import ContactPage from './ContactPage';
 import JournalsPage from './JournalsPage';
 import AdminLogin from './AdminLogin';
+import AdminHome from './AdminHome';
 
 export { 
     AboutPage,
@@ -10,4 +11,5 @@ export {
     ContactPage,
     JournalsPage,
     AdminLogin,
+    AdminHome,
 }
