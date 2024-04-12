@@ -26,20 +26,21 @@ const Modal = ({ onClose }) => {
       <div className="fixed inset-0 flex items-center justify-center
       bg-black bg-opacity-80 z-50">
         <div ref={modalRef} 
-        className="bg-primaryalt md:p-8 ss:p-8 p-6 rounded-md shadow-xl 
-        flex flex-col justify-center w-auto h-auto items-center">
+        className="bg-primaryalt md:px-10 ss:px-10 px-6 md:py-5 ss:py-5 py-5
+        rounded-md shadow-xl flex flex-col justify-center w-auto h-auto 
+        items-center">
           <div className='flex flex-col w-full justify-center 
           items-center'>
-            <h1 className='text-white md:text-[16px] ss:text-[20px]
+            <h1 className='text-mainRed font-medium md:text-[16px] ss:text-[20px]
             text-[15px] text-center md:mb-4 ss:mb-4 mb-3'>
-              Incorrect username or password.
+              Incorrect email or password.
             </h1>
 
             <button
             onClick={handleClick}
-            className='grow4 bg-secondary border-none
+            className='grow4 bg-main border-none
             md:text-[13px] ss:text-[14px] text-[13px] md:py-2
-            ss:py-3 py-2 md:px-7 ss:px-7 px-5 text-primary 
+            ss:py-3 py-2 md:px-7 ss:px-7 px-5 text-white 
             md:rounded-[3px] ss:rounded-[3px] rounded-[3px] 
             cursor-pointer'
             >
@@ -81,24 +82,31 @@ const Login = () => {
       }),
 
       onSubmit: async (values) => {
-        const loggedInResponse = await fetch(
-          "http://localhost:3001/auth/login",
-          {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json'},
-            body: JSON.stringify(values),
-          }
-        );
-        const loggedIn = await loggedInResponse.json();
-    
-        if (loggedIn) {
-          dispatch(
-            setLogin({
-              user: loggedIn.user,
-              token: loggedIn.token
-            })
+        try {
+          const loggedInResponse = await fetch(
+            "http://localhost:3001/auth/login",
+            {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json'},
+              body: JSON.stringify(values),
+            }
           );
-          navigate('/admin/dashboard');
+          const loggedIn = await loggedInResponse.json();
+
+          if (loggedIn.token) {
+            dispatch(
+              setLogin({
+                user: loggedIn.user,
+                token: loggedIn.token
+              })
+            );
+            navigate('/admin/dashboard');
+          } else {
+            setModalOpen(true);
+            disableScroll();
+          }
+        } catch (error) {
+          console.error('Login error:', error);
         }
       },
   });
