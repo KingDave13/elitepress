@@ -4,6 +4,8 @@ import styles from '../styles';
 import { HiOutlineMenuAlt3 } from 'react-icons/hi';
 import { logo, picture, arrow, arrowreverse, logout } from '../assets';
 import { Link, useNavigate } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { setLogout } from '../state';
 
 
 const NavbarAdmin = () => {
@@ -12,9 +14,8 @@ const NavbarAdmin = () => {
   const menuRef = useRef(null);
   const [isScrolled, setIsScrolled] = useState(false);
 
-//   const { data: session } = useSession();
-
-  const navigate = useNavigate();
+  const dispatch = useDispatch();
+	const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -28,25 +29,23 @@ const NavbarAdmin = () => {
     };
   }, []);
 
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-        if (menuRef.current && !menuRef.current.contains(event.target)) {
-          setToggle(false);
-          setToggle2(false);
-        }
-    };
+//   useEffect(() => {
+//     const handleClickOutside = (event) => {
+//         if (menuRef.current && !menuRef.current.contains(event.target)) {
+//           setToggle(false);
+//           setToggle2(false);
+//         }
+//     };
 
-    document.addEventListener('mousedown', handleClickOutside);
+//     document.addEventListener('mousedown', handleClickOutside);
 
-    return () => {
-        document.removeEventListener('mousedown', handleClickOutside);
-    };
-}, []);
+//     return () => {
+//         document.removeEventListener('mousedown', handleClickOutside);
+//     };
+// }, []);
 
 const handleSideItemClick = (link) => {
   navigate(link.route)
-//   console.log(session);
-//   console.log('session');
 };
 
   return (
@@ -78,7 +77,7 @@ const handleSideItemClick = (link) => {
           </div>
 
           <div className='flex justify-end w-full items-center gap-5
-            cursor-pointer'
+            cursor-pointer grow2'
             onClick={() => setToggle2(!toggle2)}
           >
             <img 
@@ -111,7 +110,8 @@ const handleSideItemClick = (link) => {
             >
               <div className="list-none flex justify-end flex-col">
                 <div className='flex w-full items-center gap-6
-                cursor-pointer'>
+                cursor-pointer'
+                onClick={() => setToggle2(!toggle2)}>
                   <img 
                     src={picture}
                     width={35}
@@ -135,8 +135,7 @@ const handleSideItemClick = (link) => {
                 
                 <div className='hover:text-secondary grow3 text-[17px] 
                 list-item cursor-pointer text-textalt mt-6'>
-                  <a 
-                    href='/'
+                  <div onClick={() => dispatch(setLogout())}
                     className='flex gap-5 items-center'
                   >
                     <img src={logout} 
@@ -145,7 +144,7 @@ const handleSideItemClick = (link) => {
                       height={'auto'}
                     />
                     Logout
-                  </a>
+                  </div>
                 </div>
               </div>
           </div>
