@@ -1,5 +1,5 @@
 import {
-    NavbarAdmin,
+    NavbarAdmin, SidebarAdmin,
 } from '../components';
 
 import { useEffect } from 'react';
@@ -14,6 +14,9 @@ const AdminHome = () => {
         <div className='font-instrument-sans'>
             <NavbarAdmin />
 
+            <div className='hero'>
+                <SidebarAdmin />
+            </div>
         </div>
     )
 };

@@ -45,6 +45,7 @@ import Sidebar from './Sidebar';
 import Sidebar2 from './Sidebar2';
 import Login from './Login';
 import HeroAdmin from './HeroAdmin';
+import SidebarAdmin from './SidebarAdmin';
 
 import EJPHVOL2ISS1 from './EJPHVOL2ISS1';
 import EJPHVOL2ISS2 from './EJPHVOL2ISS2';
@@ -214,6 +215,7 @@ export {
     Sidebar2,
     Login,
     HeroAdmin,
+    SidebarAdmin,
     
     EJPHVOL2ISS1,
     EJPHVOL2ISS2,
