@@ -204,7 +204,8 @@ const handleSideItemClick = (link) => {
             <div className="list-none flex justify-end ss:gap-5 gap-4 
             flex-col">
               <div className='flex w-full items-center ss:gap-3 gap-3
-              cursor-pointer'>
+              cursor-pointer'
+              onClick={() => setToggle2(!toggle2)}>
                 <img 
                   src={picture}
                   width={32}
@@ -230,8 +231,7 @@ const handleSideItemClick = (link) => {
               <div className='hover:text-secondary grow3 ss:text-[21px] 
               text-[16px] list-item cursor-pointer text-textalt ss:mt-4
               mt-3'>
-                <a 
-                  href='/'
+                <div onClick={() => dispatch(setLogout())}
                   className='flex ss:gap-6 gap-5 items-center'
                 >
                   <img src={logout} 
@@ -240,7 +240,7 @@ const handleSideItemClick = (link) => {
                     height={'auto'}
                   />
                   Logout
-                </a>
+                </div>
               </div>
             </div>
           </div>
