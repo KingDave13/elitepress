@@ -14,8 +14,10 @@ const AdminHome = () => {
         <div className='font-instrument-sans'>
             <NavbarAdmin />
 
-            <div className='hero'>
-                <SidebarAdmin />
+            <div className=''>
+                <div className='hero'>
+                    <SidebarAdmin />
+                </div>
             </div>
         </div>
     )

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import styles from '../styles';
 import { sideLinks } from '../constants';
-import { logo, logout } from '../assets';
+import { logout } from '../assets';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { setLogout } from '../state';
@@ -34,27 +34,25 @@ const SidebarAdmin = () => {
                   active === link.title
                     ? 'bg-secondary p-2 rounded-md'
                     : 'bg-none'
-                } hover:text-secondary grow3 text-[20px] text-decoration-none 
+                } hover:text-main grow3 text-[20px] text-decoration-none 
                 cursor-pointer text-textalt list-item`}
                 onClick={() => {
                   handleSideItemClick(link);
                 }}
               >
-                <a 
-                  href={link.route} 
-                  className='flex gap-6 items-center'
-                >
-                  {link.Icon && (
-                    <span className="icon">
-                      <img src={link.Icon} 
-                        alt={link.title} 
-                        width={18} 
-                        height={'auto'} 
-                      />
-                    </span>
-                  )}
-                  {link.title}
-                </a>
+                    <a 
+                    href={link.route} 
+                    className='flex gap-6 items-center'
+                    >
+                    {link.Icon && 
+                        <link.Icon 
+                            className="icon"
+                            width={18} 
+                            height={'auto'} 
+                        />
+                    }
+                    {link.title}
+                    </a>
               </li>
             ))}
 
