@@ -73,6 +73,11 @@ import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
  EJMSVOL2ISS103, EJNHSVOL2ISS101, EJNHSVOL2ISS102, EJNHSVOL2ISS103,
   } from '../assets';
 
+import { BsJournals } from "react-icons/bs";
+import { VscGitPullRequestNewChanges } from "react-icons/vsc";
+import { TiMessages } from "react-icons/ti";
+import { IoNewspaperOutline } from "react-icons/io5";
+
 export const navLinks = [
     {
         id: "home",
@@ -102,25 +107,25 @@ export const sideLinks = [
       id: 'journals',
       title: 'Journals',
       route: '/admin/dashboard/journals',
-      Icon: requests,
+      Icon: BsJournals,
     },
     {
       id: 'requests',
       title: 'Submission Requests',
       route: '/admin/dashboard/requests',
-      Icon: guests,
+      Icon: VscGitPullRequestNewChanges,
     },
     {
       id: 'messages',
       title: 'Messages',
       route: '/admin/dashboard/messages',
-      Icon: members,
+      Icon: TiMessages,
     },
     {
       id: 'newsletter',
       title: 'Newsletter',
       route: '/admin/dashboard/newsletter',
-      Icon: announcements,
+      Icon: IoNewspaperOutline,
     },
 ];
 
