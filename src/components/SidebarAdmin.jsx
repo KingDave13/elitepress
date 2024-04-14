@@ -22,19 +22,19 @@ const SidebarAdmin = () => {
     md:border-r-[1px] border-textalt hidden md:flex z-20 fixed`}
     >
       <div className="w-full flex justify-between items-center mx-auto
-      py-14">
+      py-16">
         <div className="flex flex-col items-center w-full
         h-screen">
-          <ul className="list-none flex flex-col gap-8 hidden md:flex
+          <ul className="list-none flex flex-col gap-6 hidden md:flex
           mt-24 font-medium">
             {sideLinks.map((link) => (
               <li
                 key={link.id}
                 className={`${
                   active === link.title
-                    ? 'text-main border-[1px] p-2 rounded-md border-textalt'
-                    : 'bg-none'
-                } hover:text-main grow3 text-[20px] text-decoration-none 
+                    ? 'text-[#021e31] font-bold text-[22px]'
+                    : ''
+                } hover:text-main grow5 text-[20px] text-decoration-none 
                 cursor-pointer text-textalt list-item`}
                 onClick={() => {
                   handleSideItemClick(link);
@@ -56,7 +56,7 @@ const SidebarAdmin = () => {
               </li>
             ))}
 
-            <li className='hover:text-secondary grow3 text-[20px] list-item
+            <li className='hover:text-secondary grow4 text-[20px] list-item
             text-decoration-none cursor-pointer text-textalt mt-20'>
               <div 
                 onClick={() => dispatch(setLogout())}
