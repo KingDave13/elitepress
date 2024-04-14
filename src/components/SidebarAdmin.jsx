@@ -22,7 +22,7 @@ const SidebarAdmin = () => {
     md:border-r-[1px] border-textalt hidden md:flex z-20 fixed`}
     >
       <div className="w-full flex justify-between items-center mx-auto
-      py-16">
+      py-14">
         <div className="flex flex-col items-center w-full
         h-screen">
           <ul className="list-none flex flex-col gap-8 hidden md:flex
