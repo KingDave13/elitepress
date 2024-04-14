@@ -106,7 +106,7 @@ export const sideLinks = [
     {
       id: 'journals',
       title: 'Journals',
-      route: '/admin/dashboard/journals',
+      route: '/admin/dashboard',
       Icon: BsJournals,
     },
     {
