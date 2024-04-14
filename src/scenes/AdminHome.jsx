@@ -12,15 +12,14 @@ const AdminHome = () => {
     }, []); 
 
     return (
-        <div className='font-instrument-sans journal2 flex'>
-            
-            
-            <div className='flex-1'>
-                <NavbarAdmin />
+        <div className='font-instrument-sans journal2'>
+            <NavbarAdmin />
+            <div className='grid grid-cols-4'>
                 <SidebarAdmin />
+                <div className='col-span-3'>
+                    <AdminJournals />
+                </div>
             </div>
-            
-            <AdminJournals />
         </div>
     )
 };
