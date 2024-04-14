@@ -16,105 +16,34 @@ const JournalCard = ({ title, icon, desc, route }) => {
     const isMobile = windowWidth <= 1060;
 
     return (
-      <div className='w-full grow3 show'>
-        <div className='w-full cursor-pointer shadow-lg hover:shadow-xl 
-          rounded-lg bg-primaryalt'
+      <div className='w-full grow3'>
+        <div className='w-full shadow-lg hover:shadow-xl rounded-lg 
+        bg-primaryalt'
         >
-        {isMobile ? (
-            <a href={route}>
             <div options={{ max: 45, scale: 1, speed: 450 }}
-            className='p-5 md:gap-8 ss:gap-6 gap-5 flex justify-evenly 
+            className='p-8 md:gap-8 ss:gap-6 gap-5 flex justify-evenly 
             md:flex-row flex-col'
             >
-                <img src={icon} alt={title}
-                    className='md:w-[250px] ss:w-[300px] h-auto 
-                    object-contain rounded-lg'
-                />
-
                 <div className="flex flex-col gap-3 justify-between">
                     <h3
-                    className='text-main md:text-[25px] ss:text-[23px] 
-                    text-[18px] font-bold md:leading-[28px] 
-                    ss:leading-[25px] leading-[22px]'
+                    className='text-main md:text-[22px] ss:text-[21px] 
+                    text-[18px] font-medium md:leading-[25px] 
+                    ss:leading-[24px] leading-[22px]'
                     >
                         {title}
                     </h3>
 
-                    <div className='flex'>
-                        <div className='bg-secondary w-full h-[2px] 
-                        rounded-full' />
-                    </div>
-
-                    <h3
-                    className='text-textalt md:text-[15px] ss:text-[14px] 
-                    text-[14px] md:leading-[18px] ss:leading-[18px]
-                    leading-[17px] text-justify'
-                    >
-                        {desc}
-                    </h3>
-
-                    <div className="md:block hidden">
-                        <button className='grow md:text-[12px] 
-                        ss:text-[14px] md:py-1.5 ss:py-1.5 
-                        md:px-6 ss:px-6 text-main rounded-full
-                        font-medium border-textalt border-[1px] 
-                        hover:text-white opacity-0 transition-opacity 
-                        duration-500'
+                    <div className="w-full">
+                        <button className='md:text-[15px] cursor-pointer
+                        ss:text-[14px] md:py-1.5 ss:py-1.5 hover:bg-main
+                        md:px-6 ss:px-6 text-textalt rounded-md grow5 w-full
+                        font-medium border-textalt border-[1px] hover:text-white'
                         >
-                            Read More
+                            Manage
                         </button>
                     </div>
                 </div>
             </div>
-            </a>
-        ) : (
-            <div options={{ max: 45, scale: 1, speed: 450 }}
-                className='p-5 md:gap-8 ss:gap-6 gap-5 flex justify-evenly 
-                md:flex-row flex-col'
-            >
-                <img src={icon} alt={title}
-                    className='md:w-[250px] ss:w-[300px] h-auto 
-                    object-contain rounded-lg'
-                />
-
-                <div className="flex flex-col gap-3 justify-between">
-                    <h3
-                    className='text-main md:text-[25px] ss:text-[23px] 
-                    text-[18px] font-bold md:leading-[28px] 
-                    ss:leading-[25px] leading-[22px]'
-                    >
-                        {title}
-                    </h3>
-
-                    <div className='flex'>
-                        <div className='bg-secondary w-full h-[2px] 
-                        rounded-full' />
-                    </div>
-
-                    <h3
-                    className='text-textalt md:text-[15px] ss:text-[14px] 
-                    text-[14px] md:leading-[18px] ss:leading-[18px]
-                    leading-[17px] text-justify'
-                    >
-                        {desc}
-                    </h3>
-
-                    <div className="md:block hidden">
-                        <a href={route}>
-                            <button className='grow md:text-[12px] 
-                            ss:text-[14px] md:py-1.5 ss:py-1.5 
-                            md:px-6 ss:px-6 text-main rounded-full
-                            font-medium border-textalt border-[1px] 
-                            hover:text-white opacity-0 transition-opacity 
-                            duration-500'
-                            >
-                                Read More
-                            </button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        )}
         </div>
       </div>
     )
@@ -140,13 +69,12 @@ const AdminJournals = () => {
     }, []);
 
   return (
-    <section className="md:min-h-[1800px] ss:min-h-[3000px] min-h-[5750px] 
-    flex items-center">
+    <section className="flex items-center">
         <div className='items-center w-full flex flex-col md:mt-28 
         ss:mt-20 mt-20'>
             <motion.div className='flex items-center flex-col relative 
             justify-center w-full'>
-                <div className='grid grid-cols-2 md:gap-12 ss:gap-6 gap-10'>
+                <div className='grid grid-cols-4 md:gap-8 ss:gap-6 gap-10'>
                     {journals.map((journal) => (
                         <JournalCard 
                             key={journal.title}
