@@ -66,7 +66,13 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJPHVOL1ISS106, EJPHVOL1ISS107, EJMVOL2ISS407, EJMSVOL1ISS101, 
     EJNHSVOL1ISS101,
     EJMVOL1ISS102,
-    EJMVOL1ISS103, } 
+    EJMVOL1ISS103,
+    EJMSVOL1ISS102,
+    EJMSVOL1ISS103,
+    EJMSVOL1ISS104,
+    EJNHSVOL1ISS102,
+    EJNHSVOL1ISS103,
+    EJNHSVOL1ISS104, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1738,6 +1744,27 @@ export const Ejmsvol1iss1 = [
         route: EJMSVOL1ISS101,
         pages: "1-13",
     },
+    {
+        title: "Immunological Insights into Aplastic Anemia within the Context of HIV: Unraveling the Complex Interplay",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Aplastic anemia (AA) represents a hematologic disorder characterized by bone marrow failure, leading to peripheral blood pancytopenia. While its etiology remains multifaceted, the intersection of immunological factors, particularly in the presence of HIV infection, poses intriguing challenges and opportunities for elucidating its pathogenesis.",
+        route: EJMSVOL1ISS102,
+        pages: "14-24",
+    },
+    {
+        title: "Iron Overload in HIV: Implications for Antiretroviral Therapy",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Iron overload is increasingly recognized as a significant comorbidity in individuals living with HIV, with potential implications for disease progression and management. This review explores the implications of iron overload for antiretroviral therapy (ART) in individuals with HIV, focusing on its effects on drug metabolism, treatment efficacy, and toxicity.",
+        route: EJMSVOL1ISS103,
+        pages: "25-37",
+    },
+    {
+        title: "Ceruloplasmin and HIV-Associated Malignancies: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "HIV infection is associated with an increased risk of malignancies, ranging from AIDS-defining cancers to non-AIDS-defining malignancies. Ceruloplasmin, a multifunctional glycoprotein involved in iron metabolism, antioxidant defense, and immune regulation, has recently emerged as a potential modulator of tumorigenesis in the context of HIV infection.",
+        route: EJMSVOL1ISS104,
+        pages: "38-50",
+    },
 ];
 
 export const Ejmsvol2iss1 = [
@@ -2778,6 +2805,27 @@ export const Ejnhsvol1iss1 = [
         abstract: "Antioxidants play a crucial role in maintaining reproductive health by combating oxidative stress, which has been implicated in various fertility issues and pregnancy complications. This review article provides a comprehensive overview of the mechanisms underlying the impact of antioxidants on fertility enhancement and pregnancy success.",
         route: EJNHSVOL1ISS101,
         pages: "1-12",
+    },
+    {
+        title: "Unraveling Diagnostic Challenges of Aplastic Anemia in the Context of HIV: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Aplastic anemia (AA) and Human Immunodeficiency Virus (HIV) infection represent distinct hematologic disorders that can coexist, posing diagnostic and management challenges. This review delves into the complex interplay between AA and HIV, specifically focusing on the diagnostic hurdles encountered in identifying AA within the context of HIV infection.",
+        route: EJNHSVOL1ISS102,
+        pages: "13-23",
+    },
+    {
+        title: "Iron Overload in HIV: Impact on Hepatic Function",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Iron overload is a common complication in individuals living with HIV, with significant implications for hepatic function and disease progression. Chronic inflammation, dysregulated iron metabolism, and comorbidities associated with HIV infection contribute to systemic iron accumulation and oxidative stress, leading to liver injury and fibrosis.",
+        route: EJNHSVOL1ISS103,
+        pages: "24-38",
+    },
+    {
+        title: "Ceruloplasmin and HIV-Associated Hepatic Complications: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Liver complications are common in individuals living with HIV, and they pose significant challenges in disease management and patient outcomes. Ceruloplasmin, a multifunctional glycoprotein primarily involved in copper transport and antioxidant defense, has emerged as a potential player in the pathogenesis of HIV-associated hepatic complications.",
+        route: EJNHSVOL1ISS104,
+        pages: "39-51",
     },
 ];
 
