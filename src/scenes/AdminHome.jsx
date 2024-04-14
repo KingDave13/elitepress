@@ -1,4 +1,5 @@
 import {
+    AdminJournals,
     NavbarAdmin, SidebarAdmin,
 } from '../components';
 
@@ -18,6 +19,8 @@ const AdminHome = () => {
                 <div className=''>
                     <SidebarAdmin />
                 </div>
+
+                <AdminJournals />
             </div>
         </div>
     )

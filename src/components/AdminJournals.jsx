@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { SectionWrapper } from "../hoc";
 import { motion } from 'framer-motion';
-// import { fadeIn } from '../utils/motion';
-import { journals } from '../constants';
 
-const JournalCard = ({ index, title, icon, desc, route }) => {
+const JournalCard = ({ title, icon, desc, route }) => {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
     useEffect(() => {
@@ -120,9 +118,26 @@ const JournalCard = ({ index, title, icon, desc, route }) => {
         </div>
       </div>
     )
-  };
+};
 
 const AdminJournals = () => {
+    const [journals, setJournals] = useState([]);
+
+    useEffect(() => {
+        const fetchJournals = async () => {
+            try {
+                const response = await fetch('http://localhost:3001/journals', {
+                    method: 'GET',
+                });
+                const data = await response.json();
+                setJournals(data);
+            } catch (error) {
+                console.error('Error fetching journals:', error);
+            }
+        };
+
+        fetchJournals();
+    }, []);
 
   return (
     <section className="md:min-h-[1800px] ss:min-h-[3000px] min-h-[5750px] 
@@ -132,10 +147,9 @@ const AdminJournals = () => {
             <motion.div className='flex items-center flex-col relative 
             justify-center w-full'>
                 <div className='grid grid-cols-2 md:gap-12 ss:gap-6 gap-10'>
-                    {journals.map((journal, index) => (
+                    {journals.map((journal) => (
                         <JournalCard 
                             key={journal.title}
-                            index={index}
                             {...journal}
                         />
                     ))}
