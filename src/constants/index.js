@@ -64,7 +64,9 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJHSVOL1ISS102, EJHSVOL1ISS103, EJHSVOL1ISS104, EJHSVOL1ISS105,
     EJPHVOL1ISS103, EJPHVOL1ISS104, EJPHVOL1ISS105, 
     EJPHVOL1ISS106, EJPHVOL1ISS107, EJMVOL2ISS407, EJMSVOL1ISS101, 
-    EJNHSVOL1ISS101, } 
+    EJNHSVOL1ISS101,
+    EJMVOL1ISS102,
+    EJMVOL1ISS103, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1614,6 +1616,20 @@ export const Ejmvol1iss1 = [
         abstract: 'This comprehensive review delves into the imperative role of building support networks for HIV patients in Uganda, emphasizing the pivotal concept of "Strength in Unity." By examining keywords such as "HIV patients," "support networks," and "strength in unity," the article offers a nuanced exploration of the unique challenges faced by individuals living with HIV/AIDS in the Ugandan context.',
         route: EJMVOL1ISS101,
         pages: "1-16",
+    },
+    {
+        title: "Hemochromatosis and HIV: Implications for Immune Reconstitution",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: 'Hemochromatosis and HIV are two distinct conditions with overlapping implications for immune function and disease progression. Hemochromatosis, characterized by excessive iron accumulation, and HIV, a chronic viral infection, both impact immune regulation and response.',
+        route: EJMVOL1ISS102,
+        pages: "17-30",
+    },
+    {
+        title: "Ceruloplasmin and HIV-Associated Hematological Abnormalities: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: 'Hematological abnormalities are common complications of HIV infection, encompassing a spectrum of disorders including cytopenias, coagulopathies, and dysregulated iron metabolism. Ceruloplasmin, a multifunctional glycoprotein with diverse physiological roles, has emerged as a potential modulator of hematological parameters in the context of HIV infection.',
+        route: EJMVOL1ISS103,
+        pages: "31-44",
     },
 ];
 
