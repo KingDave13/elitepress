@@ -7,7 +7,7 @@ import { useDispatch } from 'react-redux';
 import { setLogout } from '../state';
 
 const SidebarAdmin = () => {
-  const [active, setActive] = useState('requests');
+  const [active, setActive] = useState('Journals');
 
     const dispatch = useDispatch();
 	const navigate = useNavigate();
@@ -19,10 +19,10 @@ const SidebarAdmin = () => {
 
   return (
     <div className={`${styles.paddingX} md:w-1/5 flex items-center
-    md:border-r-[1px] border-textalt hidden md:flex z-20`}
+    md:border-r-[1px] border-textalt hidden md:flex z-20 fixed`}
     >
       <div className="w-full flex justify-between items-center mx-auto
-      py-10">
+      py-16">
         <div className="flex flex-col items-center w-full
         h-screen">
           <ul className="list-none flex flex-col gap-8 hidden md:flex
@@ -32,7 +32,7 @@ const SidebarAdmin = () => {
                 key={link.id}
                 className={`${
                   active === link.title
-                    ? 'bg-secondary p-2 rounded-md'
+                    ? 'text-main border-[1px] p-2 rounded-md border-textalt'
                     : 'bg-none'
                 } hover:text-main grow3 text-[20px] text-decoration-none 
                 cursor-pointer text-textalt list-item`}

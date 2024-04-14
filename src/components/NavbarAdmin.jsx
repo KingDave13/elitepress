@@ -35,7 +35,7 @@ const handleSideItemClick = (link) => {
 
   return (
     <nav className={`${styles.paddingX} w-full flex items-center fixed 
-    md:py-6 ss:py-6 py-3 top-0 z-20 navsmooth backdrop-blur-md bg-opacity-90
+    md:py-6 ss:py-6 py-3 top-0 z-40 navsmooth backdrop-blur-md bg-opacity-90
     ${ isScrolled ? 'bg-primaryalt shadow-lg' : '' }`}
     >
       <div className="w-full flex items-center max-w-[82rem] mx-auto">

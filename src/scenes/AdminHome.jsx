@@ -11,11 +11,11 @@ const AdminHome = () => {
     }, []); 
 
     return (
-        <div className='font-instrument-sans'>
+        <div className='font-instrument-sans journal2'>
             <NavbarAdmin />
 
             <div className=''>
-                <div className='hero'>
+                <div className=''>
                     <SidebarAdmin />
                 </div>
             </div>
