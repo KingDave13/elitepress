@@ -18,7 +18,7 @@ const JournalCard = ({ title, route }) => {
     const isMobile = windowWidth <= 1060;
 
     return (
-      <div className='w-full grow3'>
+      <div className='w-full'>
         <div className="flex gap-3 items-center justify-between
         w-full">
             <h3
@@ -33,12 +33,14 @@ const JournalCard = ({ title, route }) => {
                 <button onClick={() => navigate(route)}
                 className='md:text-[15px] cursor-pointer
                 ss:text-[14px] md:py-1.5 ss:py-1.5 hover:bg-main
-                md:px-6 ss:px-6 text-textalt rounded-md grow5
+                md:px-12 ss:px-8 text-textalt rounded-md grow5
                 font-medium border-textalt border-[1px] hover:text-white'
                 >
                     Manage
                 </button>
             </div>
+
+            
         </div>
       </div>
     )
@@ -69,16 +71,19 @@ const AdminJournals = () => {
         ss:mt-20 mt-20'>
             <motion.div className='flex items-center flex-col relative 
             justify-center w-full'>
-                <div className='grid md:gap-8 ss:gap-6 gap-10'>
+                <div className='grid md:gap-5 ss:gap-6 gap-10 w-full'>
                     {journals.map((journal) => (
-                        <ol>
-                            <li>
-                                <JournalCard 
+                        <div className='flex flex-col gap-5'>
+                            <JournalCard 
                                 key={journal.title}
                                 {...journal}
-                                />
-                            </li>
-                        </ol>
+                            />
+
+                            <div className="items-center justify-center">
+                                <div className='bg-main w-full h-[1px]
+                                rounded-full' />
+                            </div>
+                        </div>
                     ))}
                 </div>
             </motion.div>

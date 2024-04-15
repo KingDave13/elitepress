@@ -15,10 +15,10 @@ const AdminHome = () => {
         <div className='font-instrument-sans'>
             <NavbarAdmin />
             <div className='grid grid-cols-5 journal2'>
-                <div className='fixed'>
+                <div className=''>
                     <SidebarAdmin />
                 </div>
-                <div className='col-span-4 md:'>
+                <div className='col-span-4'>
                     <AdminJournals />
                 </div>
             </div>

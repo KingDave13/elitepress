@@ -18,7 +18,7 @@ const SidebarAdmin = () => {
   };
 
   return (
-    <div className={`${styles.paddingX} flex items-center
+    <div className={`${styles.paddingX} flex items-center fixed
     md:border-r-[1px] border-textalt hidden md:flex z-20 bg-main`}
     >
       <div className="w-full flex justify-between items-center mx-auto
