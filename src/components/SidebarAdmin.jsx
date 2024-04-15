@@ -2,7 +2,6 @@ import { useState } from 'react';
 import styles from '../styles';
 import { sideLinks } from '../constants';
 import { HiLogout } from "react-icons/hi";
-import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { setLogout } from '../state';
 
@@ -10,11 +9,9 @@ const SidebarAdmin = () => {
   const [active, setActive] = useState('Journals');
 
   const dispatch = useDispatch();
-	const navigate = useNavigate();
 
   const handleSideItemClick = (link) => {
     setActive(link.title);
-    navigate(link.route);
   };
 
   return (
@@ -40,19 +37,19 @@ const SidebarAdmin = () => {
                   handleSideItemClick(link);
                 }}
               >
-                    <a 
-                    href={link.route} 
-                    className='flex gap-6 items-center'
-                    >
-                    {link.Icon && 
-                        <link.Icon 
-                            className="icon"
-                            width={18} 
-                            height={'auto'} 
-                        />
-                    }
-                    {link.title}
-                    </a>
+                <a 
+                  href={link.route} 
+                  className='flex gap-6 items-center'
+                  >
+                  {link.Icon && 
+                    <link.Icon 
+                      className="icon"
+                      width={18} 
+                      height={'auto'} 
+                    />
+                  }
+                  {link.title}
+                </a>
               </li>
             ))}
 

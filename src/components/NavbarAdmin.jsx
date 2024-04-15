@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef } from 'react';
 import styles from '../styles';
-import { logo, picture, arrow, arrowreverse } from '../assets';
+import { logo, picture } from '../assets';
 import { HiLogout } from "react-icons/hi";
 import { MdKeyboardArrowUp, MdKeyboardArrowDown } from "react-icons/md";
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { setLogout } from '../state';
 import { sideLinks } from '../constants';
@@ -17,7 +17,6 @@ const NavbarAdmin = () => {
   const [active, setActive] = useState('Journals');
 
   const dispatch = useDispatch();
-	const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -33,7 +32,6 @@ const NavbarAdmin = () => {
 
   const handleSideItemClick = (link) => {
     setActive(link.title);
-    navigate(link.route);
   };
 
   return (
@@ -45,14 +43,15 @@ const NavbarAdmin = () => {
       <div className="w-full flex items-center max-w-[82rem] mx-auto">
         <div className='flex w-full justify-between hidden md:flex 
         items-center'>
-            <Link to='/admin/dashboard'
+          <Link to='/admin/dashboard'
             onClick={() => {
             window.scrollTo(0, 0);
             }}
             className='md:mr-10'>
             <img src={logo} alt='logo'
-            className='md:w-[120px] ss:w-[80px] w-[45px] h-auto'/>
-            </Link>
+              className='md:w-[120px] ss:w-[80px] w-[45px] h-auto'
+            />
+          </Link>
 
           <div className="flex w-full flex-col">
             <h1 className='text-main font-bold text-[30px]'>
@@ -121,7 +120,7 @@ const NavbarAdmin = () => {
             visibility: toggle ? 'visible' : 'hidden', 
             transition: 'height 0.3s, opacity 0.3s, visibility 0.3s' }}
           >
-            <div className='flex w-full items-center ss:gap-3 gap-5'
+            <div className='flex w-full items-center ss:gap-6 gap-5'
               onClick={() => setToggle(!toggle)}>
                 <img 
                   src={picture}
@@ -154,10 +153,10 @@ const NavbarAdmin = () => {
                   key={link.id}
                   className={`${
                     active === link.title
-                      ? 'text-white font-bold ss:text-[22px] text-[19px]'
+                      ? 'text-white font-bold ss:text-[22px] text-[18px]'
                       : ''
-                  } ss:text-[20px] text-[17px] 
-                  text-decoration-none text-mainalt`}
+                  } ss:text-[20px] text-[16px] text-decoration-none 
+                  text-mainalt`}
                   onClick={() => {
                     handleSideItemClick(link);
                   }}
@@ -178,7 +177,7 @@ const NavbarAdmin = () => {
                 </li>
               ))}
 
-              <div className='text-secondary grow3 ss:text-[21px] 
+              <div className='text-textalt grow3 ss:text-[21px] 
               text-[16px] list-item cursor-pointer ss:mt-4
               mt-3'>
                 <div onClick={() => dispatch(setLogout())}
@@ -194,8 +193,6 @@ const NavbarAdmin = () => {
               </div>
             </ul>
           </div>
-          
-          
         </div>
       </div>
     </nav>

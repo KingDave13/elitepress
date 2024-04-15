@@ -5,25 +5,13 @@ import { useNavigate } from 'react-router-dom';
 
 const JournalCard = ({ title, route }) => {
     const navigate = useNavigate();
-    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-
-    useEffect(() => {
-        const handleResize = () => setWindowWidth(window.innerWidth);
-        window.addEventListener('resize', handleResize);
-
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, []);
-    const isMobile = windowWidth <= 1060;
 
     return (
       <div className='w-full'>
-        <div className="flex gap-3 items-center justify-between
-        w-full">
+        <div className="flex gap-3 items-center justify-between w-full">
             <h3
             className='text-main md:text-[22px] ss:text-[21px] 
-            text-[18px] font-bold md:leading-[25px] 
+            text-[16px] font-bold md:leading-[25px] 
             ss:leading-[24px] leading-[22px]'
             >
                 {title}
@@ -31,7 +19,7 @@ const JournalCard = ({ title, route }) => {
 
             <div className="flex items-center justify-end">
                 <button onClick={() => navigate(route)}
-                className='md:text-[15px] ss:text-[14px] text-[14px] 
+                className='md:text-[15px] ss:text-[14px] text-[12px] 
                 cursor-pointer py-1.5 hover:bg-main
                 md:px-12 ss:px-8 px-4 text-textalt rounded-lg grow5
                 font-medium border-textalt border-[1px] hover:text-white'
@@ -39,8 +27,6 @@ const JournalCard = ({ title, route }) => {
                     Manage
                 </button>
             </div>
-
-            
         </div>
       </div>
     )
@@ -71,17 +57,17 @@ const AdminJournals = () => {
         ss:mt-24 mt-24'>
             <motion.div className='flex items-center flex-col relative 
             justify-center w-full'>
-                <div className='grid md:gap-5 ss:gap-6 gap-6 w-full'>
+                <div className='grid md:gap-5 ss:gap-6 gap-5 w-full'>
                     {journals.map((journal) => (
                         <div className='flex flex-col md:gap-5 ss:gap-6
-                        gap-6'>
+                        gap-5'>
                             <JournalCard 
                                 key={journal.title}
                                 {...journal}
                             />
 
                             <div className="items-center justify-center">
-                                <div className='bg-main w-full h-[0.5px]
+                                <div className='bg-textalt w-full h-[0.5px]
                                 rounded-full' />
                             </div>
                         </div>

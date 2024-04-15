@@ -1,6 +1,5 @@
 import {
-    AdminJournals,
-    NavbarAdmin, SidebarAdmin,
+    AdminJournals, NavbarAdmin, SidebarAdmin,
 } from '../components';
 
 import { useEffect } from 'react';
