@@ -9,7 +9,7 @@ import { setLogout } from '../state';
 const SidebarAdmin = () => {
   const [active, setActive] = useState('Journals');
 
-    const dispatch = useDispatch();
+  const dispatch = useDispatch();
 	const navigate = useNavigate();
 
   const handleSideItemClick = (link) => {
@@ -60,10 +60,9 @@ const SidebarAdmin = () => {
             text-decoration-none cursor-pointer text-textalt mt-20'>
               <div 
                 onClick={() => dispatch(setLogout())}
-                className='flex gap-6 items-center icon font-medium'
+                className='flex gap-6 items-center font-medium'
               >
                 <HiLogout
-                  className="icon"
                   width={18}
                   style={{ transform: 'scaleX(-1)' }}
                   height={'auto'} 

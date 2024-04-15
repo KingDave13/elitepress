@@ -68,7 +68,7 @@ const AdminJournals = () => {
   return (
     <section className="flex items-center">
         <div className='items-center w-full flex flex-col md:mt-28 
-        ss:mt-20 mt-20'>
+        ss:mt-24 mt-24'>
             <motion.div className='flex items-center flex-col relative 
             justify-center w-full'>
                 <div className='grid md:gap-5 ss:gap-6 gap-6 w-full'>
