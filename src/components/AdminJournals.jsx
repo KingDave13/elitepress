@@ -33,7 +33,7 @@ const JournalCard = ({ title, route }) => {
                 <button onClick={() => navigate(route)}
                 className='md:text-[15px] cursor-pointer
                 ss:text-[14px] md:py-1.5 ss:py-1.5 hover:bg-main
-                md:px-12 ss:px-8 text-textalt rounded-md grow5
+                md:px-12 ss:px-8 text-textalt rounded-lg grow5
                 font-medium border-textalt border-[1px] hover:text-white'
                 >
                     Manage

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import styles from '../styles';
 import { sideLinks } from '../constants';
-import { logout } from '../assets';
+import { HiLogout } from "react-icons/hi";
 import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { setLogout } from '../state';
@@ -62,10 +62,11 @@ const SidebarAdmin = () => {
                 onClick={() => dispatch(setLogout())}
                 className='flex gap-6 items-center icon font-medium'
               >
-                <img src={logout} 
-                  alt='logout'
-                  width={18} 
-                  height={'auto'}
+                <HiLogout
+                  className="icon"
+                  width={18}
+                  style={{ transform: 'scaleX(-1)' }}
+                  height={'auto'} 
                 />
                 Logout
               </div>
