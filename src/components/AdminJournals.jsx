@@ -31,9 +31,9 @@ const JournalCard = ({ title, route }) => {
 
             <div className="flex items-center justify-end">
                 <button onClick={() => navigate(route)}
-                className='md:text-[15px] cursor-pointer
-                ss:text-[14px] md:py-1.5 ss:py-1.5 hover:bg-main
-                md:px-12 ss:px-8 text-textalt rounded-lg grow5
+                className='md:text-[15px] ss:text-[14px] text-[14px] 
+                cursor-pointer py-1.5 hover:bg-main
+                md:px-12 ss:px-8 px-4 text-textalt rounded-lg grow5
                 font-medium border-textalt border-[1px] hover:text-white'
                 >
                     Manage
@@ -71,16 +71,17 @@ const AdminJournals = () => {
         ss:mt-20 mt-20'>
             <motion.div className='flex items-center flex-col relative 
             justify-center w-full'>
-                <div className='grid md:gap-5 ss:gap-6 gap-10 w-full'>
+                <div className='grid md:gap-5 ss:gap-6 gap-6 w-full'>
                     {journals.map((journal) => (
-                        <div className='flex flex-col gap-5'>
+                        <div className='flex flex-col md:gap-5 ss:gap-6
+                        gap-6'>
                             <JournalCard 
                                 key={journal.title}
                                 {...journal}
                             />
 
                             <div className="items-center justify-center">
-                                <div className='bg-main w-full h-[1px]
+                                <div className='bg-main w-full h-[0.5px]
                                 rounded-full' />
                             </div>
                         </div>
