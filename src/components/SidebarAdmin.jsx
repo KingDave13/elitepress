@@ -34,8 +34,8 @@ const SidebarAdmin = () => {
                   active === link.title
                     ? 'text-white font-bold text-[22px]'
                     : ''
-                } hover:text-textalt grow5 text-[20px] text-decoration-none 
-                cursor-pointer text-primaryalt list-item`}
+                } hover:text-white grow5 text-[20px] text-decoration-none 
+                cursor-pointer text-mainalt list-item`}
                 onClick={() => {
                   handleSideItemClick(link);
                 }}

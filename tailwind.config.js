@@ -12,7 +12,8 @@ module.exports = {
         main2: "#dfdfdf",
         primaryalt: "#f7f6f6",
         textalt: "#898989",
-        maintext: "#575656"
+        maintext: "#575656",
+        mainalt: "#dddddd",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
