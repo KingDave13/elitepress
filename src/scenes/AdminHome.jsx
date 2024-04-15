@@ -12,13 +12,13 @@ const AdminHome = () => {
     }, []); 
 
     return (
-        <div className='font-instrument-sans journal2'>
+        <div className='font-instrument-sans'>
             <NavbarAdmin />
-            <div className='grid grid-cols-4'>
-                <div className='sticky'>
+            <div className='grid grid-cols-5 journal2'>
+                <div className='fixed'>
                     <SidebarAdmin />
                 </div>
-                <div className='col-span-3'>
+                <div className='col-span-4 md:'>
                     <AdminJournals />
                 </div>
             </div>

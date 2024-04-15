@@ -19,23 +19,23 @@ const SidebarAdmin = () => {
 
   return (
     <div className={`${styles.paddingX} flex items-center
-    md:border-r-[1px] border-textalt hidden md:flex z-20`}
+    md:border-r-[1px] border-textalt hidden md:flex z-20 bg-main`}
     >
       <div className="w-full flex justify-between items-center mx-auto
       py-16">
         <div className="flex flex-col items-center w-full
         h-screen">
           <ul className="list-none flex flex-col gap-6 hidden md:flex
-          mt-24 font-medium">
+          mt-24">
             {sideLinks.map((link) => (
               <li
                 key={link.id}
                 className={`${
                   active === link.title
-                    ? 'text-[#021e31] font-bold text-[22px]'
+                    ? 'text-white font-bold text-[22px]'
                     : ''
-                } hover:text-main grow5 text-[20px] text-decoration-none 
-                cursor-pointer text-textalt list-item`}
+                } hover:text-textalt grow5 text-[20px] text-decoration-none 
+                cursor-pointer text-primaryalt list-item`}
                 onClick={() => {
                   handleSideItemClick(link);
                 }}
@@ -60,7 +60,7 @@ const SidebarAdmin = () => {
             text-decoration-none cursor-pointer text-textalt mt-20'>
               <div 
                 onClick={() => dispatch(setLogout())}
-                className='flex gap-6 items-center icon'
+                className='flex gap-6 items-center icon font-medium'
               >
                 <img src={logout} 
                   alt='logout'

@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { SectionWrapper } from "../hoc";
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 
-const JournalCard = ({ title, icon, desc, route }) => {
+const JournalCard = ({ title, route }) => {
+    const navigate = useNavigate();
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
     useEffect(() => {
@@ -17,32 +19,25 @@ const JournalCard = ({ title, icon, desc, route }) => {
 
     return (
       <div className='w-full grow3'>
-        <div className='w-full shadow-lg hover:shadow-xl rounded-lg 
-        bg-primaryalt'
-        >
-            <div options={{ max: 45, scale: 1, speed: 450 }}
-            className='p-8 md:gap-8 ss:gap-6 gap-5 flex justify-evenly 
-            md:flex-row flex-col'
+        <div className="flex gap-3 items-center justify-between
+        w-full">
+            <h3
+            className='text-main md:text-[22px] ss:text-[21px] 
+            text-[18px] font-bold md:leading-[25px] 
+            ss:leading-[24px] leading-[22px]'
             >
-                <div className="flex flex-col gap-3 justify-between">
-                    <h3
-                    className='text-main md:text-[22px] ss:text-[21px] 
-                    text-[18px] font-medium md:leading-[25px] 
-                    ss:leading-[24px] leading-[22px]'
-                    >
-                        {title}
-                    </h3>
+                {title}
+            </h3>
 
-                    <div className="w-full">
-                        <button className='md:text-[15px] cursor-pointer
-                        ss:text-[14px] md:py-1.5 ss:py-1.5 hover:bg-main
-                        md:px-6 ss:px-6 text-textalt rounded-md grow5 w-full
-                        font-medium border-textalt border-[1px] hover:text-white'
-                        >
-                            Manage
-                        </button>
-                    </div>
-                </div>
+            <div className="flex items-center justify-end">
+                <button onClick={() => navigate(route)}
+                className='md:text-[15px] cursor-pointer
+                ss:text-[14px] md:py-1.5 ss:py-1.5 hover:bg-main
+                md:px-6 ss:px-6 text-textalt rounded-md grow5
+                font-medium border-textalt border-[1px] hover:text-white'
+                >
+                    Manage
+                </button>
             </div>
         </div>
       </div>
@@ -74,12 +69,16 @@ const AdminJournals = () => {
         ss:mt-20 mt-20'>
             <motion.div className='flex items-center flex-col relative 
             justify-center w-full'>
-                <div className='grid grid-cols-4 md:gap-8 ss:gap-6 gap-10'>
+                <div className='grid md:gap-8 ss:gap-6 gap-10'>
                     {journals.map((journal) => (
-                        <JournalCard 
-                            key={journal.title}
-                            {...journal}
-                        />
+                        <ol>
+                            <li>
+                                <JournalCard 
+                                key={journal.title}
+                                {...journal}
+                                />
+                            </li>
+                        </ol>
                     ))}
                 </div>
             </motion.div>
