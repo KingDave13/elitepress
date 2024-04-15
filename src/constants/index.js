@@ -72,7 +72,13 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJMSVOL1ISS104,
     EJNHSVOL1ISS102,
     EJNHSVOL1ISS103,
-    EJNHSVOL1ISS104, } 
+    EJNHSVOL1ISS104,
+    EJHIVVOL1ISS101,
+    EJHIVVOL1ISS102,
+    EJHIVVOL1ISS103,
+    EJLMVOL1ISS101,
+    EJLMVOL1ISS102,
+    EJLMVOL1ISS103, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -817,6 +823,10 @@ export const ejlmSideLinks = [
         title: "Archives",
         links: [
             {
+                name: "Volume 1 (2023)",
+                route: "/journals/EJLM/VOL1",
+            }, 
+            {
                 name: "Volume 2 (2024)",
                 route: "/journals/EJLM/VOL2",
             }, 
@@ -1144,6 +1154,10 @@ export const ejhivSideLinks = [
         id: "archives",
         title: "Archives",
         links: [
+            {
+                name: "Volume 1 (2023)",
+                route: "/journals/EJHIV/VOL1",
+            },
             {
                 name: "Volume 2 (2024)",
                 route: "/journals/EJHIV/VOL2",
@@ -2532,6 +2546,30 @@ export const Ejivol2iss4 = [
     },
 ];
 
+export const Ejlmvol1iss1 = [
+    {
+        title: "Treatment Strategies for Aplastic Anemia in HIV: Current Approaches and Future Directions",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Aplastic anemia (AA) poses a significant hematologic challenge characterized by bone marrow failure and peripheral blood pancytopenia. In the context of HIV infection, managing AA presents unique complexities, necessitating tailored treatment strategies to address the intricate interplay between immune dysregulation, viral pathogenesis, and hematopoietic suppression.",
+        route: EJLMVOL1ISS101,
+        pages: "1-12",
+    },
+    {
+        title: "Hemochromatosis and HIV: Two Conditions, One Challenge",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Hemochromatosis and HIV represent two distinct yet interconnected medical conditions, each posing unique challenges to disease management. Hemochromatosis is characterized by excessive iron accumulation, while HIV infection results in immune dysfunction and increased susceptibility to infections.",
+        route: EJLMVOL1ISS102,
+        pages: "13-27",
+    },
+    {
+        title: "Ceruloplasmin and HIV-Associated Coagulopathies: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "HIV infection is associated with a spectrum of hematological abnormalities, including coagulopathies that contribute to increased morbidity and mortality in affected individuals. Ceruloplasmin, a multifunctional glycoprotein with antioxidant and immune-regulatory properties, has emerged as a potential mediator of coagulation dysfunction in HIV-infected individuals.",
+        route: EJLMVOL1ISS103,
+        pages: "28-41",
+    },
+];
+
 export const Ejlmvol2iss1 = [
     {
         title: "A Critical Appraisal of Erythropoietin Levels in HIV: Clinical Relevance",
@@ -3020,6 +3058,30 @@ export const Ejnhsvol2iss4 = [
         abstract: "Transfusion-related acute lung injury (TRALI) is a severe complication of blood transfusion characterized by acute respiratory distress and pulmonary edema. In pediatric patients with severe malaria and concurrent HIV infection, TRALI represents a significant clinical challenge, with potentially life-threatening consequences.",
         route: EJNHSVOL2ISS406,
         pages: "63-81",
+    },
+];
+
+export const Ejhivvol1iss1 = [
+    {
+        title: "Management of Aplastic Anemia in HIV-Infected Pediatric Population: Challenges and Opportunities",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Aplastic anemia (AA) represents a complex hematologic disorder characterized by bone marrow failure and peripheral blood pancytopenia. In the pediatric population coinfected with human immunodeficiency virus (HIV), the management of AA poses unique challenges, necessitating a nuanced understanding of disease pathogenesis and tailored treatment strategies.",
+        route: EJHIVVOL1ISS101,
+        pages: "1-14",
+    },
+    {
+        title: "Iron Overload in HIV: Implications for Disease Management",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Iron overload is a significant concern in individuals living with HIV, influenced by chronic inflammation, antiretroviral therapy, and co-morbidities. This review explores the mechanisms underlying iron dysregulation in HIV, its implications for disease management, and potential therapeutic interventions.",
+        route: EJHIVVOL1ISS102,
+        pages: "15-28",
+    },
+    {
+        title: "Ceruloplasmin and Oxidative Stress in HIV: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "HIV infection is associated with chronic inflammation and immune activation, leading to increased oxidative stress in affected individuals. Ceruloplasmin, a copper-binding glycoprotein with potent antioxidant properties, plays a crucial role in modulating oxidative stress levels.",
+        route: EJHIVVOL1ISS103,
+        pages: "29-42",
     },
 ];
 
