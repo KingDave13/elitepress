@@ -62,7 +62,7 @@ const AdminJournals = () => {
                         <div className='flex flex-col md:gap-5 ss:gap-6
                         gap-5'>
                             <JournalCard 
-                                key={journal.title}
+                                key={journal._id}
                                 {...journal}
                             />
 
