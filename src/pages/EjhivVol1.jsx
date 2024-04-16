@@ -6,7 +6,7 @@ import {
     Sidebar2, 
     NavbarPages,
     EjhivVol1Issues,
-    } from "../components";
+  } from "../components";
   
   import styles from "../styles";
   import { ejhivSideLinks } from "../constants";
