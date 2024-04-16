@@ -96,6 +96,7 @@ const App = () => {
           <Route path='/journals/EJNHS/Vol2Iss4' element={<EjnhsVol2Iss4 />} />
           <Route path='/journals/EJNHS/Vol2' element={<EjnhsVol2 />} />
           <Route path='/journals/EJNHS/Vol1' element={<EjnhsVol1 />} />
+          
           <Route path='/journals/EJNHS/Vol1/Vol1Iss1' element={<EjnhsVol1Iss1 />} />
           <Route path='/journals/EJNHS/Vol2/Vol2Iss1' element={<EjnhsVol2Iss1 />} />
           <Route path='/journals/EJNHS/Vol2/Vol2Iss2' element={<EjnhsVol2Iss2 />} />
