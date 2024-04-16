@@ -1,11 +1,11 @@
 import {
-    EJHIVVOL1,
-    Newsletter,
-    Footer, 
-    Sidebar,
-    Sidebar2, 
-    NavbarPages,
-    EjhivVol1Issues,
+  EJHIVVOL1,
+  Newsletter,
+  Footer, 
+  Sidebar,
+  Sidebar2, 
+  NavbarPages,
+  EjhivVol1Issues,
 } from "../components";
   
   import styles from "../styles";
