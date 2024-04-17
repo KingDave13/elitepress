@@ -80,7 +80,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL1ISS102,
     EJLMVOL1ISS103,
     EJMSVOL1ISS105,
-    EJLMVOL1ISS104, } 
+    EJLMVOL1ISS104,
+    EJHIVVOL1ISS104, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3098,6 +3099,13 @@ export const Ejhivvol1iss1 = [
         abstract: "HIV infection is associated with chronic inflammation and immune activation, leading to increased oxidative stress in affected individuals. Ceruloplasmin, a copper-binding glycoprotein with potent antioxidant properties, plays a crucial role in modulating oxidative stress levels.",
         route: EJHIVVOL1ISS103,
         pages: "29-42",
+    },
+    {
+        title: "Ceruloplasmin and HIV-Associated Hepatobiliary Disorders: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Hepatobiliary disorders represent significant comorbidities in individuals infected with the human immunodeficiency virus (HIV), contributing to morbidity and mortality worldwide. Ceruloplasmin, a multifunctional glycoprotein primarily synthesized in the liver, has emerged as a focal point in understanding the pathogenesis and management of HIV-associated liver dysfunction.",
+        route: EJHIVVOL1ISS104,
+        pages: "43-54",
     },
 ];
 
