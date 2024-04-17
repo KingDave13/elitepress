@@ -78,7 +78,9 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJHIVVOL1ISS103,
     EJLMVOL1ISS101,
     EJLMVOL1ISS102,
-    EJLMVOL1ISS103, } 
+    EJLMVOL1ISS103,
+    EJMSVOL1ISS105,
+    EJLMVOL1ISS104, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1779,6 +1781,13 @@ export const Ejmsvol1iss1 = [
         route: EJMSVOL1ISS104,
         pages: "38-50",
     },
+    {
+        title: "Ceruloplasmin and HIV-Associated Pulmonary Complications: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Pulmonary complications stand as significant challenges in individuals living with human immunodeficiency virus (HIV), contributing to heightened morbidity and mortality rates. Ceruloplasmin, a multifaceted glycoprotein renowned for its antioxidant properties, has garnered attention for its potential role in the pathogenesis and progression of HIV-associated pulmonary disorders.",
+        route: EJMSVOL1ISS105,
+        pages: "51-62",
+    },
 ];
 
 export const Ejmsvol2iss1 = [
@@ -2567,6 +2576,13 @@ export const Ejlmvol1iss1 = [
         abstract: "HIV infection is associated with a spectrum of hematological abnormalities, including coagulopathies that contribute to increased morbidity and mortality in affected individuals. Ceruloplasmin, a multifunctional glycoprotein with antioxidant and immune-regulatory properties, has emerged as a potential mediator of coagulation dysfunction in HIV-infected individuals.",
         route: EJLMVOL1ISS103,
         pages: "28-41",
+    },
+    {
+        title: "Ceruloplasmin and HIV-Associated Psychiatric Disorders: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Psychiatric disorders represent a significant burden among individuals living with human immunodeficiency virus (HIV), contributing to impaired quality of life, treatment adherence, and overall health outcomes. The prevalence of psychiatric manifestations, including depression, anxiety, neurocognitive impairment, and psychosis, is disproportionately higher in HIV-infected individuals compared to the general population.",
+        route: EJLMVOL1ISS104,
+        pages: "43-53",
     },
 ];
 
