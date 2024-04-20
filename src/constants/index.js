@@ -3106,6 +3106,7 @@ export const Ejhivvol1iss1 = [
         abstract: "Hepatobiliary disorders represent significant comorbidities in individuals infected with the human immunodeficiency virus (HIV), contributing to morbidity and mortality worldwide. Ceruloplasmin, a multifunctional glycoprotein primarily synthesized in the liver, has emerged as a focal point in understanding the pathogenesis and management of HIV-associated liver dysfunction.",
         route: EJHIVVOL1ISS104,
         pages: "43-54",
+        
     },
 ];
 
