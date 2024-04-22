@@ -81,7 +81,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL1ISS103,
     EJMSVOL1ISS105,
     EJLMVOL1ISS104,
-    EJHIVVOL1ISS104, } 
+    EJHIVVOL1ISS104,
+    EJSRRVOL2ISS401, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2850,6 +2851,16 @@ export const Ejsrrvol2iss3 = [
         abstract: "Severe malaria and HIV co-infection pose significant challenges in pediatric healthcare, particularly in regions where both diseases are endemic. Thrombocytopenia is a common complication of severe malaria, necessitating blood transfusion to prevent hemorrhagic complications.",
         route: EJSRRVOL2ISS305,
         pages: "69-87",
+    },
+];
+
+export const Ejsrrvol2iss4 = [
+    {
+        title: "Forced Vibration Analysis of Isotropic Thin Rectangular SSSS Plate",
+        authors: "Chidiebere Fidelis Njoku, Ikechukwu Agwu Ojike, Abiaziem Victor Njoku, Kelechi Frank Anyaoha and Chukwudebelu Nnaemeka Ugochukwu",
+        abstract: "This work used the general shape function assumed by Szilard (2004) to formulate the solution to the forced vibration equation of an isotropic thin rectangular plate. By applying the appropriate boundary conditions on dimensionless co-ordinates (ζ,η)it obtainedthe shape function of an SSSS plate, in terms of a deflection constant, A.",
+        route: EJSRRVOL2ISS401,
+        pages: "1-11",
     },
 ];
 
