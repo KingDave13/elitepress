@@ -2,16 +2,17 @@ import {
     Navbar, Hero, About, Journals, Newsletter, Footer
 } from '../components';
 
-import { useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 
 const HomePage = () => {
 
-    useEffect(() => {
-        document.title = 'Elite Press Journals | Innovation and Novelty';
-    }, []); 
-
     return (
         <div className='font-instrument-sans'>
+            <Helmet>
+                <title>Elite Press Journals | Innovation and Novelty</title>
+                <meta name="description" content="Explore the pinnacle of medical knowledge with Elite Press. Elevate your understanding of medical sciences through our meticulously crafted publications, authored by leading experts in their fields." />
+            </Helmet>
+
             <Navbar />
 
             <div className='hero'>
