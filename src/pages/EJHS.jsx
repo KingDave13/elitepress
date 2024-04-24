@@ -11,17 +11,17 @@ import styles from "../styles";
 import { ejhsSideLinks } from "../constants";
 
 import { hero3 } from "../assets";
-
-import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 const EJHS = () => {
 
-  useEffect(() => {
-    document.title = 'Elite Journal of Health Sciences | Elite Press Journals';
-  }, []); 
-
   return (
     <div className="font-instrument-sans">
+      <Helmet>
+        <title>Elite Journal of Health Sciences | Elite Press Journals</title>
+        <meta name="description" content="EJHS is your gateway to an expansive exploration of health sciences. From unraveling the threads of epidemiology to deciphering the intricacies of healthcare management, this journal offers a multidimensional perspective. Immerse yourself in diverse studies that contribute to the enhancement of public health strategies, clinical practices and the overall well-being of communities." />
+      </Helmet>
+
       <NavbarPages />
       <div className='relative flex items-center justify-center w-full 
       md:max-h-[450px] ss:max-h-[300px] max-h-[200px] md:top-[6rem] 

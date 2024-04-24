@@ -11,17 +11,17 @@ import styles from "../styles";
 import { ejlmSideLinks } from "../constants";
 
 import { hero3 } from "../assets";
-
-import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 const EJLM = () => {
 
-  useEffect(() => {
-    document.title = 'Elite Journal of Laboratory Medicine | Elite Press Journals';
-  }, []); 
-
   return (
     <div className="font-instrument-sans">
+      <Helmet>
+        <title>Elite Journal of Laboratory Medicine | Elite Press Journals</title>
+        <meta name="description" content="EJLM illuminates the path of innovation in laboratory medicine and diagnostic technologies. From groundbreaking methodologies to best practices, this journal is a compendium of advancements in laboratory sciences." />
+      </Helmet>
+
       <NavbarPages />
       <div className='relative flex items-center justify-center w-full 
       md:max-h-[450px] ss:max-h-[300px] max-h-[200px] md:top-[6rem] 

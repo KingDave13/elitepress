@@ -11,17 +11,17 @@ import styles from "../styles";
 import { ejmsSideLinks } from "../constants";
 
 import { hero3 } from "../assets";
-
-import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 const EJMS = () => {
 
-  useEffect(() => {
-    document.title = 'Elite Journal of Medical Sciences | Elite Press Journals';
-  }, []); 
-
   return (
     <div className="font-instrument-sans">
+      <Helmet>
+        <title>Elite Journal of Medical Sciences | Elite Press Journals</title>
+        <meta name="description" content="Discover the pulse of medical knowledge with EJMS. Unveiling the latest findings and trends across various medical specialties and subspecialties, this journal is a comprehensive resource for healthcare professionals and researchers." />
+      </Helmet>
+
       <NavbarPages />
       <div className='relative flex items-center justify-center w-full 
       md:max-h-[450px] ss:max-h-[300px] max-h-[200px] md:top-[6rem] 

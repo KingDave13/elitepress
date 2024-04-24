@@ -11,17 +11,17 @@ import styles from "../styles";
 import { ejiSideLinks } from "../constants";
 
 import { hero3 } from "../assets";
-
-import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 const EJI = () => {
 
-  useEffect(() => {
-    document.title = 'Elite Journal of Immunology | Elite Press Journals';
-  }, []); 
-
   return (
     <div className="font-instrument-sans">
+      <Helmet>
+        <title>Elite Journal of Immunology | Elite Press Journals</title>
+        <meta name="description" content="Journey into the intricate world of the immune system with EJI. Investigate the complexities of immune responses and stay abreast of advancements in immunological research." />
+      </Helmet>
+
       <NavbarPages />
       <div className='relative flex items-center justify-center w-full 
       md:max-h-[450px] ss:max-h-[300px] max-h-[200px] md:top-[6rem] 

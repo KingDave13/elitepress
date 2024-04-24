@@ -11,17 +11,17 @@ import styles from "../styles";
 import { ejhivSideLinks } from "../constants";
 
 import { hero3 } from "../assets";
-
-import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 const EJHIV = () => {
 
-  useEffect(() => {
-    document.title = 'Elite Journal of HIV | Elite Press Journals';
-  }, []); 
-
   return (
     <div className="font-instrument-sans">
+      <Helmet>
+        <title>Elite Journal of HIV | Elite Press Journals</title>
+        <meta name="description" content="Dedicated to advancing knowledge in the field of Human Immunodeficiency Virus (HIV), EJHIV focuses on research, prevention, and treatment strategies." />
+      </Helmet>
+
       <NavbarPages />
       <div className='relative flex items-center justify-center w-full 
       md:max-h-[450px] ss:max-h-[300px] max-h-[200px] md:top-[6rem] 

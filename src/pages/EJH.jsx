@@ -11,17 +11,17 @@ import styles from "../styles";
 import { ejhSideLinks } from "../constants";
   
 import { hero3 } from "../assets";
-
-import { useEffect } from "react";
+import { Helmet } from "react-helmet";
   
 const EJH = () => {
 
-useEffect(() => {
-  document.title = 'Elite Journal of Haematology | Elite Press Journals';
-}, []); 
-
   return (
     <div className="font-instrument-sans">
+      <Helmet>
+        <title>Elite Journal of Haematology | Elite Press Journals</title>
+        <meta name="description" content="Get on a journey into the intricate world of blood-related disorders. EJH is your guide to exploring the forefront of haematological research, unraveling the complexities of hematopoiesis, coagulation and the latest therapeutic interventions." />
+      </Helmet>
+
       <NavbarPages />
       <div className='relative flex items-center justify-center w-full 
       md:max-h-[450px] ss:max-h-[300px] max-h-[200px] md:top-[6rem] 

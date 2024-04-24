@@ -11,17 +11,17 @@ import styles from "../styles";
 import { ejsrrSideLinks } from "../constants";
 
 import { hero3 } from "../assets";
-
-import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 const EJSRR = () => {
 
-  useEffect(() => {
-    document.title = 'Elite Journal of Scientific Research and Review | Elite Press Journals';
-  }, []); 
-
   return (
     <div className="font-instrument-sans">
+      <Helmet>
+        <title>Elite Journal of Scientific Research and Review | Elite Press Journals</title>
+        <meta name="description" content="EJSRR serves as a dynamic platform for comprehensive scientific reviews and critical analysis across various disciplines. Engage with in-depth explorations of research methodologies, theoretical frameworks, and emerging trends." />
+      </Helmet>
+
       <NavbarPages />
       <div className='relative flex items-center justify-center w-full 
       md:max-h-[450px] ss:max-h-[300px] max-h-[200px] md:top-[6rem] 

@@ -11,17 +11,17 @@ import styles from "../styles";
 import { ejnhsSideLinks } from "../constants";
 
 import { hero3 } from "../assets";
+import { Helmet } from "react-helmet";
 
-import { useEffect } from "react";
-
-const EJNHS = () => {
-
-  useEffect(() => {
-    document.title = 'Elite Journal of Nursing and Health Sciences | Elite Press Journals';
-  }, []); 
+const EJNHS = () => { 
 
   return (
     <div className="font-instrument-sans">
+      <Helmet>
+        <title>Elite Journal of Nursing and Health Sciences | Elite Press Journals</title>
+        <meta name="description" content="EJNHS is a platform dedicated to showcasing research that shapes the nursing profession. Explore the forefront of nursing science and advancements in health sciences." />
+      </Helmet>
+
       <NavbarPages />
       <div className='relative flex items-center justify-center w-full 
       md:max-h-[450px] ss:max-h-[300px] max-h-[200px] md:top-[6rem] 

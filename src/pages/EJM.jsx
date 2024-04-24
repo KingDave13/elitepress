@@ -11,17 +11,17 @@ import styles from "../styles";
 import { ejmSideLinks } from "../constants";
 
 import { hero3 } from "../assets";
-
-import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 const EJM = () => {
 
-  useEffect(() => {
-    document.title = 'Elite Journal of Medicine | Elite Press Journals';
-  }, []); 
-
   return (
     <div className="font-instrument-sans">
+      <Helmet>
+        <title>Elite Journal of Medicine | Elite Press Journals</title>
+        <meta name="description" content="At the crossroads of innovation and holistic healthcare, EJM stands as a beacon of breakthroughs in general medicine. Navigate through a landscape of medical advancements, from cutting-edge technologies to transformative treatment modalities." />
+      </Helmet>
+
       <NavbarPages />
       <div className='relative flex items-center justify-center w-full 
       md:max-h-[450px] ss:max-h-[300px] max-h-[200px] md:top-[6rem] 

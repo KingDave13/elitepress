@@ -12,17 +12,17 @@ import { ejphSideLinks } from "../constants";
 import styles from "../styles";
 
 import { hero3 } from "../assets";
-
-import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 const EJPH = () => {
 
-  useEffect(() => {
-    document.title = 'Elite Journal of Public Health | Elite Press Journals';
-  }, []); 
-
   return (
     <div className="font-instrument-sans">
+      <Helmet>
+        <title>Elite Journal of Public Health | Elite Press Journals</title>
+        <meta name="description" content="EJPH takes on the mantle of addressing public health challenges head-on. Navigate through research dedicated to promoting strategies for community well-being." />
+      </Helmet>
+
       <NavbarPages />
       <div className='relative flex items-center justify-center w-full 
       md:max-h-[450px] ss:max-h-[300px] max-h-[200px] md:top-[6rem] 
