@@ -3,20 +3,21 @@ import {
   Hero3,
   JournalsMain,
   Newsletter,
-  Footer } from "../components";
+  Footer 
+} from "../components";
 
-import { useEffect } from "react";
-
+import { Helmet } from "react-helmet";
 import { hero2 } from "../assets";
   
   const JournalsPage = () => {
 
-  useEffect(() => {
-    document.title = 'Journals | Elite Press Journals';
-  }, []); 
-
     return (
       <div className="font-instrument-sans">
+        <Helmet>
+          <title>Journals | Elite Press Journals</title>
+          <meta name="description" content="Each publication is meticulously curated to contribute to the progress of various disciplines within the medical field." />
+        </Helmet>
+
         <div>
           <NavbarAlt2 />
           <div className='relative flex items-center justify-center w-full 

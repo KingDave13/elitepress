@@ -7,16 +7,17 @@ import {
   Footer } from "../components";
 
 import { hero2 } from "../assets";
-import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 const AboutPage = () => {
 
-useEffect(() => {
-  document.title = 'About Us | Elite Press Journals';
-}, []); 
-
   return (
     <div className="font-instrument-sans">
+      <Helmet>
+        <title>About Us | Elite Press Journals</title>
+        <meta name="description" content="At Elite Press, we are committed to disseminating cutting-edge research through our comprehensive range of medical journals. " />
+      </Helmet>
+
       <NavbarAlt />
       <div className='relative flex items-center justify-center w-full 
       md:max-h-[450px] ss:max-h-[300px] max-h-[200px] md:top-[6rem] 

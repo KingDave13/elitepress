@@ -6,16 +6,17 @@ import {
   Footer } from "../components";
   
 import { hero2 } from "../assets";
-import { useEffect } from "react";
+import { Helmet } from "react-helmet";
   
   const ContactPage = () => {
 
-  useEffect(() => {
-    document.title = 'Contact Us | Elite Press Journals';
-  }, []); 
-
     return (
       <div className="font-instrument-sans">
+        <Helmet>
+          <title>Contact Us | Elite Press Journals</title>
+          <meta name="description" content="Get in touch with us" />
+        </Helmet>
+
         <div>
           <NavbarAlt3 />
           <div className='relative flex items-center justify-center w-full 
