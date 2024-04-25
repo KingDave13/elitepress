@@ -82,7 +82,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJMSVOL1ISS105,
     EJLMVOL1ISS104,
     EJHIVVOL1ISS104,
-    EJSRRVOL2ISS401, } 
+    EJSRRVOL2ISS401,
+    EJHVOL2ISS501, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2395,6 +2396,16 @@ export const Ejhvol2iss4 = [
         abstract: "Transfusion-related alterations in red blood cell (RBC) deformability play a critical role in the pathophysiology of severe malaria and HIV co-infection in pediatric populations. While blood transfusion is a cornerstone intervention for managing severe anemia and preventing mortality in children with severe malaria, its impact on RBC deformability in the context of HIV co-infection remains poorly understood.",
         route: EJHVOL2ISS413,
         pages: "199-218",
+    },
+];
+
+export const Ejhvol2iss5 = [
+    {
+        title: "A Study of Iron Status and Total Serum Protein Levels in Blood Donors in Owerri, Imo State",
+        authors: "Obioma Raluchukwu Emeka-Obi, Samuel O. Ureme, Jane Ugochi Chinedu- Madu, Onyewuchi Goziem Ugwuibe and Chinasa Jane Onyeulor",
+        abstract: "Haemoglobin level, Serum Ferritin, Serum Iron, Total Iron-binding Capacity (TIBC), Percentage Transferrin Saturation and Total Serum Protein levels were measured in three groups of individuals. A total of 138 subjects were recruited for this study. These subjects were grouped into three based on the number of donations done in the last one year: Group A were individuals with a history of 1-3 donation, Group B 4-6 donations and Group C, 7-9 donations.",
+        route: EJHVOL2ISS501,
+        pages: "1-19",
     },
 ];
 
