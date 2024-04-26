@@ -85,7 +85,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJSRRVOL2ISS401,
     EJHVOL2ISS501,
     EJHVOL2ISS502,
-    EJHVOL2ISS503, } 
+    EJHVOL2ISS503,
+    EJHSVOL2ISS406, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2127,6 +2128,13 @@ export const Ejhsvol2iss4 = [
         abstract: "Tuberculosis (TB) and Human Immunodeficiency Virus (HIV) coinfection present a significant challenge to global health, with complex interactions between these pathogens influencing disease outcomes and treatment responses. L-selectin, a key mediator of leukocyte trafficking and immune activation, has emerged as a crucial molecule in the pathogenesis of TB-HIV coinfection.",
         route: EJHSVOL2ISS405,
         pages: "41-58",
+    },
+    {
+        title: "Understanding Body Mass Index Variations and Clinical Outcomes in Leukemia Patients with HIV/AIDS: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Body Mass Index (BMI) fluctuations play a crucial role in shaping clinical outcomes among leukemia patients concurrently diagnosed with HIV/AIDS. In this review, we delve into the multifaceted relationship between BMI variations and disease trajectories in this vulnerable population.",
+        route: EJHSVOL2ISS406,
+        pages: "59-72",
     },
 ];
 
