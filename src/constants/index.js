@@ -2407,6 +2407,20 @@ export const Ejhvol2iss5 = [
         route: EJHVOL2ISS501,
         pages: "1-19",
     },
+    {
+        title: "A Study of Iron Status and Total Serum Protein Levels in Blood Donors in Owerri, Imo State",
+        authors: "Obioma Raluchukwu Emeka-Obi, Samuel O. Ureme, Jane Ugochi Chinedu- Madu, Onyewuchi Goziem Ugwuibe and Chinasa Jane Onyeulor",
+        abstract: "Haemoglobin level, Serum Ferritin, Serum Iron, Total Iron-binding Capacity (TIBC), Percentage Transferrin Saturation and Total Serum Protein levels were measured in three groups of individuals. A total of 138 subjects were recruited for this study. These subjects were grouped into three based on the number of donations done in the last one year: Group A were individuals with a history of 1-3 donation, Group B 4-6 donations and Group C, 7-9 donations.",
+        route: EJHVOL2ISS501,
+        pages: "1-19",
+    },
+    {
+        title: "A Study of Iron Status and Total Serum Protein Levels in Blood Donors in Owerri, Imo State",
+        authors: "Obioma Raluchukwu Emeka-Obi, Samuel O. Ureme, Jane Ugochi Chinedu- Madu, Onyewuchi Goziem Ugwuibe and Chinasa Jane Onyeulor",
+        abstract: "Haemoglobin level, Serum Ferritin, Serum Iron, Total Iron-binding Capacity (TIBC), Percentage Transferrin Saturation and Total Serum Protein levels were measured in three groups of individuals. A total of 138 subjects were recruited for this study. These subjects were grouped into three based on the number of donations done in the last one year: Group A were individuals with a history of 1-3 donation, Group B 4-6 donations and Group C, 7-9 donations.",
+        route: EJHVOL2ISS501,
+        pages: "1-19",
+    },
 ];
 
 export const Ejivol2iss1 = [
