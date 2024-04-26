@@ -2410,18 +2410,18 @@ export const Ejhvol2iss5 = [
         pages: "1-19",
     },
     {
-        title: "A Study of Iron Status and Total Serum Protein Levels in Blood Donors in Owerri, Imo State",
-        authors: "Obioma Raluchukwu Emeka-Obi, Samuel O. Ureme, Jane Ugochi Chinedu- Madu, Onyewuchi Goziem Ugwuibe and Chinasa Jane Onyeulor",
-        abstract: "Haemoglobin level, Serum Ferritin, Serum Iron, Total Iron-binding Capacity (TIBC), Percentage Transferrin Saturation and Total Serum Protein levels were measured in three groups of individuals. A total of 138 subjects were recruited for this study. These subjects were grouped into three based on the number of donations done in the last one year: Group A were individuals with a history of 1-3 donation, Group B 4-6 donations and Group C, 7-9 donations.",
+        title: "Aplastic Anemia and HIV: Clinical Features and Risk Factors",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Aplastic anemia, a rare but serious hematological disorder characterized by bone marrow failure, has emerged as a recognized complication in individuals living with HIV/AIDS. This review provides a comprehensive analysis of the clinical features and risk factors associated with the development of aplastic anemia in the context of HIV infection.",
         route: EJHVOL2ISS502,
-        pages: "1-19",
+        pages: "20-38",
     },
     {
-        title: "A Study of Iron Status and Total Serum Protein Levels in Blood Donors in Owerri, Imo State",
-        authors: "Obioma Raluchukwu Emeka-Obi, Samuel O. Ureme, Jane Ugochi Chinedu- Madu, Onyewuchi Goziem Ugwuibe and Chinasa Jane Onyeulor",
-        abstract: "Haemoglobin level, Serum Ferritin, Serum Iron, Total Iron-binding Capacity (TIBC), Percentage Transferrin Saturation and Total Serum Protein levels were measured in three groups of individuals. A total of 138 subjects were recruited for this study. These subjects were grouped into three based on the number of donations done in the last one year: Group A were individuals with a history of 1-3 donation, Group B 4-6 donations and Group C, 7-9 donations.",
+        title: "Exploring the Impact of Body Mass Index on Quality of Life in Leukemia Patients Living with HIV: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Body Mass Index (BMI) is a crucial determinant of nutritional status and overall health, particularly impactful in individuals facing concurrent diagnoses of leukemia and HIV/AIDS. This review examines the intricate relationship between BMI variations and quality of life (QoL) in leukemia patients living with HIV, aiming to elucidate the multifaceted mechanisms underlying their interconnectedness.",
         route: EJHVOL2ISS503,
-        pages: "1-19",
+        pages: "39-54",
     },
 ];
 
