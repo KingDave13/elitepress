@@ -90,7 +90,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJMVOL2ISS501,
     EJMVOL2ISS502,
     EJMVOL2ISS503,
-    EJMVOL2ISS504, } 
+    EJMVOL2ISS504,
+    EJHIVVOL2ISS501, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -269,8 +270,8 @@ export const ejmSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 4. (2024)",
-                route: "/journals/EJM/VOL2ISS4",
+                name: "Volume 2, Issue 5. (2024)",
+                route: "/journals/EJM/VOL2ISS5",
             },
         ],
     },
@@ -1157,8 +1158,8 @@ export const ejhivSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 4. (2024)",
-                route: "/journals/EJHIV/VOL2ISS4",
+                name: "Volume 2, Issue 5. (2024)",
+                route: "/journals/EJHIV/VOL2ISS5",
             },
         ],
     },
@@ -3374,6 +3375,16 @@ export const Ejhivvol2iss4 = [
         abstract: "The intertwined relationship between climate change and the spread of HIV/AIDS poses complex challenges to global health and development. This review article explores the multifaceted connections between climate change and HIV transmission dynamics, examining the influence of environmental factors, socio-economic vulnerabilities, and adaptive responses on the intersection of these two phenomena.",
         route: EJHIVVOL2ISS408,
         pages: "128-145",
+    },
+];
+
+export const Ejhivvol2iss5 = [
+    {
+        title: "Confronting Dual Challenges: Substance Abuse and HIV/AIDS",
+        authors: "Esther Ugo Alum, Emmanuel Ifeanyi Obeagu, Okechukwu P. C. Ugwu, Simeon Ikechukwu Egba, Daniel Ejim Uti, Chris U. A. Ukaidi and Darlington Arinze Echegu",
+        abstract: "The multifaceted association between substance abuse and human immunodeficiency virus (HIV) infection is examined in this article, with particular attention paid to prevalence, risk behaviours, biological vulnerability, care-seeking barriers, and preventive measures.",
+        route: EJHIVVOL2ISS501,
+        pages: "1-8",
     },
 ];
 
