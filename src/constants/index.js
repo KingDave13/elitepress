@@ -86,7 +86,11 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJHVOL2ISS501,
     EJHVOL2ISS502,
     EJHVOL2ISS503,
-    EJHSVOL2ISS406, } 
+    EJHSVOL2ISS406,
+    EJMVOL2ISS501,
+    EJMVOL2ISS502,
+    EJMVOL2ISS503,
+    EJMVOL2ISS504, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1755,6 +1759,37 @@ export const Ejmvol2iss4 = [
         abstract: "Perioperative morbidity is characterized as negative health outcomes associated with a surgical treatment while perioperative mortality is any death in a child that occurs during surgical treatment within thirty days after surgery.",
         route: EJMVOL2ISS407,
         pages: "109-116",
+    },
+];
+
+export const Ejmvol2iss5 = [
+    {
+        title: "Antioxidant and Lipid Profile of Ethanolic Root Extract and Fractions of Agave Sasilana in Albino Rats",
+        authors: "O. D. Omodamiro, O.J. Mba and Emmanuel Ifeanyi Obeagu",
+        abstract: "The present study investigates the antioxidant and lipid profile of the ethanolic root extract and fractions of Agave sasilana in albino rats. Forty-eight male albino rats of mean weight 180 g were used for the study. The animals for the study were grouped into eight groups of six rats each. There were seven test groups and a control group.",
+        route: EJMVOL2ISS501,
+        pages: "1-15",
+    },
+    {
+        title: "Diuretic Activity of Ethanolic Root Extract and Fractions of Agave Sasilana in Albino Rats",
+        authors: "O. D. Omodamiro, O.J. Mba and Emmanuel Ifeanyi Obeagu",
+        abstract: "The present study investigates the diuretic activity of the ethanolic root extract and fractions of Agave sasilana in albino rats. Forty-eight male albino rats of mean weight 180 g were used for the study. There were seven test groups and a control group.",
+        route: EJMVOL2ISS502,
+        pages: "16-27",
+    },
+    {
+        title: "A Study of Serum Ferritin Levels in Blood Donors in Orlu, Imo State",
+        authors: "Obioma Raluchukwu Emeka-Obi, Samuel O. Ureme, Jane Ugochi Chinedu- Madu, Onyewuchi Goziem Ugwuibe and Chinasa Jane Onyeulor",
+        abstract: "Haemoglobin levels, PCV and serum ferritin levels were measured in three groups of individuals. These groups are: (a) individuals with no history of donation (Group A), (b) individuals with a history of 1-3 donations (Group B) and individuals with a history of 4- 7 donations in the last one year (Group C).",
+        route: EJMVOL2ISS503,
+        pages: "28-35",
+    },
+    {
+        title: "Hemochromatosis and HIV: Unraveling Genetic Susceptibility",
+        authors: "Emmanuel Ifeanyi Obeagu and D.C. Nwosu",
+        abstract: "Hemochromatosis, a disorder characterized by excessive iron absorption leading to systemic iron overload, and Human Immunodeficiency Virus (HIV), a viral infection targeting the immune system, represent significant health challenges worldwide. Concurrently, host genetic factors play a pivotal role in determining susceptibility to HIV infection and disease progression.",
+        route: EJMVOL2ISS504,
+        pages: "36-52",
     },
 ];
 
