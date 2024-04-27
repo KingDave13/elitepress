@@ -91,7 +91,11 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJMVOL2ISS502,
     EJMVOL2ISS503,
     EJMVOL2ISS504,
-    EJHIVVOL2ISS501, } 
+    EJHIVVOL2ISS501,
+    EJMSVOL2ISS403,
+    EJMSVOL2ISS404,
+    EJHVOL2ISS504,
+    EJLMVOL2ISS406, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1961,6 +1965,20 @@ export const Ejmsvol2iss4 = [
         route: EJMSVOL2ISS402,
         pages: "21-39",
     },
+    {
+        title: "Oxytocic and Abortifacient Potential of Ethanolic Extract of Date Fruit (Phoenix Dactylifera) in Albino Rats",
+        authors: "O.D. Omodamiro, R.M. Omodamiro, O.C. Kanu and Emmanuel Ifeanyi Obeagu",
+        abstract: "This study aimedto evaluate the oxytocic and abortifacient potential of ethanolic extract of date fruit (Phaenix dactylifera) in albino rats. The phytochemical analysis of the extract was also evaluated using standard methods. For biochemical and hematological assay, a total of 30 wistar rats with body weight of 200 ± 50 g were used for this study.",
+        route: EJMSVOL2ISS403,
+        pages: "40-59",
+    },
+    {
+        title: "Phytochemical Characterization, Acute Toxicity Studies and Anti-inflammatory Activities of Ethanolic Root Extract of Agave Sasilana in Albino Rats",
+        authors: "O.D. Omodamiro, R.M. Omodamiro and Emmanuel Ifeanyi Obeagu",
+        abstract: "The present study investigates the phytochemical and acute toxicity studies of the ethanolic root extract of Agave sasilana in albino rats. The lorke’s method was used for the acute toxicity study of which twenty-seven (27) male albino rats were used. The extracts were administered at the doses of 50, 100, 150, 200, 250, 500 and 750 mg/kg body weight of the animals.",
+        route: EJMSVOL2ISS404,
+        pages: "60-75",
+    },
 ];
 
 export const Ejhsvol1iss1 = [
@@ -2467,6 +2485,13 @@ export const Ejhvol2iss5 = [
         route: EJHVOL2ISS503,
         pages: "39-54",
     },
+    {
+        title: "Hemochromatosis and HIV: Implications for Immune Senescence",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Hemochromatosis and HIV infection represent distinct yet intersecting conditions with significant implications for immune senescence, the gradual decline in immune function associated with aging. Hemochromatosis, characterized by excessive iron accumulation in tissues, and HIV infection, a chronic viral illness leading to progressive immune dysfunction, both contribute to immune dysregulation and accelerated aging of the immune system.",
+        route: EJHVOL2ISS504,
+        pages: "55-71",
+    },
 ];
 
 export const Ejivol2iss1 = [
@@ -2808,6 +2833,13 @@ export const Ejlmvol2iss4 = [
         abstract: "Blood transfusion is a life-saving intervention often employed in the management of severe malaria-related complications, particularly in pediatric populations. However, in regions with high HIV prevalence, the co-occurrence of HIV infection complicates transfusion therapy and raises concerns regarding safety and tolerance.",
         route: EJLMVOL2ISS405,
         pages: "64-83",
+    },
+    {
+        title: "Assessment of Microbial Quality of Yoghurt Sold in Owerri Metropolis, Imo State",
+        authors: "Henry Chidozie Amah, Faith Chibuzo Enyenwa, Magnus Chinonye Nsonwu, Kennedy Tamunokubie Atemie, Anthonia Chinwendu Emesowum and Roseanne Adah Ikpeama",
+        abstract: "The assessment of microbial quality of yoghurt sold in Owerri metropolis was determined. Eight brands of yoghurt designated V-fa,D-fa,V-favi,D-favi,V-sy,D-sy,V-Dsa and D-Dsa were obtained from Owerri metropolis. A tenfold serial dilution was carried out and appropriate diluted samples inoculated on duplicate plates of SDA, Nutrient agar, SSA and CLED agar.",
+        route: EJLMVOL2ISS406,
+        pages: "84-91",
     },
 ];
 
