@@ -297,7 +297,16 @@ import EJSRRVOL2ISS401 from './EJSRRVOL2ISS401.pdf';
 import EJHVOL2ISS501 from './EJHVOL2ISS501.pdf';
 import EJHVOL2ISS502 from './EJHVOL2ISS502.pdf';
 import EJHVOL2ISS503 from './EJHVOL2ISS503.pdf';
+import EJHVOL2ISS504 from './EJHVOL2ISS504.pdf';
 import EJHSVOL2ISS406 from './EJHSVOL2ISS406.pdf';
+import EJHIVVOL2ISS501 from './EJHIVVOL2ISS501.pdf';
+import EJMVOL2ISS501 from './EJMVOL2ISS501.pdf';
+import EJMVOL2ISS502 from './EJMVOL2ISS502.pdf';
+import EJMVOL2ISS503 from './EJMVOL2ISS503.pdf';
+import EJMVOL2ISS504 from './EJMVOL2ISS504.pdf';
+import EJMSVOL2ISS403 from './EJMSVOL2ISS403.pdf';
+import EJMSVOL2ISS404 from './EJMSVOL2ISS404.pdf';
+import EJLMVOL2ISS406 from './EJLMVOL2ISS406.pdf';
 
 import logout from './logout.png';
 import arrowreverse from './arrowreverse.png';
