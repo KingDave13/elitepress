@@ -1770,14 +1770,14 @@ export const Ejmvol2iss4 = [
 export const Ejmvol2iss5 = [
     {
         title: "Antioxidant and Lipid Profile of Ethanolic Root Extract and Fractions of Agave Sasilana in Albino Rats",
-        authors: "O. D. Omodamiro, O.J. Mba and Emmanuel Ifeanyi Obeagu",
+        authors: "O. D. Omodamiro, R.M. Omodamiro and Emmanuel Ifeanyi Obeagu",
         abstract: "The present study investigates the antioxidant and lipid profile of the ethanolic root extract and fractions of Agave sasilana in albino rats. Forty-eight male albino rats of mean weight 180 g were used for the study. The animals for the study were grouped into eight groups of six rats each. There were seven test groups and a control group.",
         route: EJMVOL2ISS501,
         pages: "1-15",
     },
     {
         title: "Diuretic Activity of Ethanolic Root Extract and Fractions of Agave Sasilana in Albino Rats",
-        authors: "O. D. Omodamiro, O.J. Mba and Emmanuel Ifeanyi Obeagu",
+        authors: "O. D. Omodamiro, R.M. Omodamiro and Emmanuel Ifeanyi Obeagu",
         abstract: "The present study investigates the diuretic activity of the ethanolic root extract and fractions of Agave sasilana in albino rats. Forty-eight male albino rats of mean weight 180 g were used for the study. There were seven test groups and a control group.",
         route: EJMVOL2ISS502,
         pages: "16-27",
