@@ -1967,7 +1967,7 @@ export const Ejmsvol2iss4 = [
     },
     {
         title: "Oxytocic and Abortifacient Potential of Ethanolic Extract of Date Fruit (Phoenix Dactylifera) in Albino Rats",
-        authors: "O.D. Omodamiro, R.M. Omodamiro, O.C. Kanu and Emmanuel Ifeanyi Obeagu",
+        authors: "Omodamiro, O.D, Omodamiro R.M, Kanu, O.C and Emmanuel Ifeanyi Obeagu",
         abstract: "This study aimedto evaluate the oxytocic and abortifacient potential of ethanolic extract of date fruit (Phaenix dactylifera) in albino rats. The phytochemical analysis of the extract was also evaluated using standard methods. For biochemical and hematological assay, a total of 30 wistar rats with body weight of 200 ± 50 g were used for this study.",
         route: EJMSVOL2ISS403,
         pages: "40-59",
