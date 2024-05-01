@@ -166,6 +166,8 @@ import EjsrrVol2Iss4Pubs from './EjsrrVol2Iss4Pubs';
 import EJSRRVOL2ISS4 from './EJSRRVOL2ISS4';
 import EJHVOL2ISS5 from './EJHVOL2ISS5';
 import EjhVol2Iss5Pubs from './EjhVol2Iss5Pubs';
+import EJPHVOL2ISS5 from './EJPHVOL2ISS5';
+import Vol2Iss5Pubs from './Vol2Iss5Pubs';
 
 import EJNHSVOL1 from './EJNHSVOL1';
 import EJNHSVOL1ISS1 from './EJNHSVOL1ISS1';
@@ -372,4 +374,6 @@ export {
     EJMVOL2ISS5,
     EjhivVol2Iss5Pubs,
     EjmVol2Iss5Pubs,
+    EJPHVOL2ISS5,
+    Vol2Iss5Pubs,
 }
