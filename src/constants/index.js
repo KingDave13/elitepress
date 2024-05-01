@@ -95,7 +95,9 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJMSVOL2ISS403,
     EJMSVOL2ISS404,
     EJHVOL2ISS504,
-    EJLMVOL2ISS406, } 
+    EJLMVOL2ISS406,
+    EJPHVOL2ISS501,
+    EJPHVOL2ISS502, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -610,8 +612,8 @@ export const ejphSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 4. (2024)",
-                route: "/journals/EJPH/VOL2ISS4",
+                name: "Volume 2, Issue 5. (2024)",
+                route: "/journals/EJPH/VOL2ISS5",
             },
         ],
     },
@@ -1532,6 +1534,23 @@ export const vol2iss4 = [
         abstract: "Climate variability presents a complex and evolving challenge to global health, with implications for the transmission dynamics of HIV/AIDS. This review examines the intersection of climate variability and HIV/AIDS, exploring the ways in which environmental changes influenced by climate variability impact the spread of the virus.",
         route: EJPHVOL2ISS410,
         pages: "111-127",
+    },
+];
+
+export const vol2iss5 = [
+    {
+        title: "HIV and Hemophilia: Addressing Stigma and Discrimination",
+        authors: "Emmanuel Ifeanyi Obeagu and Sharon Seni Itoe Ngomo",
+        abstract: "Hemophilia and HIV, two chronic conditions with unique challenges, intersect in individuals who are doubly burdened by both their genetic predisposition to bleeding disorders and the acquired immunodeficiency virus. Beyond the physiological complexities of managing these conditions, individuals with hemophilia and HIV often face stigma and discrimination, exacerbating their already challenging circumstances.",
+        route: EJPHVOL2ISS501,
+        pages: "1-20",
+    },
+    {
+        title: "Isolation and Identification of Escherichia Coli from Students' Toilet Seats in the University of Buea Restrooms",
+        authors: "Sharon Seni Itoe Ngomo and Jerome Fru Cho",
+        abstract: "Exposure to enteric pathogens through direct contact with contaminated toilet surfaces is one of the major sources of disease transmission in a public setting. Toilet seats are potential carriers of pathogenic microorganisms if used under poor hygienic conditions. The emergence and spread of Escherichia coli (E. coli) is a global health concern.",
+        route: EJPHVOL2ISS502,
+        pages: "21-31",
     },
 ];
 
