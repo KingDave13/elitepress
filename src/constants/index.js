@@ -97,7 +97,9 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJHVOL2ISS504,
     EJLMVOL2ISS406,
     EJPHVOL2ISS501,
-    EJPHVOL2ISS502, } 
+    EJPHVOL2ISS502,
+    EJHVOL2ISS505,
+    EJHVOL2ISS506, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2510,6 +2512,20 @@ export const Ejhvol2iss5 = [
         abstract: "Hemochromatosis and HIV infection represent distinct yet intersecting conditions with significant implications for immune senescence, the gradual decline in immune function associated with aging. Hemochromatosis, characterized by excessive iron accumulation in tissues, and HIV infection, a chronic viral illness leading to progressive immune dysfunction, both contribute to immune dysregulation and accelerated aging of the immune system.",
         route: EJHVOL2ISS504,
         pages: "55-71",
+    },
+    {
+        title: "Erythrocyte Morphology in Hemophilia Patients Co-infected with HIV: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu and Sharon Seni Itoe Ngomo",
+        abstract: "Hemophilia, a rare bleeding disorder, frequently coexists with HIV infection due to shared risk factors such as blood product transfusions. Erythrocyte morphology alterations in hemophilia patients co-infected with HIV have garnered recent attention due to potential implications for disease management and prognosis.",
+        route: EJHVOL2ISS505,
+        pages: "72-89",
+    },
+    {
+        title: "Reviewing Erythrocyte Morphology Changes in Hemophilia Patients with HIV: Current Insights",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Hemophilia patients with concurrent HIV infection face a unique set of challenges, including hematological complications that extend beyond traditional coagulation abnormalities. This review examines the current understanding of erythrocyte morphology changes in individuals with hemophilia and HIV co-infection, shedding light on the underlying mechanisms, clinical implications, and management considerations.",
+        route: EJHVOL2ISS506,
+        pages: "90-107",
     },
 ];
 
