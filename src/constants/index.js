@@ -99,7 +99,9 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJPHVOL2ISS501,
     EJPHVOL2ISS502,
     EJHVOL2ISS505,
-    EJHVOL2ISS506, } 
+    EJHVOL2ISS506,
+    EJHIVVOL2ISS502,
+    EJHIVVOL2ISS503, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3452,6 +3454,20 @@ export const Ejhivvol2iss5 = [
         abstract: "The multifaceted association between substance abuse and human immunodeficiency virus (HIV) infection is examined in this article, with particular attention paid to prevalence, risk behaviours, biological vulnerability, care-seeking barriers, and preventive measures.",
         route: EJHIVVOL2ISS501,
         pages: "1-8",
+    },
+    {
+        title: "Impact of HIV on Hemophilia Patients: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu1 and Sharon Seni Itoe Ngomo",
+        abstract: "The coexistence of hemophilia and HIV represents a unique medical challenge, with profound implications for affected individuals and healthcare systems worldwide. This review comprehensively examines the impact of HIV on hemophilia patients, encompassing epidemiological trends, clinical manifestations, therapeutic considerations, and implications for patient care.",
+        route: EJHIVVOL2ISS502,
+        pages: "9-27",
+    },
+    {
+        title: "HIV Co-infection in Hemophilia: Implications for Treatment",
+        authors: "Emmanuel Ifeanyi Obeagu1 and Sharon Seni Itoe Ngomo",
+        abstract: "Hemophilia, a hereditary bleeding disorder, and HIV, a viral infection impacting the immune system, intersect in individuals co-affected by both conditions, posing unique challenges in treatment. HIV co-infection in hemophilia patients presents multifaceted clinical manifestations and complications, ranging from increased bleeding tendencies to immunodeficiency-related complications and psychosocial challenges.",
+        route: EJHIVVOL2ISS503,
+        pages: "28-46",
     },
 ];
 
