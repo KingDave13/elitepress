@@ -103,7 +103,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJHIVVOL2ISS502,
     EJHIVVOL2ISS503,
     EJMVOL2ISS505,
-    EJHVOL2ISS507, } 
+    EJHVOL2ISS507,
+    EJLMVOL2ISS501, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2893,6 +2894,16 @@ export const Ejlmvol2iss4 = [
         abstract: "The assessment of microbial quality of yoghurt sold in Owerri metropolis was determined. Eight brands of yoghurt designated V-fa,D-fa,V-favi,D-favi,V-sy,D-sy,V-Dsa and D-Dsa were obtained from Owerri metropolis. A tenfold serial dilution was carried out and appropriate diluted samples inoculated on duplicate plates of SDA, Nutrient agar, SSA and CLED agar.",
         route: EJLMVOL2ISS406,
         pages: "84-91",
+    },
+];
+
+export const Ejlmvol2iss5 = [
+    {
+        title: "Role of Haematology Laboratory in Covid 19 Infections",
+        authors: "Festus Uchechukwu Onuigwe, Rukayya Kure Abdullahi, Nkechi Judith Uchechukwu, Yakubu Abdulrahman, Hauwa Buhari Ali and Emmanuel Ifeanyi Obeagu",
+        abstract: "Coronavirus disease 2019 (COVID-19) is an infectious illness caused by the SARS-CoV-2 virus. The infections can be transmitted through droplets of different sizes: when the droplet particles are >5-10 μm in diameter they are referred to as respiratory droplets, and when then are <5μm in diameter, they are referred to as droplet nuclei.",
+        route: EJLMVOL2ISS501,
+        pages: "1-12",
     },
 ];
 
