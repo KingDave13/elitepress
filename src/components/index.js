@@ -189,6 +189,9 @@ import EJHIVVOL2ISS5 from './EJHIVVOL2ISS5';
 import EjmVol2Iss5Pubs from './EjmVol2Iss5Pubs';
 import EjhivVol2Iss5Pubs from './EjhivVol2Iss5Pubs';
 
+import EJLMVOL2ISS5 from './EJLMVOL2ISS5';
+import EjlmVol2Iss5Pubs from './EjlmVol2Iss5Pubs';
+
 export { 
     Navbar,
     NavbarAlt,
@@ -376,4 +379,6 @@ export {
     EjmVol2Iss5Pubs,
     EJPHVOL2ISS5,
     Vol2Iss5Pubs,
+    EJLMVOL2ISS5,
+    EjlmVol2Iss5Pubs,
 }
