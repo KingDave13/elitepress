@@ -101,7 +101,9 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJHVOL2ISS505,
     EJHVOL2ISS506,
     EJHIVVOL2ISS502,
-    EJHIVVOL2ISS503, } 
+    EJHIVVOL2ISS503,
+    EJMVOL2ISS505,
+    EJHVOL2ISS507, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1819,6 +1821,13 @@ export const Ejmvol2iss5 = [
         route: EJMVOL2ISS504,
         pages: "36-52",
     },
+    {
+        title: "Gene Editing in Management of Sickle Cell Disease",
+        authors: "Festus Uchechukwu Onuigwe, Shafa'atu Kware Hayatu, Nkechi Judith Uchechukwu, Emmanuel Ifeanyi Obeagu, Hauwa Ali Buhari, Yakubu Abdulrahman, Aliyu Ibrahim Bagudo, Ibrahim Kalle Kwaifa",
+        abstract: "Sickle cell disease (SCD) arises from a prevalent monogenic disorder caused by a mutation in the β-globin gene, resulting in the production of abnormal hemoglobin S (HbS) and leading to diverse complications such as chronic anemia, inflammation, vaso-occlusive crises, pain, stroke, and reduced life expectancy.",
+        route: EJMVOL2ISS505,
+        pages: "53-75",
+    },
 ];
 
 export const Ejmsvol1iss1 = [
@@ -2528,6 +2537,13 @@ export const Ejhvol2iss5 = [
         abstract: "Hemophilia patients with concurrent HIV infection face a unique set of challenges, including hematological complications that extend beyond traditional coagulation abnormalities. This review examines the current understanding of erythrocyte morphology changes in individuals with hemophilia and HIV co-infection, shedding light on the underlying mechanisms, clinical implications, and management considerations.",
         route: EJHVOL2ISS506,
         pages: "90-107",
+    },
+    {
+        title: "Diamond Blackfan Anaemia",
+        authors: "Festus Uchechukwu Onuigwe, Uthman Abdul-Qadir Asmau, Nkechi Judith Uchechukwu and Emmanuel Ifeanyi Obeagu",
+        abstract: "DBA is a rare genetic blood disorder that affects the production of red blood cells and can cause a range of symptoms. DBA is a rare congenital disease, with an incidence of 7 cases per million live births. Diagnosis is established at a median age of 2 to 3 months, with 95% of DBA cases diagnosed before 2 years of age and 99% before 5 years of age.",
+        route: EJHVOL2ISS507,
+        pages: "108-125",
     },
 ];
 
