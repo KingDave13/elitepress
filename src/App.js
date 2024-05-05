@@ -17,7 +17,7 @@ import { EJH, EJM, EJHIV, EJHS, EJI, EJLM, EJMS, EJNHS, EJPH, EJSRR,
   EjmsVol1, EjmsVol1Iss1, EjnhsVol1, EjnhsVol1Iss1, EjlmVol1, 
   EjlmVol1Iss1, EjhivVol1, EjhivVol1Iss1, EjsrrVol2Iss4,
   EjhVol2Iss5, EjmVol2Iss5, EjhivVol2Iss5, Vol2Iss5, 
-  EjlmVol2Iss5, } from './pages';
+  EjlmVol2Iss5, EjhsVol2Iss5, EjnhsVol2Iss5, } from './pages';
 import  ScrollToTop  from './constants/ScrollToTop';
 
 const App = () => {
@@ -67,11 +67,12 @@ const App = () => {
           <Route path='/journals/EJMS/Vol2/Vol2Iss2' element={<EjmsVol2Iss2 />} />
           <Route path='/journals/EJMS/Vol2/Vol2Iss3' element={<EjmsVol2Iss3 />} />
 
-          <Route path='/journals/EJHS/Vol2Iss4' element={<EjhsVol2Iss4 />} />
+          <Route path='/journals/EJHS/Vol2Iss5' element={<EjhsVol2Iss5 />} />
           <Route path='/journals/EJHS/Vol1/Vol1Iss1' element={<EjhsVol1Iss1 />} />
           <Route path='/journals/EJHS/Vol2/Vol2Iss1' element={<EjhsVol2Iss1 />} />
           <Route path='/journals/EJHS/Vol2/Vol2Iss2' element={<EjhsVol2Iss2 />} />
           <Route path='/journals/EJHS/Vol2/Vol2Iss3' element={<EjhsVol2Iss3 />} />
+          <Route path='/journals/EJHS/Vol2/Vol2Iss4' element={<EjhsVol2Iss4 />} />
           <Route path='/journals/EJHS/Vol2' element={<EjhsVol2 />} />
           <Route path='/journals/EJHS/Vol1' element={<EjhsVol1 />} />
 
@@ -99,13 +100,14 @@ const App = () => {
           <Route path='/journals/EJLM/Vol2' element={<EjlmVol2 />} />
           <Route path='/journals/EJLM/Vol1' element={<EjlmVol1 />} />
 
-          <Route path='/journals/EJNHS/Vol2Iss4' element={<EjnhsVol2Iss4 />} />
+          <Route path='/journals/EJNHS/Vol2Iss5' element={<EjnhsVol2Iss5 />} />
           <Route path='/journals/EJNHS/Vol2' element={<EjnhsVol2 />} />
           <Route path='/journals/EJNHS/Vol1' element={<EjnhsVol1 />} />
           <Route path='/journals/EJNHS/Vol1/Vol1Iss1' element={<EjnhsVol1Iss1 />} />
           <Route path='/journals/EJNHS/Vol2/Vol2Iss1' element={<EjnhsVol2Iss1 />} />
           <Route path='/journals/EJNHS/Vol2/Vol2Iss2' element={<EjnhsVol2Iss2 />} />
           <Route path='/journals/EJNHS/Vol2/Vol2Iss3' element={<EjnhsVol2Iss3 />} />
+          <Route path='/journals/EJNHS/Vol2/Vol2Iss4' element={<EjnhsVol2Iss4 />} />
 
           <Route path='/journals/EJHIV/Vol2Iss5' element={<EjhivVol2Iss5 />} />
           <Route path='/journals/EJHIV/Vol2/Vol2Iss1' element={<EjhivVol2Iss1 />} />
