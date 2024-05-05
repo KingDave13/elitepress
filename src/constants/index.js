@@ -104,7 +104,13 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJHIVVOL2ISS503,
     EJMVOL2ISS505,
     EJHVOL2ISS507,
-    EJLMVOL2ISS501, } 
+    EJLMVOL2ISS501,
+    EJHVOL2ISS508,
+    EJHSVOL2ISS501,
+    EJNHSVOL2ISS501,
+    EJMVOL2ISS506,
+    EJPHVOL2ISS503,
+    EJLMVOL2ISS502, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1559,6 +1565,13 @@ export const vol2iss5 = [
         route: EJPHVOL2ISS502,
         pages: "21-31",
     },
+    {
+        title: "The Impact of Howell-Jolly Bodies on Quality of Life in HIV Patients: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Howell-Jolly bodies (HJBs), typically associated with functional asplenia or splenic dysfunction, have gained recognition as potential indicators of hematological abnormalities in HIV patients. The morphological features of HJBs, characterized by small, round, basophilic inclusions within erythrocytes, signify underlying abnormalities in erythropoiesis and splenic function.",
+        route: EJPHVOL2ISS503,
+        pages: "32-42",
+    },
 ];
 
 export const Ejmvol2iss1 = [
@@ -1828,6 +1841,13 @@ export const Ejmvol2iss5 = [
         abstract: "Sickle cell disease (SCD) arises from a prevalent monogenic disorder caused by a mutation in the β-globin gene, resulting in the production of abnormal hemoglobin S (HbS) and leading to diverse complications such as chronic anemia, inflammation, vaso-occlusive crises, pain, stroke, and reduced life expectancy.",
         route: EJMVOL2ISS505,
         pages: "53-75",
+    },
+    {
+        title: "Howell-Jolly Bodies in HIV: Insights into Bone Marrow Pathology and Hematopoiesis",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Howell-Jolly bodies (HJBs) have emerged as intriguing morphological features in HIV-infected individuals, offering insights into bone marrow pathology and hematopoiesis. This review delves into the presence, significance, and implications of HJBs in HIV infection, synthesizing existing literature to elucidate their role as surrogate markers of bone marrow dysfunction and hematological abnormalities.",
+        route: EJMVOL2ISS506,
+        pages: "76-86",
     },
 ];
 
@@ -2225,6 +2245,16 @@ export const Ejhsvol2iss4 = [
     },
 ];
 
+export const Ejhsvol2iss5 = [
+    {
+        title: "Howell-Jolly Bodies and HIV-Associated Kidney Disease: Pathophysiology and Clinical Implications",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Howell-Jolly bodies (HJBs) have garnered attention in the context of HIV infection due to their potential association with kidney disease. The pathophysiology of HJBs in HIV-associated kidney disease involves a complex interplay between viral replication, immune dysregulation, and renal inflammation.",
+        route: EJHSVOL2ISS501,
+        pages: "1-11",
+    },
+];
+
 export const Ejhvol2iss1 = [
     {
         title: "Assessment of Haemostatic Parameters on Preeclampsia Subjects in Aba, Abia State",
@@ -2545,6 +2575,13 @@ export const Ejhvol2iss5 = [
         abstract: "DBA is a rare genetic blood disorder that affects the production of red blood cells and can cause a range of symptoms. DBA is a rare congenital disease, with an incidence of 7 cases per million live births. Diagnosis is established at a median age of 2 to 3 months, with 95% of DBA cases diagnosed before 2 years of age and 99% before 5 years of age.",
         route: EJHVOL2ISS507,
         pages: "108-125",
+    },
+    {
+        title: "Howell-Jolly Bodies in HIV: Unveiling Morphological Insights into Disease Progression",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Howell-Jolly bodies (HJBs), cytoplasmic remnants of DNA in erythrocytes, have garnered attention as potential indicators of disease progression in HIV patients. This review explores the intricate relationship between the presence of HJBs and the progression of HIV, elucidating morphological features and underlying mechanisms linking their occurrence to disease severity.",
+        route: EJHVOL2ISS508,
+        pages: "126-137",
     },
 ];
 
@@ -2905,6 +2942,13 @@ export const Ejlmvol2iss5 = [
         route: EJLMVOL2ISS501,
         pages: "1-12",
     },
+    {
+        title: "Diagnostic Accuracy of Howell-Jolly Bodies in HIV-Associated Splenic Dysfunction: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Howell-Jolly bodies (HJBs), observed as cytoplasmic remnants within erythrocytes, have emerged as potential indicators of splenic dysfunction in HIV-infected individuals. This review evaluates the diagnostic accuracy of HJBs in identifying HIV-associated splenic dysfunction, examining their morphological features, clinical significance, and implications for disease management.",
+        route: EJLMVOL2ISS502,
+        pages: "13-23",
+    },
 ];
 
 export const Ejsrrvol2iss1 = [
@@ -3253,6 +3297,16 @@ export const Ejnhsvol2iss4 = [
         abstract: "Transfusion-related acute lung injury (TRALI) is a severe complication of blood transfusion characterized by acute respiratory distress and pulmonary edema. In pediatric patients with severe malaria and concurrent HIV infection, TRALI represents a significant clinical challenge, with potentially life-threatening consequences.",
         route: EJNHSVOL2ISS406,
         pages: "63-81",
+    },
+];
+
+export const Ejnhsvol2iss5 = [
+    {
+        title: "Howell-Jolly Bodies in Pediatric HIV: Clinical Considerations and Management Strategies",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Howell-Jolly bodies (HJBs), once regarded as mere remnants of erythropoiesis, have emerged as intriguing markers of hematological abnormalities in pediatric patients with HIV. This review delves into the clinical considerations and management strategies associated with the presence of HJBs in pediatric HIV, shedding light on their significance as indicators of disease progression and guiding therapeutic interventions.",
+        route: EJNHSVOL2ISS501,
+        pages: "1-11",
     },
 ];
 
