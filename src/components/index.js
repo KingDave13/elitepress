@@ -192,6 +192,11 @@ import EjhivVol2Iss5Pubs from './EjhivVol2Iss5Pubs';
 import EJLMVOL2ISS5 from './EJLMVOL2ISS5';
 import EjlmVol2Iss5Pubs from './EjlmVol2Iss5Pubs';
 
+import EJNHSVOL2ISS5 from './EJNHSVOL2ISS5';
+import EjnhsVol2Iss5Pubs from './EjnhsVol2Iss5Pubs';
+import EJHSVOL2ISS5 from './EJHSVOL2ISS5';
+import EjhsVol2Iss5Pubs from './EjhsVol2Iss5Pubs';
+
 export { 
     Navbar,
     NavbarAlt,
@@ -381,4 +386,8 @@ export {
     Vol2Iss5Pubs,
     EJLMVOL2ISS5,
     EjlmVol2Iss5Pubs,
+    EJHSVOL2ISS5,
+    EJNHSVOL2ISS5,
+    EjhsVol2Iss5Pubs,
+    EjnhsVol2Iss5Pubs,
 }
