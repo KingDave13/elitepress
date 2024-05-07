@@ -110,7 +110,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJNHSVOL2ISS501,
     EJMVOL2ISS506,
     EJPHVOL2ISS503,
-    EJLMVOL2ISS502, } 
+    EJLMVOL2ISS502,
+    EJSRRVOL2ISS402, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3072,6 +3073,13 @@ export const Ejsrrvol2iss4 = [
         abstract: "This work used the general shape function assumed by Szilard (2004) to formulate the solution to the forced vibration equation of an isotropic thin rectangular plate. By applying the appropriate boundary conditions on dimensionless co-ordinates (ζ,η)it obtainedthe shape function of an SSSS plate, in terms of a deflection constant, A.",
         route: EJSRRVOL2ISS401,
         pages: "1-11",
+    },
+    {
+        title: "Design and Implementation of a Smart Wireless Access Point for a Gas Station (Swap-GS)",
+        authors: "Levi Odinaka chukwu Duru, Amarachukwu Chukwueloka Okorie, Nelly Uwah Onwuka, Abiaziem Victor Njoku and Nelly Monday Friday Idio",
+        abstract: "Wireless communications are well-suited for the gas distribution industry, especially given the often-remote locations of distribution facilities. When working with accumulated and real-time data, the underlying communications infrastructure must be a highly reliable, with a resilient system that interconnects sensors and controls across a large-scale field area network.",
+        route: EJSRRVOL2ISS402,
+        pages: "12-43",
     },
 ];
 
