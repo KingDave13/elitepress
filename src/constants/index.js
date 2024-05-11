@@ -112,7 +112,9 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJPHVOL2ISS503,
     EJLMVOL2ISS502,
     EJSRRVOL2ISS402,
-    EJLMVOL2ISS503, } 
+    EJLMVOL2ISS503,
+    EJHVOL2ISS509,
+    EJHVOL2ISS510, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2583,6 +2585,20 @@ export const Ejhvol2iss5 = [
         authors: "Emmanuel Ifeanyi Obeagu",
         abstract: "Howell-Jolly bodies (HJBs), cytoplasmic remnants of DNA in erythrocytes, have garnered attention as potential indicators of disease progression in HIV patients. This review explores the intricate relationship between the presence of HJBs and the progression of HIV, elucidating morphological features and underlying mechanisms linking their occurrence to disease severity.",
         route: EJHVOL2ISS508,
+        pages: "126-137",
+    },
+    {
+        title: "BCL-2 expression level among in CML Patients in Ile Ife",
+        authors: "Samson O. Elujoba, Musa M. Muhibi, Joseph O. Olanrewaju, Isaac O. Famakin, Emmanuel O. Awosika, Ayodeji J. Osevwe, Samson O. Yusuf, Olasunkanmi M. Olisa, Julius O. Oriowo, Oluwayemisi Odeyemi and Emanuel Ifeanyi Obeagu",
+        abstract: "Howell-Jolly bodies (HJBs), cytoplasmic remnants of DNA in erythrocytes, have garnered attention as potential indicators of disease progression in HIV patients. This review explores the intricate relationship between the presence of HJBs and the progression of HIV, elucidating morphological features and underlying mechanisms linking their occurrence to disease severity.",
+        route: EJHVOL2ISS509,
+        pages: "138-146",
+    },
+    {
+        title: "Howell-Jolly Bodies in HIV: Unveiling Morphological Insights into Disease Progression",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Howell-Jolly bodies (HJBs), cytoplasmic remnants of DNA in erythrocytes, have garnered attention as potential indicators of disease progression in HIV patients. This review explores the intricate relationship between the presence of HJBs and the progression of HIV, elucidating morphological features and underlying mechanisms linking their occurrence to disease severity.",
+        route: EJHVOL2ISS510,
         pages: "126-137",
     },
 ];
