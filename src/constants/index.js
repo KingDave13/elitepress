@@ -2595,11 +2595,11 @@ export const Ejhvol2iss5 = [
         pages: "138-146",
     },
     {
-        title: "Howell-Jolly Bodies in HIV: Unveiling Morphological Insights into Disease Progression",
+        title: "Understanding the Impact of Blood Transfusion on Erythropoiesis in Pediatric Severe Malaria Cases with HIV: A Review",
         authors: "Emmanuel Ifeanyi Obeagu",
-        abstract: "Howell-Jolly bodies (HJBs), cytoplasmic remnants of DNA in erythrocytes, have garnered attention as potential indicators of disease progression in HIV patients. This review explores the intricate relationship between the presence of HJBs and the progression of HIV, elucidating morphological features and underlying mechanisms linking their occurrence to disease severity.",
+        abstract: "Pediatric severe malaria cases complicated by HIV co-infection present a multifaceted clinical scenario that demands a comprehensive understanding of disease pathophysiology and treatment implications. This review delves into the intricate interplay between blood transfusion and erythropoiesis in this vulnerable population.",
         route: EJHVOL2ISS510,
-        pages: "126-137",
+        pages: "147-154",
     },
 ];
 
