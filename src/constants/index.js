@@ -111,7 +111,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJMVOL2ISS506,
     EJPHVOL2ISS503,
     EJLMVOL2ISS502,
-    EJSRRVOL2ISS402, } 
+    EJSRRVOL2ISS402,
+    EJLMVOL2ISS503, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2949,6 +2950,13 @@ export const Ejlmvol2iss5 = [
         abstract: "Howell-Jolly bodies (HJBs), observed as cytoplasmic remnants within erythrocytes, have emerged as potential indicators of splenic dysfunction in HIV-infected individuals. This review evaluates the diagnostic accuracy of HJBs in identifying HIV-associated splenic dysfunction, examining their morphological features, clinical significance, and implications for disease management.",
         route: EJLMVOL2ISS502,
         pages: "13-23",
+    },
+    {
+        title: "Understanding Transfusion-Related Changes in Coagulation Parameters and Disseminated Intravascular Coagulation in Pediatric Severe Malaria Cases with HIV: A Comprehensive Review",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Pediatric severe malaria cases complicated by HIV co-infection present a significant clinical challenge, characterized by a complex interplay of severe anemia, coagulation abnormalities, and an increased risk of disseminated intravascular coagulation (DIC). Blood transfusion, a cornerstone intervention in managing severe anemia, introduces additional complexities by potentially altering coagulation parameters and predisposing patients to transfusion-related complications.",
+        route: EJLMVOL2ISS503,
+        pages: "24-31",
     },
 ];
 
