@@ -115,7 +115,9 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS503,
     EJHVOL2ISS509,
     EJHVOL2ISS510,
-    EJPHVOL2ISS504, } 
+    EJPHVOL2ISS504,
+    EJNHSVOL2ISS502,
+    EJNHSVOL2ISS503, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3347,6 +3349,20 @@ export const Ejnhsvol2iss5 = [
         abstract: "Howell-Jolly bodies (HJBs), once regarded as mere remnants of erythropoiesis, have emerged as intriguing markers of hematological abnormalities in pediatric patients with HIV. This review delves into the clinical considerations and management strategies associated with the presence of HJBs in pediatric HIV, shedding light on their significance as indicators of disease progression and guiding therapeutic interventions.",
         route: EJNHSVOL2ISS501,
         pages: "1-11",
+    },
+    {
+        title: "Sources of Work-Related Stress among Lecturers in Institutions of Nursing in Imo State",
+        authors: "Olive Chidinma Osuagwu and Julia Ibebuike",
+        abstract: "The research was designed to investigate work-related stress among lecturers and institutions of nursing in Imo State. A descriptive survey Design was adopted for the study period the target population for the study comprised 95 lecturers in the six nursing institutions in Imo State. The sample size of the study is 88 respondents.",
+        route: EJNHSVOL2ISS502,
+        pages: "12-16",
+    },
+    {
+        title: "Assessment How Entrepreneurship Education Enhance the Undergraduate Students in Acquisition of Skills Towards Career Development among Undergraduates in Imo State University, Owerri",
+        authors: "Patricia Uju Ogbu and Julia Ibebuike",
+        abstract: "The study deals with assessment how entrepreneurship education enhance the undergraduate students in acquisition of skills towards career development among undergraduates in Imo State University, Owerri. The descriptive survey design was used for the study on a target population of 7684 people.",
+        route: EJNHSVOL2ISS503,
+        pages: "17-22",
     },
 ];
 
