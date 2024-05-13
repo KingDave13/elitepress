@@ -114,7 +114,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJSRRVOL2ISS402,
     EJLMVOL2ISS503,
     EJHVOL2ISS509,
-    EJHVOL2ISS510, } 
+    EJHVOL2ISS510,
+    EJPHVOL2ISS504, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1575,6 +1576,13 @@ export const vol2iss5 = [
         abstract: "Howell-Jolly bodies (HJBs), typically associated with functional asplenia or splenic dysfunction, have gained recognition as potential indicators of hematological abnormalities in HIV patients. The morphological features of HJBs, characterized by small, round, basophilic inclusions within erythrocytes, signify underlying abnormalities in erythropoiesis and splenic function.",
         route: EJPHVOL2ISS503,
         pages: "32-42",
+    },
+    {
+        title: "Challenges to the Implementation of the National School Feeding Programme in Primary Schools in Imo and Anambra States",
+        authors: "Ngozi Ihebuzo Peters and C. N. N. Vincent",
+        abstract: "A survey conducted by the United Nations Children's Fund (UNICEF) in 2019 indicates that the population of out-of-school children in Nigeria has risen from 10.5 million to 13.2 million, the highest in the world. To address the above issues, the provision of School Feeding Programmes (SFPs) has been a key factor in achieving ideal child growth, improved academic performance, and increased enrolment and focus.",
+        route: EJPHVOL2ISS504,
+        pages: "43-50",
     },
 ];
 
