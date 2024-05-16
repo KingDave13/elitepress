@@ -117,7 +117,11 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJHVOL2ISS510,
     EJPHVOL2ISS504,
     EJNHSVOL2ISS502,
-    EJNHSVOL2ISS503, } 
+    EJNHSVOL2ISS503,
+    EJHSVOL2ISS502,
+    EJHSVOL2ISS503,
+    EJMSVOL2ISS405,
+    EJMVOL2ISS507, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1863,6 +1867,13 @@ export const Ejmvol2iss5 = [
         route: EJMVOL2ISS506,
         pages: "76-86",
     },
+    {
+        title: "Assessment of Medication Behaviors on Adherence to Diabetic Treatment in Tertiary Hospitals in Imo State",
+        authors: "Abiodun M. Eronini and Julia Ibebuike",
+        abstract: "Adherence in anti-diabetic medication results in optimal blood sugar control with less complications and reduced mortality rate. Non adherence to diabetic treatment regime among people with diabetes is possibly the most common reason for poor health outcomes.",
+        route: EJMVOL2ISS507,
+        pages: "87-93",
+    },
 ];
 
 export const Ejmsvol1iss1 = [
@@ -2045,6 +2056,13 @@ export const Ejmsvol2iss4 = [
         abstract: "The present study investigates the phytochemical and acute toxicity studies of the ethanolic root extract of Agave sasilana in albino rats. The lorke’s method was used for the acute toxicity study of which twenty-seven (27) male albino rats were used. The extracts were administered at the doses of 50, 100, 150, 200, 250, 500 and 750 mg/kg body weight of the animals.",
         route: EJMSVOL2ISS404,
         pages: "60-75",
+    },
+    {
+        title: "Enhancing Maternal and Fetal Well-being: The Role of Antioxidants in Pregnancy",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Pregnancy, a period of profound physiological changes, demands meticulous attention to maternal and fetal well-being to ensure optimal outcomes. Central to this endeavor is the management of oxidative stress, a condition characterized by an imbalance between reactive oxygen species (ROS) production and antioxidant defense mechanisms.",
+        route: EJMSVOL2ISS405,
+        pages: "76-87",
     },
 ];
 
@@ -2266,6 +2284,20 @@ export const Ejhsvol2iss5 = [
         abstract: "Howell-Jolly bodies (HJBs) have garnered attention in the context of HIV infection due to their potential association with kidney disease. The pathophysiology of HJBs in HIV-associated kidney disease involves a complex interplay between viral replication, immune dysregulation, and renal inflammation.",
         route: EJHSVOL2ISS501,
         pages: "1-11",
+    },
+    {
+        title: "School-Based Initiatives: Fostering Sickle Cell Disease Education",
+        authors: "Emmanuel Ifeanyi Obeagu and Muhammad Tukur",
+        abstract: "Sickle Cell Disease (SCD) poses significant health challenges globally, particularly in regions with high prevalence, impacting millions of individuals, including children of school age. Despite advancements in medical care, misconceptions, stigma, and limited understanding persist, hindering effective management and support for those affected.",
+        route: EJHSVOL2ISS502,
+        pages: "12-18",
+    },
+    {
+        title: "Antioxidants and Gestational Diabetes Mellitus: A Comprehensive Review of Preventive Strategies",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Gestational Diabetes Mellitus (GDM) presents a significant health concern during pregnancy, with implications for both maternal and fetal well-being. Emerging research has highlighted the role of oxidative stress in the pathogenesis of GDM, underscoring the potential utility of antioxidants in its prevention and management.",
+        route: EJHSVOL2ISS503,
+        pages: "19-29",
     },
 ];
 
