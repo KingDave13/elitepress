@@ -121,7 +121,11 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJHSVOL2ISS502,
     EJHSVOL2ISS503,
     EJMSVOL2ISS405,
-    EJMVOL2ISS507, } 
+    EJMVOL2ISS507,
+    EJMVOL2ISS508,
+    EJPHVOL2ISS505,
+    EJPHVOL2ISS506,
+    EJNHSVOL2ISS504, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1590,6 +1594,20 @@ export const vol2iss5 = [
         route: EJPHVOL2ISS504,
         pages: "43-50",
     },
+    {
+        title: "Counselling Services for Adolescents: Nurturing Mental Health in Sickle Cell Disease Education",
+        authors: "Emmanuel Ifeanyi Obeagu, Mariita Nchaga Asuma and Muhammad Tukur",
+        abstract: "Adolescents living with Sickle Cell Disease (SCD) face unique challenges that can impact their mental health and overall well-being. Mental health issues, including depression, anxiety, and stress, are prevalent among this population, stemming from the burden of managing a chronic illness, coping with pain, and navigating the psychosocial complexities associated with the disease.",
+        route: EJPHVOL2ISS505,
+        pages: "51-57",
+    },
+    {
+        title: "The Role of Parents and Teachers: A Collaborative Approach to Sickle Cell Disease Education",
+        authors: "Emmanuel Ifeanyi Obeagu, Muhammad Tukur and Mariita Nchaga Asuma",
+        abstract: "Sickle Cell Disease (SCD) presents multifaceted challenges for children and adolescents, impacting their physical health, academic performance, and psychosocial well-being. Parents and teachers play pivotal roles in supporting children with SCD and fostering understanding and acceptance within educational settings.",
+        route: EJPHVOL2ISS506,
+        pages: "58-65",
+    },
 ];
 
 export const Ejmvol2iss1 = [
@@ -1873,6 +1891,13 @@ export const Ejmvol2iss5 = [
         abstract: "Adherence in anti-diabetic medication results in optimal blood sugar control with less complications and reduced mortality rate. Non adherence to diabetic treatment regime among people with diabetes is possibly the most common reason for poor health outcomes.",
         route: EJMVOL2ISS507,
         pages: "87-93",
+    },
+    {
+        title: "Comprehensive Health and Sex Education: Integrating Sickle Cell Disease Awareness in the Curriculum",
+        authors: "Emmanuel Ifeanyi Obeagu, Muhammad Tukur and Mariita Nchaga Asuma",
+        abstract: "Comprehensive health and sex education are fundamental components of educational curricula, aimed at equipping adolescents and young adults with the knowledge and skills necessary to make informed decisions about their health and well-being. Sickle Cell Disease (SCD), a genetic blood disorder with significant medical and psychosocial implications, presents unique challenges for individuals affected by the condition.",
+        route: EJMVOL2ISS508,
+        pages: "94-101",
     },
 ];
 
@@ -3395,6 +3420,13 @@ export const Ejnhsvol2iss5 = [
         abstract: "The study deals with assessment how entrepreneurship education enhance the undergraduate students in acquisition of skills towards career development among undergraduates in Imo State University, Owerri. The descriptive survey design was used for the study on a target population of 7684 people.",
         route: EJNHSVOL2ISS503,
         pages: "17-22",
+    },
+    {
+        title: "Personalized Learning Plans: Catering to Individual Needs in Sickle Cell Disease Education",
+        authors: "Emmanuel Ifeanyi Obeagu, Muhammad Tukur and Mariita Nchaga Asuma",
+        abstract: "Personalized Learning Plans (PLPs) have emerged as a crucial educational strategy for addressing the diverse needs of students, particularly those affected by chronic health conditions like Sickle Cell Disease (SCD). This review explores the significance of PLPs in SCD education, highlighting their role in accommodating the unique challenges faced by students with SCD and promoting their academic success, social integration, and overall well-being.",
+        route: EJNHSVOL2ISS504,
+        pages: "23-29",
     },
 ];
 
