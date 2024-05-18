@@ -125,7 +125,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJMVOL2ISS508,
     EJPHVOL2ISS505,
     EJPHVOL2ISS506,
-    EJNHSVOL2ISS504, } 
+    EJNHSVOL2ISS504,
+    EJNHSVOL2ISS505, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3427,6 +3428,13 @@ export const Ejnhsvol2iss5 = [
         abstract: "Personalized Learning Plans (PLPs) have emerged as a crucial educational strategy for addressing the diverse needs of students, particularly those affected by chronic health conditions like Sickle Cell Disease (SCD). This review explores the significance of PLPs in SCD education, highlighting their role in accommodating the unique challenges faced by students with SCD and promoting their academic success, social integration, and overall well-being.",
         route: EJNHSVOL2ISS504,
         pages: "23-29",
+    },
+    {
+        title: "Antioxidants and Postpartum Complications: Preventions",
+        authors: "Emmanuel Ifeanyi Obeagu, Kesaobaka Batisani and Getrude Uzoma Obeagu",
+        abstract: "Postpartum complications pose significant risks to maternal health, contributing to maternal morbidity and mortality worldwide. Oxidative stress and inflammation play crucial roles in the pathogenesis of these complications, including preeclampsia, postpartum hemorrhage, and maternal infections.",
+        route: EJNHSVOL2ISS505,
+        pages: "30-40",
     },
 ];
 
