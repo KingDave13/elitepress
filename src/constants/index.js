@@ -126,7 +126,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJPHVOL2ISS505,
     EJPHVOL2ISS506,
     EJNHSVOL2ISS504,
-    EJNHSVOL2ISS505, } 
+    EJNHSVOL2ISS505,
+    EJMSVOL2ISS501, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2089,6 +2090,16 @@ export const Ejmsvol2iss4 = [
         abstract: "Pregnancy, a period of profound physiological changes, demands meticulous attention to maternal and fetal well-being to ensure optimal outcomes. Central to this endeavor is the management of oxidative stress, a condition characterized by an imbalance between reactive oxygen species (ROS) production and antioxidant defense mechanisms.",
         route: EJMSVOL2ISS405,
         pages: "76-87",
+    },
+];
+
+export const Ejmsvol2iss5 = [
+    {
+        title: "Antioxidants and Neurodevelopmental Outcomes in Offspring: A Review of Maternal Interventions",
+        authors: "Emmanuel Ifeanyi Obeagu, Kesaobaka Batisani and Getrude Uzoma Obeagu",
+        abstract: "Neurodevelopmental outcomes in offspring are influenced by a myriad of factors, with maternal nutrition during pregnancy emerging as a critical determinant. Antioxidants, including vitamins C and E, selenium, zinc, and polyphenols, possess neuroprotective properties by counteracting oxidative stress and modulating key pathways involved in brain development.",
+        route: EJMSVOL2ISS501,
+        pages: "1-9",
     },
 ];
 
