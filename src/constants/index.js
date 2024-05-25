@@ -127,7 +127,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJPHVOL2ISS506,
     EJNHSVOL2ISS504,
     EJNHSVOL2ISS505,
-    EJMSVOL2ISS501, } 
+    EJMSVOL2ISS501,
+    EJMSVOL2ISS502, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2100,6 +2101,13 @@ export const Ejmsvol2iss5 = [
         abstract: "Neurodevelopmental outcomes in offspring are influenced by a myriad of factors, with maternal nutrition during pregnancy emerging as a critical determinant. Antioxidants, including vitamins C and E, selenium, zinc, and polyphenols, possess neuroprotective properties by counteracting oxidative stress and modulating key pathways involved in brain development.",
         route: EJMSVOL2ISS501,
         pages: "1-9",
+    },
+    {
+        title: "Evaluation of Fertility Hormonal Profile on Women with Intramural Fibroid in Owerri",
+        authors: "Ukamaka Edward, Goodness Ngozi Ogbonna and Emmanuel Ifeanyi Obeagu",
+        abstract: "This study was carried out to evaluate levels of fertility hormonal profile in women with intramural fibroid in owerri. A total of seventy-five (75) subjects aged 18 – 50 years were recruited for the study and were divided into two groups subjects with intramural fibroid and control subjects. The serum follicle stimulating hormone, luteinizing hormone, Estradiol and Prolactin were assayed using ELISA Method.",
+        route: EJMSVOL2ISS502,
+        pages: "10-17",
     },
 ];
 
