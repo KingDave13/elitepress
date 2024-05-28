@@ -128,7 +128,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJNHSVOL2ISS504,
     EJNHSVOL2ISS505,
     EJMSVOL2ISS501,
-    EJMSVOL2ISS502, } 
+    EJMSVOL2ISS502,
+    EJHIVVOL2ISS504, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3696,6 +3697,13 @@ export const Ejhivvol2iss5 = [
         abstract: "Hemophilia, a hereditary bleeding disorder, and HIV, a viral infection impacting the immune system, intersect in individuals co-affected by both conditions, posing unique challenges in treatment. HIV co-infection in hemophilia patients presents multifaceted clinical manifestations and complications, ranging from increased bleeding tendencies to immunodeficiency-related complications and psychosocial challenges.",
         route: EJHIVVOL2ISS503,
         pages: "28-46",
+    },
+    {
+        title: "Biomarkers of Diagnostic, Prognostic and Therapeutic Value in HIV-positive Patients: A Review",
+        authors: "Abdulrahman Abdulbasit Opeyemi, Ayara Peter Ayowole and Emmanuel Ifeanyi Obeagu",
+        abstract: "Despite advancements in treatment, HIV/AIDS remains a global public health challenge, particularly in resource-limited settings. Biomarkers play a crucial role in HIV care by aiding in early diagnosis, predicting disease progression, and guiding therapeutic interventions and as such, this article aim to explore the diagnostic, prognostic, and therapeutic significance of biomarkers in HIV-positive patients.",
+        route: EJHIVVOL2ISS504,
+        pages: "47-59",
     },
 ];
 
