@@ -129,7 +129,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJNHSVOL2ISS505,
     EJMSVOL2ISS501,
     EJMSVOL2ISS502,
-    EJHIVVOL2ISS504, } 
+    EJHIVVOL2ISS504,
+    EJPHVOL2ISS507, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1611,6 +1612,13 @@ export const vol2iss5 = [
         abstract: "Sickle Cell Disease (SCD) presents multifaceted challenges for children and adolescents, impacting their physical health, academic performance, and psychosocial well-being. Parents and teachers play pivotal roles in supporting children with SCD and fostering understanding and acceptance within educational settings.",
         route: EJPHVOL2ISS506,
         pages: "58-65",
+    },
+    {
+        title: "Prevalence of Bacterial Urinary Tract Infection among HIV-Positive Patients on ART Attending Government Tertiary Hospital in Enugu",
+        authors: "Nnaemeka Chineze Eze, Ngozi Felicia Onemelukwe and Emmanuel Ifeanyi Obeagu",
+        abstract: "People living with Human Immunodeficiency Virus (HIV) are more likely to develop urinary tract infection (UTI) due to the suppression of their immunity. In order to determine the prevalence of UTI in HIV-positive patients attending Government Tertiary Hospital in Enugu, a total of 280 candidates were investigated between November 2018 and January 2019 using standard microbiological techniques.",
+        route: EJPHVOL2ISS507,
+        pages: "66-77",
     },
 ];
 
