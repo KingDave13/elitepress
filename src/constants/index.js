@@ -1615,7 +1615,7 @@ export const vol2iss5 = [
     },
     {
         title: "Prevalence of Bacterial Urinary Tract Infection among HIV-Positive Patients on ART Attending Government Tertiary Hospital in Enugu",
-        authors: "Nnaemeka Chineze Eze, Ngozi Felicia Onemelukwe and Emmanuel Ifeanyi Obeagu",
+        authors: "Nnaemeka Chineze Eze, Ngozi Felicia Onyemelukwe and Emmanuel Ifeanyi Obeagu",
         abstract: "People living with Human Immunodeficiency Virus (HIV) are more likely to develop urinary tract infection (UTI) due to the suppression of their immunity. In order to determine the prevalence of UTI in HIV-positive patients attending Government Tertiary Hospital in Enugu, a total of 280 candidates were investigated between November 2018 and January 2019 using standard microbiological techniques.",
         route: EJPHVOL2ISS507,
         pages: "66-77",
