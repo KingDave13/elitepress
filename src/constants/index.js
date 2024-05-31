@@ -130,7 +130,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJMSVOL2ISS501,
     EJMSVOL2ISS502,
     EJHIVVOL2ISS504,
-    EJPHVOL2ISS507, } 
+    EJPHVOL2ISS507,
+    EJMSVOL2ISS503, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2117,6 +2118,13 @@ export const Ejmsvol2iss5 = [
         abstract: "This study was carried out to evaluate levels of fertility hormonal profile in women with intramural fibroid in owerri. A total of seventy-five (75) subjects aged 18 – 50 years were recruited for the study and were divided into two groups subjects with intramural fibroid and control subjects. The serum follicle stimulating hormone, luteinizing hormone, Estradiol and Prolactin were assayed using ELISA Method.",
         route: EJMSVOL2ISS502,
         pages: "10-17",
+    },
+    {
+        title: "Incidence of Sexually Transmitted Infections among Pregnant Women in State Specialist Hospital Osogbo, South- Western Nigeria",
+        authors: "Ruth Efe Moronkeji, Muyiwa Adeleye Moronkeji, Peter Ayowole Ayara, Abdulbasit Opeyemi Abdulrahman, Olasimbo Godswill Ikuejamoye and Emmanuel Ifeanyi Obeagu",
+        abstract: "Sexually transmitted infections are acknowledged worldwide as significant public and reproductive health issues that can lead to adverse pregnancy outcomes like stillbirth, neonatal death, intrauterine growth retardation, premature rupture of the membrane, preterm birth, low birth weight, prematurity, congenital deformities, infant pneumonia, blindness, and other complications if not properly treated or left untreated.",
+        route: EJMSVOL2ISS503,
+        pages: "18-30",
     },
 ];
 
