@@ -398,4 +398,6 @@ export {
     EjnhsVol2Iss5Pubs,
     EjmsVol2Iss5Pubs,
     EJMSVOL2ISS5,
+    EJMVOL2ISS6,
+    EjmVol2Iss6Pubs,
 }
