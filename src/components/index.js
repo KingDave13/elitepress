@@ -200,6 +200,9 @@ import EjhsVol2Iss5Pubs from './EjhsVol2Iss5Pubs';
 import EJMSVOL2ISS5 from './EJMSVOL2ISS5';
 import EjmsVol2Iss5Pubs from './EjmsVol2Iss5Pubs';
 
+import EJMVOL2ISS6 from './EJMVOL2ISS6';
+import EjmVol2Iss6Pubs from './EjmVol2Iss6Pubs';
+
 export { 
     Navbar,
     NavbarAlt,
