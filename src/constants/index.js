@@ -132,7 +132,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJHIVVOL2ISS504,
     EJPHVOL2ISS507,
     EJMSVOL2ISS503,
-    EJHSVOL2ISS504, } 
+    EJHSVOL2ISS504,
+    EJMVOL2ISS601, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1912,6 +1913,16 @@ export const Ejmvol2iss5 = [
         abstract: "Comprehensive health and sex education are fundamental components of educational curricula, aimed at equipping adolescents and young adults with the knowledge and skills necessary to make informed decisions about their health and well-being. Sickle Cell Disease (SCD), a genetic blood disorder with significant medical and psychosocial implications, presents unique challenges for individuals affected by the condition.",
         route: EJMVOL2ISS508,
         pages: "94-101",
+    },
+];
+
+export const Ejmvol2iss6 = [
+    {
+        title: "Unveiling Platelet Dynamics in ART-Treated HIV Patients: A Comprehensive Review",
+        authors: "Joseph Obiezu Chukwujekwu Ezeonwumelu and Emmanuel Ifeanyi Obeagu",
+        abstract: "Antiretroviral therapy (ART) has dramatically improved the life expectancy of HIV-infected individuals, transforming the disease into a manageable chronic condition. Despite these advancements, ART-treated HIV patients continue to experience significant alterations in platelet dynamics, which are crucial for both hemostasis and immune function.",
+        route: EJMVOL2ISS601,
+        pages: "1-9",
     },
 ];
 
