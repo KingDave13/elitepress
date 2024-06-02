@@ -131,7 +131,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJMSVOL2ISS502,
     EJHIVVOL2ISS504,
     EJPHVOL2ISS507,
-    EJMSVOL2ISS503, } 
+    EJMSVOL2ISS503,
+    EJHSVOL2ISS504, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2360,6 +2361,13 @@ export const Ejhsvol2iss5 = [
         abstract: "Gestational Diabetes Mellitus (GDM) presents a significant health concern during pregnancy, with implications for both maternal and fetal well-being. Emerging research has highlighted the role of oxidative stress in the pathogenesis of GDM, underscoring the potential utility of antioxidants in its prevention and management.",
         route: EJHSVOL2ISS503,
         pages: "19-29",
+    },
+    {
+        title: "Antiretroviral Therapy and Platelet Interactions in HIV Patients: A Review",
+        authors: "Joseph Obiezu Chukwujekwu Ezeonwumelu and Emmanuel Ifeanyi Obeagu",
+        abstract: "Antiretroviral therapy (ART) has transformed HIV infection from a life-threatening disease to a manageable chronic condition, significantly improving patient outcomes. However, HIV-infected individuals on ART often experience alterations in platelet function and dynamics, posing challenges in clinical management.",
+        route: EJHSVOL2ISS504,
+        pages: "30-36",
     },
 ];
 
