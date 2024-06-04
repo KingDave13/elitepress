@@ -133,7 +133,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJPHVOL2ISS507,
     EJMSVOL2ISS503,
     EJHSVOL2ISS504,
-    EJMVOL2ISS601, } 
+    EJMVOL2ISS601,
+    EJMVOL2ISS602, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1923,6 +1924,13 @@ export const Ejmvol2iss6 = [
         abstract: "Antiretroviral therapy (ART) has dramatically improved the life expectancy of HIV-infected individuals, transforming the disease into a manageable chronic condition. Despite these advancements, ART-treated HIV patients continue to experience significant alterations in platelet dynamics, which are crucial for both hemostasis and immune function.",
         route: EJMVOL2ISS601,
         pages: "1-9",
+    },
+    {
+        title: "Nasal Carrier of Methicillin-Resistance Staphylococcus Aureus in Apparently Healthy Individuals in Kwara State University, Malete, Nigeria",
+        authors: "Abdulrazaq Mustapha, Tolulope Joseph Ogunniyi, Tajudeen Sulaiman Olaide, Catherine Olutoyin Adekunle and Abdulrahman Abdulbasit Opeyemi and Emmanuel Ifeanyi Obeagu",
+        abstract: "Infections in hospitals and the general population are frequently caused by Staphylococcus aureus. Methicillin-resistant Staphylococcus aureus is still a significant nosocomial pathogen, and because of its resistance to several medications, infections are frequently hard to treat.",
+        route: EJMVOL2ISS602,
+        pages: "10-21",
     },
 ];
 
