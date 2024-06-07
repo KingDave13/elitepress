@@ -62,7 +62,7 @@ const Login = () => {
 
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
-};
+  };
 
   const disableScroll = () => {
     setScrollPosition(window.pageYOffset);
