@@ -134,7 +134,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJMSVOL2ISS503,
     EJHSVOL2ISS504,
     EJMVOL2ISS601,
-    EJMVOL2ISS602, } 
+    EJMVOL2ISS602,
+    EJHIVVOL2ISS505, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3747,6 +3748,13 @@ export const Ejhivvol2iss5 = [
         abstract: "Despite advancements in treatment, HIV/AIDS remains a global public health challenge, particularly in resource-limited settings. Biomarkers play a crucial role in HIV care by aiding in early diagnosis, predicting disease progression, and guiding therapeutic interventions and as such, this article aim to explore the diagnostic, prognostic, and therapeutic significance of biomarkers in HIV-positive patients.",
         route: EJHIVVOL2ISS504,
         pages: "47-59",
+    },
+    {
+        title: "Early Infant Diagnosis: Safeguarding the Next Generation from HIV",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Early Infant Diagnosis (EID) of HIV is a pivotal strategy in public health aimed at identifying HIV-infected infants early to initiate timely antiretroviral therapy (ART), significantly reducing morbidity and mortality rates. EID's importance cannot be overstated, as it facilitates the prompt initiation of treatment, thereby improving health outcomes and quality of life for HIV-positive infants.",
+        route: EJHIVVOL2ISS505,
+        pages: "60-68",
     },
 ];
 
