@@ -135,7 +135,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJHSVOL2ISS504,
     EJMVOL2ISS601,
     EJMVOL2ISS602,
-    EJHIVVOL2ISS505, } 
+    EJHIVVOL2ISS505,
+    EJNHSVOL2ISS601, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3499,6 +3500,16 @@ export const Ejnhsvol2iss5 = [
         abstract: "Postpartum complications pose significant risks to maternal health, contributing to maternal morbidity and mortality worldwide. Oxidative stress and inflammation play crucial roles in the pathogenesis of these complications, including preeclampsia, postpartum hemorrhage, and maternal infections.",
         route: EJNHSVOL2ISS505,
         pages: "30-40",
+    },
+];
+
+export const Ejnhsvol2iss6 = [
+    {
+        title: "Influence of Antioxidants on Maternal and Fetal Immune Response: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu, Teddy Charles Adias and Getrude Uzoma Obeagu",
+        abstract: "The maternal immune response during pregnancy is a dynamic system designed to protect both the mother and the developing fetus. This immune modulation is critical for preventing adverse pregnancy outcomes while ensuring fetal growth and development. Oxidative stress, characterized by an imbalance between reactive oxygen species (ROS) production and the body's ability to neutralize them, poses a significant threat to this balance.",
+        route: EJNHSVOL2ISS601,
+        pages: "1-13",
     },
 ];
 
