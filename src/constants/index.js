@@ -136,7 +136,12 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJMVOL2ISS601,
     EJMVOL2ISS602,
     EJHIVVOL2ISS505,
-    EJNHSVOL2ISS601, } 
+    EJNHSVOL2ISS601,
+    EJHVOL2ISS601,
+    EJIVOL2ISS501,
+    EJLMVOL2ISS504,
+    EJMSVOL2ISS504,
+    EJMVOL2ISS603, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -207,8 +212,8 @@ export const ejhSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 5. (2024)",
-                route: "/journals/EJH/VOL2ISS5",
+                name: "Volume 2, Issue 6. (2024)",
+                route: "/journals/EJH/VOL2ISS6",
             },
         ],
     },
@@ -763,8 +768,8 @@ export const ejiSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 4. (2024)",
-                route: "/journals/EJI/VOL2ISS4",
+                name: "Volume 2, Issue 5. (2024)",
+                route: "/journals/EJI/VOL2ISS5",
             },
         ],
     },
@@ -1934,6 +1939,13 @@ export const Ejmvol2iss6 = [
         route: EJMVOL2ISS602,
         pages: "10-21",
     },
+    {
+        title: "Body Mass Index and Risk of Leukemic Transformation in HIV-Positive Patients with Chronic Lymphocytic Leukemia: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Chronic lymphocytic leukemia (CLL) presents unique challenges in the context of HIV infection, where the interplay between immune dysfunction and oncogenesis complicates disease management. Body Mass Index (BMI) has emerged as a potential prognostic factor in CLL, reflecting the intricate relationship between metabolic health, immune function, and disease progression.",
+        route: EJMVOL2ISS603,
+        pages: "22-31",
+    },
 ];
 
 export const Ejmsvol1iss1 = [
@@ -2147,6 +2159,13 @@ export const Ejmsvol2iss5 = [
         abstract: "Sexually transmitted infections are acknowledged worldwide as significant public and reproductive health issues that can lead to adverse pregnancy outcomes like stillbirth, neonatal death, intrauterine growth retardation, premature rupture of the membrane, preterm birth, low birth weight, prematurity, congenital deformities, infant pneumonia, blindness, and other complications if not properly treated or left untreated.",
         route: EJMSVOL2ISS503,
         pages: "18-30",
+    },
+    {
+        title: "Obesity and Treatment-Related Neurotoxicity in Leukemia Patients with Advanced HIV/AIDS: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Obesity and Human Immunodeficiency Virus/Acquired Immunodeficiency Syndrome (HIV/AIDS) independently pose significant health challenges, and their coexistence complicates the management of comorbid conditions such as leukemia. Leukemia patients with advanced HIV/AIDS are particularly vulnerable to treatment-related neurotoxicity, which can impact cognitive function, quality of life, and treatment outcomes.",
+        route: EJMSVOL2ISS504,
+        pages: "31-39",
     },
 ];
 
@@ -2736,6 +2755,16 @@ export const Ejhvol2iss5 = [
     },
 ];
 
+export const Ejhvol2iss6 = [
+    {
+        title: "The Relationship Between Body Mass Index and Cytogenetic Abnormalities in Leukemia Patients with HIV: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "The interplay between Body Mass Index (BMI), cytogenetic abnormalities, and leukemia in HIV-infected patients presents a complex clinical scenario with significant implications for prognosis and treatment.",
+        route: EJHVOL2ISS601,
+        pages: "1-15",
+    },
+];
+
 export const Ejivol2iss1 = [
     {
         title: "CD8 Dynamics in HIV Infection: A Synoptic Review",
@@ -2892,6 +2921,16 @@ export const Ejivol2iss4 = [
         abstract: "Severe malaria and HIV co-infection represent significant health challenges in pediatric populations, particularly in regions where both diseases are endemic. Blood transfusion is often a life-saving intervention for managing severe anemia and other complications of severe malaria in children.",
         route: EJIVOL2ISS406,
         pages: "93-111",
+    },
+];
+
+export const Ejivol2iss5 = [
+    {
+        title: "Body Mass Index and Risk of Immune Reconstitution Inflammatory Syndrome in Leukemia Patients Co-infected with HIV",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Leukemia patients co-infected with Human Immunodeficiency Virus (HIV) face unique challenges, including the risk of Immune Reconstitution Inflammatory Syndrome (IRIS) following the initiation of antiretroviral therapy (ART).",
+        route: EJIVOL2ISS501,
+        pages: "1-10",
     },
 ];
 
@@ -3106,6 +3145,13 @@ export const Ejlmvol2iss5 = [
         abstract: "Pediatric severe malaria cases complicated by HIV co-infection present a significant clinical challenge, characterized by a complex interplay of severe anemia, coagulation abnormalities, and an increased risk of disseminated intravascular coagulation (DIC). Blood transfusion, a cornerstone intervention in managing severe anemia, introduces additional complexities by potentially altering coagulation parameters and predisposing patients to transfusion-related complications.",
         route: EJLMVOL2ISS503,
         pages: "24-31",
+    },
+    {
+        title: "Body Mass Index Changes During Remission and Relapse in Leukemia Patients Living with HIV: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Leukemia patients living with HIV face a complex medical landscape characterized by the interplay of two major health conditions, each profoundly impacting immune function and overall health. Body Mass Index (BMI) emerges as a critical marker in this context, reflecting nutritional status, treatment response, and prognostic outcomes.",
+        route: EJLMVOL2ISS504,
+        pages: "32-40",
     },
 ];
 
