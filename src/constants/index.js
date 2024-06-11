@@ -141,7 +141,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJIVOL2ISS501,
     EJLMVOL2ISS504,
     EJMSVOL2ISS504,
-    EJMVOL2ISS603, } 
+    EJMVOL2ISS603,
+    EJHVOL2ISS602, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2762,6 +2763,13 @@ export const Ejhvol2iss6 = [
         abstract: "The interplay between Body Mass Index (BMI), cytogenetic abnormalities, and leukemia in HIV-infected patients presents a complex clinical scenario with significant implications for prognosis and treatment.",
         route: EJHVOL2ISS601,
         pages: "1-15",
+    },
+    {
+        title: "Gender-Based Assessment of Haematological Parameters and Acute Phase Reactants of Hypertensives in Port Harcourt, Nigeria",
+        authors: "Priya Homa Chukwu, Serekara Gideon Christian, Evelyn Mgbeoma Eze, Stella Urekweru Ken-Ezihuo, Beatrice Wobiarueri Moore-Igwe, Chinyere Okey-Omunakwe and Emmanuel Ifeanyi Obeagu",
+        abstract: "High blood pressure, also called as hypertension is the most prevalent cardiovascular risk factor and a significant contributor to global mortality and morbidity. Hypertension is a multifaceted condition, accounting for around 90% of cases falling into the category of essential hypertension where the exact underlying cause remains unknown.",
+        route: EJHVOL2ISS602,
+        pages: "16-34",
     },
 ];
 
