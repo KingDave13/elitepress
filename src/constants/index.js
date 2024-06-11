@@ -142,7 +142,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS504,
     EJMSVOL2ISS504,
     EJMVOL2ISS603,
-    EJHVOL2ISS602, } 
+    EJHVOL2ISS602,
+    EJHIVVOL2ISS601, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3820,6 +3821,16 @@ export const Ejhivvol2iss5 = [
         abstract: "Early Infant Diagnosis (EID) of HIV is a pivotal strategy in public health aimed at identifying HIV-infected infants early to initiate timely antiretroviral therapy (ART), significantly reducing morbidity and mortality rates. EID's importance cannot be overstated, as it facilitates the prompt initiation of treatment, thereby improving health outcomes and quality of life for HIV-positive infants.",
         route: EJHIVVOL2ISS505,
         pages: "60-68",
+    },
+];
+
+export const Ejhivvol2iss6 = [
+    {
+        title: "Ceruloplasmin and Iron Metabolism in HIV: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu and Priya Homa Chukwu",
+        abstract: "Human immunodeficiency virus (HIV) infection significantly impacts iron metabolism, a critical aspect of cellular function and systemic health. Ceruloplasmin, a copper-containing ferroxidase enzyme, plays a pivotal role in maintaining iron homeostasis by oxidizing ferrous iron (Fe^2+) to ferric iron (Fe^3+), facilitating its transport by transferrin.",
+        route: EJHIVVOL2ISS601,
+        pages: "1-12",
     },
 ];
 
