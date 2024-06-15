@@ -89,6 +89,8 @@ import EjiVol2Iss5 from './EjiVol2Iss5';
 
 import EjhivVol2Iss6 from './EjhivVol2Iss6';
 
+import Vol2Iss6 from './Vol2Iss6';
+
 export { 
     EJH,
     EJM,
@@ -177,4 +179,5 @@ export {
     EjhVol2Iss6,
     EjiVol2Iss5,
     EjhivVol2Iss6,
+    Vol2Iss6,
 }
