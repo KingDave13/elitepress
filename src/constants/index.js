@@ -1647,11 +1647,11 @@ export const vol2iss6 = [
         pages: "1-17",
     },
     {
-        title: "Isolation and Identification of Escherichia Coli from Students' Toilet Seats in the University of Buea Restrooms",
-        authors: "Sharon Seni Itoe Ngomo and Jerome Fru Cho",
-        abstract: "Exposure to enteric pathogens through direct contact with contaminated toilet surfaces is one of the major sources of disease transmission in a public setting. Toilet seats are potential carriers of pathogenic microorganisms if used under poor hygienic conditions. The emergence and spread of Escherichia coli (E. coli) is a global health concern.",
+        title: "Knowledge, Attitude and Practices of Food Hygiene and Safety among Stationary Food Vendors in Major Markets in Calabar Metropolis, Cross River State, Nigeria",
+        authors: "Esther Onyeje Ujah, Elizabeth Libuo-Beshel Nji, Peter Bassey Enyievi, Olajumoke Esther Olanrewaju, Awafung Emmanuel and Emmanuel Ifeanyi Obeagu",
+        abstract: "The general objective of the study was to determine the knowledge, attitude and practice of food hygiene and safety among stationary food vendors in major markets in Calabar metropolis in Cross River State, Nigeria. The study population comprised all stationary food vendors in major markets in Calabar Metropolis.",
         route: EJPHVOL2ISS602,
-        pages: "21-31",
+        pages: "18-39",
     },
 ];
 
