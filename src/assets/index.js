@@ -332,6 +332,7 @@ import EJLMVOL2ISS501 from './EJLMVOL2ISS501.pdf';
 import EJLMVOL2ISS502 from './EJLMVOL2ISS502.pdf';
 import EJLMVOL2ISS503 from './EJLMVOL2ISS503.pdf';
 import EJLMVOL2ISS504 from './EJLMVOL2ISS504.pdf';
+import EJLMVOL2ISS505 from './EJLMVOL2ISS505.pdf';
 
 import EJNHSVOL2ISS501 from './EJNHSVOL2ISS501.pdf';
 import EJNHSVOL2ISS502 from './EJNHSVOL2ISS502.pdf';
@@ -364,6 +365,9 @@ import EJHVOL2ISS602 from './EJHVOL2ISS602.pdf';
 import EJIVOL2ISS501 from './EJIVOL2ISS501.pdf';
 
 import EJHIVVOL2ISS601 from './EJHIVVOL2ISS601.pdf';
+
+import EJPHVOL2ISS601 from './EJPHVOL2ISS601.pdf';
+import EJPHVOL2ISS602 from './EJPHVOL2ISS602.pdf';
 
 import logout from './logout.png';
 import arrowreverse from './arrowreverse.png';
@@ -728,6 +732,9 @@ export {
     EJMVOL2ISS603,
     EJHIVVOL2ISS601,
     EJHVOL2ISS602,
+    EJLMVOL2ISS505,
+    EJPHVOL2ISS601,
+    EJPHVOL2ISS602,
 
     logout,
     picture,
