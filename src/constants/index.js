@@ -143,7 +143,10 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJMSVOL2ISS504,
     EJMVOL2ISS603,
     EJHVOL2ISS602,
-    EJHIVVOL2ISS601, } 
+    EJHIVVOL2ISS601,
+    EJLMVOL2ISS505,
+    EJPHVOL2ISS601,
+    EJPHVOL2ISS602, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1632,6 +1635,23 @@ export const vol2iss5 = [
         abstract: "People living with Human Immunodeficiency Virus (HIV) are more likely to develop urinary tract infection (UTI) due to the suppression of their immunity. In order to determine the prevalence of UTI in HIV-positive patients attending Government Tertiary Hospital in Enugu, a total of 280 candidates were investigated between November 2018 and January 2019 using standard microbiological techniques.",
         route: EJPHVOL2ISS507,
         pages: "66-77",
+    },
+];
+
+export const vol2iss6 = [
+    {
+        title: "Dietary Pattern and Nutritional Status of in-School Adolescents of Selected Secondary Schools in Yala Local Government Area of Cross River State, Nigeria",
+        authors: "Elizabeth Libuo-Beshel Nji, James Agu Oko, Fidelis Takim Out, Peter Bassey Enyievi, Awafung Emmanuel Adie and Emmanuel Ifeanyi Obeagu",
+        abstract: "Health status of adolescents is a cumulative effect of the health and nutritional problems occurring during early childhood as well as those originating during adolescent period. The objective of this study was to determine the dietary pattern and nutritional status of in school adolescents in Yala Local Government Area, Cross River State.",
+        route: EJPHVOL2ISS601,
+        pages: "1-17",
+    },
+    {
+        title: "Isolation and Identification of Escherichia Coli from Students' Toilet Seats in the University of Buea Restrooms",
+        authors: "Sharon Seni Itoe Ngomo and Jerome Fru Cho",
+        abstract: "Exposure to enteric pathogens through direct contact with contaminated toilet surfaces is one of the major sources of disease transmission in a public setting. Toilet seats are potential carriers of pathogenic microorganisms if used under poor hygienic conditions. The emergence and spread of Escherichia coli (E. coli) is a global health concern.",
+        route: EJPHVOL2ISS602,
+        pages: "21-31",
     },
 ];
 
@@ -3161,6 +3181,13 @@ export const Ejlmvol2iss5 = [
         abstract: "Leukemia patients living with HIV face a complex medical landscape characterized by the interplay of two major health conditions, each profoundly impacting immune function and overall health. Body Mass Index (BMI) emerges as a critical marker in this context, reflecting nutritional status, treatment response, and prognostic outcomes.",
         route: EJLMVOL2ISS504,
         pages: "32-40",
+    },
+    {
+        title: "Evaluation of Hormonal Profile on Women with Secondary Infertility Attending Federal Teaching Hospital, Owerri, Imo State",
+        authors: "Ukamaka Edward, Nkeiru Perpetua Iheanaetu and Emmanuel Ifeanyi Obeagu",
+        abstract: "Secondary infertility, characterized by the inability to conceive or carry a pregnancy to term following a previous successful pregnancy, is a complex reproductive disorder influenced by various factors, including hormonal imbalances.",
+        route: EJLMVOL2ISS505,
+        pages: "41-50",
     },
 ];
 
