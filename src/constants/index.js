@@ -149,7 +149,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJPHVOL2ISS602,
     EJHVOL2ISS603,
     EJIVOL2ISS502,
-    EJIVOL2ISS503, } 
+    EJIVOL2ISS503,
+    EJLMVOL2ISS601, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3212,6 +3213,16 @@ export const Ejlmvol2iss5 = [
         abstract: "Secondary infertility, characterized by the inability to conceive or carry a pregnancy to term following a previous successful pregnancy, is a complex reproductive disorder influenced by various factors, including hormonal imbalances.",
         route: EJLMVOL2ISS505,
         pages: "41-50",
+    },
+];
+
+export const Ejlmvol2iss6 = [
+    {
+        title: "Hematological Consequences of Erythropoietin in HIV: Clinical Implications",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Anemia is a prevalent complication among individuals living with human immunodeficiency virus (HIV), contributing significantly to morbidity and affecting quality of life. Erythropoietin (EPO) therapy has emerged as a fundamental approach to managing HIV-associated anemia, aiming to enhance erythropoiesis and alleviate symptoms.",
+        route: EJLMVOL2ISS601,
+        pages: "1-9",
     },
 ];
 
