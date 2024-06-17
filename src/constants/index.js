@@ -2969,6 +2969,20 @@ export const Ejivol2iss5 = [
         route: EJIVOL2ISS501,
         pages: "1-10",
     },
+    {
+        title: "Body Mass Index and Risk of Immune Reconstitution Inflammatory Syndrome in Leukemia Patients Co-infected with HIV",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Leukemia patients co-infected with Human Immunodeficiency Virus (HIV) face unique challenges, including the risk of Immune Reconstitution Inflammatory Syndrome (IRIS) following the initiation of antiretroviral therapy (ART).",
+        route: EJIVOL2ISS501,
+        pages: "1-10",
+    },
+    {
+        title: "Body Mass Index and Risk of Immune Reconstitution Inflammatory Syndrome in Leukemia Patients Co-infected with HIV",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Leukemia patients co-infected with Human Immunodeficiency Virus (HIV) face unique challenges, including the risk of Immune Reconstitution Inflammatory Syndrome (IRIS) following the initiation of antiretroviral therapy (ART).",
+        route: EJIVOL2ISS501,
+        pages: "1-10",
+    },
 ];
 
 export const Ejlmvol1iss1 = [
