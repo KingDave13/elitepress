@@ -147,7 +147,9 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS505,
     EJPHVOL2ISS601,
     EJPHVOL2ISS602,
-    EJHVOL2ISS603, } 
+    EJHVOL2ISS603,
+    EJIVOL2ISS502,
+    EJIVOL2ISS503, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2970,18 +2972,18 @@ export const Ejivol2iss5 = [
         pages: "1-10",
     },
     {
-        title: "Body Mass Index and Risk of Immune Reconstitution Inflammatory Syndrome in Leukemia Patients Co-infected with HIV",
+        title: "The Impact of Erythropoietin on Immune Function in HIV Patients",
         authors: "Emmanuel Ifeanyi Obeagu",
-        abstract: "Leukemia patients co-infected with Human Immunodeficiency Virus (HIV) face unique challenges, including the risk of Immune Reconstitution Inflammatory Syndrome (IRIS) following the initiation of antiretroviral therapy (ART).",
-        route: EJIVOL2ISS501,
-        pages: "1-10",
+        abstract: "Erythropoietin (EPO), primarily recognized for its role in erythropoiesis, has garnered attention for its potential immunomodulatory effects in human immunodeficiency virus (HIV) infection. This review examines the impact of EPO on immune function in HIV patients, exploring its interactions with immune cells, cytokine regulation, inflammation, and therapeutic implications.",
+        route: EJIVOL2ISS502,
+        pages: "11-20",
     },
     {
-        title: "Body Mass Index and Risk of Immune Reconstitution Inflammatory Syndrome in Leukemia Patients Co-infected with HIV",
+        title: "Erythropoietin and Immunomodulation in HIV: Implications for Treatment",
         authors: "Emmanuel Ifeanyi Obeagu",
-        abstract: "Leukemia patients co-infected with Human Immunodeficiency Virus (HIV) face unique challenges, including the risk of Immune Reconstitution Inflammatory Syndrome (IRIS) following the initiation of antiretroviral therapy (ART).",
-        route: EJIVOL2ISS501,
-        pages: "1-10",
+        abstract: "Erythropoietin (EPO), renowned for its role in erythropoiesis, has emerged as a potential immunomodulatory agent in the management of human immunodeficiency virus (HIV) infection. This review explores the evolving understanding of EPO's impact on immune function and its implications for HIV treatment strategies.",
+        route: EJIVOL2ISS503,
+        pages: "21-28",
     },
 ];
 
