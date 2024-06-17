@@ -146,7 +146,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJHIVVOL2ISS601,
     EJLMVOL2ISS505,
     EJPHVOL2ISS601,
-    EJPHVOL2ISS602, } 
+    EJPHVOL2ISS602,
+    EJHVOL2ISS603, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -881,8 +882,8 @@ export const ejlmSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 5. (2024)",
-                route: "/journals/EJLM/VOL2ISS5",
+                name: "Volume 2, Issue 6. (2024)",
+                route: "/journals/EJLM/VOL2ISS6",
             },
         ],
     },
@@ -2791,6 +2792,13 @@ export const Ejhvol2iss6 = [
         abstract: "High blood pressure, also called as hypertension is the most prevalent cardiovascular risk factor and a significant contributor to global mortality and morbidity. Hypertension is a multifaceted condition, accounting for around 90% of cases falling into the category of essential hypertension where the exact underlying cause remains unknown.",
         route: EJHVOL2ISS602,
         pages: "16-34",
+    },
+    {
+        title: "Current Insights into Erythropoietin Levels and Anemia in HIV Patients",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Anemia is a prevalent complication in individuals living with human immunodeficiency virus (HIV), significantly impacting quality of life and treatment outcomes. Erythropoietin (EPO), a glycoprotein hormone crucial for erythropoiesis, plays a pivotal role in the pathophysiology and management of HIV-associated anemia.",
+        route: EJHVOL2ISS603,
+        pages: "35-45",
     },
 ];
 
