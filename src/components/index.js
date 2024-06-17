@@ -218,6 +218,9 @@ import EJHIVVOL2ISS6 from './EJHIVVOL2ISS6';
 import Vol2Iss6Pubs from './Vol2Iss6Pubs';
 import EJPHVOL2ISS6 from './EJPHVOL2ISS6';
 
+import EJLMVOL2ISS6 from './EJLMVOL2ISS6';
+import EjlmVol2Iss6Pubs from './EjlmVol2Iss6Pubs';
+
 export { 
     Navbar,
     NavbarAlt,
@@ -425,4 +428,6 @@ export {
     EjhivVol2Iss6Pubs,
     EJPHVOL2ISS6,
     Vol2Iss6Pubs,
+    EJLMVOL2ISS6,
+    EjlmVol2Iss6Pubs,
 }
