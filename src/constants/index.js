@@ -1645,7 +1645,7 @@ export const vol2iss5 = [
 export const vol2iss6 = [
     {
         title: "Dietary Pattern and Nutritional Status of in-School Adolescents of Selected Secondary Schools in Yala Local Government Area of Cross River State, Nigeria",
-        authors: "Elizabeth Libuo-Beshel Nji, James Agu Oko, Fidelis Takim Out, Peter Bassey Enyievi, Awafung Emmanuel Adie and Emmanuel Ifeanyi Obeagu",
+        authors: "*Elizabeth Libuo-Beshel Nji, James Agu Oko, Fidelis Takim Otu, Peter Bassey Enyievi, Awafung Emmanuel Adie and Emmanuel Ifeanyi Obeagu",
         abstract: "Health status of adolescents is a cumulative effect of the health and nutritional problems occurring during early childhood as well as those originating during adolescent period. The objective of this study was to determine the dietary pattern and nutritional status of in school adolescents in Yala Local Government Area, Cross River State.",
         route: EJPHVOL2ISS601,
         pages: "1-17",
