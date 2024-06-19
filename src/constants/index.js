@@ -1657,6 +1657,7 @@ export const vol2iss6 = [
         route: EJPHVOL2ISS602,
         pages: "18-39",
     },
+    
 ];
 
 export const Ejmvol2iss1 = [
