@@ -150,7 +150,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJHVOL2ISS603,
     EJIVOL2ISS502,
     EJIVOL2ISS503,
-    EJLMVOL2ISS601, } 
+    EJLMVOL2ISS601,
+    EJMSVOL2ISS505, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2192,6 +2193,13 @@ export const Ejmsvol2iss5 = [
         abstract: "Obesity and Human Immunodeficiency Virus/Acquired Immunodeficiency Syndrome (HIV/AIDS) independently pose significant health challenges, and their coexistence complicates the management of comorbid conditions such as leukemia. Leukemia patients with advanced HIV/AIDS are particularly vulnerable to treatment-related neurotoxicity, which can impact cognitive function, quality of life, and treatment outcomes.",
         route: EJMSVOL2ISS504,
         pages: "31-39",
+    },
+    {
+        title: "Blood Transfusion Considerations in High-Risk Pregnancies: Strategies and Outcomes",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Blood transfusion management in high-risk pregnancies is a critical aspect of obstetric care aimed at mitigating maternal and fetal complications. This review examines the challenges, strategies, and outcomes associated with blood transfusions in pregnancies complicated by conditions such as antepartum hemorrhage, maternal medical disorders, and fetal anomalies.",
+        route: EJMSVOL2ISS505,
+        pages: "40-50",
     },
 ];
 
