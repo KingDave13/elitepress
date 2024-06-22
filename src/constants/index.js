@@ -152,7 +152,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJIVOL2ISS503,
     EJLMVOL2ISS601,
     EJMSVOL2ISS505,
-    EJHVOL2ISS604, } 
+    EJHVOL2ISS604,
+    EJLMVOL2ISS602, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3239,6 +3240,13 @@ export const Ejlmvol2iss6 = [
         abstract: "Anemia is a prevalent complication among individuals living with human immunodeficiency virus (HIV), contributing significantly to morbidity and affecting quality of life. Erythropoietin (EPO) therapy has emerged as a fundamental approach to managing HIV-associated anemia, aiming to enhance erythropoiesis and alleviate symptoms.",
         route: EJLMVOL2ISS601,
         pages: "1-9",
+    },
+    {
+        title: "Optimizing Transfusion Practices for Maternal-Fetal Well-being: Challenges and Innovations",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Transfusion practices in obstetrics are critical for managing maternal complications such as postpartum hemorrhage and severe anemia, which can significantly impact maternal and fetal health. This review explores the challenges encountered in obstetric transfusion and discusses innovative approaches aimed at optimizing maternal-fetal well-being.",
+        route: EJLMVOL2ISS602,
+        pages: "10-23",
     },
 ];
 
