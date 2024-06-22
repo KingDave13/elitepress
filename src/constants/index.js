@@ -151,7 +151,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJIVOL2ISS502,
     EJIVOL2ISS503,
     EJLMVOL2ISS601,
-    EJMSVOL2ISS505, } 
+    EJMSVOL2ISS505,
+    EJHVOL2ISS604, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2810,6 +2811,13 @@ export const Ejhvol2iss6 = [
         abstract: "Anemia is a prevalent complication in individuals living with human immunodeficiency virus (HIV), significantly impacting quality of life and treatment outcomes. Erythropoietin (EPO), a glycoprotein hormone crucial for erythropoiesis, plays a pivotal role in the pathophysiology and management of HIV-associated anemia.",
         route: EJHVOL2ISS603,
         pages: "35-45",
+    },
+    {
+        title: "Addressing Anemia and Hemorrhage in Pregnancy: Blood Transfusion Strategies for Improved Maternal Health",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Anemia and hemorrhage during pregnancy are major contributors to maternal morbidity and mortality worldwide, necessitating effective management strategies to enhance maternal health outcomes. Anemia, predominantly due to iron deficiency, can lead to severe complications such as preterm delivery and low birth weight if not adequately addressed.",
+        route: EJHVOL2ISS604,
+        pages: "46-59",
     },
 ];
 
