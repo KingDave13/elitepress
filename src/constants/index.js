@@ -153,7 +153,9 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS601,
     EJMSVOL2ISS505,
     EJHVOL2ISS604,
-    EJLMVOL2ISS602, } 
+    EJLMVOL2ISS602,
+    EJNHSVOL2ISS602,
+    EJNHSVOL2ISS603, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3651,6 +3653,20 @@ export const Ejnhsvol2iss6 = [
         abstract: "The maternal immune response during pregnancy is a dynamic system designed to protect both the mother and the developing fetus. This immune modulation is critical for preventing adverse pregnancy outcomes while ensuring fetal growth and development. Oxidative stress, characterized by an imbalance between reactive oxygen species (ROS) production and the body's ability to neutralize them, poses a significant threat to this balance.",
         route: EJNHSVOL2ISS601,
         pages: "1-13",
+    },
+    {
+        title: "Blood Transfusion Protocols in Obstetrics: Enhancing Maternal Care and Neonatal Outcomes",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Blood transfusion protocols in obstetrics are pivotal in managing critical conditions like hemorrhage and severe anemia, which pose significant risks to maternal and neonatal health. This review explores current practices, challenges, and innovations in blood transfusion protocols aimed at enhancing maternal care and improving neonatal outcomes.",
+        route: EJNHSVOL2ISS602,
+        pages: "14-25",
+    },
+     {
+        title: "Safety and Efficacy of Blood Transfusions in Pregnant Women: A Critical Analysis",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Blood transfusions play a crucial role in managing complications during pregnancy, such as hemorrhage and severe anemia, which can pose significant risks to maternal and fetal health. This review critically analyzes the safety and efficacy of blood transfusions in pregnant women, focusing on current practices, challenges, and advancements in transfusion medicine.",
+        route: EJNHSVOL2ISS603,
+        pages: "26-42",
     },
 ];
 
