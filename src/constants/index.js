@@ -161,7 +161,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJMSVOL2ISS601,
     EJPHVOL2ISS603,
     EJPHVOL2ISS604,
-    EJPHVOL2ISS605, } 
+    EJPHVOL2ISS605,
+    EJMVOL2ISS604, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2003,6 +2004,13 @@ export const Ejmvol2iss6 = [
         abstract: "Chronic lymphocytic leukemia (CLL) presents unique challenges in the context of HIV infection, where the interplay between immune dysfunction and oncogenesis complicates disease management. Body Mass Index (BMI) has emerged as a potential prognostic factor in CLL, reflecting the intricate relationship between metabolic health, immune function, and disease progression.",
         route: EJMVOL2ISS603,
         pages: "22-31",
+    },
+    {
+        title: "Cancer's Psychosocial Aspects: Impact on Patient Outcomes",
+        authors: "Esther Ugo Alum, Daniel Ejim Uti, Emmanuel Ifeanyi Obeagu, Okechukwu Paul-Chima Ugwu, Benedict Nnachi Alum",
+        abstract: "Cancer is one of the leading causes of morbidity and mortality in the world and has a significant psychosocial impact on patients, caregivers, and communities. The purpose of this study is to discuss psychosocial aspects of cancer treatment, which include psychological, social, emotional, and spiritual factors.",
+        route: EJMVOL2ISS604,
+        pages: "32-42",
     },
 ];
 
