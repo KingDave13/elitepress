@@ -1683,11 +1683,11 @@ export const vol2iss6 = [
         pages: "55-66",
     },
     {
-        title: "Knowledge, Attitude and Practices of Food Hygiene and Safety among Stationary Food Vendors in Major Markets in Calabar Metropolis, Cross River State, Nigeria",
-        authors: "Esther Onyeje Ujah, Elizabeth Libuo-Beshel Nji, Peter Bassey Enyievi, Olajumoke Esther Olanrewaju, Awafung Emmanuel and Emmanuel Ifeanyi Obeagu",
-        abstract: "The general objective of the study was to determine the knowledge, attitude and practice of food hygiene and safety among stationary food vendors in major markets in Calabar metropolis in Cross River State, Nigeria. The study population comprised all stationary food vendors in major markets in Calabar Metropolis.",
+        title: "Determinant of Gender Based Violence in the Workplace as Perceived by Healthcare Workers in Enugu State",
+        authors: "Chinwe Regina Agoha, A. A Amaeze, F.N. Amaeze, C.N. Ibe, A.F. Ogwuasoanya",
+        abstract: "The study focused on determining the factors contributing to gender-based violence (GBV) in the workplace from the perspective of healthcare workers in Enugu State. It employed a descriptive survey research design and involved 4,156 respondents who were healthcare workers from primary and secondary healthcare centers in Enugu State.",
         route: EJPHVOL2ISS605,
-        pages: "18-39",
+        pages: "67-76",
     },
 ];
 
