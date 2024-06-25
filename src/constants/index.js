@@ -155,7 +155,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJHVOL2ISS604,
     EJLMVOL2ISS602,
     EJNHSVOL2ISS602,
-    EJNHSVOL2ISS603, } 
+    EJNHSVOL2ISS603,
+    EJNHSVOL2ISS604, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3661,12 +3662,19 @@ export const Ejnhsvol2iss6 = [
         route: EJNHSVOL2ISS602,
         pages: "14-25",
     },
-     {
+    {
         title: "Safety and Efficacy of Blood Transfusions in Pregnant Women: A Critical Analysis",
         authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
         abstract: "Blood transfusions play a crucial role in managing complications during pregnancy, such as hemorrhage and severe anemia, which can pose significant risks to maternal and fetal health. This review critically analyzes the safety and efficacy of blood transfusions in pregnant women, focusing on current practices, challenges, and advancements in transfusion medicine.",
         route: EJNHSVOL2ISS603,
         pages: "26-42",
+    },
+    {
+        title: "Mental Health Interventions for Pregnant and Postpartum Women: Efficacy and Accessibility",
+        authors: "Esther Ugo Alum, Emmanuel Ifeanyi Obeagu, Okechukwu Paul-Chima Ugwu, Daniel Ejim Uti, Benedict Nnachi Alum, Chinyere Nneoma Ugwu",
+        abstract: "Mental health interventions are important for pregnant and postpartum women, as they are at high risk of developing perinatal mental health disorders, including depression and anxiety. This review assesses the effectiveness and availability of different mental health treatments, which include psychotherapy, pharmacotherapy, and other multifaceted interventions;",
+        route: EJNHSVOL2ISS604,
+        pages: "43-49",
     },
 ];
 
