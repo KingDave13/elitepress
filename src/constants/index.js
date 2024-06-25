@@ -1676,11 +1676,11 @@ export const vol2iss6 = [
         pages: "40-54",
     },
     {
-        title: "Knowledge, Attitude and Practices of Food Hygiene and Safety among Stationary Food Vendors in Major Markets in Calabar Metropolis, Cross River State, Nigeria",
-        authors: "Esther Onyeje Ujah, Elizabeth Libuo-Beshel Nji, Peter Bassey Enyievi, Olajumoke Esther Olanrewaju, Awafung Emmanuel and Emmanuel Ifeanyi Obeagu",
-        abstract: "The general objective of the study was to determine the knowledge, attitude and practice of food hygiene and safety among stationary food vendors in major markets in Calabar metropolis in Cross River State, Nigeria. The study population comprised all stationary food vendors in major markets in Calabar Metropolis.",
+        title: "Cervical Cancer Unveiled: Insights into HPV, Risks, and Therapeutic Frontiers",
+        authors: "Esther Ugo Alum, Emmanuel Ifeanyi Obeagu, Okechukwu P. C. Ugwu",
+        abstract: "Predictions indicate that the number of instances of cervical cancer will increase significantly by 2040, making it a major worldwide health concern at this moment. Reducing the incidence of cervical cancer and improving patient outcomes require an understanding of its complex dynamics, including its causes, risk factors, preventive measures, and available treatments.",
         route: EJPHVOL2ISS604,
-        pages: "18-39",
+        pages: "55-66",
     },
     {
         title: "Knowledge, Attitude and Practices of Food Hygiene and Safety among Stationary Food Vendors in Major Markets in Calabar Metropolis, Cross River State, Nigeria",
