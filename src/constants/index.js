@@ -156,7 +156,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS602,
     EJNHSVOL2ISS602,
     EJNHSVOL2ISS603,
-    EJNHSVOL2ISS604, } 
+    EJNHSVOL2ISS604,
+    EJHSVOL2ISS505, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2447,6 +2448,13 @@ export const Ejhsvol2iss5 = [
         abstract: "Antiretroviral therapy (ART) has transformed HIV infection from a life-threatening disease to a manageable chronic condition, significantly improving patient outcomes. However, HIV-infected individuals on ART often experience alterations in platelet function and dynamics, posing challenges in clinical management.",
         route: EJHSVOL2ISS504,
         pages: "30-36",
+    },
+    {
+        title: "Exploring the Differential Impacts of Intermittent Fasting on Men and Women",
+        authors: "Esther Ugo Alum, Emmanuel Ifeanyi Obeagu, Okechukwu Paul-Chima Ugwu, Benedict Nnachi Alum, Echegu Darlington Arinze, Chris U. A. Ukaidi",
+        abstract: "Antiretroviral therapy (ART) has transformed HIV infection from a life-threatening disease to a manageable chronic condition, significantly improving patient outcomes. However, HIV-infected individuals on ART often experience alterations in platelet function and dynamics, posing challenges in clinical management.",
+        route: EJHSVOL2ISS505,
+        pages: "37-44",
     },
 ];
 
