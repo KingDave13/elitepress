@@ -158,7 +158,10 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJNHSVOL2ISS603,
     EJNHSVOL2ISS604,
     EJHSVOL2ISS505,
-    EJMSVOL2ISS601, } 
+    EJMSVOL2ISS601,
+    EJPHVOL2ISS603,
+    EJPHVOL2ISS604,
+    EJPHVOL2ISS605, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -1663,6 +1666,27 @@ export const vol2iss6 = [
         authors: "Esther Onyeje Ujah, Elizabeth Libuo-Beshel Nji, Peter Bassey Enyievi, Olajumoke Esther Olanrewaju, Awafung Emmanuel and Emmanuel Ifeanyi Obeagu",
         abstract: "The general objective of the study was to determine the knowledge, attitude and practice of food hygiene and safety among stationary food vendors in major markets in Calabar metropolis in Cross River State, Nigeria. The study population comprised all stationary food vendors in major markets in Calabar Metropolis.",
         route: EJPHVOL2ISS602,
+        pages: "18-39",
+    },
+    {
+        title: "Bacteriological Examination of Fresh Raw Beef on Retail in the Open Market in Owo Metropolis, Ondo State, Nigeria",
+        authors: "Samson O Onemu, Joy E Egbokale, Ephraim E Ibadin, Imoleayo O Mata and Emmanuel Ifeanyi Obeagu",
+        abstract: "Beef meat is an essential source of human nourishment universally. The processing of beef often leads to the introduction of fecal bacteria from the food animal. Some of the introduced microorganisms have been traceable to food-borne illnesses and the spread of antimicrobial resistant bacterial species that are inherently more challenging and costlier to treat.",
+        route: EJPHVOL2ISS603,
+        pages: "40-54",
+    },
+    {
+        title: "Knowledge, Attitude and Practices of Food Hygiene and Safety among Stationary Food Vendors in Major Markets in Calabar Metropolis, Cross River State, Nigeria",
+        authors: "Esther Onyeje Ujah, Elizabeth Libuo-Beshel Nji, Peter Bassey Enyievi, Olajumoke Esther Olanrewaju, Awafung Emmanuel and Emmanuel Ifeanyi Obeagu",
+        abstract: "The general objective of the study was to determine the knowledge, attitude and practice of food hygiene and safety among stationary food vendors in major markets in Calabar metropolis in Cross River State, Nigeria. The study population comprised all stationary food vendors in major markets in Calabar Metropolis.",
+        route: EJPHVOL2ISS604,
+        pages: "18-39",
+    },
+    {
+        title: "Knowledge, Attitude and Practices of Food Hygiene and Safety among Stationary Food Vendors in Major Markets in Calabar Metropolis, Cross River State, Nigeria",
+        authors: "Esther Onyeje Ujah, Elizabeth Libuo-Beshel Nji, Peter Bassey Enyievi, Olajumoke Esther Olanrewaju, Awafung Emmanuel and Emmanuel Ifeanyi Obeagu",
+        abstract: "The general objective of the study was to determine the knowledge, attitude and practice of food hygiene and safety among stationary food vendors in major markets in Calabar metropolis in Cross River State, Nigeria. The study population comprised all stationary food vendors in major markets in Calabar Metropolis.",
+        route: EJPHVOL2ISS605,
         pages: "18-39",
     },
 ];
