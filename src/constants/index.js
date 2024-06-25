@@ -157,7 +157,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJNHSVOL2ISS602,
     EJNHSVOL2ISS603,
     EJNHSVOL2ISS604,
-    EJHSVOL2ISS505, } 
+    EJHSVOL2ISS505,
+    EJMSVOL2ISS601, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2206,6 +2207,16 @@ export const Ejmsvol2iss5 = [
         abstract: "Blood transfusion management in high-risk pregnancies is a critical aspect of obstetric care aimed at mitigating maternal and fetal complications. This review examines the challenges, strategies, and outcomes associated with blood transfusions in pregnancies complicated by conditions such as antepartum hemorrhage, maternal medical disorders, and fetal anomalies.",
         route: EJMSVOL2ISS505,
         pages: "40-50",
+    },
+];
+
+export const Ejmsvol2iss6 = [
+    {
+        title: "Managing the Dual Burden: Addressing Mental Health in Diabetes Care",
+        authors: "Esther Ugo Alum, Okechukwu Paul-Chima Ugwu, Emmanuel Ifeanyi Obeagu, Daniel Ejim Uti, Simeon Ikechukwu Egba, Benedict Nnachi Alum",
+        abstract: "Diabetes and mental illness are highly relevant issues due to their intricate relationship with the treatment and management of both conditions. Diabetes is a medical condition characterized by high blood sugar levels, and there is evidence of reciprocal interactions between the disorder and mental health.",
+        route: EJMSVOL2ISS601,
+        pages: "1-9",
     },
 ];
 
