@@ -162,7 +162,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJPHVOL2ISS603,
     EJPHVOL2ISS604,
     EJPHVOL2ISS605,
-    EJMVOL2ISS604, } 
+    EJMVOL2ISS604,
+    EJLMVOL2ISS603, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3301,6 +3302,13 @@ export const Ejlmvol2iss6 = [
         abstract: "Transfusion practices in obstetrics are critical for managing maternal complications such as postpartum hemorrhage and severe anemia, which can significantly impact maternal and fetal health. This review explores the challenges encountered in obstetric transfusion and discusses innovative approaches aimed at optimizing maternal-fetal well-being.",
         route: EJLMVOL2ISS602,
         pages: "10-23",
+    },
+    {
+        title: "The Incidence of Beta-Lactamase Producing Staphylococcus Aureus from Wound Infections in Federal Teaching Hospital Owerri",
+        authors: "Chrysogonus Nwabueze Ohakpolamugwuo, J.N. Dike-Ndudim, H.C Amah and D.C Nwosu",
+        abstract: "This study was carried out in order to determine the incidence and antibiotic resistance patterns of beta-lactamase producing Staphylococcus aureus from wound infections among patients in Federal Teaching Hospital, Owerri. A total of 120 wounds swabs were aseptically collected from the hospital patients using standard bacteriological methods.",
+        route: EJLMVOL2ISS603,
+        pages: "24-32",
     },
 ];
 
