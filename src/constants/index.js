@@ -3295,6 +3295,7 @@ export const Ejlmvol2iss6 = [
         abstract: "Anemia is a prevalent complication among individuals living with human immunodeficiency virus (HIV), contributing significantly to morbidity and affecting quality of life. Erythropoietin (EPO) therapy has emerged as a fundamental approach to managing HIV-associated anemia, aiming to enhance erythropoiesis and alleviate symptoms.",
         route: EJLMVOL2ISS601,
         pages: "1-9",
+        
     },
     {
         title: "Optimizing Transfusion Practices for Maternal-Fetal Well-being: Challenges and Innovations",
