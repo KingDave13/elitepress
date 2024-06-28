@@ -3310,8 +3310,9 @@ export const Ejlmvol2iss6 = [
         route: EJLMVOL2ISS603,
         pages: "24-32",
     },
-    
+
 ];
+
 
 export const Ejsrrvol2iss1 = [
     {
