@@ -3303,7 +3303,6 @@ export const Ejlmvol2iss6 = [
         route: EJLMVOL2ISS602,
         pages: "10-23",
     },
-    
     {
         title: "The Incidence of Beta-Lactamase Producing Staphylococcus Aureus from Wound Infections in Federal Teaching Hospital Owerri",
         authors: "Chrysogonus Nwabueze Ohakpolamugwuo, J.N. Dike-Ndudim, H.C Amah and D.C Nwosu",
