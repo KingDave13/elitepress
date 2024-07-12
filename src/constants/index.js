@@ -3068,11 +3068,11 @@ export const Ejivol2iss5 = [
         pages: "29-38",
     },
     {
-        title: "Erythropoietin and Immunomodulation in HIV: Implications for Treatment",
-        authors: "Emmanuel Ifeanyi Obeagu",
-        abstract: "Erythropoietin (EPO), renowned for its role in erythropoiesis, has emerged as a potential immunomodulatory agent in the management of human immunodeficiency virus (HIV) infection. This review explores the evolving understanding of EPO's impact on immune function and its implications for HIV treatment strategies.",
+        title: "HIV and Natural Killer (NK) Cell Responses in Neonates: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu and Priya Homa Chukwu",
+        abstract: "Natural killer (NK) cells are innate immune effectors critical for early host defense against viral infections, including HIV. In neonates, NK cells undergo developmental maturation and play a pivotal role in immune surveillance and cytotoxicity. However, vertical transmission of HIV from infected mothers to neonates profoundly impacts NK cell function.",
         route: EJIVOL2ISS505,
-        pages: "21-28",
+        pages: "39-49",
     },
 ];
 
