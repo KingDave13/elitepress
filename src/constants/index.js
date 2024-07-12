@@ -163,7 +163,9 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJPHVOL2ISS604,
     EJPHVOL2ISS605,
     EJMVOL2ISS604,
-    EJLMVOL2ISS603, } 
+    EJLMVOL2ISS603,
+    EJIVOL2ISS504,
+    EJIVOL2ISS505, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3056,6 +3058,20 @@ export const Ejivol2iss5 = [
         authors: "Emmanuel Ifeanyi Obeagu",
         abstract: "Erythropoietin (EPO), renowned for its role in erythropoiesis, has emerged as a potential immunomodulatory agent in the management of human immunodeficiency virus (HIV) infection. This review explores the evolving understanding of EPO's impact on immune function and its implications for HIV treatment strategies.",
         route: EJIVOL2ISS503,
+        pages: "21-28",
+    },
+    {
+        title: "Neonatal Immune Development in the Context of HIV Infection: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu and Johnson Okwudili Nweke",
+        abstract: "The neonatal immune system undergoes a critical period of development characterized by dynamic transitions from innate to adaptive immunity, essential for lifelong immune competence. However, in the context of HIV infection, this developmental trajectory is profoundly altered, presenting unique challenges in immune maturation and response.",
+        route: EJIVOL2ISS504,
+        pages: "29-38",
+    },
+    {
+        title: "Erythropoietin and Immunomodulation in HIV: Implications for Treatment",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Erythropoietin (EPO), renowned for its role in erythropoiesis, has emerged as a potential immunomodulatory agent in the management of human immunodeficiency virus (HIV) infection. This review explores the evolving understanding of EPO's impact on immune function and its implications for HIV treatment strategies.",
+        route: EJIVOL2ISS505,
         pages: "21-28",
     },
 ];
