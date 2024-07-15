@@ -165,7 +165,11 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJMVOL2ISS604,
     EJLMVOL2ISS603,
     EJIVOL2ISS504,
-    EJIVOL2ISS505, } 
+    EJIVOL2ISS505,
+    EJIVOL2ISS601,
+    EJIVOL2ISS602,
+    EJLMVOL2ISS604,
+    EJLMVOL2ISS605, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3076,6 +3080,23 @@ export const Ejivol2iss5 = [
     },
 ];
 
+export const Ejivol2iss6 = [
+    {
+        title: "Immunological Aspects of HIV Control in Perinatally Infected Infants: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Perinatal HIV infection remains a significant global health challenge, impacting infants born to HIV-positive mothers worldwide. This review synthesizes current knowledge on immune responses in perinatally infected infants, focusing on mechanisms of immune control, viral persistence, and the impact of antiretroviral therapy (ART).",
+        route: EJIVOL2ISS601,
+        pages: "1-14",
+    },
+    {
+        title: "An update on Early Immunological Markers in HIV-Exposed Infants",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Early immunological markers in HIV-exposed infants play a critical role in understanding immune development, assessing HIV infection risk, and guiding therapeutic interventions. This review synthesizes current knowledge on innate and adaptive immune responses, markers of immune activation, and their implications for HIV-exposed infants' health outcomes.",
+        route: EJIVOL2ISS602,
+        pages: "15-25",
+    },
+];
+
 export const Ejlmvol1iss1 = [
     {
         title: "Treatment Strategies for Aplastic Anemia in HIV: Current Approaches and Future Directions",
@@ -3325,6 +3346,20 @@ export const Ejlmvol2iss6 = [
         abstract: "This study was carried out in order to determine the incidence and antibiotic resistance patterns of beta-lactamase producing Staphylococcus aureus from wound infections among patients in Federal Teaching Hospital, Owerri. A total of 120 wounds swabs were aseptically collected from the hospital patients using standard bacteriological methods.",
         route: EJLMVOL2ISS603,
         pages: "24-32",
+    },
+    {
+        title: "Cytokine Responses in HIV-Infected Pediatric Patients: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Cytokine responses are central to the immunopathogenesis of HIV infection, particularly in pediatric patients whose immune systems are still developing. This review examines the unique cytokine profiles observed in HIV-infected children, highlighting how elevated levels of pro-inflammatory cytokines such as IL-6, TNF-α, and IL-1β contribute to chronic immune activation and inflammation.",
+        route: EJLMVOL2ISS604,
+        pages: "33-48",
+    },
+    {
+        title: "Immune Dysregulation in HIV-Positive Neonates: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Human Immunodeficiency Virus (HIV) infection in neonates presents significant challenges due to the immaturity of their immune systems and the profound impact of the virus on immune regulation. This review explores the mechanisms of immune dysregulation in HIV-positive neonates, focusing on immune cell dysfunction, cytokine imbalances, and the effects of antiretroviral therapy (ART).",
+        route: EJLMVOL2ISS605,
+        pages: "49-66",
     },
 ];
 
