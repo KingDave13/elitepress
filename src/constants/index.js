@@ -169,7 +169,9 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJIVOL2ISS601,
     EJIVOL2ISS602,
     EJLMVOL2ISS604,
-    EJLMVOL2ISS605, } 
+    EJLMVOL2ISS605,
+    EJMSVOL2ISS602,
+    EJHSVOL2ISS601, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2257,6 +2259,13 @@ export const Ejmsvol2iss6 = [
         route: EJMSVOL2ISS601,
         pages: "1-9",
     },
+    {
+        title: "HIV-Specific T-Cell Responses in Infants: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Infants infected with HIV face unique immunological challenges due to the immaturity of their immune systems, which impacts the development and functionality of T-cell responses against the virus.",
+        route: EJMSVOL2ISS602,
+        pages: "10-23",
+    },
 ];
 
 export const Ejhsvol1iss1 = [
@@ -2505,6 +2514,16 @@ export const Ejhsvol2iss5 = [
         abstract: "Antiretroviral therapy (ART) has transformed HIV infection from a life-threatening disease to a manageable chronic condition, significantly improving patient outcomes. However, HIV-infected individuals on ART often experience alterations in platelet function and dynamics, posing challenges in clinical management.",
         route: EJHSVOL2ISS505,
         pages: "37-44",
+    },
+];
+
+export const Ejhsvol2iss6 = [
+    {
+        title: "Markers of Immune Activation in HIV-Exposed Infants",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "HIV-exposed infants represent a vulnerable population characterized by early exposure to HIV antigens, which profoundly influences immune development and function. This review explores key immune activation markers in HIV-exposed infants, focusing on their role in innate and adaptive immune responses, clinical implications, and therapeutic interventions.",
+        route: EJHSVOL2ISS601,
+        pages: "1-14",
     },
 ];
 
