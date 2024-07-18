@@ -171,7 +171,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS604,
     EJLMVOL2ISS605,
     EJMSVOL2ISS602,
-    EJHSVOL2ISS601, } 
+    EJHSVOL2ISS601,
+    EJHVOL2ISS605, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2899,6 +2900,13 @@ export const Ejhvol2iss6 = [
         abstract: "Anemia and hemorrhage during pregnancy are major contributors to maternal morbidity and mortality worldwide, necessitating effective management strategies to enhance maternal health outcomes. Anemia, predominantly due to iron deficiency, can lead to severe complications such as preterm delivery and low birth weight if not adequately addressed.",
         route: EJHVOL2ISS604,
         pages: "46-59",
+    },
+    {
+        title: "Oxidative Stress and Free Radicals: Implications in Sickle Cell Disease",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Sickle Cell Disease (SCD) is a hereditary disorder characterized by the production of abnormal hemoglobin S (HbS), leading to the deformation of red blood cells (RBCs) into a sickle shape. This morphological change contributes to hemolysis and vaso-occlusive events, which are hallmarks of the disease.",
+        route: EJHVOL2ISS605,
+        pages: "60-74",
     },
 ];
 
