@@ -172,7 +172,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS605,
     EJMSVOL2ISS602,
     EJHSVOL2ISS601,
-    EJHVOL2ISS605, } 
+    EJHVOL2ISS605,
+    EJHVOL2ISS606, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2907,6 +2908,13 @@ export const Ejhvol2iss6 = [
         abstract: "Sickle Cell Disease (SCD) is a hereditary disorder characterized by the production of abnormal hemoglobin S (HbS), leading to the deformation of red blood cells (RBCs) into a sickle shape. This morphological change contributes to hemolysis and vaso-occlusive events, which are hallmarks of the disease.",
         route: EJHVOL2ISS605,
         pages: "60-74",
+    },
+    {
+        title: "Mitochondrial Dysfunction and Free Radical Generation in Sickle Cell Anemia: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Sickle Cell Anemia (SCA) is a severe genetic disorder caused by a single nucleotide mutation in the β-globin gene, resulting in the production of abnormal hemoglobin S (HbS). This mutation leads to the polymerization of HbS under low oxygen conditions, causing red blood cells (RBCs) to adopt a sickle shape and leading to a range of clinical manifestations including hemolysis, vaso-occlusive crises, and multi-organ damage.",
+        route: EJHVOL2ISS606,
+        pages: "75-89",
     },
 ];
 
