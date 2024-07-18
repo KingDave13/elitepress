@@ -173,7 +173,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJMSVOL2ISS602,
     EJHSVOL2ISS601,
     EJHVOL2ISS605,
-    EJHVOL2ISS606, } 
+    EJHVOL2ISS606,
+    EJHVOL2ISS701, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2915,6 +2916,16 @@ export const Ejhvol2iss6 = [
         abstract: "Sickle Cell Anemia (SCA) is a severe genetic disorder caused by a single nucleotide mutation in the β-globin gene, resulting in the production of abnormal hemoglobin S (HbS). This mutation leads to the polymerization of HbS under low oxygen conditions, causing red blood cells (RBCs) to adopt a sickle shape and leading to a range of clinical manifestations including hemolysis, vaso-occlusive crises, and multi-organ damage.",
         route: EJHVOL2ISS606,
         pages: "75-89",
+    },
+];
+
+export const Ejhvol2iss7 = [
+    {
+        title: "The Dual Nature of Free Radicals: Friend and Foe in Sickle Cell Anemia",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Free radicals, including reactive oxygen species (ROS) and reactive nitrogen species (RNS), play a dual role in Sickle Cell Anemia (SCA), acting as both contributors to disease pathology and as essential modulators of physiological processes. In SCA, the mutation in the β-globin gene leads to the production of hemoglobin S (HbS), which induces oxidative stress through ROS and RNS generation.",
+        route: EJHVOL2ISS701,
+        pages: "1-12",
     },
 ];
 
