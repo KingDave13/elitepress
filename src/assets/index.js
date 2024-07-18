@@ -371,6 +371,7 @@ import EJHVOL2ISS601 from './EJHVOL2ISS601.pdf';
 import EJHVOL2ISS602 from './EJHVOL2ISS602.pdf';
 import EJHVOL2ISS603 from './EJHVOL2ISS603.pdf';
 import EJHVOL2ISS604 from './EJHVOL2ISS604.pdf';
+import EJHVOL2ISS605 from './EJHVOL2ISS605.pdf';
 
 import EJIVOL2ISS501 from './EJIVOL2ISS501.pdf';
 import EJIVOL2ISS502 from './EJIVOL2ISS502.pdf';
@@ -791,6 +792,7 @@ export {
     EJLMVOL2ISS604,
     EJLMVOL2ISS605,
     EJMSVOL2ISS602,
+    EJHVOL2ISS605,
 
     logout,
     picture,
