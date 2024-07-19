@@ -180,7 +180,9 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJMSVOL2ISS605,
     EJHSVOL2ISS603,
     EJHSVOL2ISS604,
-    EJHSVOL2ISS605, } 
+    EJHSVOL2ISS605,
+    EJMVOL2ISS605,
+    EJMVOL2ISS606, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2029,6 +2031,20 @@ export const Ejmvol2iss6 = [
         abstract: "Cancer is one of the leading causes of morbidity and mortality in the world and has a significant psychosocial impact on patients, caregivers, and communities. The purpose of this study is to discuss psychosocial aspects of cancer treatment, which include psychological, social, emotional, and spiritual factors.",
         route: EJMVOL2ISS604,
         pages: "32-42",
+    },
+    {
+        title: "Phospholipid Oxidation and Membrane Integrity in Sickle Cell Anemia",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Sickle Cell Anemia (SCA) is a genetic blood disorder caused by the mutation of the β-globin gene, resulting in the production of hemoglobin S and the characteristic sickling of red blood cells (RBCs). One of the central pathophysiological mechanisms in SCA is oxidative stress, which significantly affects RBC membrane integrity through the oxidation of phospholipids.",
+        route: EJMVOL2ISS605,
+        pages: "43-55",
+    },
+    {
+        title: "Role of Nitric Oxide in Modulating Oxidative Stress in Sickle Cell Disease",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Nitric oxide (NO) is a critical regulatory molecule in Sickle Cell Disease (SCD), playing a dual role in modulating oxidative stress and influencing disease pathology. While NO is well-recognized for its vasodilatory effects and ability to reduce vaso-occlusive crises, it also engages in complex interactions with reactive oxygen species, which can both alleviate and exacerbate oxidative stress in SCD.",
+        route: EJMVOL2ISS606,
+        pages: "56-71",
     },
 ];
 
