@@ -174,7 +174,10 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJHSVOL2ISS601,
     EJHVOL2ISS605,
     EJHVOL2ISS606,
-    EJHVOL2ISS701, } 
+    EJHVOL2ISS701,
+    EJMSVOL2ISS603,
+    EJMSVOL2ISS604,
+    EJMSVOL2ISS605, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2268,6 +2271,27 @@ export const Ejmsvol2iss6 = [
         abstract: "Infants infected with HIV face unique immunological challenges due to the immaturity of their immune systems, which impacts the development and functionality of T-cell responses against the virus.",
         route: EJMSVOL2ISS602,
         pages: "10-23",
+    },
+    {
+        title: "Redox Homeostasis and Its Disruption in Sickle Cell Disease",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Redox homeostasis, the balance between oxidative and reductive processes, is crucial for cellular health and function. In Sickle Cell Disease (SCD), this balance is disrupted, leading to elevated oxidative stress and contributing to the disease's pathophysiology.",
+        route: EJMSVOL2ISS603,
+        pages: "24-43",
+    },
+    {
+        title: "Endothelial Dysfunction in Sickle Cell Anemia: Role of Free Radicals",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Sickle Cell Anemia (SCA) is a hereditary blood disorder characterized by the production of abnormal hemoglobin S, which leads to the formation of sickle-shaped red blood cells. These deformed cells cause a cascade of vascular complications, primarily through endothelial dysfunction.",
+        route: EJMSVOL2ISS604,
+        pages: "44-57",
+    },
+    {
+        title: "Oxidative Stress in Sickle Cell Anemia: A Cellular and Molecular Perspective",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Sickle Cell Anemia (SCA) is a genetic disorder characterized by the production of abnormal hemoglobin S, leading to chronic oxidative stress and a cascade of pathological events. This review explores oxidative stress from both cellular and molecular perspectives, emphasizing its role in the pathophysiology of SCA.",
+        route: EJMSVOL2ISS605,
+        pages: "58-73",
     },
 ];
 
