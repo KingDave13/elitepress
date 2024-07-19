@@ -177,7 +177,10 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJHVOL2ISS701,
     EJMSVOL2ISS603,
     EJMSVOL2ISS604,
-    EJMSVOL2ISS605, } 
+    EJMSVOL2ISS605,
+    EJHSVOL2ISS603,
+    EJHSVOL2ISS604,
+    EJHSVOL2ISS605, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2551,6 +2554,34 @@ export const Ejhsvol2iss6 = [
         abstract: "HIV-exposed infants represent a vulnerable population characterized by early exposure to HIV antigens, which profoundly influences immune development and function. This review explores key immune activation markers in HIV-exposed infants, focusing on their role in innate and adaptive immune responses, clinical implications, and therapeutic interventions.",
         route: EJHSVOL2ISS601,
         pages: "1-14",
+    },
+    {
+        title: "Markers of Immune Activation in HIV-Exposed Infants",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "HIV-exposed infants represent a vulnerable population characterized by early exposure to HIV antigens, which profoundly influences immune development and function. This review explores key immune activation markers in HIV-exposed infants, focusing on their role in innate and adaptive immune responses, clinical implications, and therapeutic interventions.",
+        route: EJHSVOL2ISS601,
+        pages: "1-14",
+    },
+    {
+        title: "Free Radical-Induced Hemoglobin Modifications in Sickle Cell Disease",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Sickle Cell Disease (SCD) is characterized by the presence of abnormal hemoglobin S (HbS), which leads to the formation of sickle-shaped red blood cells. This genetic disorder is associated with increased oxidative stress and the production of reactive oxygen species (ROS), which induce significant hemoglobin modifications.",
+        route: EJHSVOL2ISS603,
+        pages: "28-39",
+    },
+    {
+        title: "Nrf2 Signaling and Its Role in Redox Homeostasis in Sickle Cell Anemia",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Sickle Cell Anemia (SCA) is characterized by chronic oxidative stress and redox imbalance due to the polymerization of hemoglobin S (HbS), leading to hemolysis, vaso-occlusion, and organ damage. The nuclear factor erythroid 2-related factor 2 (Nrf2) signaling pathway plays a critical role in cellular defense against oxidative stress by regulating the expression of antioxidant and cytoprotective genes.",
+        route: EJHSVOL2ISS604,
+        pages: "40-51",
+    },
+    {
+        title: "Free Radicals and Neurological Complications in Sickle Cell Disease",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Sickle Cell Disease (SCD) is a genetic disorder caused by a mutation in the β-globin gene, resulting in the production of sickle-shaped red blood cells that lead to vaso-occlusive events and chronic hemolysis.",
+        route: EJHSVOL2ISS605,
+        pages: "52-66",
     },
 ];
 
