@@ -183,7 +183,12 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJHSVOL2ISS605,
     EJMVOL2ISS605,
     EJMVOL2ISS606,
-    EJHSVOL2ISS602, } 
+    EJHSVOL2ISS602,
+    EJMSVOL2ISS701,
+    EJLMVOL2ISS701,
+    EJHVOL2ISS702,
+    EJMVOL2ISS701,
+    EJMVOL2ISS702, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2049,6 +2054,23 @@ export const Ejmvol2iss6 = [
     },
 ];
 
+export const Ejmvol2iss7 = [
+    {
+        title: "Adverse Effects of Antimicrobial Therapeutic Agents in Common Use: A Review",
+        authors: "S.O. Onemu, M.O. Onemu-Metitiri, O. Odeyemi, P.O. Uyigue and Emmanuel Ifeanyi Obeagu",
+        abstract: "Antimicrobial agents play critical roles in reducing the burden of bacterial infectious diseases and their associated fatalities but may also come with unintended consequences that in some cases may lead to other health burdens, disability and death in extreme cases.",
+        route: EJMVOL2ISS701,
+        pages: "1-20",
+    },
+    {
+        title: "Prothrombin Time, Activated Partial Thromboplastin Time and Plasma Fibrinogen Concentration among Alcoholics in Sokoto, Nigeria",
+        authors: "Festus Uchechukwu Onuigwe, Louis Izuagie and Emmanuel Ifeanyi Obeagu",
+        abstract: "The aim of the study was to determine Prothrombin time, Activated partial thromboplastin time and plasma fibrinogen concentration of alcoholics in Old Airport, Sokoto, Sokoto State. Six millilitres (6.0mls) of venous blood were collected into trisodium citrate containers from the subjects for the estimation of PT and APTT using Agape Diagnostics reagents from Switzerland",
+        route: EJMVOL2ISS702,
+        pages: "21-31",
+    },
+];
+
 export const Ejmsvol1iss1 = [
     {
         title: "Harnessing the Power of Antioxidant-Rich Diet for Preconception Health: A Review",
@@ -2312,6 +2334,16 @@ export const Ejmsvol2iss6 = [
         abstract: "Sickle Cell Anemia (SCA) is a genetic disorder characterized by the production of abnormal hemoglobin S, leading to chronic oxidative stress and a cascade of pathological events. This review explores oxidative stress from both cellular and molecular perspectives, emphasizing its role in the pathophysiology of SCA.",
         route: EJMSVOL2ISS605,
         pages: "58-73",
+    },
+];
+
+export const Ejmsvol2iss7 = [
+    {
+        title: "Prevalence of Malaria Infection among Children with Different Haemoglobin Types, Attending Specialist Hospital Sokoto State, Nigeria",
+        authors: "Festus Uchechukwu Onuigwe, Aisha Abdullahi Kaka, Nkechi Judith Uchechukwu, Rufai Ahmed, Hauwa Buhari Ali, Aliyu Ibrahim Bagudo and Emmanuel Ifeanyi Obeagu",
+        abstract: "This study determined the prevalence of malaria infections among children with different haemoglobin types, attending Specialist Hospital, Sokoto Nigeria. Venous blood was used to make thick and thin blood smear and stained witt Giemsa stain. Microscopic method was used to identify malaria parasite.",
+        route: EJMSVOL2ISS701,
+        pages: "1-15",
     },
 ];
 
@@ -2999,6 +3031,13 @@ export const Ejhvol2iss7 = [
         route: EJHVOL2ISS701,
         pages: "1-12",
     },
+    {
+        title: "Some Haematological Parameters and Micronutrients among Sickle Cell Disease Children in Sokoto",
+        authors: "Hauwa Ali Buhari, Queen Odachi Abakaba, Festus Uchekwu Onigwe, Aliyu Bagudu Ibrahim and Emmanuel Ifeanyi Obeagu",
+        abstract: "Sickle cell disease (SCD) is an inherited red blood cell disorder that leads to forming the mutated haemoglobin S, resulting in a wide range of sickness. The aim of the study is to check the status of some haematological parameters and trace elements in 60 SCD and 30 non-SCD children in Sokoto metropolis.",
+        route: EJHVOL2ISS702,
+        pages: "13-25",
+    },
 ];
 
 export const Ejivol2iss1 = [
@@ -3478,6 +3517,16 @@ export const Ejlmvol2iss6 = [
         abstract: "Human Immunodeficiency Virus (HIV) infection in neonates presents significant challenges due to the immaturity of their immune systems and the profound impact of the virus on immune regulation. This review explores the mechanisms of immune dysregulation in HIV-positive neonates, focusing on immune cell dysfunction, cytokine imbalances, and the effects of antiretroviral therapy (ART).",
         route: EJLMVOL2ISS605,
         pages: "49-66",
+    },
+];
+
+export const Ejlmvol2iss7 = [
+    {
+        title: "Prevalence of Haemoparasites Infecting the Exotic Breeds of Dairy Cattle in Sebore Farm, Mayo-Belwa, Adamawa State. Nigeria",
+        authors: "Comfort Danchal, G. I. A. Dogo, Matthew Chibunna Igwe and Emmanuel Ifeanyi Obeagu",
+        abstract: "This thesis aimed at studying ticks/haemoparasites of exotic dairy cattle of Sebore Farm, was carried out to provide baseline information on ticks and TBDS and help in proffering solution to their damaging effects on the dairy cattle.",
+        route: EJLMVOL2ISS701,
+        pages: "1-5",
     },
 ];
 
