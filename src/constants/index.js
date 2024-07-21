@@ -367,8 +367,8 @@ export const ejmSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 6. (2024)",
-                route: "/journals/EJM/VOL2ISS6",
+                name: "Volume 2, Issue 7. (2024)",
+                route: "/journals/EJM/VOL2ISS7",
             },
         ],
     },
@@ -591,8 +591,8 @@ export const ejmsSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 6. (2024)",
-                route: "/journals/EJMS/VOL2ISS6",
+                name: "Volume 2, Issue 7. (2024)",
+                route: "/journals/EJMS/VOL2ISS7",
             },
         ],
     },
@@ -923,8 +923,8 @@ export const ejlmSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 6. (2024)",
-                route: "/journals/EJLM/VOL2ISS6",
+                name: "Volume 2, Issue 7. (2024)",
+                route: "/journals/EJLM/VOL2ISS7",
             },
         ],
     },
