@@ -182,7 +182,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJHSVOL2ISS604,
     EJHSVOL2ISS605,
     EJMVOL2ISS605,
-    EJMVOL2ISS606, } 
+    EJMVOL2ISS606,
+    EJHSVOL2ISS602, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2572,11 +2573,11 @@ export const Ejhsvol2iss6 = [
         pages: "1-14",
     },
     {
-        title: "Markers of Immune Activation in HIV-Exposed Infants",
+        title: "Immunological Biomarkers for Disease Progression in HIV-Infected Infants",
         authors: "Emmanuel Ifeanyi Obeagu",
-        abstract: "HIV-exposed infants represent a vulnerable population characterized by early exposure to HIV antigens, which profoundly influences immune development and function. This review explores key immune activation markers in HIV-exposed infants, focusing on their role in innate and adaptive immune responses, clinical implications, and therapeutic interventions.",
-        route: EJHSVOL2ISS601,
-        pages: "1-14",
+        abstract: "Immunological biomarkers play a crucial role in assessing disease progression and guiding therapeutic strategies in HIV-infected infants, who represent a vulnerable population with unique immunological challenges. This review examines key immunological biomarkers that reflect immune activation, dysfunction, and resilience in the context of pediatric HIV/AIDS.",
+        route: EJHSVOL2ISS602,
+        pages: "15-27",
     },
     {
         title: "Free Radical-Induced Hemoglobin Modifications in Sickle Cell Disease",
