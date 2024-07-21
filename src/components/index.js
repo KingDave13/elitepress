@@ -233,6 +233,15 @@ import EjhsVol2Iss6Pubs from './EjhsVol2Iss6Pubs';
 import EJHVOL2ISS7 from './EJHVOL2ISS7';
 import EjhVol2Iss7Pubs from './EjhVol2Iss7Pubs';
 
+import EJMVOL2ISS7 from './EJMVOL2ISS7';
+import EjmVol2Iss7Pubs from './EjmVol2Iss7Pubs';
+
+import EJMSVOL2ISS7 from './EJMSVOL2ISS7';
+import EjmsVol2Iss7Pubs from './EjmsVol2Iss7Pubs';
+
+import EJLMVOL2ISS7 from './EJLMVOL2ISS7';
+import EjlmVol2Iss7Pubs from './EjlmVol2Iss7Pubs';
+
 export { 
     Navbar,
     NavbarAlt,
@@ -450,4 +459,10 @@ export {
     EjiVol2Iss6Pubs,
     EJHVOL2ISS7,
     EjhVol2Iss7Pubs,
+    EJLMVOL2ISS7,
+    EJMSVOL2ISS7,
+    EJMVOL2ISS7,
+    EjlmVol2Iss7Pubs,
+    EjmVol2Iss7Pubs,
+    EjmsVol2Iss7Pubs,
 }
