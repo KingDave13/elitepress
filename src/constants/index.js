@@ -182,7 +182,10 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJNHSVOL2ISS606,
     EJNHSVOL2ISS701,
     EJNHSVOL2ISS702,
-    EJNHSVOL2ISS703, } 
+    EJNHSVOL2ISS703,
+    EJSRRVOL2ISS403,
+    EJSRRVOL2ISS404,
+    EJSRRVOL2ISS405, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3659,6 +3662,27 @@ export const Ejsrrvol2iss4 = [
         abstract: "Wireless communications are well-suited for the gas distribution industry, especially given the often-remote locations of distribution facilities. When working with accumulated and real-time data, the underlying communications infrastructure must be a highly reliable, with a resilient system that interconnects sensors and controls across a large-scale field area network.",
         route: EJSRRVOL2ISS402,
         pages: "12-43",
+    },
+    {
+        title: "Malaria in Pregnancy: Implications for the Developing Fetal Brain",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Malaria during pregnancy, particularly caused by PLASMODIUM FALCIPARUM, significantly impacts maternal and fetal health, with profound implications for the developing fetal brain. Placental malaria leads to the sequestration of infected red blood cells in the placenta, causing localized inflammation and disrupting nutrient and oxygen transfer to the fetus.",
+        route: EJSRRVOL2ISS403,
+        pages: "44-60",
+    },
+    {
+        title: "Malaria, Anemia, and Iron Deficiency in Pregnancy: An Integrated Review",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Malaria, anemia, and iron deficiency during pregnancy represent a critical triad of health challenges with profound implications for both maternal and fetal well-being. Malaria, caused by PLASMODIUM species, exacerbates anemia and interacts with iron deficiency, creating a complex clinical scenario that impacts pregnancy outcomes.",
+        route: EJSRRVOL2ISS404,
+        pages: "61-76",
+    },
+    {
+        title: "The Effect of Maternal Malaria on Infant Immunization Outcomes",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Maternal malaria remains a critical public health issue, impacting not only maternal health but also the health and development of the infant. This review explores the effects of maternal malaria on infant immunization outcomes, emphasizing how prenatal exposure to malaria can influence vaccine efficacy and overall immunization success.",
+        route: EJSRRVOL2ISS405,
+        pages: "77-89",
     },
 ];
 
