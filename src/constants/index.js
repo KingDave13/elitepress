@@ -185,7 +185,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJNHSVOL2ISS703,
     EJSRRVOL2ISS403,
     EJSRRVOL2ISS404,
-    EJSRRVOL2ISS405, } 
+    EJSRRVOL2ISS405,
+    EJSRRVOL2ISS501, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3683,6 +3684,16 @@ export const Ejsrrvol2iss4 = [
         abstract: "Maternal malaria remains a critical public health issue, impacting not only maternal health but also the health and development of the infant. This review explores the effects of maternal malaria on infant immunization outcomes, emphasizing how prenatal exposure to malaria can influence vaccine efficacy and overall immunization success.",
         route: EJSRRVOL2ISS405,
         pages: "77-89",
+    },
+];
+
+export const Ejsrrvol2iss5 = [
+    {
+        title: "The Role of Placental Malaria in the Development of Childhood Malaria: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Placental malaria, characterized by the sequestration of Plasmodium parasites in the placenta, significantly impacts maternal and neonatal health. This condition is associated with increased risk of adverse pregnancy outcomes, including low birth weight and preterm birth, which can have lasting effects on the child's health.",
+        route: EJSRRVOL2ISS501,
+        pages: "1-13",
     },
 ];
 
