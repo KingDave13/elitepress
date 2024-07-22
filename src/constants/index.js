@@ -179,7 +179,10 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJMVOL2ISS702,
     EJIVOL2ISS603,
     EJNHSVOL2ISS605,
-    EJNHSVOL2ISS606, } 
+    EJNHSVOL2ISS606,
+    EJNHSVOL2ISS701,
+    EJNHSVOL2ISS702,
+    EJNHSVOL2ISS703, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3964,6 +3967,30 @@ export const Ejnhsvol2iss6 = [
         abstract: "Maternal malaria significantly impacts fetal health, leading to a range of adverse outcomes such as intrauterine growth restriction (IUGR), low birth weight (LBW), preterm birth, and stillbirth. This review synthesizes current knowledge on the effects of maternal malaria on fetal development, emphasizing the underlying pathophysiological mechanisms and their implications for pregnancy outcomes.",
         route: EJNHSVOL2ISS606,
         pages: "69-89",
+    },
+];
+
+export const Ejnhsvol2iss7 = [
+    {
+        title: "Malaria and Antenatal Care: Bridging Gaps for Improved Pregnancy Outcomes",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Malaria during pregnancy poses significant risks to both maternal and fetal health, contributing to adverse outcomes such as low birth weight, preterm birth, and stillbirth. Antenatal care (ANC) is crucial in addressing these risks, yet gaps remain in the prevention, diagnosis, and treatment of malaria in pregnant women.",
+        route: EJNHSVOL2ISS701,
+        pages: "1-20",
+    },
+    {
+        title: "Malaria and Pregnancy: Implications for Maternal Mental Health",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Malaria during pregnancy represents a significant public health challenge, with substantial implications for both maternal and fetal health. Beyond the physical complications, malaria can profoundly impact maternal mental health, contributing to increased rates of anxiety, depression, and stress.",
+        route: EJNHSVOL2ISS702,
+        pages: "21-40",
+    },
+    {
+        title: "Malaria and Low Birth Weight: Understanding the Linkages",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Malaria is a significant public health concern, particularly affecting pregnant women and their unborn children in tropical and subtropical regions. This review investigates the relationship between malaria and low birth weight (LBW), a critical determinant of neonatal and infant health.",
+        route: EJNHSVOL2ISS703,
+        pages: "41-55",
     },
 ];
 
