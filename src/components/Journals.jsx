@@ -4,7 +4,6 @@ import { fadeIn } from '../utils/motion';
 // import { HiChevronLeft, HiChevronRight } from 'react-icons/hi';
 import { journals } from '../constants';
 import { BsArrowRightShort } from 'react-icons/bs';
-import { useNavigate } from 'react-router-dom';
 
 const JournalCard = ({ index, title, icon, desc, route }) => {
     return (
@@ -46,7 +45,6 @@ const JournalCard = ({ index, title, icon, desc, route }) => {
   };
 
 const Journals = () => {
-    const navigate = useNavigate();
 
   return (
     <section className="md:min-h-[820px] ss:min-h-[800px] min-h-[1900px] 
@@ -82,10 +80,10 @@ const Journals = () => {
                 </div>
             </motion.div>
 
-            <div className='flex flex-row md:mt-16 ss:mt-10 mt-6 
-            justify-center items-center gap-1 cursor-pointer 
-            grow2 md:mb-0 ss:mb-5 mb-0'
-            onClick={() => navigate('/journals')}
+            <a href='/journals'
+              className='flex flex-row md:mt-16 ss:mt-10 mt-6 
+              justify-center items-center gap-1 cursor-pointer 
+              grow2 md:mb-0 ss:mb-5 mb-0'
             >
                 <p className='font-medium text-primary md:text-[17px]
                 ss:text-[16px] text-[14px]' 
@@ -94,7 +92,7 @@ const Journals = () => {
                 </p>
                 <BsArrowRightShort className='text-[30px] 
                 text-primary' />
-            </div>
+            </a>
         </div>
     </section>
   );
