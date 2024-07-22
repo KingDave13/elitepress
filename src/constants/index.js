@@ -64,22 +64,10 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJHSVOL1ISS102, EJHSVOL1ISS103, EJHSVOL1ISS104, EJHSVOL1ISS105,
     EJPHVOL1ISS103, EJPHVOL1ISS104, EJPHVOL1ISS105, 
     EJPHVOL1ISS106, EJPHVOL1ISS107, EJMVOL2ISS407, EJMSVOL1ISS101, 
-    EJNHSVOL1ISS101,
-    EJMVOL1ISS102,
-    EJMVOL1ISS103,
-    EJMSVOL1ISS102,
-    EJMSVOL1ISS103,
-    EJMSVOL1ISS104,
-    EJNHSVOL1ISS102,
-    EJNHSVOL1ISS103,
-    EJNHSVOL1ISS104,
-    EJHIVVOL1ISS101,
-    EJHIVVOL1ISS102,
-    EJHIVVOL1ISS103,
-    EJLMVOL1ISS101,
-    EJLMVOL1ISS102,
-    EJLMVOL1ISS103,
-    EJMSVOL1ISS105,
+    EJNHSVOL1ISS101, EJMVOL1ISS102, EJMVOL1ISS103, EJMSVOL1ISS102,  
+    EJMSVOL1ISS103, EJMSVOL1ISS104, EJNHSVOL1ISS102, EJNHSVOL1ISS103,
+    EJNHSVOL1ISS104, EJHIVVOL1ISS101, EJHIVVOL1ISS102, EJHIVVOL1ISS103,
+    EJLMVOL1ISS101, EJLMVOL1ISS102, EJLMVOL1ISS103, EJMSVOL1ISS105,
     EJLMVOL1ISS104,
     EJHIVVOL1ISS104,
     EJSRRVOL2ISS401,
@@ -188,7 +176,10 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS701,
     EJHVOL2ISS702,
     EJMVOL2ISS701,
-    EJMVOL2ISS702, } 
+    EJMVOL2ISS702,
+    EJIVOL2ISS603,
+    EJNHSVOL2ISS605,
+    EJNHSVOL2ISS606, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3252,6 +3243,13 @@ export const Ejivol2iss6 = [
         route: EJIVOL2ISS602,
         pages: "15-25",
     },
+    {
+        title: "Malaria in Pregnancy: Insights into Immunological Responses",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Malaria during pregnancy poses significant health risks to both the mother and the fetus, particularly in regions endemic to Plasmodium falciparum. The altered immune system of pregnant women, essential for fetal tolerance, also increases susceptibility to malaria infection, leading to severe complications such as maternal anemia, placental malaria, low birth weight, and preterm delivery.",
+        route: EJIVOL2ISS603,
+        pages: "26-43",
+    },
 ];
 
 export const Ejlmvol1iss1 = [
@@ -3952,6 +3950,20 @@ export const Ejnhsvol2iss6 = [
         abstract: "Mental health interventions are important for pregnant and postpartum women, as they are at high risk of developing perinatal mental health disorders, including depression and anxiety. This review assesses the effectiveness and availability of different mental health treatments, which include psychotherapy, pharmacotherapy, and other multifaceted interventions;",
         route: EJNHSVOL2ISS604,
         pages: "43-49",
+    },
+    {
+        title: "Malaria During Pregnancy: Effects on Maternal Morbidity and Mortality",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Malaria during pregnancy remains a major public health concern, particularly in sub-Saharan Africa, where the disease is endemic. Pregnant women are highly susceptible to malaria due to immunological changes and the presence of the placenta, which provides an ideal environment for Plasmodium falciparum sequestration.",
+        route: EJNHSVOL2ISS605,
+        pages: "50-68",
+    },
+    {
+        title: "Maternal Malaria: Implications for Fetal Health",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Maternal malaria significantly impacts fetal health, leading to a range of adverse outcomes such as intrauterine growth restriction (IUGR), low birth weight (LBW), preterm birth, and stillbirth. This review synthesizes current knowledge on the effects of maternal malaria on fetal development, emphasizing the underlying pathophysiological mechanisms and their implications for pregnancy outcomes.",
+        route: EJNHSVOL2ISS606,
+        pages: "69-89",
     },
 ];
 
