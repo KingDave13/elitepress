@@ -186,7 +186,9 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJSRRVOL2ISS403,
     EJSRRVOL2ISS404,
     EJSRRVOL2ISS405,
-    EJSRRVOL2ISS501, } 
+    EJSRRVOL2ISS501,
+    EJHSVOL2ISS701,
+    EJHSVOL2ISS702, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -477,8 +479,8 @@ export const ejhsSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 6. (2024)",
-                route: "/journals/EJHS/VOL2ISS6",
+                name: "Volume 2, Issue 7. (2024)",
+                route: "/journals/EJHS/VOL2ISS7",
             },
         ],
     },
@@ -2629,6 +2631,23 @@ export const Ejhsvol2iss6 = [
         abstract: "Sickle Cell Disease (SCD) is a genetic disorder caused by a mutation in the β-globin gene, resulting in the production of sickle-shaped red blood cells that lead to vaso-occlusive events and chronic hemolysis.",
         route: EJHSVOL2ISS605,
         pages: "52-66",
+    },
+];
+
+export const Ejhsvol2iss7 = [
+    {
+        title: "Malaria, Pregnancy, and Hepatitis B: Coexisting Challenges",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "The co-occurrence of malaria and Hepatitis B during pregnancy presents a complex interplay of challenges that impact maternal and neonatal health. Both infections individually pose significant risks: malaria can lead to adverse pregnancy outcomes such as preterm birth and low birth weight, while Hepatitis B increases the risk of chronic liver disease and potential transmission to the infant.",
+        route: EJHSVOL2ISS701,
+        pages: "1-13",
+    },
+    {
+        title: "Potential Associations Between Maternal Malaria and Childhood Leukemia: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Maternal malaria continues to pose significant health challenges, particularly in malaria-endemic regions. Recent investigations have begun to explore the potential long-term effects of maternal malaria on offspring, including its possible association with childhood leukemia.",
+        route: EJHSVOL2ISS702,
+        pages: "14-27",
     },
 ];
 
