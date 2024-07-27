@@ -188,7 +188,12 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJSRRVOL2ISS405,
     EJSRRVOL2ISS501,
     EJHSVOL2ISS701,
-    EJHSVOL2ISS702, } 
+    EJHSVOL2ISS702,
+    EJMVOL2ISS703,
+    EJMSVOL2ISS702,
+    EJMSVOL2ISS703,
+    EJLMVOL2ISS702,
+    EJLMVOL2ISS703, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2069,6 +2074,13 @@ export const Ejmvol2iss7 = [
         route: EJMVOL2ISS702,
         pages: "21-31",
     },
+    {
+        title: "Distribution of bacterial isolates associated with UTI in HIV-positive subjects on ART",
+        authors: "Nnaemeka Chineze Eze, Ngozi Felicia Onemelukwe, Gloria Chizoba Eze and Emmanuel Ifeanyi Obeagu",
+        abstract: "People living with Human Immunodeficiency Virus (HIV) are more likely to develop urinary tract infection (UTI) due to the suppression of their immunity. In order to determine the prevalence of UTI in HIV-positive patients attending Government Tertiary Hospital in Enugu, a total of 280 candidates were investigated between November 2018 and January 2019 using standard microbiological techniques.",
+        route: EJMVOL2ISS703,
+        pages: "32-40",
+    },
 ];
 
 export const Ejmsvol1iss1 = [
@@ -2344,6 +2356,20 @@ export const Ejmsvol2iss7 = [
         abstract: "This study determined the prevalence of malaria infections among children with different haemoglobin types, attending Specialist Hospital, Sokoto Nigeria. Venous blood was used to make thick and thin blood smear and stained witt Giemsa stain. Microscopic method was used to identify malaria parasite.",
         route: EJMSVOL2ISS701,
         pages: "1-15",
+    },
+    {
+        title: "Placental Malaria: Implications for Intrauterine Growth Restriction",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Placental malaria, characterized by Plasmodium parasites infecting the placenta, poses significant risks to maternal and fetal health, particularly in malaria-endemic regions. This review investigates the impact of placental malaria on intrauterine growth restriction (IUGR), a condition where the fetus does not grow adequately in the womb.",
+        route: EJMSVOL2ISS702,
+        pages: "16-30",
+    },
+    {
+        title: "Malaria and Pregnancy: Understanding the Impact on Maternal Cardiovascular Health",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Malaria during pregnancy poses significant risks to maternal cardiovascular health, exacerbating the potential for adverse outcomes. The interaction between Plasmodium infection and maternal cardiovascular function is complex, involving inflammatory responses, endothelial dysfunction, and increased cardiovascular stress.",
+        route: EJMSVOL2ISS703,
+        pages: "31-49",
     },
 ];
 
@@ -3551,6 +3577,20 @@ export const Ejlmvol2iss7 = [
         abstract: "This thesis aimed at studying ticks/haemoparasites of exotic dairy cattle of Sebore Farm, was carried out to provide baseline information on ticks and TBDS and help in proffering solution to their damaging effects on the dairy cattle.",
         route: EJLMVOL2ISS701,
         pages: "1-5",
+    },
+    {
+        title: "Comparism of CD4 count of patients with UTI and those without UTI Attending Government Tertiary Hospital in Enugu, Nigeria",
+        authors: "Nnaemeka Chineze Eze, Ngozi Felicia Onemelukwe, Gloria Chizoba Eze and Emmanuel Ifeanyi Obeagu",
+        abstract: "People living with Human Immunodeficiency Virus (HIV) are more likely to develop urinary tract infection (UTI) due to the suppression of their immunity. In order to determine the prevalence of UTI in HIV-positive patients attending Government Tertiary Hospital in Enugu, a total of 280 candidates were investigated between November 2018 and January 2019 using standard microbiological techniques.",
+        route: EJLMVOL2ISS702,
+        pages: "6-14",
+    },
+    {
+        title: "Malaria and Pregnancy: The Role of Placental MicroRNA in Disease Pathogenesis",
+        authors: "Emmanuel Ifeanyi Obeagu and Getrude Uzoma Obeagu",
+        abstract: "Malaria in pregnancy poses significant risks to maternal and fetal health, particularly in regions where Plasmodium falciparum is endemic. The pathogenesis of placental malaria involves the sequestration of infected erythrocytes in the placenta, leading to inflammatory responses and impaired placental function.",
+        route: EJLMVOL2ISS703,
+        pages: "15-29",
     },
 ];
 
