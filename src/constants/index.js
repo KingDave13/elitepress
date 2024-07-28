@@ -194,7 +194,9 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJMSVOL2ISS703,
     EJLMVOL2ISS702,
     EJLMVOL2ISS703,
-    EJLMVOL2ISS704, } 
+    EJLMVOL2ISS704,
+    EJHSVOL2ISS703,
+    EJHSVOL2ISS704, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2675,6 +2677,20 @@ export const Ejhsvol2iss7 = [
         abstract: "Maternal malaria continues to pose significant health challenges, particularly in malaria-endemic regions. Recent investigations have begun to explore the potential long-term effects of maternal malaria on offspring, including its possible association with childhood leukemia.",
         route: EJHSVOL2ISS702,
         pages: "14-27",
+    },
+    {
+        title: "Role of Myeloid-Derived Suppressor Cells in Vaso-Occlusive Crisis",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Vaso-occlusive crises (VOCs) are a hallmark complication of sickle cell disease (SCD), leading to acute pain and tissue ischemia due to the obstruction of small blood vessels by sickled red blood cells (RBCs).",
+        route: EJHSVOL2ISS703,
+        pages: "28-35",
+    },
+    {
+        title: "Complement System Activation in Vaso-Occlusive Crisis of Sickle Cell Anemia",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Sickle cell anemia (SCA) is a hereditary blood disorder characterized by the production of abnormal hemoglobin S (HbS), leading to the sickling of red blood cells (RBCs) under hypoxic conditions.",
+        route: EJHSVOL2ISS704,
+        pages: "36-43",
     },
 ];
 
