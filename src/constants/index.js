@@ -193,7 +193,8 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJMSVOL2ISS702,
     EJMSVOL2ISS703,
     EJLMVOL2ISS702,
-    EJLMVOL2ISS703, } 
+    EJLMVOL2ISS703,
+    EJLMVOL2ISS704, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3591,6 +3592,13 @@ export const Ejlmvol2iss7 = [
         abstract: "Malaria in pregnancy poses significant risks to maternal and fetal health, particularly in regions where Plasmodium falciparum is endemic. The pathogenesis of placental malaria involves the sequestration of infected erythrocytes in the placenta, leading to inflammatory responses and impaired placental function.",
         route: EJLMVOL2ISS703,
         pages: "15-29",
+    },
+    {
+        title: "Phospholipid Signaling and Vaso-Occlusive Events in Sickle Cell Disease",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Sickle cell disease (SCD) is a hereditary hematological disorder characterized by the production of abnormal hemoglobin S (HbS), leading to the sickling of red blood cells (RBCs) and subsequent vaso-occlusive events (VOEs).",
+        route: EJLMVOL2ISS704,
+        pages: "30-37",
     },
 ];
 
