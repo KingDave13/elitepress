@@ -196,7 +196,9 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJLMVOL2ISS703,
     EJLMVOL2ISS704,
     EJHSVOL2ISS703,
-    EJHSVOL2ISS704, } 
+    EJHSVOL2ISS704,
+    EJHVOL2ISS703,
+    EJHVOL2ISS704, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3097,6 +3099,20 @@ export const Ejhvol2iss7 = [
         abstract: "Sickle cell disease (SCD) is an inherited red blood cell disorder that leads to forming the mutated haemoglobin S, resulting in a wide range of sickness. The aim of the study is to check the status of some haematological parameters and trace elements in 60 SCD and 30 non-SCD children in Sokoto metropolis.",
         route: EJHVOL2ISS702,
         pages: "13-25",
+    },
+    {
+        title: "Redox Signaling and Vaso-Occlusive Crisis in Sickle Cell Anemia",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Sickle cell anemia (SCA) is a hereditary blood disorder characterized by the production of abnormal hemoglobin S (HbS), leading to the deformation of red blood cells (RBCs) and complications such as vaso-occlusive crisis (VOC). Redox signaling, which involves the balance of oxidative and reductive processes within cells, plays a pivotal role in the pathophysiology of SCA and VOC.",
+        route: EJHVOL2ISS703,
+        pages: "26-35",
+    },
+    {
+        title: "Hypoxia-Induced Signaling in the Pathogenesis of Vaso-Occlusive Crisis",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Vaso-occlusive crisis (VOC) is a painful and debilitating complication of sickle cell anemia (SCA) characterized by the obstruction of blood vessels due to sickled red blood cells (RBCs). Hypoxia, or reduced oxygen availability, plays a pivotal role in the pathogenesis of VOC by triggering a cascade of cellular signaling pathways that promote inflammation, oxidative stress, and endothelial dysfunction.",
+        route: EJHVOL2ISS704,
+        pages: "36-43",
     },
 ];
 
