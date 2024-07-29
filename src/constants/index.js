@@ -198,7 +198,9 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJHSVOL2ISS703,
     EJHSVOL2ISS704,
     EJHVOL2ISS703,
-    EJHVOL2ISS704, } 
+    EJHVOL2ISS704,
+    EJSRRVOL2ISS502,
+    EJSRRVOL2ISS503, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3793,6 +3795,20 @@ export const Ejsrrvol2iss5 = [
         abstract: "Placental malaria, characterized by the sequestration of Plasmodium parasites in the placenta, significantly impacts maternal and neonatal health. This condition is associated with increased risk of adverse pregnancy outcomes, including low birth weight and preterm birth, which can have lasting effects on the child's health.",
         route: EJSRRVOL2ISS501,
         pages: "1-13",
+    },
+    {
+        title: "Hemorheology and Blood Flow Abnormalities in Sickle Cell Vaso-Occlusion",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Sickle cell disease (SCD) is a genetic hematological disorder characterized by the presence of abnormal hemoglobin S (HbS), which leads to the sickling of red blood cells (RBCs) and subsequent vaso-occlusive crises (VOC).",
+        route: EJSRRVOL2ISS502,
+        pages: "14-24",
+    },
+    {
+        title: "Role of HbF in Modulating Vaso-Occlusive Phenomena in Sickle Cell Anemia",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Sickle cell anemia (SCA) is a genetic hematological disorder characterized by the presence of abnormal hemoglobin, leading to the formation of sickled red blood cells (RBCs) and resultant vaso-occlusive crises (VOC). Fetal hemoglobin (HbF), a normal component of hemoglobin in fetal life, has been shown to exert a protective effect in individuals with SCA.",
+        route: EJSRRVOL2ISS503,
+        pages: "25-33",
     },
 ];
 
