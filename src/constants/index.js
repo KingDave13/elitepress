@@ -200,7 +200,11 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJHVOL2ISS703,
     EJHVOL2ISS704,
     EJSRRVOL2ISS502,
-    EJSRRVOL2ISS503, } 
+    EJSRRVOL2ISS503,
+    EJSRRVOL2ISS504,
+    EJHIVVOL2ISS602,
+    EJHIVVOL2ISS603,
+    EJHIVVOL2ISS604, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3810,6 +3814,13 @@ export const Ejsrrvol2iss5 = [
         route: EJSRRVOL2ISS503,
         pages: "25-33",
     },
+    {
+        title: "Predictive Maintenance (Ai) In Power Generation for Rotating Machines Based on Vibration Analysis",
+        authors: "Zaina Kalyankolo, Samuel Mwesigwa, Martha Ainomuhwezi, Steven Kibande, Umar Kalyankolo",
+        abstract: "Predictive maintenance, aided by Artificial Intelligence (AI), has emerged as a game-changing approach that will revolutionize how to manage and maintain machinery especially rotating machinery particularly in power generation equipment.",
+        route: EJSRRVOL2ISS504,
+        pages: "34-50",
+    },
 ];
 
 export const Ejnhsvol1iss1 = [
@@ -4407,6 +4418,27 @@ export const Ejhivvol2iss6 = [
         abstract: "Human immunodeficiency virus (HIV) infection significantly impacts iron metabolism, a critical aspect of cellular function and systemic health. Ceruloplasmin, a copper-containing ferroxidase enzyme, plays a pivotal role in maintaining iron homeostasis by oxidizing ferrous iron (Fe^2+) to ferric iron (Fe^3+), facilitating its transport by transferrin.",
         route: EJHIVVOL2ISS601,
         pages: "1-12",
+    },
+    {
+        title: "Effective Leadership and Governance in Uganda's HIV Response: A review",
+        authors: "Tom Ongesa Nyamboga and Emmanuel Ifeanyi Obeagu",
+        abstract: "This review examines the effectiveness of leadership and governance in Uganda's HIV response, highlighting key achievements and ongoing challenges. Uganda's HIV strategy has been notably shaped by strong political commitment, a multi-sectoral approach, and active community engagement.",
+        route: EJHIVVOL2ISS602,
+        pages: "13-30",
+    },
+    {
+        title: "Strategic Planning and Resource Allocation for HIV Control in Uganda: A Review of Best Practices",
+        authors: "Tom Ongesa Nyamboga and Emmanuel Ifeanyi Obeagu",
+        abstract: "Uganda's response to HIV has evolved into a comprehensive and multi-faceted strategy, reflecting a deep commitment to controlling the epidemic and improving health outcomes. This review examines Uganda's strategic planning approaches to HIV control, focusing on key elements such as data-driven decision-making, public-private partnerships, and innovative financing mechanisms.",
+        route: EJHIVVOL2ISS603,
+        pages: "31-45",
+    },
+    {
+        title: "Integration of Healthcare Services for HIV in Uganda: Strategic Management Insights",
+        authors: "Tom Ongesa Nyamboga and Emmanuel Ifeanyi Obeagu",
+        abstract: "In the ongoing battle against HIV, the integration of HIV services into broader healthcare systems is crucial for achieving sustainable and effective outcomes. This review delves into the strategies employed in Uganda to enhance HIV service integration, providing a comprehensive analysis of the country's approach and its impact.",
+        route: EJHIVVOL2ISS604,
+        pages: "46-58",
     },
 ];
 
