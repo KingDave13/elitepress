@@ -204,7 +204,9 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJSRRVOL2ISS504,
     EJHIVVOL2ISS602,
     EJHIVVOL2ISS603,
-    EJHIVVOL2ISS604, } 
+    EJHIVVOL2ISS604,
+    EJSRRVOL2ISS505,
+    EJHSVOL2ISS705, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2700,6 +2702,13 @@ export const Ejhsvol2iss7 = [
         route: EJHSVOL2ISS704,
         pages: "36-43",
     },
+    {
+        title: "Percentage Gender Distribution of Beta-Lactamase Producing Staphylococcus Aureus from Wound Isolates in Federal Teaching Hospital Owerri",
+        authors: "Chrysogonus Nwabueze Ohakpolamugwuo, J.N. Dike-Ndudim, H.C Amah, D.C Nwosu, Iheanyichi Ogbonna and Chidera Nwigwe",
+        abstract: "This study was carried out in order to determine the incidence and antibiotic resistance patterns of beta-lactamase producing Staphylococcus aureus from wound infections among patients in Federal Teaching Hospital, Owerri.",
+        route: EJHSVOL2ISS705,
+        pages: "44-51",
+    },
 ];
 
 export const Ejhvol2iss1 = [
@@ -3820,6 +3829,13 @@ export const Ejsrrvol2iss5 = [
         abstract: "Predictive maintenance, aided by Artificial Intelligence (AI), has emerged as a game-changing approach that will revolutionize how to manage and maintain machinery especially rotating machinery particularly in power generation equipment.",
         route: EJSRRVOL2ISS504,
         pages: "34-50",
+    },
+    {
+        title: "A Review of Science and Mathematics Education Research on Gender: A Nigerian Perspective",
+        authors: "Tukur Muhammad, Asiati Mbabazi, Sodangi Umar, Stella Steddy, Silaji Turyamureeba and Kule Ashirafu Masudi",
+        abstract: "This study was aimed at exploring the research conducted in Nigeria in science and mathematics education which mainly concern on gender. We choose eight years published articles from 2008 to 2015.",
+        route: EJSRRVOL2ISS505,
+        pages: "51-65",
     },
 ];
 
