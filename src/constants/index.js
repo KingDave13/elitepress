@@ -206,7 +206,9 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJHIVVOL2ISS603,
     EJHIVVOL2ISS604,
     EJSRRVOL2ISS505,
-    EJHSVOL2ISS705, } 
+    EJHSVOL2ISS705,
+    EJMSVOL2ISS801,
+    EJMVOL2ISS801, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -385,8 +387,8 @@ export const ejmSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 7. (2024)",
-                route: "/journals/EJM/VOL2ISS7",
+                name: "Volume 2, Issue 8. (2024)",
+                route: "/journals/EJM/VOL2ISS8",
             },
         ],
     },
@@ -609,8 +611,8 @@ export const ejmsSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 7. (2024)",
-                route: "/journals/EJMS/VOL2ISS7",
+                name: "Volume 2, Issue 8. (2024)",
+                route: "/journals/EJMS/VOL2ISS8",
             },
         ],
     },
@@ -2096,6 +2098,16 @@ export const Ejmvol2iss7 = [
     },
 ];
 
+export const Ejmvol2iss8 = [
+    {
+        title: "Antibiotic Resistance Pattern of Beta-Lactamase Producing S. aureus Isolates from Wound Infections in Federal Teaching Hospital Owerri",
+        authors: "Chrysogonus Nwabueze Ohakpolamugwuo, J.N. Dike-Ndudim, H.C Amah, D.C Nwosu, Iheanyichi Ogbonna and Chidera Nwigwe",
+        abstract: "This study was carried out in order to determine the incidence and antibiotic resistance patterns of beta-lactamase producing Staphylococcus aureus from wound infections among patients in Federal Teaching Hospital, Owerri.",
+        route: EJMVOL2ISS801,
+        pages: "1-8",
+    },
+];
+
 export const Ejmsvol1iss1 = [
     {
         title: "Harnessing the Power of Antioxidant-Rich Diet for Preconception Health: A Review",
@@ -2383,6 +2395,16 @@ export const Ejmsvol2iss7 = [
         abstract: "Malaria during pregnancy poses significant risks to maternal cardiovascular health, exacerbating the potential for adverse outcomes. The interaction between Plasmodium infection and maternal cardiovascular function is complex, involving inflammatory responses, endothelial dysfunction, and increased cardiovascular stress.",
         route: EJMSVOL2ISS703,
         pages: "31-49",
+    },
+];
+
+export const Ejmsvol2iss8 = [
+    {
+        title: "Age Bracket Distribution of Wound Isolates Beta-Lactamase Producing Staphylococcus Aureus from Wound Infections in Federal Teaching Hospital Owerri",
+        authors: "Chrysogonus Nwabueze Ohakpolamugwuo, J.N. Dike-Ndudim, H.C Amah, D.C Nwosu, Iheanyichi Ogbonna and Chidera Nwigwe",
+        abstract: "This study was carried out in order to determine the incidence and antibiotic resistance patterns of beta-lactamase producing Staphylococcus aureus from wound infections among patients in Federal Teaching Hospital, Owerri.",
+        route: EJMSVOL2ISS801,
+        pages: "1-7",
     },
 ];
 
