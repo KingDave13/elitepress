@@ -208,7 +208,9 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJSRRVOL2ISS505,
     EJHSVOL2ISS705,
     EJMSVOL2ISS801,
-    EJMVOL2ISS801, } 
+    EJMVOL2ISS801,
+    EJMSVOL2ISS704,
+    EJMSVOL2ISS705, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -2395,6 +2397,20 @@ export const Ejmsvol2iss7 = [
         abstract: "Malaria during pregnancy poses significant risks to maternal cardiovascular health, exacerbating the potential for adverse outcomes. The interaction between Plasmodium infection and maternal cardiovascular function is complex, involving inflammatory responses, endothelial dysfunction, and increased cardiovascular stress.",
         route: EJMSVOL2ISS703,
         pages: "31-49",
+    },
+    {
+        title: "Role of G6PD Deficiency in Vaso-Occlusive Phenomena in Sickle Cell Disease",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Sickle cell disease (SCD) is a genetic hematological disorder characterized by the production of abnormal hemoglobin S (HbS), leading to the sickling of red blood cells (RBCs) and the occurrence of vaso-occlusive phenomena (VOP).",
+        route: EJMSVOL2ISS704,
+        pages: "49-57",
+    },
+    {
+        title: "Role of the Reticuloendothelial System in Sickle Cell Vaso-Occlusion",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Sickle cell disease (SCD) is a hereditary hematological disorder characterized by the presence of hemoglobin S (HbS), leading to the sickling of red blood cells (RBCs) and resultant vaso-occlusive crises (VOC).",
+        route: EJMSVOL2ISS705,
+        pages: "58-65",
     },
 ];
 
