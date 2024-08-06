@@ -217,7 +217,9 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJIVOL2ISS702,
     EJIVOL2ISS703,
     EJNHSVOL2ISS704,
-    EJNHSVOL2ISS705, } 
+    EJNHSVOL2ISS705,
+    EJHIVVOL2ISS605,
+    EJHIVVOL2ISS701, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -4552,6 +4554,23 @@ export const Ejhivvol2iss6 = [
         abstract: "In the ongoing battle against HIV, the integration of HIV services into broader healthcare systems is crucial for achieving sustainable and effective outcomes. This review delves into the strategies employed in Uganda to enhance HIV service integration, providing a comprehensive analysis of the country's approach and its impact.",
         route: EJHIVVOL2ISS604,
         pages: "46-58",
+    },
+    {
+        title: "HIV Pathogenesis and Immune Responses in Early Life",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Human Immunodeficiency Virus (HIV) continues to be a major global health concern, particularly among infants and young children who are at increased risk for rapid disease progression and poor health outcomes.",
+        route: EJHIVVOL2ISS605,
+        pages: "59-69",
+    },
+];
+
+export const Ejhivvol2iss7 = [
+    {
+        title: "B-Cell Responses and Antibody Production in HIV-Infected Infants: Implications for Immunological Development and Therapeutic Strategies",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "HIV infection in infants poses significant challenges to immune development and functionality, particularly concerning B-cell responses and antibody production. Unlike their uninfected counterparts, HIV-infected infants exhibit alterations in B-cell maturation, activation, and antibody profiles, which contribute to their increased susceptibility to opportunistic infections and overall morbidity.",
+        route: EJHIVVOL2ISS701,
+        pages: "1-12",
     },
 ];
 
