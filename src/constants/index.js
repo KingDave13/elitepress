@@ -210,7 +210,12 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJMSVOL2ISS801,
     EJMVOL2ISS801,
     EJMSVOL2ISS704,
-    EJMSVOL2ISS705, } 
+    EJMSVOL2ISS705,
+    EJIVOL2ISS604,
+    EJIVOL2ISS605,
+    EJIVOL2ISS701,
+    EJIVOL2ISS702,
+    EJIVOL2ISS703, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -3387,6 +3392,44 @@ export const Ejivol2iss6 = [
         abstract: "Malaria during pregnancy poses significant health risks to both the mother and the fetus, particularly in regions endemic to Plasmodium falciparum. The altered immune system of pregnant women, essential for fetal tolerance, also increases susceptibility to malaria infection, leading to severe complications such as maternal anemia, placental malaria, low birth weight, and preterm delivery.",
         route: EJIVOL2ISS603,
         pages: "26-43",
+    },
+    {
+        title: "HIV and Innate Immune Memory in Neonates",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "The interplay between HIV and the neonatal immune system presents significant challenges, particularly in understanding the mechanisms of innate immune memory. Innate immune memory, also known as trained immunity, involves the enhanced response of innate immune cells upon re-exposure to pathogens, a concept traditionally associated with adaptive immunity.",
+        route: EJIVOL2ISS604,
+        pages: "44-52",
+    },
+    {
+        title: "HIV and T-Cell Exhaustion in Pediatric Populations",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "HIV infection in pediatric populations presents unique immunological challenges, particularly regarding T-cell exhaustion, a state of diminished T-cell functionality arising from chronic antigen exposure.",
+        route: EJIVOL2ISS605,
+        pages: "53-62",
+    },
+];
+
+export const Ejivol2iss7 = [
+    {
+        title: "Immunological Memory Development in HIV-Exposed Children",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "Immunological memory development in HIV-exposed children presents unique challenges that can significantly impact their immune responses and health outcomes. This review explores the mechanisms influencing immunological memory in this population, focusing on both innate and adaptive immune responses.",
+        route: EJIVOL2ISS701,
+        pages: "1-14",
+    },
+    {
+        title: "Adaptive Immune Responses in HIV-Infected Infants",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "HIV-infected infants face significant challenges in developing adaptive immune responses, which are essential for effective protection against infections. The adaptive immune system is characterized by the activation of T-cells and B-cells, which play crucial roles in generating specific immune responses and long-term immunological memory.",
+        route: EJIVOL2ISS702,
+        pages: "15-27",
+    },
+    {
+        title: "HIV-Induced Immune Activation in Pediatric Populations",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "HIV-induced immune activation is a critical aspect of the pathogenesis of the disease, particularly in pediatric populations. This review explores the mechanisms underlying immune activation in HIV-infected children, highlighting the consequences of chronic inflammation and immune dysregulation.",
+        route: EJIVOL2ISS703,
+        pages: "28-38",
     },
 ];
 
