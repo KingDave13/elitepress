@@ -215,7 +215,9 @@ import { EJH, EJHS, EJM, EJMS, EJI, EJPH, EJLM, EJNHS, EJSRR, EJHIV,
     EJIVOL2ISS605,
     EJIVOL2ISS701,
     EJIVOL2ISS702,
-    EJIVOL2ISS703, } 
+    EJIVOL2ISS703,
+    EJNHSVOL2ISS704,
+    EJNHSVOL2ISS705, } 
 from '../assets';
 
 import { EJPHVOL2ISS101, EJPHVOL2ISS102, EJHVOL2ISS101, EJHVOL2ISS102,
@@ -842,8 +844,8 @@ export const ejiSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 6. (2024)",
-                route: "/journals/EJI/VOL2ISS6",
+                name: "Volume 2, Issue 7. (2024)",
+                route: "/journals/EJI/VOL2ISS7",
             },
         ],
     },
@@ -1282,8 +1284,8 @@ export const ejhivSideLinks = [
         title: "Current Issue",
         links: [
             {
-                name: "Volume 2, Issue 6. (2024)",
-                route: "/journals/EJHIV/VOL2ISS6",
+                name: "Volume 2, Issue 7. (2024)",
+                route: "/journals/EJHIV/VOL2ISS7",
             },
         ],
     },
@@ -4249,6 +4251,20 @@ export const Ejnhsvol2iss7 = [
         abstract: "Malaria is a significant public health concern, particularly affecting pregnant women and their unborn children in tropical and subtropical regions. This review investigates the relationship between malaria and low birth weight (LBW), a critical determinant of neonatal and infant health.",
         route: EJNHSVOL2ISS703,
         pages: "41-55",
+    },
+    {
+        title: "Inflammatory Responses in HIV-Positive Neonates: A Review",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "HIV-positive neonates exhibit unique inflammatory responses that can significantly influence their immune development and overall health. These responses are shaped by a complex interplay of factors, including the immaturity of the neonatal immune system, maternal health during pregnancy, and the direct effects of HIV on immune cells.",
+        route: EJNHSVOL2ISS704,
+        pages: "56-68",
+    },
+    {
+        title: "Impact of HIV-1 Subtypes on Infant Immune Responses",
+        authors: "Emmanuel Ifeanyi Obeagu",
+        abstract: "HIV-1, a major global health concern, exhibits considerable genetic diversity with multiple subtypes that influence the immune responses of infected individuals. This review explores the impact of HIV-1 subtypes on infant immune responses, highlighting the implications for disease progression, treatment outcomes, and vaccine development.",
+        route: EJNHSVOL2ISS705,
+        pages: "69-82",
     },
 ];
 
